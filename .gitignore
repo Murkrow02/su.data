@@ -243,3 +243,7 @@ Makefile
 *.fdb_latexmk
 *.blg
 *.latexmk
+
+discorso.txt
+/intervento2_revised.txt
+/resume.txt
