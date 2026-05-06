@@ -1,0 +1,31 @@
+politician,topic,n_posts,n_above,coverage,ci_low_95,ci_high_95,ci_width
+Elly Schlein,Democrazia e legalità,233,125,0.5365,0.4724,0.5994,0.127
+Elly Schlein,Lavoro e economia,233,70,0.3004,0.2452,0.3621,0.117
+Elly Schlein,Salute e welfare,233,54,0.2318,0.1822,0.29,0.1078
+Elly Schlein,Costo della vita,233,49,0.2103,0.1629,0.2671,0.1042
+Elly Schlein,Difesa e sicurezza,233,41,0.176,0.1324,0.23,0.0976
+Elly Schlein,Istruzione e formazione,233,28,0.1202,0.0845,0.1682,0.0837
+Elly Schlein,Uguaglianza di genere,233,20,0.0858,0.0563,0.1289,0.0726
+Elly Schlein,Abitazione,233,18,0.0773,0.0494,0.1188,0.0694
+Elly Schlein,Ambiente e clima,233,16,0.0687,0.0427,0.1086,0.0659
+Elly Schlein,Immigrazione,233,8,0.0343,0.0175,0.0663,0.0488
+Giorgia Meloni,Democrazia e legalità,278,102,0.3669,0.3124,0.425,0.1126
+Giorgia Meloni,Difesa e sicurezza,278,89,0.3201,0.2681,0.3771,0.109
+Giorgia Meloni,Lavoro e economia,278,87,0.3129,0.2613,0.3697,0.1084
+Giorgia Meloni,Salute e welfare,278,22,0.0791,0.0528,0.1169,0.0641
+Giorgia Meloni,Immigrazione,278,22,0.0791,0.0528,0.1169,0.0641
+Giorgia Meloni,Ambiente e clima,278,21,0.0755,0.0499,0.1127,0.0628
+Giorgia Meloni,Costo della vita,278,16,0.0576,0.0357,0.0914,0.0557
+Giorgia Meloni,Istruzione e formazione,278,13,0.0468,0.0275,0.0784,0.0508
+Giorgia Meloni,Abitazione,278,7,0.0252,0.0122,0.0511,0.0388
+Giorgia Meloni,Uguaglianza di genere,278,3,0.0108,0.0037,0.0312,0.0276
+Giuseppe Conte,Democrazia e legalità,231,117,0.5065,0.4424,0.5703,0.1279
+Giuseppe Conte,Lavoro e economia,231,98,0.4242,0.3623,0.4887,0.1264
+Giuseppe Conte,Difesa e sicurezza,231,80,0.3463,0.2879,0.4097,0.1218
+Giuseppe Conte,Costo della vita,231,74,0.3203,0.2635,0.383,0.1195
+Giuseppe Conte,Salute e welfare,231,69,0.2987,0.2434,0.3606,0.1173
+Giuseppe Conte,Istruzione e formazione,231,36,0.1558,0.1147,0.2082,0.0935
+Giuseppe Conte,Abitazione,231,16,0.0693,0.0431,0.1095,0.0665
+Giuseppe Conte,Ambiente e clima,231,15,0.0649,0.0397,0.1044,0.0646
+Giuseppe Conte,Immigrazione,231,10,0.0433,0.0237,0.0778,0.0542
+Giuseppe Conte,Uguaglianza di genere,231,4,0.0173,0.0068,0.0437,0.0369

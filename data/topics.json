@@ -1,0 +1,81 @@
+{
+  "_source": "Flash Eurobarometer EP013EP, Youth Survey 2024, Q2, Italy (n≈960, ages 16–30, Sept–Oct 2024)",
+  "_note": "Q2: Which topics should be a priority for the EU in the next 5 years? Multiple answers allowed (up to 3). it_pct = % of Italian youth respondents selecting each topic.",
+
+  "topics": [
+    {"key": "ambiente_clima",        "label": "Ambiente e clima",        "eb_label": "The environment and climate change",                 "it_pct": 46},
+    {"key": "lavoro_economia",       "label": "Lavoro e economia",       "eb_label": "The economic situation and creation of jobs",         "it_pct": 38},
+    {"key": "costo_vita",            "label": "Costo della vita",        "eb_label": "Rising prices, cost of living",                      "it_pct": 34},
+    {"key": "salute_welfare",        "label": "Salute e welfare",        "eb_label": "Social protection, welfare and access to healthcare","it_pct": 34},
+    {"key": "istruzione_formazione", "label": "Istruzione e formazione", "eb_label": "Education and training",                             "it_pct": 26},
+    {"key": "uguaglianza_genere",    "label": "Uguaglianza di genere",   "eb_label": "Gender equality",                                    "it_pct": 24},
+    {"key": "difesa_sicurezza",      "label": "Difesa e sicurezza",      "eb_label": "The EU's defence and security",                      "it_pct": 16},
+    {"key": "immigrazione",          "label": "Immigrazione",            "eb_label": "Migration and asylum",                               "it_pct": 15},
+    {"key": "democrazia_legalita",   "label": "Democrazia e legalità",   "eb_label": "Democracy and the rule of law",                     "it_pct": 15},
+    {"key": "abitazione",            "label": "Abitazione",              "eb_label": "Housing",                                            "it_pct":  9}
+  ],
+
+  "youth_values_it": {
+    "_source": "Q1: Which three of the following values are most important? IT row, p.9",
+    "liberta_espressione":   49,
+    "diritti_umani_pace":    46,
+    "uguaglianza_genere":    32,
+    "tolleranza_diversita":  29,
+    "dignita_umana":         26,
+    "lotta_discriminazione": 16,
+    "identita_nazionale":    16,
+    "stato_diritto":         13,
+    "solidarieta_mondiale":   9,
+    "solidarieta_ue":         9
+  },
+
+  "youth_eu_sentiment_it": {
+    "_source": "Q4: Which statement regarding the EU is closest to your opinion? IT column, p.16",
+    "in_favour_working":     33,
+    "in_favour_not_working": 34,
+    "sceptical":             21,
+    "opposed":                7,
+    "dont_know":              5
+  },
+
+  "youth_participation_it": {
+    "_source": "Q14: Have you ever done any of the following? IT row, p.48",
+    "voted":              44,
+    "petition":           21,
+    "volunteered":        25,
+    "posted_opinions":    22,
+    "boycotted":          13,
+    "hashtags_profile":   15,
+    "street_protests":    18,
+    "youth_organisation": 14,
+    "public_consultation": 10,
+    "contacted_politician": 7
+  },
+
+  "youth_barriers_it": {
+    "_source": "Q15a: What has prevented you from contacting a politician? IT row, p.52",
+    "no_impact":              31,
+    "dont_listen":            25,
+    "not_interested":         17,
+    "not_asked":              10,
+    "dont_know_how":          14,
+    "dont_understand_issues": 14,
+    "jargon_difficult":        7,
+    "not_confident":           8,
+    "no_time":                 7
+  },
+
+  "youth_eu_benefits_it": {
+    "_source": "Q3: How does your country benefit from being a member of the EU? IT row, p.24",
+    "study_travel_abroad":    42,
+    "cooperation":            29,
+    "peace_security":         28,
+    "economic_growth_jobs":   28,
+    "standard_of_living":     15,
+    "global_influence":       19,
+    "youth_influence_policy": 18,
+    "maintaining_democracy":  18,
+    "tackling_climate":       17,
+    "fight_terrorism":        14
+  }
+}

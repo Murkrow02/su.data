@@ -1,0 +1,234 @@
+folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
+2025-09-01_001,image,it,1,1,1,1,1,1,1,1,3,1,Ben Gvir;Global Sumud Flotilla;aiuti umanitari;Palestinesi;diritto internazionale;Netanyahu,negative,high
+2025-09-01_002,image,it,1,1,1,1,1,1,1,1,1,1,Marche;Democratico;matteo.ricci74,neutral,none
+2025-09-01_003,image,it,1,1,1,1,1,1,2,1,5,1,Festa dell'Unità;Varese;antifascista;svastiche;storia;legalità,negative,high
+2025-09-02_001,image,it,1,1,1,1,1,1,1,1,1,1,Fabriano;Potenza Picena;Marche;Matteo Ricci;vincere,positive,high
+2025-09-02_002,image,it,1,1,1,5,1,1,1,1,1,1,sanità pubblica;liste di attesa;migrazione sanitaria;sanità universalistica;Ospedale Torrette;Marche,negative,high
+2025-09-02_003,image,it,1,1,1,1,1,1,1,1,3,1,Feste dell'Unità;volontari;PD;passione politica;impegno;comunità,positive,low
+2025-09-03_001,image,it,1,1,1,1,1,1,3,1,2,1,missione umanitaria;Gaza;aiuti umanitari;sicurezza equipaggio;diritto internazionale;Presidente del Consiglio,positive,low
+2025-09-05_001,image,it,1,1,1,1,1,1,1,1,1,1,Puglia;vincere;Forza;Antonio Decaro,positive,high
+2025-09-05_002,image,it,1,1,1,1,1,3,1,3,2,1,Festa dell'Unità;visione globale;cooperazione;diritti umani;asilo;confronto internazionale,positive,low
+2025-09-06_001,image,it,1,1,1,1,1,1,1,1,3,1,Partito Democratico;Feste dell'Unità;comunità politica;volontari;celebrazione;memoria,positive,high
+2025-09-07_001,image,it,3,4,1,3,1,1,1,1,1,1,Valle d'Aosta;Partito Democratico;elezioni;sanità pubblica;lavoro di qualità;transizione energetica,positive,medium
+2025-09-07_002,image,it,1,1,1,1,1,1,1,1,1,1,Mondiali di Pallavolo;vittoria;squadra;campionesse;allenatore,positive,none
+2025-09-07_003,image,it,1,5,5,5,1,1,1,1,3,1,carovita;bollette;salario minimo;sanità;produzione industriale;energia;PNRR;coalizione,negative,high
+2025-09-08_001,image,it,4,3,1,1,1,1,1,1,1,1,Slow Food;territorio;agricoltori;biodiversità;giustizia climatica;Pollenzo,positive,none
+2025-09-08_002,image,it,1,1,1,1,1,1,1,1,1,1,Feste dell'Unità;volontari;Torino;Bra;Veneto;Partito,neutral,none
+2025-09-09_001,video,it,1,1,1,1,1,1,1,1,4,1,coalizione progressista;elezioni;Costituzione;antifascista;Veneto;Partito Democratico,positive,high
+2025-09-09_002,image,it,1,1,1,1,1,1,1,1,1,1,Marche;candidato presidente;S.Benedetto del Tronto;ASGOLIPICEND;Pan Democratic,neutral,low
+2025-09-09_003,image,it,1,1,1,1,1,1,1,1,1,1,Treviso;Padova;Veneto;candidato presidente;Giovanni Manildo;candidati al Consiglio,positive,high
+2025-09-09_005,video,it,1,1,1,1,1,1,1,1,1,1,Solidarietà;Global Sumud Flotilla;missione umanitaria;Unione europea;governi,positive,low
+2025-09-10_001,image,it,1,1,1,1,1,1,1,1,1,1,Marche;elezioni;Matteo Ricci;destra;Acquaroli;Meloni,positive,high
+2025-09-10_002,image,it,1,1,1,1,1,1,1,1,1,1,Calabria;Catanzaro;Lido;orari,neutral,none
+2025-09-11_001,video,it,1,1,1,1,1,1,1,1,2,1,Pasquale;libertà,positive,low
+2025-09-11_002,video,it,1,2,2,5,1,1,1,1,3,1,sanità pubblica;tagli;privatizzazione;liste d'attesa;medici e infermieri;case della comunità;diritto alla salute,negative,medium
+2025-09-11_003,video,it,1,1,1,1,1,1,1,1,1,1,Calabria;candidato presidente;Pasquale Tridico;giornata,neutral,low
+2025-09-11_004,video,it,1,1,3,5,4,1,1,1,2,1,coalizione progressista;sanità pubblica;università pubblica;tagli fondi;liste d'attesa;assistenza sanitaria,negative,high
+2025-09-12_001,image,it,1,1,1,1,1,2,1,1,1,1,Jacinda Ardern;leadership empatica;progressiste;Partito laburista-Groenlinks;Festa dell'Unità,positive,low
+2025-09-12_003,video,it,1,4,1,1,3,1,1,1,1,1,Calabria;borgo;spopolamento;solidarietà;lavoro;turismo;rinascere,positive,low
+2025-09-13_001,image,it,1,1,1,1,1,1,1,1,1,1,elezioni regionali;Marche;alleanza del cambiamento;proposte per il futuro;Matteo Ricci;sosteneteci,positive,high
+2025-09-13_002,video,it,1,4,1,3,3,2,1,1,3,1,Festa dell'Unità;progressisti europei;legislazione di emergenza;lavoro;diritto alla salute;diritto alla scuola;Costituzione antifascista,positive,high
+2025-09-14_001,image,it,1,1,1,1,1,1,1,1,1,1,unità;divisione;vincere;politica,positive,low
+2025-09-14_003,image,it,1,1,1,1,1,1,1,1,3,1,Reggio Emilia;festa nazionale;Segretaria Elly N Schlein;Democratico;chiusura,neutral,low
+2025-09-15_001,video,it,1,1,1,1,1,1,1,1,2,1,coalizione progressista;unità;elezioni politiche;polemiche;Partito Democratico;Italia antifascista,positive,medium
+2025-09-16_001,image,it,1,1,1,2,1,1,4,1,4,1,Gaza;aiuti umanitari;occupazione illegale;crimini di guerra;Netanyahu;genocidio;sanzioni,negative,high
+2025-09-17_001,image,it,1,1,1,1,1,1,1,1,1,1,Marche;Matteo Ricci;vincere;Presidente,positive,high
+2025-09-17_002,video,it,1,1,1,1,1,1,1,1,1,1,piazza;matteo.ricci74;forza;famiglia;sopravvivere,positive,low
+2025-09-17_004,video,it,1,1,1,1,1,1,2,1,5,1,giustizia italiana;magistratura;indipendenza giudici;controllo politico;garanzie processuali;PNRR,negative,high
+2025-09-17_005,video,it,1,3,3,3,1,3,2,3,5,1,riforma giustizia;magistratura;separazione carriere;indipendenza giudiziaria;diritto;costituzione;potere politico,negative,high
+2025-09-18_001,image,it,1,5,3,1,1,2,1,1,2,3,licenziamento collettivo;Yoox;lavoratrici;ammortizzatori sociali;Patto per il lavoro;dignità,negative,medium
+2025-09-18_002,video,it,1,4,3,4,1,2,1,1,2,1,salario minimo;poveri;sanità pubblica;Marche;diritti delle donne;risorse sanità,negative,medium
+2025-09-19_001,image,it,1,1,1,1,1,1,1,1,4,1,Bologna;Cgil;Gaza;Israele;Palestina;sanzioni;Parlamento;Meloni,negative,medium
+2025-09-20_001,image,it,1,1,1,1,1,1,1,1,1,1,Calabria;SCHLEIN;SAN GIOVANNI IN FIORE;CS;evento,neutral,none
+2025-09-20_002,image,it,1,1,1,5,1,1,1,1,2,1,sanità marchigiana;diritto alla salute;tagli alla sanità;ospedale di Jesi;sanità pubblica,negative,high
+2025-09-20_003,video,it,1,1,1,1,1,1,1,1,1,1,Pergola;Marche;aree interne;Matteo Ricci;Presidente;forza,positive,high
+2025-09-21_001,video,it,1,1,1,1,1,1,1,1,1,1,Cosenza;comizio;Pasquale Tridico;piazza;successi,positive,high
+2025-09-21_002,image,it,1,1,1,5,1,1,1,1,2,1,sanità pubblica;tagli;privatizzazione;diritto alla salute;Calabria;cura della comunità,negative,medium
+2025-09-21_003,video,it,1,4,4,5,4,4,1,1,3,2,sanità pubblica;tagli;spopolamento;precarietà;salario minimo;diritto alla salute;aree interne;migrazione sanitaria,negative,high
+2025-09-21_004,image,it,1,1,1,1,1,1,3,1,4,1,Palestina;occupazione illegale;Netanyahu;sanzioni;Parlamento;spot elettorali,negative,high
+2025-09-21_005,image,it,1,1,1,1,1,1,1,1,1,1,tennis;campionesse del mondo;Paolini;Cocciaretto;Errani;Bronzetti,positive,none
+2025-09-22_001,image,it,1,1,1,1,1,1,1,1,3,1,Gaza;Palestina;sanzioni;Netanyahu;manifestanti;violenza;Governo italiano,negative,high
+2025-09-22_002,image,it,1,1,1,1,1,1,2,1,3,1,droni;Global Sumud Flotilla;aiuti umanitari;blocco illegale;Netanyahu;Gaza;Unione Europea,negative,high
+2025-09-22_003,image,it,1,4,1,1,1,1,1,1,1,1,Soveria Mannelli;Calabria;Lanificio Leo;Rubbettino Editore;impresa;lavoro;eccellenze,positive,none
+2025-09-23_001,video,it,1,1,1,5,1,1,1,1,2,1,sanità pubblica;ospedale;tagli;liste d'attesa;universalistica;privatizzazione,negative,medium
+2025-09-23_002,image,it,1,3,1,3,3,1,1,1,1,1,elezioni regionali;Marche;sanità pubblica;lavoro dignitoso;scuola;diritti,positive,medium
+2025-09-24_001,image,it,1,1,1,1,1,1,1,1,1,1,Matteo Ricci;Fano;Porto San Giorgio;campagna;Presidente;vincere,positive,high
+2025-09-24_002,image,it,1,1,1,1,1,1,2,1,1,1,Meloni;Gaza;Netanyahu;posizioni;Italia;governo,negative,high
+2025-09-24_003,image,it,1,1,1,1,1,1,4,1,3,1,missione umanitaria;attacco;Global Sumud Flotilla;sicurezza;diritto internazionale umanitario;droni,negative,high
+2025-09-25_001,video,it,1,3,3,2,1,1,2,1,3,1,riconoscimento Palestina;Netanyahu;Global Sumud Flotilla;genocidio Gaza;diritto ad esistere;critica politica,negative,high
+2025-09-25_002,video,it,1,3,3,1,1,1,4,1,4,1,Global Sumud Flotilla;Netanyahu;Gaza;sanzioni;riconoscimento Palestina;diritto internazionale umanitario;blocco aiuti,negative,high
+2025-09-26_001,image,it,1,3,2,3,1,1,1,1,2,1,Global Progressive Action Summit;Starmer;Palestina;estrema destra;sanità;salari;lavoro,positive,low
+2025-09-27_001,image,it,1,1,1,1,1,1,1,1,1,1,Toscana;Eugenio Giani;elezioni regionali;futuro;solidale;giusto,positive,low
+2025-09-28_001,image,it,1,1,1,1,1,1,1,1,1,1,nazionale femminile;nazionale maschile;pallavolo;campionato del mondo;vittoria,positive,none
+2025-09-28_002,image,it,1,1,1,1,1,1,3,1,4,1,Gaza;Flotilla;diritto internazionale;sanzioni;ordine pubblico;Stato di Palestina;Netanyahu;Meloni,negative,high
+2025-09-29_001,image,it,1,1,1,1,1,1,1,1,1,1,Calabria;Crotone;piazza resistenza;incontro;Pierluigi Bersani;Pasquale;Lietta Schlein,neutral,none
+2025-09-30_001,video,it,1,1,1,1,1,1,1,1,1,1,Pasquale Tridico;presidente;supporto;voto,positive,high
+2025-09-30_002,image,it,1,4,1,4,3,1,1,1,1,1,diritto alla felicità;sanità pubblica;lavoro dignitoso;scuola;futuro migliore,positive,low
+2025-10-01_001,image,it,1,1,1,1,1,1,3,1,4,1,Flotilla;diritto marittimo;blocco illegale;aiuti palestinesi;diritto internazionale;attivisti,negative,medium
+2025-10-02_001,video,it,1,3,1,1,1,1,2,1,4,1,Netanyahu;Flottiglia;diritto internazionale;manifestazioni;diritto di sciopero;Gaza;pirateria,negative,high
+2025-10-02_002,video,it,1,3,1,1,1,1,3,1,4,1,Netanyahu;flottiglia;Gaza;diritto internazionale;Stato di Palestina;blocco degli aiuti;diritto di sciopero,negative,high
+2025-10-03_001,video,it,1,1,1,1,1,1,1,1,4,1,attivisti;Flotilla;detenzione;governo israeliano;acque internazionali;liberazione;rientro,negative,high
+2025-10-03_002,image,it,1,4,1,1,1,1,1,1,3,1,sciopero;Gaza;Netanyahu;solidarietà;diritto di sciopero;governo,negative,high
+2025-10-05_001,image,it,1,3,1,1,1,1,1,1,1,1,Toscana;buon vivere;lavoro dignitoso;Partito democratico,positive,low
+2025-10-05_002,video,it,1,1,1,1,1,1,1,1,3,1,attivisti;Flottilla;sequestrati;acque internazionali;liberazione;governo israeliano,negative,high
+2025-10-09_001,image,it,1,1,1,1,1,1,3,1,3,1,tregua;cessate il fuoco;ostaggi;Gaza;Palestina;soluzione politica;due Stati,positive,low
+2025-10-10_001,image,it,1,4,3,3,1,1,1,1,2,3,Toscana;lavoro di qualità;salario minimo;affitti brevi;fine vita dignitoso;solidarietà;Partito Democratico,positive,medium
+2025-10-10_002,image,it,1,1,1,5,3,2,1,1,3,1,salute mentale;diritto alla salute;neuropsichiatri infantili;disuguaglianze;psicologo di base;assistenza sanitaria,negative,medium
+2025-10-11_001,image,it,1,1,1,1,1,1,1,1,1,1,Genova;Area Democratica;aiuti palestinesi;Gaza;canale umanitario;solidarietà,neutral,low
+2025-10-12_001,video,it,1,1,1,1,1,1,3,1,2,1,Marcia della Pace;pace;Costituzione;Palestina;Cisjordania;guerra,positive,low
+2025-10-13_001,video,it,1,1,1,1,1,1,1,1,1,1,Firenze;Congratulazioni;eugenio_giani,positive,none
+2025-10-14_001,image,it,1,1,1,1,1,1,1,1,1,1,Partito Democratico;compleanno;avanti insieme;PD,positive,low
+2025-10-14_002,image,it,1,1,1,1,1,1,5,1,3,1,Castel d’Azzano;Carabinieri;Forze dell'Ordine;dovere;cordoglio;servitori dello Stato,negative,low
+2025-10-15_001,video,it,1,4,1,3,1,1,3,1,1,1,dazi;pasta italiana;posti di lavoro;Confindustria;spesa militare;economia;Stato sociale,negative,high
+2025-10-16_001,video,it,1,1,1,1,5,4,1,1,2,1,educazione sessuale;scuole medie;violenza di genere;prevenzione;formazione obbligatoria;Lega,negative,high
+2025-10-17_001,image,it,1,1,1,1,1,1,3,1,5,1,attentato;giornalismo d'inchiesta;democrazia;libertà di informazione;istituzioni;solidarietà,negative,medium
+2025-10-18_001,video,it,3,2,1,1,1,1,1,1,4,1,Partito Socialista Europeo;extrame right;libertà di rischio;socialisti;social and climate justice;elezioni locali,negative,medium
+2025-10-18_002,video,it,1,4,3,4,1,1,1,1,3,1,sanità pubblica;salario minimo;pensioni minime;politica industriale;tagli sanità;vittimismo,negative,high
+2025-10-21_001,image,it,1,1,1,1,1,1,1,1,4,1,attentato;giornalisti d'inchiesta;democrazia;lavoro prezioso,positive,medium
+2025-10-22_001,video,it,2,5,5,4,3,1,4,3,3,4,salari reali;pressione fiscale;precarietà;affitti;bollette;sanità;PNRR;Unione europea,negative,high
+2025-10-23_001,video,it,1,5,5,4,3,1,1,1,2,4,salari reali;pressione fiscale;sanità;bollette;affitti;precarietà;tasse;denatalità,negative,high
+2025-10-27_001,video,it,1,4,4,4,1,1,1,1,2,1,ceto medio;sanità pubblica;aliquota;bollette;stipendi;regali,negative,high
+2025-10-27_002,video,it,1,5,4,1,1,1,1,1,1,1,stipendi;lavoro povero;giovani;salario minimo;precariato;costo della spesa,negative,high
+2025-10-29_001,image,it,1,1,1,1,1,1,1,1,1,1,Campania;Elezioni;Portici;Roberto Fico;31 Ottobre,neutral,none
+2025-10-30_001,video,it,1,1,1,1,1,1,1,1,4,1,propaganda;presidente del Consiglio;riforma;efficienza della giustizia;separazione delle carriere,negative,high
+2025-10-30_002,video,it,1,1,1,1,1,1,1,1,5,1,riforma giustizia;Costituzione;leggi;potere;giustizia su misura;delegittimare,negative,high
+2025-10-31_001,image,it,1,1,1,1,1,1,1,1,1,1,Portici;Roberto Fico;presidente Campania;governare;regione,positive,medium
+2025-10-31_002,video,it,3,4,1,1,1,1,1,1,5,1,Corte dei Conti;progetto;separazione dei poteri;democrazia;infrastrutture;equilibrio dei poteri,negative,high
+2025-11-05_001,image,it,1,1,1,1,1,1,2,1,4,1,Almasri;tortura;omicidio;mandato d'arresto;Corte Penale internazionale;diritto internazionale;governo italiano,negative,high
+2025-11-05_002,image,it,1,4,4,3,2,1,1,1,2,3,Zohran Mamdani;caro vita;stipendi dignitosi;sanità universale;diritto alla casa;trasporti,positive,high
+2025-11-06_001,image,it,1,1,2,5,2,3,1,1,2,1,sanità pubblica;liste d'attesa;cure;Servizio Sanitario Nazionale;tagli;emergenza,negative,high
+2025-11-07_001,image,it,1,1,1,1,1,1,1,1,1,1,Puglia;Taranto;Lecce;8 novembre;Partito Democratico,neutral,none
+2025-11-08_001,image,it,1,1,1,1,1,1,1,1,1,1,Taranto;Brindisi;Lecce;Partito Democratico;elezioni regionali;Antonio Decaro,positive,high
+2025-11-08_002,image,it,1,4,4,1,1,1,1,1,2,1,manovra;IRPEF;ceto medio;pressione fiscale;risorse;famiglie ricche,negative,high
+2025-11-09_001,image,it,1,1,1,1,1,1,1,1,1,1,Virginia Libero;segretaria;gdnazionale;congratulazioni,positive,none
+2025-11-10_001,image,it,4,3,4,4,2,2,3,1,3,5,assemblea nazionale;Bologna;housing sociale;rigenerazione urbana;diritto all’abitare;transizione verde;servizi sociali,positive,low
+2025-11-10_002,image,it,1,1,1,1,1,1,1,1,4,1,Garante Privacy;conflitti di interesse;opacità gestionale;dimissioni consiglio;fiducia cittadini;terzietà,negative,high
+2025-11-10_003,video,it,1,4,3,2,1,3,1,1,3,1,diritti sociali;salario minimo;destra mondiale;lavoratori;giovanile;partito democratico;cambiamento collettivo,negative,medium
+2025-11-11_001,image,it,1,1,1,1,4,5,1,1,1,1,educazione affettiva;violenza di genere;scuole;prevenzione;rispetto;femminicidio,negative,medium
+2025-11-13_001,image,it,1,1,1,4,1,1,3,5,3,1,Albania;centri inumani;800 milioni;forze dell'ordine;diritto europeo;ospedali;responsabilità,negative,high
+2025-11-13_002,image,it,1,1,1,1,1,5,1,1,2,1,consenso;violenza di genere;stupro;convenzione di Istanbul;svolta culturale;atto sessuale,positive,low
+2025-11-14_001,image,it,1,1,1,1,1,1,1,1,4,1,PD;Assemblea Nazionale;amministratori;sindaci;buone pratiche,positive,low
+2025-11-14_002,image,it,1,1,1,1,1,1,1,1,1,1,Veneto;Giovanni Manlido;Partito Democratico;evento;Verona;Belluno,neutral,none
+2025-11-15_001,video,it,1,2,2,3,3,1,5,3,4,1,sicurezza;prevenzione;forze dell'ordine;servizi sociali;terzo settore;legalità;diritto a vivere sicuri,negative,high
+2025-11-15_002,image,it,1,2,2,1,1,1,1,1,2,1,Partito Democratico;amministratori;governare;elezioni;coalizione;assemblea,positive,medium
+2025-11-16_001,image,it,1,1,1,1,1,1,1,1,1,1,Puglia;Stefano Bonaccini;Antonio Decaro;PD;unità,positive,low
+2025-11-16_002,image,it,1,1,1,1,1,1,1,1,1,1,trionfo;complimenti;campione,negative,high
+2025-11-16_003,video,it,1,5,5,1,1,1,1,1,3,4,manovra;potere d'acquisto;salario minimo;politica industriale;caro bollette;fondo affitto;condono,negative,high
+2025-11-16_004,image,it,1,4,2,3,1,1,1,1,1,1,Veneto;sviluppo;opportunità di lavoro;giovani;innovazione;coesione sociale,positive,medium
+2025-11-17_001,image,it,1,4,3,1,1,1,1,1,1,1,PNRR;recessione;crescita;lavoro povero;stipendi;potere d'acquisto;investimenti europei,negative,medium
+2025-11-18_001,video,it,1,1,1,1,1,5,1,1,3,1,consenso;stupro;violenza sessuale;reato;diritto;giurisprudenza,positive,low
+2025-11-19_001,image,it,1,4,1,3,1,1,1,1,1,1,Veneto;sanità pubblica;lavoro di qualità;innovazione;amministrazione;centrosinistra,positive,high
+2025-11-19_002,image,it,1,1,1,1,1,5,1,1,3,1,consenso;violenza di genere;stupro;diritto;atto sessuale;legislazione,positive,low
+2025-11-20_001,image,it,1,1,1,1,1,1,1,1,1,1,Campania;Roberto Fico;coalizione progressista;Partito Democratico;elezioni;rinnovamento,positive,high
+2025-11-20_002,image,it,1,1,1,1,1,1,1,1,4,1,CasaPound;sgombero;neofasciste;Roma;presentazione libro;democrazia,negative,medium
+2025-11-20_003,video,it,1,4,5,3,3,1,3,1,2,4,spesa pubblica;sanità;scuola;tasse;costo della vita;salario minimo;bollette;PIL,negative,medium
+2025-11-21_001,image,it,1,1,1,1,1,1,1,1,1,1,ciao;ornella,neutral,none
+2025-11-21_002,image,it,1,1,1,1,1,1,1,1,2,1,elezioni;voto;candidati;Puglia;Veneto;Campania,positive,low
+2025-11-21_003,video,it,1,4,5,4,4,1,4,1,2,3,spesa pubblica;sanità;scuola;spesa militare;tasse;salari reali;costo della vita;salario minimo,negative,high
+2025-11-23_001,image,it,1,1,1,1,1,1,1,1,1,1,campioni del mondo;storia;World Champions,positive,none
+2025-11-24_001,video,it,1,1,1,1,1,1,1,1,1,1,PD;Antonio Decaro;Presidente Puglia;elezioni;risultato,positive,low
+2025-11-24_002,image,it,1,1,1,1,1,1,1,1,2,1,vittoria;coalizione progressista;Partito Democratico;elettorale;Puglia;Campania,positive,high
+2025-11-25_001,video,it,1,3,2,1,1,1,1,1,3,1,elezioni regionali;Partito Democratico;coalizione progressista;autonomia differenziata;diseguaglianze territoriali;2027;voti assoluti,positive,medium
+2025-11-25_002,image,it,1,1,1,1,1,5,1,1,4,1,violenza maschile;violenza sessuale;consenso;pregiudizi;diritti delle donne;cambio di paradigma,negative,medium
+2025-11-27_001,video,it,1,1,1,1,1,1,1,1,3,1,confronto;opposizione;leader;coalizione;politica;rifiuto,negative,high
+2025-11-29_001,video,it,4,2,1,1,1,1,1,1,3,1,Ponte sullo stretto;Corte dei Conti;13 miliardi;infrastrutture;direttiva europea;elezioni politiche,negative,high
+2025-11-29_002,image,it,1,4,1,1,1,1,1,1,4,1,Mps;Mediobanca;interventismo;regole di mercato;Mef;Giorgetti;inchiesta,negative,high
+2025-12-03_001,video,it,1,1,1,1,5,5,1,1,2,1,violenza di genere;educazione sessuale;scuole primarie;scuole secondarie;violenza patriarcale;educazione all'affettività,negative,high
+2025-12-04_001,video,it,1,4,4,5,1,1,3,1,4,1,sanità pubblica;salario minimo;premierato;ponte sullo stretto;giustizia italiana;crescita economica;sanità;lavoro,negative,medium
+2025-12-05_001,image,it,1,4,4,1,1,1,1,2,4,1,stipendi reali;carrello della spesa;riforma magistratura;premierato;bollette;emigrazione;negazionismo,negative,high
+2025-12-05_002,video,it,1,2,3,5,1,1,1,1,1,1,sanità pubblica;cure;spesa sanitaria;invalidità;medici;infermieri,negative,high
+2025-12-08_001,image,it,1,1,1,1,1,1,1,1,5,1,PD;circolo;aggressione;democrazia;antifascismo;violenza politica;Costituzione,negative,medium
+2025-12-09_001,image,it,3,4,3,3,3,1,4,1,5,1,integrazione europea;autonomia europea;stato di diritto;salario minimo;welfare europeo;difesa comune;piano industriale europeo,positive,medium
+2025-12-12_001,video,it,1,1,1,1,4,1,1,1,3,1,studenti;dissenso;riforma medicina;ascolto;confronto;ministra Bernini,negative,high
+2025-12-13_001,image,it,1,1,1,2,1,1,1,1,2,1,Palestina;autodeterminazione;occupazioni illegali;aiuti umanitari;riconoscimento dello stato,positive,medium
+2025-12-14_001,video,it,1,1,1,4,1,2,1,1,2,1,Tina Anselmi;sanità pubblica;universalistica;bisogni delle persone;tessera 2026,positive,low
+2025-12-15_001,video,it,1,1,1,3,1,1,1,2,3,1,confronto TV;sanità pubblica;spesa sanitaria;governo Berlusconi;centri in Albania,negative,medium
+2025-12-15_002,video,it,1,1,1,1,1,1,1,1,3,1,Narges Mohammadi;liberazione;Iran;attivisti;diritti umani;democrazia,negative,medium
+2025-12-16_001,video,it,1,1,1,3,4,1,1,1,2,1,studenti;università;sanità;risorse pubbliche;privatizzazione;arroganza,negative,medium
+2025-12-17_001,video,it,1,5,5,4,2,1,1,1,4,1,liste d'attese;stipendi reali;pressione fiscale;bollette;salario minimo;produzione industriale;extraprofitti;premierato,negative,high
+2025-12-17_002,video,it,1,3,1,1,4,1,1,1,1,1,laurea;riscatto;manovra;pensioni;età pensionabile;giovani;elezioni,negative,high
+2025-12-17_003,video,it,1,5,5,4,3,1,4,1,3,1,liste d'attese;stipendi reali;pressione fiscale;investimenti comuni europei;diritto all'autodeterminazione;manovra;precarietà,negative,high
+2025-12-18_001,video,it,1,1,1,3,1,5,1,1,2,1,aborto sicuro;diritto;Parlamento europeo;donne;Fratelli d'Italia,negative,medium
+2025-12-19_001,video,it,1,3,3,5,1,1,2,1,2,1,pensioni;promesse elettorali;età pensionabile;maxiemendamento;Fornero;minime,negative,high
+2025-12-23_001,image,it,1,3,3,4,3,1,1,1,3,1,emendamenti;elezioni;diseguaglianze;promesse elettorali;età pensionabile;sanità;scuola,negative,high
+2025-12-23_002,image,it,1,5,2,1,1,2,1,1,3,1,lavoratori;diritti;manovra;sfruttamento;salari;arretrati;lavoro sottopagato,negative,high
+2025-12-25_001,image,it,1,1,1,1,1,1,1,1,1,1,Natale;generazioni;auguri;tavolo;tabellone,positive,none
+2025-12-28_001,image,it,1,1,1,1,1,1,1,1,5,1,riforma Nordio;raccolta firme;magistratura;indipendenza;giustizia;referendum;democrazia,negative,high
+2025-12-30_001,video,it,1,5,3,4,1,1,1,1,2,1,promesse tradite;Fornero;età pensionabile;minime;accise;governo,negative,high
+2025-12-30_002,video,it,1,5,5,4,4,3,2,1,3,4,legge di bilancio;caro vita;sanità pubblica;precarietà;salario minimo;fondo affitto;manovra di austerità,negative,high
+2025-12-31_001,image,it,1,4,5,5,3,1,3,1,4,2,pressione fiscale;carovita;sanità pubblica;lavoro precario;manovra di austerità;età pensionabile;equità orizzontale;dazi,negative,high
+2026-01-01_001,image,it,1,1,1,3,1,1,1,1,1,1,cordoglio;vittime;incendio;Crans-Montana;feriti;soccorritori,negative,low
+2026-01-02_001,image,it,1,3,1,1,1,1,1,1,4,1,Resistenza;antifascismo;giustizia sociale;diritti civili;lavoratori;democrazia,positive,none
+2026-01-03_001,image,it,1,1,1,1,1,1,3,1,5,1,diritto internazionale;sovranità;aggressione militare;Carta ONU;democrazia;legalità;Nazioni Unite,negative,high
+2026-01-05_001,image,it,1,2,1,1,1,1,1,1,1,1,Alessandro Ambrosio;Trenitalia;Bologna;capotreno;cordoglio;Partito Democratico,negative,none
+2026-01-09_001,image,it,1,3,4,3,3,1,1,1,2,1,sanità pubblica;carovita;accise;tasse;pensioni;incoerenza,negative,medium
+2026-01-10_001,image,it,1,5,5,4,1,1,2,1,3,2,prezzo energia;bollette;salari reali;pressione fiscale;caro vita;diritto internazionale;giustizia;pensioni,negative,high
+2026-01-11_001,video,it,1,1,1,1,1,1,5,1,2,1,sicurezza;promesse elettorali;ordine pubblico;forze di polizia;risorse;prigioni;Albania,negative,high
+2026-01-11_002,video,it,1,4,3,3,1,1,2,2,4,1,magistratura;salario minimo;autonomia differenziata;liste d'attesa;prigioni in Albania;fallimenti del governo;Corte Costituzionale,negative,high
+2026-01-11_003,image,it,1,2,1,1,1,3,3,1,4,1,Europa;integrazione europea;diritti;democrazia;multilateralismo;investimenti comuni,positive,low
+2026-01-11_004,image,it,1,1,1,1,1,2,1,1,5,1,Iran;manifestanti;repressione;libertà;regime iraniano;diritti umani,negative,high
+2026-01-12_001,video,it,1,1,1,1,1,1,3,1,5,1,Iran;regime;proteste;libertà;azione diplomatica;Unione Europea;diritti umani,negative,medium
+2026-01-12_002,image,it,1,1,1,1,1,1,1,1,1,1,Alberto Trentini;liberato;ambasciata;Caracas;Mario Burlò;notizia,positive,low
+2026-01-13_001,image,it,1,1,1,1,1,1,1,1,4,1,liberazione;Alberto Trentini;carcere;regime venezuelano;rientro;ingiustamente detenuto,positive,low
+2026-01-14_001,image,it,1,3,1,1,3,4,1,1,3,1,Valeria Fedeli;comunità democratica;uguaglianza;parità di genere;dignità del lavoro;impegno,negative,none
+2026-01-15_001,image,it,1,1,1,1,1,1,1,1,4,1,presidio;Iran;autodeterminazione;solidarietà;regime di Teheran;libertà;manifestanti,negative,high
+2026-01-16_001,image,it,1,1,1,1,1,1,1,1,4,1,solidarietà;Iran;repressione;diritto all'autodeterminazione;UE;blocco internet,negative,high
+2026-01-20_001,image,it,1,1,1,1,1,1,3,1,4,1,Unione Europea;sovranità democratica;diritto internazionale;solidarietà;Groenlandia;Danimarca;Trump,negative,high
+2026-01-21_001,image,it,1,1,3,5,1,1,1,1,2,1,spesa sanitaria;sanità pubblica;famiglie povere;liste d'attesa;medici;rinuncia a curarsi,negative,medium
+2026-01-21_002,image,it,1,1,1,2,1,1,2,1,3,1,Palestina;Marwan Barghouti;Stato di Palestina;aiuti umanitari;Cisgiordania;occupazioni illegali;Netanyahu;ONG,negative,high
+2026-01-22_001,image,it,3,4,3,1,1,1,1,1,1,2,ciclone;Sud Italia;aiuti mirati;imprese;posti di lavoro;infrastrutture;Stato di emergenza,negative,medium
+2026-01-22_002,video,it,1,1,1,1,1,1,3,1,5,1,sedi multilaterali;Nazioni Unite;diritto internazionale;dialogo tra popoli;politica estera;Stati Uniti;regime,negative,high
+2026-01-22_003,video,it,1,4,4,4,2,1,4,1,5,1,diritto internazionale;sedi multilaterali;dialogo tra Stati;salari giusti;sanità pubblica;integrazione europea;autonomia strategica;Board of Peace,negative,medium
+2026-01-23_001,image,it,1,3,1,1,1,1,3,1,5,1,Guido Rossa;Italsider;Brigate Rosse;democrazia;giustizia;Costituzione antifascista,positive,medium
+2026-01-23_002,image,it,1,3,2,1,2,1,3,1,4,1,investimenti comuni;competitività;Unione europea;politica estera;sovranità;dazi;cooperazioni rafforzate,negative,high
+2026-01-23_003,image,it,1,1,1,1,1,1,1,1,4,1,Giorgia Meloni;Donald Trump;Parlamento;art.11;Costituzione,negative,medium
+2026-01-23_004,image,it,1,3,1,1,1,1,3,1,3,1,integrazione europea;investimenti comuni;autonomia strategica;diritto internazionale;unanimità;difesa comune,negative,high
+2026-01-24_001,image,it,1,1,1,1,1,1,3,4,5,1,ICE;deportazione;abuso di potere;diritti umani;giustizia;migranti;Minneapolis;Dipartimento di Giustizia,negative,high
+2026-01-24_002,image,it,1,1,1,1,1,1,1,1,5,1,referendum;Costituzione;giustizia;impunità;legge del più forte,negative,high
+2026-01-24_003,video,it,1,1,1,1,1,5,1,1,3,1,legge sul consenso;violenza;consenso;diritti delle donne;Corte di Cassazione;proposta destra,negative,high
+2026-01-25_001,video,it,1,1,1,1,1,1,1,1,2,1,Giulio Regeni;scomparsa;verità;giustizia,negative,medium
+2026-01-25_002,video,it,1,1,1,1,1,1,1,1,3,1,Giulio Regeni;verità e giustizia;Egitto;tortura;diritti umani;responsabilità,negative,high
+2026-01-25_003,image,it,1,1,1,1,1,1,1,1,5,1,riforma giustizia;efficienza giustizia;separazione carriere;processi;giustizia italiana;referendum costituzionale,negative,high
+2026-01-26_001,video,it,1,1,1,2,1,1,3,5,4,1,Ice;deportazione;uso della forza;giustizia;immigrazione;Stato,negative,high
+2026-01-27_001,image,it,4,3,3,1,1,1,1,1,1,2,frana;ciclone Harry;risorse necessarie;danni stimati;ponte di Messina;dissesto idrogeologico,negative,medium
+2026-01-27_002,video,it,1,3,3,2,1,1,1,1,1,4,frana;Niscemi;ciclone Harry;danni infrastrutturali;miliardo di euro;viabilità;sospensione tributi,negative,medium
+2026-01-27_003,image,it,1,1,1,1,1,3,1,1,5,1,Olocausto;memoria storica;odio;uguaglianza;giustizia;vigilanza;diritti umani,negative,medium
+2026-01-28_001,video,it,3,3,3,4,1,5,1,1,4,1,dissesto idrogeologico;DDL Stupri;tutela delle donne;sanità pubblica;voto fuorisede;mediazione;governo;ascolto,negative,medium
+2026-01-28_002,image,it,1,2,1,1,3,1,1,1,5,1,voto fuori sede;referendum;emendamento Madia;diritto di voto;studenti fuori sede;astensionismo,negative,medium
+2026-01-31_001,image,it,1,1,1,1,1,1,2,4,3,1,piazza;Milano;diritti umani;squadracce;deportano;perseguitano,negative,high
+2026-02-01_002,image,it,1,1,1,1,1,1,4,1,3,1,Forze dell'ordine;strumentalizzazioni;violenze;solidarietà;istituzioni,negative,medium
+2026-02-03_001,image,it,1,1,1,1,1,1,1,1,4,1,Pescara;Sala Consiliare;Costituzione;voto;difendere,neutral,low
+2026-02-04_001,image,it,1,1,1,1,1,1,1,1,5,1,referendum costituzionale;riforma;magistrati;diritti dei cittadini;equilibrio dei poteri;Costituzione,negative,high
+2026-02-04_002,video,it,1,1,1,1,1,1,1,1,4,1,referendum;Costituzione;votare;difendere;Pescara,negative,medium
+2026-02-04_003,video,it,3,1,1,1,1,1,4,1,2,3,Sud;ricostruzione;sicurezza;stanziamenti;cambiamenti climatici;Mezzogiorno;danni,negative,high
+2026-02-04_004,video,it,5,4,4,2,1,1,5,1,3,5,ricostruzione;dissesto;cambiamenti climatici;sicurezza territoriale;stanziamenti;Sud;prevenzione,negative,high
+2026-02-04_005,video,it,3,1,1,1,1,1,3,1,2,4,Niscemi;case;governo;ciclone Henry;sicurezza;popolazione,negative,medium
+2026-02-05_001,video,it,1,1,1,1,1,1,1,1,5,1,referendum;democrazia;magistrati;uguaglianza;voto;mobilitazione,negative,high
+2026-02-06_001,video,it,1,1,1,1,1,1,1,1,5,1,Narges Mohammadi;prigionieri politici;diritti umani;regime teocratico;Nazioni Unite;libertà,negative,high
+2026-02-06_002,image,it,1,1,1,1,1,1,1,1,4,1,Padova;referendum;Costituzione;voto;NO,neutral,low
+2026-02-06_003,image,it,3,1,4,1,1,1,1,1,1,5,piano casa;emergenza abitativa;affitti;beni confiscati;cooperative;diritto all'abitare;rigenerazione urbana,negative,high
+2026-02-07_001,image,it,1,1,1,1,1,1,1,1,4,1,referendum costituzionale;mobilitazione;PD;Costituzione;voto,negative,medium
+2026-02-07_002,image,it,1,1,1,1,1,1,1,1,5,1,referendum costituzionale;mobilitazione;NO;22 e 23 marzo;Italia,negative,high
+2026-02-07_003,image,it,1,1,1,1,1,1,1,1,1,1,atleti;Milano-Cortina 2026;sport;celebrazione;impegno,positive,none
+2026-02-08_001,image,it,1,1,1,1,1,1,1,1,3,1,mobilitazione;referendum;impegno;passione;ascolto,positive,low
+2026-02-08_002,video,it,1,1,1,1,1,1,1,1,4,1,Padova;referendum;voto;potere;democrazia,positive,medium
+2026-02-09_001,image,it,1,1,1,1,4,1,1,1,3,1,violenza politica;liceo Righi;attacco fascista;silenzio;solidarietà;studenti;scuola,negative,medium
+2026-02-09_002,image,it,3,3,2,1,1,1,2,1,1,4,emergenza;danni;sfollati;risorse;sicurezza;Sud;ciclone,negative,high
+2026-02-10_001,image,it,1,1,1,1,1,1,1,1,5,1,David Sassoli;Europarlamento;democrazia;integrazione europea;dialogo;solidarietà,positive,low
+2026-02-10_002,image,it,1,1,1,1,1,1,1,1,4,1,Palermo;referendum;Costituzione;NO;voto,neutral,low
+2026-02-12_001,image,it,1,1,1,1,1,1,1,1,5,1,Palermo;referendum;Costituzione;VOTA NO;difesa,positive,high
+2026-02-12_002,image,it,1,1,1,1,1,1,1,1,5,1,Casapound;sentenza;partito fascista;Costituzione;Sciogliere;legalità,negative,medium
+2026-02-12_003,video,it,1,1,1,1,1,1,1,1,4,1,Sicilia;vota NO;Costituzione;difendere,positive,medium
+2026-02-12_004,image,it,4,4,3,1,1,1,1,1,2,3,ciclone Harry;lavoratori balneari;danni;tributi;risorse;prevenzione climatica;Ponte sullo Stretto,negative,medium
+2026-02-12_005,image,it,1,3,4,1,1,1,1,1,2,1,Sicilia;scadenze fiscali;sospensione tributi;ciclone Harry;centrodestra;contributivi,negative,medium
+2026-02-13_001,image,it,1,1,1,1,1,1,1,1,3,1,Napoli;Schlein;Partito Democratico;saperi;evento,neutral,none
+2026-02-13_002,video,it,1,1,1,1,1,1,1,1,4,1,referendum;Costituzione;giustizia;Partito Democratico;campagna,positive,medium
+2026-02-13_003,image,it,1,4,4,4,1,1,3,1,5,3,Costituzione;giudici;Casapound;ristori;debito comune;salari;sanità,negative,medium
+2026-02-14_001,image,it,1,2,1,1,1,1,1,1,4,1,progetto europeo;autonomia europea;Trump;Board of Peace;interesse nazionale;Costituzione;subalternità politica,negative,high
+2026-02-14_002,image,it,1,4,4,4,3,1,3,1,5,1,riforma costituzionale;indipendenza magistratura;salari bassi;sanità pubblica;separazione poteri;precariato;giustizia;Mezzogiorno,negative,high
+2026-02-14_003,image,it,1,1,1,1,1,1,1,1,4,1,Bari;Costituzione;VOTA;difendere,positive,medium
+2026-02-15_001,video,it,1,1,1,1,1,5,1,1,3,1,DDL Bongiorno;consenso;violenza di genere;tutela delle donne;Convenzione di Istanbul;diritto;passo indietro,negative,high
+2026-02-15_002,image,it,1,1,1,1,1,1,1,1,1,1,Federica Brignone;sport;medaglie;capolavoro;storia,positive,none
+2026-02-15_003,video,it,1,1,3,1,1,1,1,1,5,1,magistrati;mafiosi;Nordio;campagna elettorale;scuse;legalità,negative,high
+2026-02-16_001,image,it,1,1,1,1,1,1,1,1,4,1,mobilitazione;referendum;NO;Costituz;22 e 23 marzo;Italia,negative,high
+2026-02-17_001,video,it,1,1,1,1,1,1,1,1,5,1,Costituzione italiana;Board of Peace;Nazioni Unite;Donald Trump;diritto internazionale;sovranità;Washington,negative,high

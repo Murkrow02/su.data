@@ -1,0 +1,4 @@
+politician,spearman_orig,spearman_corrected,kendall_orig,kendall_corrected,rank_shift_mean_abs,rank_shift_max_abs
+Giuseppe Conte,0.085367,0.024465,0.068199,0.04598,0.9,1.5
+Elly Schlein,0.189028,-0.060977,0.204598,-0.022733,0.8,3.0
+Giorgia Meloni,0.006116,-0.211656,0.04598,-0.069767,1.2,4.0

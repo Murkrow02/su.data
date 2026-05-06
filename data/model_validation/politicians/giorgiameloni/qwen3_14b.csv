@@ -1,0 +1,11 @@
+folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
+2025-10-02_003,image,it,1,1,1,1,1,1,1,1,1,1,nonni;famiglie;comunità;eredità,positive,none
+2025-09-11_001,image,it,2,1,1,1,1,1,1,1,3,1,antifascisti;clima politico;intimidire;non intimidire;democrazia;legalità,negative,low
+2025-11-19_001,image,it,1,1,1,1,1,1,1,1,2,1,Palazzo Chigi;incontro;Primo Ministro della Croazia,neutral,none
+2025-11-10_004,video,it,1,1,1,1,1,1,1,1,1,1,grazie;riconoscenza;apprezzamento,positive,none
+2025-11-05_003,image,it,1,1,1,1,1,1,5,1,2,1,difesa legittima;nuove norme;ladro,neutral,none
+2025-10-09_003,image,it,1,1,1,1,1,1,4,1,2,1,cessate il fuoco;Gaza;Piano Trump;mediatori;Italia;stabilizzazione;ricostruzione,positive,none
+2025-09-30_002,video,it,1,2,1,1,1,1,2,1,3,1,Italia;credibile;affidabile;leale;non supina;orgoglio;forza,positive,low
+2026-02-18_002,video,it,1,1,2,1,1,1,3,5,4,1,immigrato irregolare;CPR;ONG;magistratura;disobbedienza civile;immigrazione illegale;confini;sicurezza,mixed,medium
+2025-09-25_003,video,it,,,,,,,,,,,,,
+2026-01-15_001,video,it,1,1,1,1,1,1,2,1,1,1,Grazie;affetto;missione internazionale;Giappone;Oman;Corea del Sud,positive,none

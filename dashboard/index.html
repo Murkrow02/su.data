@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Su.Data | Osservatorio politico Instagram</title>
+    <meta
+      name="description"
+      content="Frontend esplorativo per analizzare post Instagram politici, OCR, trascrizioni video e argomenti prioritari per i giovani."
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="splash-root" class="splash-overlay" aria-label="Intro Su.Data">
+      <iframe
+        class="splash-frame"
+        src="splash/index.html"
+        title="Su.Data splash screen"
+      ></iframe>
+    </div>
+
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#/">
+          <span class="brand-mark">S</span>
+          <span>
+            <strong>Su.Data</strong>
+            <small>Osservatorio politico Instagram</small>
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="Navigazione principale">
+          <a href="#/" data-link="/">Home</a>
+          <a href="#/overview" data-link="/overview">Panoramica</a>
+          <a href="#/politicians" data-link="/politicians">Politici</a>
+          <a href="#/posts" data-link="/posts">Post</a>
+          <a href="#/topics" data-link="/topics">Argomenti</a>
+          <a href="#/about" data-link="/about">About us</a>
+        </nav>
+
+        <label class="search" for="globalSearch">
+          <span>Cerca</span>
+          <input
+            id="globalSearch"
+            type="search"
+            placeholder="Cerca nei post, OCR, trascrizioni..."
+            autocomplete="off"
+          />
+        </label>
+      </header>
+
+      <main id="app" tabindex="-1"></main>
+    </div>
+
+    <template id="postCardTemplate">
+      <article class="post-card">
+        <a class="post-media" href="#">
+          <span class="media-type"></span>
+        </a>
+        <div class="post-body">
+          <div class="post-meta"></div>
+          <h3></h3>
+          <p></p>
+          <div class="topic-strip"></div>
+        </div>
+      </article>
+    </template>
+
+    <script src="js/splash.js"></script>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>

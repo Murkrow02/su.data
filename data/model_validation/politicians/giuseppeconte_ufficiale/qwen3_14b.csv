@@ -1,0 +1,11 @@
+folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
+2025-12-10_001,image,it,1,3,1,1,1,1,5,3,2,1,poliziotti;stupri;fondo sicurezza;sindacati;Manovra;videosorveglianza;presidi di sicurezza,negative,low
+2025-09-18_001,image,it,4,4,1,1,4,1,1,1,4,1,Intelligenza Artificiale;evento IDIA;lavoro;istruzione;ambiente;democrazia;Città della Scienza;Napoli,positive,low
+2025-09-05_002,video,it,,,,,,,,,,,,,
+2026-01-06_001,video,it,1,1,1,1,1,1,3,1,4,1,diritto internazionale;militare;sovrano;credibilità;subalternità;Venezuela;azioni militari;legge del più forte,negative,medium
+2025-10-11_001,image,it,1,1,1,2,1,2,2,1,4,1,sport;inclusione sociale;legalità;democrazia;Libertas;Movimento 5 Stelle;evento;giovani,positive,low
+2025-10-07_001,video,it,1,1,1,1,1,1,3,1,4,1,blocco navale;genocidio;detenzione illegale;accordi militari;condanna;Gaza,negative,medium
+2025-10-03_003,video,it,1,1,1,1,2,1,3,1,4,1,Presidente del Consiglio;manifestanti;protesta pacifica;silenzio inerte;propaganda israeliana;detenuti illegalmente;terrorismo di Stato,negative,medium
+2025-09-23_002,image,it,1,4,4,3,1,1,1,1,2,1,stipendi;liste d'attesa;Pnrr;salario minimo regionale;potere d'acquisto;giovani;servizi sanitari;programma serio,mixed,low
+2026-01-03_001,image,it,1,1,1,1,1,1,3,1,5,1,diritto internazionale;aggressione americana;Governo Meloni;violazione;comunità internazionale;sicurezza globale,negative,low
+2025-09-17_003,image,it,1,1,1,1,1,1,1,1,1,1,oro;salto in lungo;Mattia Furlani;Tokyo,positive,none

@@ -1,0 +1,61 @@
+\begin{thebibliography}{10}
+
+\bibitem{ep2024youth}
+{European Parliament}, ``Flash eurobarometer {EP013EP}: Youth survey 2024 ---
+  what young {Europeans} think,'' Flash Eurobarometer EP013EP, European
+  Parliament, Directorate-General for Communication, Public Opinion Monitoring
+  Unit, 2024.
+\newblock Fieldwork: September--October 2024; coverage: 27 Member States;
+  Italian sub-sample, ages 16--30.
+
+\bibitem{italianelections2022}
+{Ministero dell'Interno}, ``Elezioni politiche del 25 settembre 2022 ---
+  risultati ufficiali,'' 2022.
+\newblock Risultati ufficiali della Camera dei Deputati e del Senato della
+  Repubblica.
+
+\bibitem{eurobarometer_program}
+{European Commission}, ``{Eurobarometer}: Public opinion in the {European
+  Union},'' 2024.
+\newblock Documentation of the Standard, Special and Flash Eurobarometer
+  programmes.
+
+\bibitem{mccombs1972}
+M.~E. McCombs and D.~L. Shaw, ``The agenda-setting function of mass media,''
+  {\em Public Opinion Quarterly}, vol.~36, no.~2, pp.~176--187, 1972.
+
+\bibitem{ep2024youth_methodology}
+{European Parliament}, ``Flash eurobarometer {EP013EP} --- technical
+  specifications and methodology,'' technical note, European Parliament,
+  Directorate-General for Communication, 2024.
+\newblock Sample design, weighting scheme and questionnaire for the Youth
+  Survey 2024.
+
+\bibitem{instaloader}
+A.~Salzer and M.~Grieser, ``Instaloader: Download instagram photos and
+  metadata,'' 2024.
+
+\bibitem{fasterwhisper}
+{SYSTRAN}, ``Faster whisper transcription with {CTranslate2},'' 2023.
+
+\bibitem{ollama}
+{Ollama}, ``Ollama: Get up and running with large language models locally,''
+  2024.
+
+\bibitem{gemma2024}
+{Google DeepMind}, ``{Gemma}: Open models from {Google},'' 2024.
+
+\bibitem{landis1977}
+J.~R. Landis and G.~G. Koch, ``The measurement of observer agreement for
+  categorical data,'' {\em Biometrics}, vol.~33, no.~1, pp.~159--174, 1977.
+
+\bibitem{krippendorff2004}
+K.~Krippendorff, {\em Content Analysis: An Introduction to Its Methodology}.
+\newblock Sage Publications, 2nd~ed., 2004.
+
+\bibitem{artstein2008}
+R.~Artstein and M.~Poesio, ``Inter-coder agreement for computational
+  linguistics,'' {\em Computational Linguistics}, vol.~34, no.~4, pp.~555--596,
+  2008.
+
+\end{thebibliography}

@@ -1,0 +1,280 @@
+folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
+2025-09-01_001,image,it,1,5,1,1,1,1,1,1,1,1,tasso di occupazione;disoccupazione;contratti a tempo indeterminato;crescita;lavoro;Istat,positive,low
+2025-09-03_001,image,it,1,1,1,1,1,1,4,1,4,1,Carlo Alberto dalla Chiesa;mafia;attentato;criminalità organizzata;uomo di Stato,positive,low
+2025-09-04_001,image,it,1,1,1,1,1,1,1,1,2,1,Palazzo Chigi;Presidente della Repubblica polacca;relazioni bilaterali;dossier internazionali,neutral,none
+2025-09-04_002,image,it,1,3,1,1,1,1,1,1,1,1,Giorgio Armani;moda italiana;eleganza;icona;lavoratore,positive,none
+2025-09-04_003,image,it,1,1,1,1,1,1,4,1,1,1,Global Sumud Flotilla;aiuti umanitari;popolazione palestinese;tutela e sicurezza;canali alternativi;Food for Gaza,neutral,none
+2025-09-04_004,image,it,1,1,1,1,1,1,5,3,2,1,Forze dell'Ordine;arresto;Viterbo;sicurezza;Santa Rosa;operazione decisiva,positive,low
+2025-09-06_001,image,it,1,1,1,1,1,2,5,1,5,1,Forze dell’Ordine;legalità;sicurezza;occupazione abusiva;insulti;Piantedosi,negative,high
+2025-09-07_001,image,it,1,1,1,1,1,1,1,1,1,1,pallavolo;Azzurre;campionesse;mondo,positive,none
+2025-09-07_002,video,it,1,1,1,1,1,1,4,1,1,1,Frecce Tricolori;Aeronautica Militare;Pattuglia Acrobatica;orgoglio nazionale;bravura;Italia,positive,low
+2025-09-08_001,image,it,1,1,1,1,1,3,1,1,3,1,polemica;madre;diritto;attacchi politici;speculazioni;donna,negative,high
+2025-09-10_001,image,it,1,1,1,1,1,1,1,1,4,1,Charlie Kirk;omicidio;attivista repubblicano;democrazia;libertà;comunità conservatrice,negative,high
+2025-09-10_002,image,it,1,3,1,1,1,1,2,1,1,1,relazioni bilaterali;Piano d’Azione Strategico;investimenti;connettività;Corridoio India-Europa;guerra in Ucraina;cessate il fuoco,neutral,none
+2025-09-11_001,image,it,1,1,1,1,1,1,1,1,3,1,antifascisti;clima;intimidare;giorno meno buio,negative,high
+2025-09-11_002,video,it,3,4,1,1,1,1,5,5,4,1,Guardia Costiera;Mediterraneo globale;sicurezza marittima;traffico di migranti;cooperazione internazionale;legalità;rischi inquinamento,mixed,low
+2025-09-12_001,image,it,1,4,1,1,1,1,1,1,1,1,Mezzogiorno;occupati;infrastrutture;lavoro;merito;opportunità,positive,medium
+2025-09-13_001,video,it,1,4,2,1,3,1,3,1,3,1,interesse nazionale;dignità del lavoro;natalità;declino demografico;PIL;occupazione;centrodestra,positive,high
+2025-09-13_002,video,it,1,1,1,1,1,1,1,1,5,1,clima di odio;dibattito;criminalizzazione;violenza;democrazia;giustificazionismo;sinistra italiana,negative,high
+2025-09-14_001,image,it,1,1,1,1,1,1,1,1,3,1,valori comuni;visione;dividere;Messaggero;Schlein;Meloni,negative,high
+2025-09-14_002,video,it,2,4,3,2,1,1,4,5,4,1,Europa Viva;ordine mondiale;sicurezza;immigrazione irregolare;competitività;Occidente;Europa dei Popoli,positive,high
+2025-09-14_003,image,it,1,1,1,1,1,1,1,1,1,1,auguri;Papa Leone XIV;insegnamenti;guida;fede;speranza,positive,none
+2025-09-15_001,image,it,1,1,1,1,4,1,1,1,1,1,rientro scolastico;studenti;anno scolastico;futuro;scuola,positive,none
+2025-09-17_001,video,it,1,1,1,1,1,1,1,1,3,1,Conte;Meloni;progetto;governare;centrodestra;italiani,negative,high
+2025-09-17_002,video,it,1,2,1,1,1,1,1,1,1,1,Italia;Europa;The Telegraph;protagonista;passo;nazione,positive,medium
+2025-09-17_003,video,it,1,1,1,1,1,1,1,1,1,1,Ancona;grazie,positive,none
+2025-09-17_004,image,it,1,1,1,1,1,1,1,1,1,1,atletica;Mondiali;Tokyo;Mattia Furlani;oro;sport,positive,none
+2025-09-17_005,image,it,1,1,1,1,1,1,1,1,1,1,Narendra Modi;75° compleanno;ispirazione;relazioni internazionali;India;Italia,positive,none
+2025-09-18_001,video,it,3,5,1,1,1,1,2,1,2,1,Galleria del Brennero;infrastruttura;trasporto merci;competitività;lavoratori;corridoio europeo,positive,low
+2025-09-18_002,image,it,1,1,1,1,1,1,1,1,5,1,riforma giustizia;Camera dei Deputati;sistema giudiziario;trasparente;Senato;riforma storica,positive,medium
+2025-09-18_003,video,it,1,1,1,1,1,1,1,1,2,1,governo;alleanza;centrodestra;storia repubblicana;governo;Italia,positive,high
+2025-09-20_001,video,it,3,4,3,2,1,1,3,4,4,2,governo italiano;coalizione;record di impiego;flusso di migrazione;energia nucleare;Patto Mattei;Europa di libertà;identità,positive,high
+2025-09-21_001,image,it,1,1,1,1,1,1,1,1,2,1,Cucina Italiana;Patrimonio Culturale Immateriale;Unesco;tradizioni;polemica;eccellenze italiane,positive,medium
+2025-09-21_002,video,it,1,1,1,1,1,1,5,1,4,1,mafia;carcere duro;legislazione antimafia;Stato;Caivano;Falcone;Borsellino,positive,high
+2025-09-21_003,image,it,1,1,1,1,1,1,1,1,1,1,Gioventù Nazionale;Fenix;dialogo;futuro;evento,positive,none
+2025-09-21_004,video,it,1,1,1,1,1,1,1,1,2,1,occasione storica;sognare in grande;grandi imprese;non accontentarsi;rischiose;sviluppo personale,positive,low
+2025-09-21_005,video,it,1,1,1,1,1,1,1,1,1,1,Fenix;grazie,positive,none
+2025-09-21_006,image,it,1,1,1,1,1,1,4,1,5,1,giustizia;legalità;criminalità organizzata;Rosario Livatino;sacrificio;mafia,positive,low
+2025-09-22_001,video,it,1,1,1,1,1,1,4,1,3,1,Milano;scontri;Forze dell'Ordine;violenza;manifestanti;prepotenza,negative,high
+2025-09-22_002,video,it,1,1,1,1,1,1,1,1,3,1,funerale;perdono;odio;violenza politica;amore;libertà;confronto,positive,low
+2025-09-23_001,video,it,4,3,1,1,1,1,4,3,4,1,migrazione;Green Deal;Nazioni Unite;Ucraina;Palestina;Hamas;ostaggi;sovranità,mixed,low
+2025-09-23_002,image,it,1,1,1,1,1,1,4,1,3,1,Salvo D'Acquisto;Carabinieri;sacrificio;dovere;coraggio;eroe,positive,low
+2025-09-24_001,video,it,1,1,1,1,1,1,1,1,3,1,sofferenza popolazione;governo italiano;ordine pubblico;opposizione italiana;questione palestinese;lavoro serio,negative,medium
+2025-09-25_001,image,it,1,1,1,1,1,1,1,1,4,1,dialogo;confronto;democrazia;libertà di pensiero;minacce;violenza,positive,medium
+2025-09-25_002,video,it,1,1,1,2,1,1,4,2,4,1,Gaza;Israele;Hamas;due Stati;cessato del fuoco;ostaggi;sanzioni;diritto di difesa,mixed,medium
+2025-09-25_003,video,it,4,4,3,3,1,1,5,4,,,riforma ONU;diritto internazionale;conflitti;cooperazione internazionale;sviluppo sostenibile,,
+2025-09-26_001,image,it,2,4,2,3,1,1,1,1,2,2,PNRR;revisione;infrastrutture;tessuto produttivo;coesione sociale;risorse,positive,low
+2025-09-28_001,image,it,1,1,1,1,1,1,1,1,1,1,Nazionale femminile;Azzurri;pallavolo;Mondiali;campioni del mondo,positive,none
+2025-09-28_002,image,it,1,1,1,1,1,1,3,1,4,1,Caivano;messa;proiettile;criminalità;legalità;don Patriciello,negative,medium
+2025-09-29_001,image,it,1,1,1,1,1,1,1,1,1,1,elezioni regionali;Marche;Presidente;impegno;cittadini,positive,none
+2025-09-29_002,image,it,1,2,1,1,1,1,3,1,1,1,Palazzo Chigi;Guinea Bissau;collaborazione bilaterale;traffici illeciti;stupefacenti;pesca,neutral,none
+2025-09-29_003,video,it,3,5,3,2,3,1,1,1,1,1,turismo;economia italiana;posti di lavoro;PNRR;riqualificazione;borghi;investimenti,positive,medium
+2025-09-30_001,image,it,1,1,1,1,1,1,3,1,1,1,Flotilla;blocco navale;aiuti;cessate il fuoco;escalation;Gaza,negative,high
+2025-09-30_002,video,it,1,1,1,1,1,1,1,1,2,1,Italia;nazione;credibile;affidabile;orgoglio;rappresentanza,positive,medium
+2025-09-30_003,video,it,1,1,1,1,1,1,1,1,1,1,accoglienza;grazie,positive,none
+2025-10-01_001,video,it,1,1,1,1,1,1,4,1,3,1,Consiglio europeo;provocazioni;difesa antiaerea;Russia;Ucraina;piano di pace;responsabilità,negative,medium
+2025-10-02_001,image,it,3,4,1,1,1,1,2,1,1,1,Vertice Comunità Politica Europea;competitività europea;settore automobilistico;questioni climatiche;collaborazione politica ed economica,neutral,none
+2025-10-02_002,video,it,1,2,1,2,1,1,1,1,3,1,Palestina;aborto;Farnesina;sciopero generale;mozione di sostegno;opposizione;piano di pace,negative,medium
+2025-10-02_003,image,it,1,1,1,1,1,1,1,1,1,1,nonni;famiglie;comunità;augurio,positive,none
+2025-10-03_001,image,it,1,1,1,1,1,1,1,1,1,1,Gaza;Medio Oriente;cessate il fuoco;ostaggi;pace;sostegno,neutral,low
+2025-10-04_001,image,it,1,1,1,1,1,1,5,1,3,1,Forze dell'Ordine;sicurezza;coraggio;aggressioni;Nazione,positive,low
+2025-10-04_002,video,it,1,1,1,1,1,1,1,1,1,1,San Francesco;Assisi;Patrono d'Italia;fede;tradizione;identità popolare,positive,none
+2025-10-04_003,video,it,3,1,1,1,2,2,4,1,3,1,San Francesco;identità italiana;dialogo;pace;conflitti;responsabilità;cultura,positive,low
+2025-10-05_001,image,it,1,1,1,3,1,1,1,1,1,1,Sammy Basso;progeria;coraggio;sensibilizzazione;impegno,positive,none
+2025-10-06_001,image,it,1,2,1,1,1,1,1,1,1,1,Calabria;elettori;centrodestra;buongoverno;benessere,positive,low
+2025-10-07_001,video,it,1,4,1,1,1,1,1,1,2,1,sciopero generale;CGIL;lavoratori;occupazione;salari;precarietà,negative,high
+2025-10-07_002,video,it,1,3,1,1,1,1,3,1,3,1,piano di pace;Gaza;cessato del fuoco;scioperi generali;responsabilità;blocco navale;Palestina,negative,medium
+2025-10-08_001,video,it,1,1,1,1,1,1,1,1,1,1,pallavolo;Palazzo Chigi;campioni del mondo;vittorie;sport;Italia,positive,none
+2025-10-08_002,video,it,1,1,1,1,1,1,1,1,5,1,magistratura;separazione dei poteri;riforma;merito;giustizia;condizionamenti politici,positive,medium
+2025-10-08_003,image,it,1,1,1,3,1,1,3,1,1,1,Crosetto;Difesa;Fatebenefratelli;operato;condizioni,neutral,low
+2025-10-09_001,image,it,1,1,1,1,1,1,1,1,1,1,Donald Trump;Columbus Day;storia;Nazioni;comunità italo-americana,positive,low
+2025-10-09_002,video,it,1,2,1,1,1,1,4,1,2,1,Gaza;piano di pace;ostaggi;ricostruzione;stabilizzazione;Hamas;Cisgiordania,positive,low
+2025-10-09_003,image,it,1,1,1,1,1,1,3,1,1,1,Gaza;cessate il fuoco;Piano Trump;ostaggi;ricostruzione;pace,positive,medium
+2025-10-10_001,image,it,1,1,1,1,1,1,1,1,1,1,Firenze;Meli,neutral,none
+2025-10-13_001,image,it,1,3,1,1,3,1,4,1,2,1,Piano di Pace;Medio Oriente;Striscia di Gaza;stabilizzazione;Piano Mattei;formazione;energia;agricoltura,neutral,none
+2025-10-13_002,video,it,1,3,1,4,1,1,4,1,3,1,pace;Medio Oriente;piano umanitario;sanitario;sicurezza;ricostruzione;due Stati;cooperazione,positive,low
+2025-10-13_003,video,it,1,1,1,1,1,1,1,1,1,1,pace;grazie,positive,none
+2025-10-13_004,image,it,1,1,1,1,1,1,3,1,1,1,ostaggi;diplomazia internazionale;piano di pace;stabilità;cessate il fuoco;accordo,positive,medium
+2025-10-14_001,image,it,1,3,1,1,1,1,1,1,1,1,Palazzo Chigi;Paraguay;rapporti bilaterali;narcotraffico;imprese italiane;collaborazione,positive,none
+2025-10-14_002,video,it,1,1,1,1,1,1,5,1,3,1,Carabinieri;sacrificio;dovere;missione istituzionale;colleghi;dolore,negative,none
+2025-10-14_003,image,it,1,1,1,1,1,1,1,1,2,1,Giorgia Meloni;libro;patria;principi;ispirazione,positive,high
+2025-10-14_004,image,it,1,1,1,2,1,1,5,1,3,1,Carabinieri;Forze dell'Ordine;Vigili del Fuoco;operazione di sgombero;vittime;sacrificio,negative,low
+2025-10-16_001,image,it,1,1,1,1,1,3,1,1,1,1,CGIL;cortigiana;critica;sinistra;donne;prostituta,negative,high
+2025-10-16_002,image,it,1,2,1,1,1,1,1,1,1,1,World Food Forum;FAO;sovranità alimentare;Piano Mattei;diritto umano all'alimentazione;Nazioni africane,positive,low
+2025-10-17_003,image,it,1,1,1,1,1,1,3,1,1,1,carabinieri;onore;dedizione;coraggio;senso del dovere,positive,none
+2025-10-18_001,image,it,1,1,1,1,1,1,1,1,4,1,Schlein;democrazia;falsità;parlamentare;opposizione;Nazione,negative,high
+2025-10-18_002,image,it,1,5,4,4,1,2,1,1,1,3,Legge di Bilancio 2026;manovra;famiglie;lavoro;sanità;investimenti;Irpef;natalità,positive,medium
+2025-10-19_001,video,it,1,3,1,1,1,1,2,2,3,1,comunità italo-americana;tradizione;eccellenza;alleanza;valori;storia;libertà,positive,medium
+2025-10-20_001,image,it,1,1,1,1,1,1,1,1,2,1,Governo;mandato;sostegno;fiducia;responsabilità,positive,low
+2025-10-22_001,video,it,1,1,1,1,1,1,1,1,4,1,opposizione;fondamentalista;piano di pace;democrazia;dichiarazioni gravissime;libertà,negative,high
+2025-10-22_002,video,it,1,3,1,3,1,1,4,1,4,1,libertà di stampa;forze dell'ordine;decreto sicurezza;bilancio;salari;piazze,negative,high
+2025-10-22_003,video,it,1,1,1,1,1,1,1,1,3,1,irresponsabile;nazione;governare;consenso;patria,negative,high
+2025-10-22_004,video,it,1,2,1,1,1,1,2,4,3,1,immigrazione illegale;norme europee;autorità di pubblica sicurezza;quartieri periferici;maggioranza italiana;azione decisa,positive,high
+2025-10-22_005,video,it,1,1,1,1,1,1,3,1,3,1,Italia;sfide;coraggio;cittadini;mondo più giusto;occasione storica,positive,medium
+2025-10-23_001,video,it,1,1,1,1,1,1,1,5,1,1,migrazione;Consiglio europeo;Regolamento rimpatri;Stati membri;migrazione irregolare;soluzioni innovative,neutral,none
+2025-10-26_001,image,it,1,1,1,3,1,1,4,1,1,1,Polizia di Stato;crisi respiratoria;servizio di pattuglia;intervento;medici;gratitudine,positive,low
+2025-10-26_002,image,it,1,1,1,1,1,1,1,1,1,1,domenica;compagnia,neutral,none
+2025-10-27_001,video,it,1,3,1,1,1,1,2,1,2,1,Palazzo Chigi;Primo Ministro ungherese;Viktor Orbán;relazioni bilaterali;temi internazionali,neutral,none
+2025-10-27_002,image,it,1,1,1,1,1,1,1,1,1,1,congratulazioni;amico,positive,none
+2025-10-27_003,image,it,1,4,1,1,1,1,1,1,1,1,Enrico Mattei;crescita economica;politica energetica;Piano Mattei;partenariati;Africa;prosperità,positive,medium
+2025-10-28_001,image,it,1,5,1,2,3,1,3,1,1,1,sicurezza sul lavoro;INAIL;prevenzione;decreto-legge;lavoratori;imprese,positive,medium
+2025-10-28_002,image,it,1,4,1,1,1,1,1,1,1,1,lavoro;numeri;migliorare;statistiche;percentuali,positive,low
+2025-10-29_001,image,it,1,1,1,1,1,1,1,1,5,1,Corte dei Conti;giurisdizione;riforma costituzionale;Ponte sullo Stretto;Governo;Parlamento,negative,high
+2025-10-30_001,video,it,1,4,4,3,1,1,1,1,5,4,riforma giustizia;magistratura;referendum;Ponte sullo Stretto;affitti brevi;lavoratori;famiglie,positive,low
+2025-10-30_002,image,it,1,1,1,1,1,1,1,1,5,1,riforma costituzionale;giustizia;referendum confermativo;sistema efficiente;cittadini;Nazione,positive,medium
+2025-11-01_001,image,it,1,1,1,1,1,1,5,1,1,1,poliziotto;incidente stradale;Polizia di Stato;Aniello Scarpati;servizio,negative,none
+2025-11-01_002,image,it,1,1,1,1,1,1,1,1,1,1,Ognissanti;famiglie;saluti,neutral,none
+2025-11-02_001,image,it,1,1,1,1,1,1,1,1,1,1,Parigi;n.1;mondo,positive,none
+2025-11-03_001,image,it,1,3,1,3,1,1,1,1,1,1,Palazzo Chigi;Presidente della Repubblica Gabonese;cooperazione bilaterale;energia;infrastrutture;servizi sanitari,positive,none
+2025-11-04_001,video,it,1,1,1,1,1,1,3,1,3,1,onore;difendere;Italia;italiani,positive,low
+2025-11-04_002,image,it,1,1,1,1,1,1,5,1,3,1,Unità Nazionale;Forze Armate;difesa;libertà;Patria;servizio,positive,low
+2025-11-05_001,video,it,1,1,1,1,1,1,1,1,1,1,orgoglio;italiano;Italia;Austria;paese,positive,none
+2025-11-05_002,image,it,1,5,2,3,4,1,3,1,2,1,contratti pubblici;dipendenti pubblici;aumenti mensili;scuola;personale ATA;sanità;funzioni centrali,positive,low
+2025-11-06_001,image,it,1,1,1,1,1,1,5,1,2,1,sicurezza;Forze di Polizia;Decreto Sicurezza;mafie;investimenti;contratti;arresti,positive,high
+2025-11-07_001,image,it,1,1,1,3,1,1,2,1,3,1,Palazzo Chigi;Mahmoud Abbas;Gaza;Piano di Pace;aiuti umanitari;due Stati,neutral,low
+2025-11-07_002,video,it,1,3,1,5,1,1,4,1,3,1,dipendenze;prevenzione;riabilitazione;risorse;narcotraffico;dipendenze digitali;cooperazione internazionale,positive,low
+2025-11-07_003,image,it,1,3,1,1,1,1,1,1,1,1,sciopero;CGIL;Governo;Landini;12 dicembre,neutral,none
+2025-11-08_001,image,it,1,1,1,1,1,1,1,1,1,1,Beppe Vessicchio;direttore d’orchestra;cultura musicale;televisione italiana,neutral,none
+2025-11-08_002,image,it,1,1,1,1,1,1,4,1,3,3,decreto sicurezza;sgombero immobile;occupato abusivamente;gip;procura;norme,neutral,none
+2025-11-08_003,image,it,1,1,1,1,1,1,1,1,1,1,patrimoniali;sinistra;destra;Governo,positive,high
+2025-11-10_001,video,it,1,1,1,5,1,1,1,1,1,1,sanità;Fondo Sanitario Nazionale;liste d'attesa;prestazioni;Servizio Sanitario Nazionale,positive,medium
+2025-11-10_002,video,it,1,1,1,1,1,1,1,1,5,1,magistratura libera;separazione carriere;alta corte disciplinare;CSM;merito;democrazia,positive,medium
+2025-11-10_003,video,it,1,3,1,1,1,1,1,1,2,1,intellettuali da salotto;voto;superficialità;lavoro;dedizione;popolo,mixed,medium
+2025-11-10_004,video,it,1,1,1,1,1,1,1,1,1,1,grazie;ringraziamento,positive,none
+2025-11-10_005,video,it,1,1,1,1,1,1,1,1,4,1,Garante della Privacy;Parlamento;autorità;eletto;PD;M5S;sistema di quote,negative,high
+2025-11-12_001,image,it,1,1,1,1,1,1,5,1,3,1,Caduti;missioni internazionali;Nassiriya;Carabinieri;sacrificio;difesa,positive,low
+2025-11-13_001,video,it,1,3,1,1,1,1,3,3,1,1,vertice intergovernativo;Italia-Albania;cooperazione;sicurezza;migrazioni;intese bilaterali,positive,medium
+2025-11-13_002,video,it,1,4,1,1,1,1,3,4,3,1,vertice intergovernativo;relazioni bilaterali;cooperazione economica;corridoio adriatico;flussi migratori;integrazione europea,positive,low
+2025-11-14_001,video,it,1,3,1,1,1,1,1,1,2,1,patrimoniale;ricche;manovra;ricette tardo-comuniste;sinistra;governo,negative,medium
+2025-11-14_002,video,it,1,1,1,1,1,1,1,1,3,1,Roberto Fico;Partito Democratico;sistema clientelare;governare;Campania;allearsi,negative,high
+2025-11-14_003,video,it,1,1,1,1,1,1,1,1,1,1,accoglienza;grazie,positive,none
+2025-11-15_001,image,it,1,1,1,1,1,1,3,1,1,1,poliziotti;Quartieri Spagnoli;bimbo;salvataggio;emergenza,positive,none
+2025-11-16_001,image,it,1,1,1,1,1,1,1,1,1,1,campione;orgoglio;Italia;vittoria,positive,none
+2025-11-18_002,video,it,1,1,1,1,1,1,1,1,4,1,riforma;giustizia;voto;legislatura;diritto;referendum,neutral,medium
+2025-11-18_003,video,it,1,1,1,1,1,1,1,1,1,1,Padova;grazie,positive,none
+2025-11-18_004,video,it,3,4,1,1,1,1,1,1,1,1,funivia delle mele;logistica agroalimentare;energia rinnovabile;celle ipogee;made in Italy;sviluppo territoriale,positive,low
+2025-11-18_005,video,it,5,5,2,1,1,1,1,1,1,1,agricoltura;funivia delle mele;logistica agroalimentare;energia rinnovabile;PNRR;Made in Italy;eccellenza,positive,medium
+2025-11-19_001,image,it,1,1,1,1,1,1,1,1,1,1,Palazzo Chigi;incontro;Primo Ministro;Croazia,neutral,none
+2025-11-19_002,video,it,1,3,1,1,2,1,1,1,2,1,sinistra;elettorale;Prodi;popolo;Italia;elezioni,negative,high
+2025-11-20_001,image,it,1,1,1,1,1,1,1,1,1,1,Roma;amico,neutral,none
+2025-11-21_001,video,it,1,1,1,1,1,1,1,1,1,1,G20;grazie,positive,none
+2025-11-21_002,image,it,1,1,1,1,1,1,4,1,4,1,Virgo Fidelis;Carabinieri;legalità;sicurezza;senso del dovere,positive,low
+2025-11-22_001,image,it,1,1,1,1,1,1,1,1,1,1,G20;Giappone;Italia;incontro;amicizia,positive,none
+2025-11-22_003,image,it,1,1,1,1,1,1,1,1,1,1,G20;sessione;riunione,neutral,none
+2025-11-22_004,video,it,1,1,1,3,1,1,2,1,1,1,salvataggio;altruismo;incidente;soccorsi;coraggio;Padova,positive,none
+2025-11-23_001,video,it,1,2,1,1,1,1,1,1,1,1,G20;Primo Ministro indiano;partenariato;Italia;India,positive,low
+2025-11-23_002,image,it,1,1,1,1,1,1,1,1,1,1,Coppa Davis;Italia;campioni;trionfo,positive,none
+2025-11-23_003,video,it,1,3,1,1,2,1,1,1,1,1,G20;Singapore;collaborazione bilaterale;scambi commerciali;investimenti;intelligenza artificiale,positive,none
+2025-11-23_004,video,it,3,4,1,1,1,1,2,1,1,1,G20;Africa;sviluppo;debito;Piano Mattei;investimenti;relazioni commerciali;AI,positive,low
+2025-11-24_001,image,it,1,1,1,1,1,1,1,1,1,1,elezioni;Presidente Regione Veneto;coalizione;mandato;candidati;centrodestra,positive,low
+2025-11-24_002,video,it,1,1,1,1,1,1,1,1,1,1,Angola;Vertice;Unione europea;Unione africana,positive,none
+2025-11-24_003,video,it,2,4,1,1,1,1,1,1,2,1,G20;Africa;sviluppo;Piano Mattei;energia;agricoltura,positive,low
+2025-11-25_001,image,it,1,1,1,3,1,5,3,1,2,1,violenza donne;codice rosso;centri antiviolenza;reddito di libertà;prevenzione;dignità,positive,low
+2025-11-27_001,image,it,1,1,1,1,1,1,1,1,3,1,Atreju;confronto;opposizione;dialogo;Schlein;Conte,neutral,medium
+2025-11-28_001,video,it,1,1,1,1,1,1,1,1,4,1,riforma giustizia;giudice;pubblico ministero;CSM;referendum;legalità,positive,medium
+2025-11-29_001,image,it,1,1,1,1,1,1,1,1,5,1,libertà di stampa;democrazia;violenza;redazione giornalistica;responsabilità,negative,high
+2025-12-01_001,image,it,1,4,2,1,1,1,1,1,2,1,PNRR;Commissione europea;obiettivi;riforme strategiche;investimenti;competitività,positive,low
+2025-12-01_002,image,it,1,1,1,1,4,1,5,1,3,1,Esercito Italiano;Università di Bologna;percorso di studi;competenze umanistiche;difesa e sicurezza;interesse nazionale,negative,medium
+2025-12-02_001,image,it,1,5,1,1,1,1,1,1,1,1,occupazione;tasso occupazione;record storico;crescita;mondo del lavoro;politiche occupazionali,positive,low
+2025-12-02_002,video,it,1,1,1,1,1,1,1,1,1,1,Bahrein;Vertice;Consiglio di Cooperazione del Golfo,neutral,none
+2025-12-03_001,video,it,1,2,1,1,1,1,4,5,4,1,leggi;cultura;tradizioni;radicalismo islamico;coesione sociale;integrazione;dialogo interreligioso,neutral,low
+2025-12-03_002,video,it,1,4,1,1,1,1,4,1,3,1,cooperazione_golfo;commercio_marittimo;logistica;cyber_sicurezza;pace_ucraina;aiuti_ucraina,mixed,low
+2025-12-03_003,video,it,1,4,1,1,1,1,3,2,3,1,cooperazione;Mediterraneo;Golfo;interconnessioni;economia;stabilità;dialogo;sicurezza,positive,low
+2025-12-04_001,video,it,1,5,3,1,1,1,1,1,3,1,artigianato;piccole imprese;economia nazionale;regime forfettario;concorrenza sleale;legge di bilancio;costo dell'energia,positive,medium
+2025-12-04_002,image,it,1,1,1,1,1,1,4,1,1,1,Santa Barbara;Vigili del Fuoco;Forze Armate;servizio;dedizione,positive,low
+2025-12-04_003,video,it,1,1,1,1,1,1,1,1,1,1,Vertice del Consiglio di Cooperazione del Golfo;Bahrein;Cattedrale di Nostra Signora d’Arabia;architetti italiani,neutral,none
+2025-12-05_001,video,it,1,1,1,1,1,1,1,1,3,1,confronto;leader opposizione;Meloni;Schlein;Parlamento;disponibilità,neutral,low
+2025-12-05_003,video,it,1,1,1,1,1,1,1,1,1,1,Fiamma Olimpica;Giochi Olimpici Invernali;Milano-Cortina 2026,positive,none
+2025-12-08_001,image,it,1,1,1,1,1,1,1,1,1,1,Festa dell'Immacolata;serenità;felicità,positive,none
+2025-12-10_001,video,it,1,1,1,1,1,1,1,1,1,1,Cucina Italiana;Italia;grazie,positive,none
+2025-12-10_002,video,it,1,3,2,1,1,1,4,5,4,1,migrazione;traffico;gestione flussi;Albania;Global Gateway;ritorni volontari;sicurezza;cooperazione,positive,low
+2025-12-10_003,video,it,1,4,1,1,1,1,1,1,1,1,UNESCO;cucina italiana;patrimonio dell'umanità;filiere agricole;agroalimentare;economia;orgoglio nazionale,positive,low
+2025-12-11_001,video,it,1,1,1,1,1,1,1,1,1,1,Palazzo Chigi;Presidente della Repubblica;Mozambico,neutral,none
+2025-12-12_001,video,it,1,1,1,1,1,1,1,1,2,1,benvenuto;Atreju;Presidente della Palestina;Mahmoud Abbas;autorità nazionale palestinese,neutral,none
+2025-12-12_002,video,it,1,1,1,1,1,1,1,1,3,1,conservatorismo;identità;civiltà;tradizione;difesa;futuro,positive,medium
+2025-12-13_001,image,it,1,1,1,1,1,1,1,1,1,1,Atreju;Castel Sant’Angelo;intervento;diretta;YouTube,neutral,none
+2025-12-14_001,video,it,1,1,1,1,1,1,1,1,2,1,Atreju;Italia;scintilla;coraggio;stravolgere;scriveremo,positive,high
+2025-12-14_002,video,it,1,3,1,1,1,1,1,1,1,1,UNESCO;cucina italiana;patrimonio immateriale;tradizione;filiere;riconoscimento,positive,medium
+2025-12-14_003,video,it,1,1,1,1,1,1,1,1,3,1,Atreiu;confronto;idee;rispetto;opposizioni;politica,positive,medium
+2025-12-14_004,image,it,1,1,1,1,1,1,1,1,1,1,Atreju;presenza;sostegno;affetto,positive,none
+2025-12-14_005,image,it,1,1,1,1,1,1,1,1,3,1,Atreju;dibattiti;partecipazione;Gioventù Nazionale;comunità;evento,positive,low
+2025-12-14_006,video,it,1,1,1,1,1,1,1,1,1,1,Meloni;sola;accompagnata,neutral,low
+2025-12-14_007,video,it,1,1,1,1,1,1,1,1,1,1,grazie;atreju;amici,positive,none
+2025-12-15_001,image,it,1,3,1,1,1,1,1,3,1,1,José Antonio Kast;elezioni presidenziali;relazioni bilaterali;cooperazione economica;immigrazione irregolare,positive,low
+2025-12-17_001,video,it,1,1,1,1,1,1,1,1,4,1,Presidente Monti;popolo italiano;mandato;programma votato;maggioranza;rispondere agli italiani,positive,medium
+2025-12-17_002,image,it,1,1,1,1,1,1,3,5,3,1,assoluzione;Open Arms;confini;dovere;Ministro,positive,high
+2025-12-17_003,video,it,1,1,1,1,1,1,4,2,4,1,sicurezza;Repubblica;apologia;7 ottobre;censura;libertà di espressione,negative,high
+2025-12-17_004,video,it,1,3,4,4,1,1,1,1,3,1,soldi degli italiani;risarcimento;mascherine;governo Conte;truffa allo Stato;Covid,negative,high
+2025-12-17_005,video,it,1,3,1,1,1,1,2,1,2,1,Consiglio europeo;declino;iperregolamentazione;innovazione;competitività;Europa,negative,medium
+2025-12-21_001,video,it,1,1,1,1,1,1,1,1,2,1,Fratelli d'Italia;progetto politico;identità;militanza;centrodestra;stravolgere i pronostici,positive,high
+2025-12-22_001,video,it,1,1,1,1,1,1,5,1,2,1,militari italiani;servizio militare;sacrificio;difendere l'Italia;onore;gratitudine,positive,low
+2025-12-22_002,video,it,1,1,1,1,1,1,5,1,3,1,forze armate;operazioni internazionali;difesa nazionale;deterrenza;pace;sacrificio;credibilità,positive,medium
+2025-12-23_001,video,it,1,3,1,1,1,1,1,1,3,1,Presidenza del Consiglio;amministrazione;reinventare;professionalità;servizio al popolo;istituzioni,positive,low
+2025-12-24_001,video,it,1,1,1,1,1,1,1,1,2,1,Natale;tradizione;valori;identità;comunità;pace,positive,low
+2025-12-25_001,video,it,1,2,1,2,1,1,5,1,2,1,Carabinieri;Forze dell'Ordine;sicurezza;servizio;dedizione;cittadinanza,positive,low
+2025-12-25_002,image,it,1,1,1,1,1,1,1,1,1,1,Buon Natale;ri;ass,neutral,none
+2025-12-27_001,image,it,1,1,1,1,1,1,5,2,4,1,arresti;Hamas;finanziamento;associazione;investigatori;sicurezza,positive,high
+2025-12-30_001,image,it,1,4,3,4,1,1,1,1,2,1,Legge di Bilancio 2026;IRPEF;famiglie;sanità pubblica;lavoro;occupazione,positive,medium
+2025-12-30_002,image,it,1,3,1,1,1,1,1,1,1,1,PNRR;Commissione europea;rata;obiettivi;investimenti;economia;Italia,positive,low
+2025-12-31_001,image,it,1,1,1,1,1,1,1,1,1,1,serenità;coraggio;costruire;Italia;conquiste,positive,none
+2026-01-03_001,image,it,1,1,1,1,1,1,4,1,4,1,Venezuela;Maduro;transizione democratica;regimi totalitari;sicurezza;attacchi ibridi;difensiva,neutral,low
+2026-01-05_001,image,it,1,1,1,1,1,1,1,2,1,1,Crans Montana;vittime;cordoglio;dolore;famiglie,negative,none
+2026-01-07_001,image,it,1,1,1,1,1,1,1,1,5,1,Acca Larenzia;memoria storica;violenza politica;democrazia;dialogo;convivenza civile,negative,medium
+2026-01-07_002,image,it,1,1,1,1,1,1,1,1,4,1,Tricolore;Storia;Costituzione;unità nazionale;Patria,positive,low
+2026-01-08_001,image,it,1,5,1,1,1,1,1,1,1,1,disoccupazione;occupazione;sistema produttivo;politiche per l'occupazione;Istat;lavoro,positive,low
+2026-01-09_001,video,it,1,4,4,1,3,1,1,3,1,1,Venezuela;esuli venezuelani;sindacali;povertà;stipendio;estrema sinistra;situazione economica,negative,medium
+2026-01-12_001,video,it,1,1,1,1,1,1,2,1,4,1,liberazione;Trentini;Burlò;Venezuela;democrazia;collaborazione;Stato,positive,medium
+2026-01-12_002,image,it,1,1,1,1,1,1,1,1,1,1,liberazione;connazionali;Ambasciata d'Italia;Caracas;Autorità;collaborazione,positive,none
+2026-01-13_001,video,it,1,1,1,1,1,1,1,1,1,1,bentornati;casa;grazie,positive,none
+2026-01-14_001,image,it,1,4,1,1,2,1,1,1,1,1,Oman;relazioni bilaterali;commercio;investimenti;partenariato strategico;Piano di Azione,positive,none
+2026-01-14_002,video,it,1,1,1,1,1,1,1,1,1,1,Oman;arrivo;grazie,positive,none
+2026-01-15_001,video,it,1,3,1,1,1,1,2,1,1,1,Giappone;missione internazionale;rapporti strategici;Italia;affetto;lavoro,positive,none
+2026-01-16_001,image,it,1,1,1,1,1,1,1,1,1,1,Tetsuo Hara;Ken il Guerriero;opera;immaginario collettivo;generazioni,positive,none
+2026-01-16_002,video,it,1,3,1,1,1,1,3,1,3,1,cooperazione strategica;relazioni diplomatiche;stabilità;crescita;ordine internazionale;ganbaru;Italia Giappone,positive,low
+2026-01-16_003,video,it,1,4,1,1,1,2,5,1,3,1,partenariato strategico speciale;sicurezza economica;minerali critici;cooperazione industriale;difesa;Indo-Pacifico,positive,low
+2026-01-16_004,image,it,1,1,1,1,1,1,1,1,1,1,amicizia;sintonia;Nazioni;Italia;Giappone,positive,none
+2026-01-17_001,video,it,1,1,1,1,1,1,1,1,1,1,Seul;arrivo;grazie,neutral,none
+2026-01-18_001,video,it,1,2,1,1,1,1,4,1,3,1,Nato;Artico;sicurezza;dialogo;escalation;piano di pace;provvedimento;Lega,mixed,low
+2026-01-19_001,image,it,1,1,1,1,1,1,1,1,1,1,Valentino;alta moda;stile;eleganza;Italia,neutral,none
+2026-01-19_002,image,it,1,4,1,1,1,1,1,1,1,1,cooperazione strategica;economia;innovazione;tecnologia;Piano d’Azione;Italia Corea,positive,none
+2026-01-19_003,video,it,1,5,1,1,4,1,4,1,3,1,parternariato economico;semiconduttori;investimenti reciproci;catene del valore;coordinamento politico;Indo-Pacifico;Africa;Made in Italy,positive,low
+2026-01-20_002,image,it,1,3,1,1,1,1,1,1,1,1,Tashkent;Uzbekistan;cooperazione bilaterale;materie prime critiche;agroindustria;partenariato strategico,neutral,none
+2026-01-21_002,image,it,1,3,1,1,1,1,1,1,2,1,dialogo;Nazioni alleate;dazi;Stati europei;Trump;Italia,positive,low
+2026-01-22_001,video,it,1,3,1,1,1,1,5,4,2,1,decreto sicurezza;forze dell'ordine;violenza delle gang giovanili;rimpatri;stazione di Milano;Tar Lombardia,mixed,medium
+2026-01-23_001,video,it,1,4,1,1,1,1,1,1,2,1,Vertice intergovernativo;Italia Germania;alleanza;economia;lavoratori;partenariato,positive,low
+2026-01-23_002,video,it,3,5,2,1,1,1,3,1,3,1,lavoro europeo;competitività;approccio pragmatico;crisi economica;semplificazione;politica europea,mixed,medium
+2026-01-23_003,video,it,4,1,1,1,1,1,2,1,1,1,maltempo;Protezione Civile;stato di emergenza;danni;ristori;ciclone Harry,positive,low
+2026-01-23_004,image,it,1,1,1,1,1,1,1,1,1,1,scarcerazione;Jacques Moretti;Crans-Montana;tragedia;Governo italiano;Autorità Svizzere,negative,medium
+2026-01-24_001,image,it,1,1,1,2,1,1,1,1,4,1,giustizia;tragedia di Crans-Montana;Ambasciatore;Tribunale delle Misure Coercitive;verità;Governo,negative,high
+2026-01-26_001,image,it,4,1,1,1,1,1,2,1,1,1,stato di emergenza;maltempo;Sicilia;Sardegna;Calabria;100 milioni di euro,positive,medium
+2026-01-28_001,video,it,3,4,4,3,3,1,4,1,3,5,emergenza maltempo;stato d'emergenza;sfollati;ricostruzione;risorse;viabilità;mutui,mixed,low
+2026-01-28_002,video,it,4,1,1,1,1,1,2,1,1,1,maltempo;Sicilia;emergenza;Protezione Civile;ricostruzione;sostegno statale,positive,low
+2026-01-29_001,image,it,1,1,1,1,1,1,5,1,2,1,Strade Sicure;Esercito Italiano;Termini;Colosseo;sicurezza;militari,positive,low
+2026-01-30_001,image,it,1,1,1,1,1,1,5,1,2,1,Carabinieri;sacrificio;dovere;sicurezza;forze dell'ordine;Patria,positive,low
+2026-01-30_002,image,it,1,5,1,1,1,1,1,1,1,1,tasso di disoccupazione;Istat;occupati;mercato del lavoro;stabilità;opportunità,positive,low
+2026-01-31_001,video,it,1,1,1,1,1,1,4,1,5,3,sgombero;violenza;legalità;Forze dell'ordine;Stato;Magistratura;impunità,negative,high
+2026-01-31_002,image,it,1,1,1,1,1,1,1,1,1,1,angelo;somigliare;risata,neutral,none
+2026-02-01_001,video,it,1,1,1,1,1,1,1,1,1,1,Italia giusta;sostegno;grazie,positive,high
+2026-02-01_002,image,it,1,1,1,2,1,1,5,1,5,1,Forze dell'ordine;scontri;tentato omicidio;ordine pubblico;Stato di diritto;decreto sicurezza,negative,high
+2026-02-03_001,video,it,1,1,1,1,1,1,4,1,5,1,violenze;legalità;forze dell'ordine;giornalisti;Stato;sicurezza;manifestazioni,negative,medium
+2026-02-04_001,image,it,1,3,1,1,1,1,4,1,1,1,colloquio;agenda europea;competitività;Piano di Azione;energia;infrastrutture;difesa,neutral,none
+2026-02-05_001,video,it,1,1,1,1,1,1,5,1,4,1,violenze;responsabili;obbligo di firma;forze dell'ordine;sicurezza;magistratura;Stato,negative,high
+2026-02-05_002,video,it,1,3,1,1,1,1,1,1,2,1,Palazzo Chigi;Cile;cooperazione bilaterale;America Latina;catene di approvvigionamento;materie prime critiche,neutral,none
+2026-02-05_003,image,it,1,1,1,1,1,2,5,1,4,1,sicurezza;Forze dell'ordine;criminalità organizzata;pene severe;legalità;baby gang;difesa personale,positive,high
+2026-02-06_001,video,it,1,1,1,1,1,1,1,1,1,1,Olimpiadi;atleti;Azzurri;MilanoCortina2026;sport,positive,none
+2026-02-06_003,video,it,1,3,1,1,1,1,1,1,2,1,cooperazione bilaterale;rapporti internazionali;valori occidentali;Olimpiadi;relazioni economiche;Stati Uniti;Europa,positive,low
+2026-02-06_004,video,it,1,1,1,1,1,1,5,1,2,1,Strade Sicure;carri leggeri;stazione Rogoredo;Decreto Sicurezza;agenti;carabinieri ausiliari,positive,low
+2026-02-06_005,video,it,1,2,1,1,1,1,1,1,5,1,referendum;giustizia;riforma;magistratura;CSM;giudici;diritti,positive,medium
+2026-02-06_006,video,it,1,1,1,1,1,1,5,1,3,1,provvedimenti sicurezza;zone rosse;pene borseggiatori;legittima difesa;baby gang;spaziatori,positive,medium
+2026-02-07_001,video,it,1,3,1,1,1,1,4,1,2,1,Olimpiadi;volontari;Forze dell'ordine;manifestanti;delinquenti;sicurezza,negative,high
+2026-02-07_002,image,it,1,1,1,1,1,1,1,1,1,1,olimpiadi;oro olimpico;record;complimenti;Italia,positive,low
+2026-02-08_001,image,it,1,3,1,1,1,1,3,1,2,1,elezioni;partenariato strategico;collaborazione costruttiva;sfide globali;crescita;stabilità,positive,none
+2026-02-08_002,image,it,1,3,1,1,1,1,1,1,4,1,Andrea Pucci;Sanremo;intimidazione;odio;pressione ideologica;censura;sinistra,negative,high
+2026-02-09_001,image,it,1,3,1,1,1,1,1,1,2,1,Partenariato Strategico Speciale;Giappone;Italia;Giorgia Meloni;rapporto bilaterale;sfide internazionali,positive,low
+2026-02-10_001,image,it,1,4,5,1,1,1,1,1,1,1,potere d'acquisto;Eurostat;inflazione;crescita;Italia;UE,positive,low
+2026-02-10_002,image,it,1,1,1,1,1,1,1,1,3,1,Giorno del Ricordo;martiri delle foibe;esodo giuliano-dalmata;memoria storica;verità;identità nazionale,positive,high
+2026-02-11_001,video,it,1,1,1,1,1,1,5,5,3,1,immigrazione illegale;trafficanti;sicurezza dei confini;rimpatri;espulsione stranieri;ordine pubblico;provvedimento governativo,negative,high
+2026-02-12_001,image,it,1,4,3,1,1,1,1,1,1,1,competitività europea;mercato unico;semplificazione regolatoria;prezzi energia;politica commerciale;Consiglio europeo,neutral,none
+2026-02-12_002,image,it,1,3,1,1,1,1,1,1,1,1,Maria Franca Fissolo Ferrero;Fondazione Ferrero;storia imprenditoriale;valore;comunità;cordoglio,neutral,none
+2026-02-12_003,video,it,1,4,5,1,1,1,2,3,2,1,competitività europea;prezzi dell'energia;costi dell'energia;mercato unico;semplificazione;autonomia strategica,mixed,low
+2026-02-13_001,video,it,4,4,2,3,5,1,2,1,3,1,Piano Mattei;cooperazione Europa-Africa;sviluppo sostenibile;istruzione;debito;infrastrutture idriche;energia,positive,low
+2026-02-13_002,video,it,4,5,2,3,5,1,2,4,3,1,Piano Mattei;cooperazione;Africa;sviluppo;istruzione;energia;occupazione;sostenibilità,positive,low
+2026-02-14_001,video,it,1,2,1,1,1,1,1,1,1,1,Vertice Italia-Africa;partenariato;visione condivisa;sfide;opportunità,positive,low
+2026-02-14_002,video,it,1,3,1,1,1,2,1,4,1,1,Africa;migrazione;Mediterraneo;trafficanti;libertà;Unione Africana,negative,medium
+2026-02-15_001,image,it,1,1,1,1,1,1,1,1,1,1,sci alpino;snowboard cross;biathlon;medaglie;sport,positive,none
+2026-02-15_002,image,it,1,1,1,1,1,1,1,1,1,1,Federica Brignone;oro olimpico;sport italiano;atleti azzurri;vittoria;orgoglio nazionale,positive,none
+2026-02-16_001,video,it,3,4,4,3,1,1,5,1,2,5,alluvione;Niscemi;stanziamento;demolizione;indennizi;attività produttive;ammortizzatori sociali,mixed,low
+2026-02-16_002,video,it,3,3,2,1,1,1,2,1,1,5,frana;Niscemi;stanziamento;demolizione case;messa in sicurezza;indennizi;infrastrutturale,positive,low
+2026-02-17_001,video,it,1,1,1,1,1,1,4,5,4,1,immigrazione illegale;legalità;rimpatri;sicurezza;Ministero dell'Interno;giustizia,negative,high
+2026-02-18_001,video,it,1,1,1,1,1,1,1,1,1,1,grazie;ringraziamento;Italia,positive,none
+2026-02-18_002,video,it,1,1,1,1,1,1,4,5,4,1,immigrazione irregolare;magistratura;risarcimento;confini;sicurezza;legalità,negative,high
+2026-02-18_003,video,it,3,5,5,3,1,1,1,1,1,1,bollette;oneri generali di sistema;bonus sociale;prezzo energia;PMI;ETS;decreto legge,positive,medium
+2026-02-18_004,image,it,1,1,1,1,1,1,2,1,5,1,violenza;estremismo;odio ideologico;democrazia;dialogo;aggressione,negative,medium
+2026-02-19_001,video,it,1,1,1,1,1,1,1,1,4,1,polarizzazione politica;Stato di diritto;ingerenza;democrazie occidentali;Macron;scontro politico,negative,medium
+2026-02-20_001,video,it,1,1,1,1,1,1,1,1,5,1,riforma giustizia;buonsenso;merito;magistrati;giustizia giusta;organismo terzo,positive,low
+2026-02-22_001,image,it,1,1,1,2,1,1,3,1,1,1,Olimpiadi;atleti;orgoglio nazionale;Forze dell'ordine;servizi pubblici;Giochi,positive,low
+2026-02-23_001,image,it,1,1,1,1,1,1,4,1,1,1,Mariangela Spedicato;Carabinieri;dedizione;servizio;cordoglio;Arma,negative,none
+2026-02-23_002,video,it,1,1,1,1,1,1,1,1,1,1,Giochi Olimpici Invernali;Milano Cortina 2026;atleti;ispirazione;sogni,positive,none
+2026-02-26_001,video,it,2,4,4,1,3,1,4,5,2,1,Mediterraneo;competitività;immigrazione;sicurezza energetica;Patto di migrazione;cooperazione bilaterale;Unione Europea,positive,low
+2026-02-27_001,image,it,3,1,1,1,1,1,5,1,1,1,Vigili del Fuoco;Anniversario di Fondazione;emergenza;soccorso;sicurezza;salvaguardia,positive,low
+2026-02-28_001,image,it,1,1,1,1,1,1,4,1,2,1,Vertice;Palazzo Chigi;crisi;Medio Oriente,neutral,none

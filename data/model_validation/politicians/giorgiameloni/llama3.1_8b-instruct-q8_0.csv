@@ -1,0 +1,11 @@
+folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
+2025-10-02_003,image,it,1,1,1,1,1,1,1,1,2,1,nonni;famiglia;comunità,positive,none
+2025-09-11_001,image,it,,,,,,,,,,,,,
+2025-11-19_001,image,it,1,1,1,1,1,1,1,1,5,1,Palazzo Chigi;Andrej Plenković;Croazia,neutral,none
+2025-11-10_004,video,it,1,1,1,1,1,1,1,1,1,1,grazie;tutti,positive,none
+2025-11-05_003,image,it,,,,,,,,,,,,,
+2025-10-09_003,image,it,1,1,1,1,1,1,5,2,4,1,cessate il fuoco;Gaza;Piano Trump;pace;stabilizzazione;ricostruzione;sviluppo,positive,low
+2025-09-30_002,video,it,1,2,1,1,1,1,1,1,5,1,Italia;nazione;credibilità;affidabilità;lealtà,positive,low
+2026-02-18_002,video,it,1,1,1,1,1,1,5,4,3,1,ONG;immigrati irregolari;magistratura;legge;confine;sicurezza,negative,high
+2025-09-25_003,video,it,,,,,,,,,,,,,
+2026-01-15_001,video,it,1,1,1,1,1,1,2,1,1,1,missione internazionale;rapporti estremamente strategici;affetto,positive,none

@@ -1,0 +1,11 @@
+folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
+2025-10-02_003,image,it,1,1,1,1,1,1,1,1,1,1,nonni;famiglie;comunità;augurio,positive,none
+2025-09-11_001,image,it,1,1,1,1,1,1,1,1,3,1,antifascisti;clima;intimidare;giorno meno buio,negative,high
+2025-11-19_001,image,it,1,1,1,1,1,1,1,1,1,1,Palazzo Chigi;incontro;Primo Ministro;Croazia,neutral,none
+2025-11-10_004,video,it,1,1,1,1,1,1,1,1,1,1,grazie;ringraziamento,positive,none
+2025-11-05_003,image,it,,,,,,,,,,,,,
+2025-10-09_003,image,it,1,1,1,1,1,1,3,1,1,1,Gaza;cessate il fuoco;Piano Trump;ostaggi;ricostruzione;pace,positive,medium
+2025-09-30_002,video,it,1,1,1,1,1,1,1,1,2,1,Italia;nazione;credibile;affidabile;orgoglio;rappresentanza,positive,medium
+2026-02-18_002,video,it,1,1,1,1,1,1,4,5,4,1,immigrazione irregolare;magistratura;risarcimento;confini;sicurezza;legalità,negative,high
+2025-09-25_003,video,it,4,4,3,3,1,1,5,4,,,riforma ONU;diritto internazionale;conflitti;cooperazione internazionale;sviluppo sostenibile,,
+2026-01-15_001,video,it,1,3,1,1,1,1,2,1,1,1,Giappone;missione internazionale;rapporti strategici;Italia;affetto;lavoro,positive,none

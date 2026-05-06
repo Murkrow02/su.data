@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Su.Data — Splash</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<style>
+* { box-sizing: border-box; margin: 0; }
+body { background: #f8f3ea; overflow: hidden; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel" src="../js/animation-stage.jsx"></script>
+<script type="text/babel">
+
+const C = {
+  paper: '#f8f3ea', ink: '#181713', muted: '#6f6a60',
+  red: '#bd432c', blue: '#253f72', green: '#2f7d5b',
+  purple: '#7851a9', brown: '#8b5d2e', teal: '#197278',
+  line: 'rgba(24,23,19,0.13)', white: '#fffaf2',
+};
+const SPLASH_DURATION_SECONDS = 11.5;
+
+const POST_COLORS = [C.blue, C.red, C.green, C.purple, C.brown, C.teal];
+const CARD_TYPES  = ['posts', 'score', 'topics', 'ranking', 'coverage', 'gap'];
+
+/* ── Post row inside phone ── */
+function PhonePostRow({ color, opacity, yShift }) {
+  return (
+    <div style={{
+      display: 'flex', gap: 10, alignItems: 'center',
+      padding: '8px 16px', borderBottom: `1px solid ${C.line}`,
+      opacity, transform: `translateY(${yShift}px)`,
+    }}>
+      <div style={{ width: 34, height: 34, borderRadius: 3, background: color, opacity: 0.15, flexShrink: 0 }}></div>
+      <div style={{ flex: 1 }}>
+        <div style={{ width: '85%', height: 5, borderRadius: 3, background: C.ink, opacity: 0.12, marginBottom: 5 }}></div>
+        <div style={{ width: '60%', height: 4, borderRadius: 2, background: C.ink, opacity: 0.07, marginBottom: 7 }}></div>
+        <div style={{ display: 'inline-block', width: 38, height: 13, borderRadius: 7, background: color, opacity: 0.18 }}></div>
+      </div>
+    </div>
+  );
+}
+
+/* ── Morphing card: post → data viz ── */
+function MorphCard({ x, y, rotation, scale, opacity, color, morphP, type, cardWidth = 176, cardHeight = 112 }) {
+  const cardW = cardWidth, cardH = cardHeight;
+  const compact = cardH < 100;
+  const pad = compact ? 10 : 14;
+  const postOp = Math.max(0, 1 - morphP * 2);
+  const dataOp = Math.max(0, morphP * 2 - 0.5);
+  return (
+    <div style={{
+      position: 'absolute',
+      left: x - cardW/2, top: y - cardH/2,
+      width: cardW, height: cardH,
+      background: C.white,
+      border: `1px solid ${C.line}`,
+      boxShadow: '0 12px 40px rgba(58,46,27,0.1)',
+      transform: `rotate(${rotation}deg) scale(${scale})`,
+      opacity, overflow: 'hidden',
+      borderRadius: 2,
+      zIndex: 4,
+    }}>
+      <div style={{ position: 'absolute', inset: 0, display: 'flex', gap: 10, padding: pad, opacity: postOp }}>
+        <div style={{ width: 38, height: 38, borderRadius: 2, background: color, opacity: 0.15, flexShrink: 0 }}></div>
+        <div style={{ flex: 1, paddingTop: 2 }}>
+          <div style={{ width: '90%', height: 5, borderRadius: 3, background: C.ink, opacity: 0.12, marginBottom: 6 }}></div>
+          <div style={{ width: '65%', height: 4, borderRadius: 2, background: C.ink, opacity: 0.07, marginBottom: 10 }}></div>
+          <div style={{ display: 'inline-block', width: 34, height: 12, borderRadius: 6, background: color, opacity: 0.2 }}></div>
+        </div>
+      </div>
+      <div style={{ position: 'absolute', inset: 0, padding: pad, opacity: dataOp }}>
+        <DataViz color={color} progress={dataOp} type={type} compact={compact} />
+      </div>
+    </div>
+  );
+}
+
+/* ── Six distinct data visualizations ── */
+function DataViz({ color, progress, type, compact = false }) {
+  const labelStyle = {
+    fontSize: 8, fontWeight: 850, color: C.muted,
+    letterSpacing: '0.08em', textTransform: 'uppercase',
+  };
+
+  /* 1 — horizontal bars: post read count per row */
+  if (type === 'posts') {
+    const rows = [0.9, 0.72, 0.48];
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'center', gap: compact ? 6 : 9 }}>
+        <div style={labelStyle}>POST LETTI</div>
+        {rows.map((row, i) => (
+          <div key={i} style={{ display: 'grid', gridTemplateColumns: '28px 1fr', gap: 8, alignItems: 'center' }}>
+            <div style={{ height: compact ? 14 : 18, borderRadius: 2, background: color, opacity: 0.13 + i * 0.04 }}></div>
+            <div style={{ height: 7, borderRadius: 4, background: C.ink, opacity: 0.06, overflow: 'hidden' }}>
+              <div style={{ width: `${row * progress * 100}%`, height: '100%', borderRadius: 4, background: color, opacity: 0.58 }}></div>
+            </div>
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  /* 2 — score: big number + dot rating */
+  if (type === 'score') {
+    const dots = [1, 2, 3, 4, 5];
+    const dotSize = compact ? 12 : 18;
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '100%', gap: compact ? 5 : 8 }}>
+        <div style={labelStyle}>SCORE</div>
+        <div style={{ fontFamily: "'Instrument Serif', Georgia, serif", fontSize: compact ? 28 : 38, fontWeight: 400, color: C.ink, lineHeight: compact ? 1 : 0.88 }}>
+          {(4.2 * progress).toFixed(1)}
+        </div>
+        <div style={{ display: 'flex', gap: compact ? 4 : 5 }}>
+          {dots.map((dot) => {
+            const filled = progress * 5 >= dot - 0.35;
+            return (
+              <div key={dot} style={{
+                width: dotSize, height: dotSize, borderRadius: '50%',
+                border: `1px solid ${filled ? color : C.line}`,
+                background: filled ? color : 'transparent',
+                opacity: filled ? 0.7 : 1,
+              }}></div>
+            );
+          })}
+        </div>
+      </div>
+    );
+  }
+
+  /* 3 — topic bars */
+  if (type === 'topics') {
+    const topics = [
+      { w: 0.82, label: 'Lavoro', color: C.green },
+      { w: 0.58, label: 'Casa',   color: C.blue  },
+      { w: 0.36, label: 'Clima',  color: C.red   },
+    ];
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '100%', gap: compact ? 5 : 7 }}>
+        <div style={labelStyle}>TOPIC</div>
+        {topics.map((tp, i) => (
+          <div key={i} style={{ display: 'grid', gridTemplateColumns: '44px 1fr', alignItems: 'center', gap: 7 }}>
+            <div style={{ color: C.ink, opacity: 0.62, fontSize: 9, fontWeight: 800 }}>{tp.label}</div>
+            <div style={{ height: 7, borderRadius: 4, background: 'rgba(24,23,19,0.06)', position: 'relative', overflow: 'hidden' }}>
+              <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: `${tp.w * 100 * progress}%`, borderRadius: 4, background: tp.color }}></div>
+            </div>
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  /* 4 — ranking: ordinal rank list */
+  if (type === 'ranking') {
+    const items = [
+      { label: 'Lavoro',  color: C.green  },
+      { label: 'Clima',   color: C.red    },
+      { label: 'Salute',  color: C.blue   },
+    ];
+    const dotSize = compact ? 6 : 8;
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '100%', gap: compact ? 5 : 9 }}>
+        <div style={labelStyle}>RANK</div>
+        {items.map((item, i) => (
+          <div key={i} style={{ display: 'flex', alignItems: 'center', gap: compact ? 6 : 8, opacity: Math.max(0, Math.min(1, progress * 3.5 - i * 0.8)) }}>
+            <span style={{ fontFamily: "'Instrument Serif', Georgia, serif", fontSize: compact ? 13 : 17, color: C.muted, minWidth: compact ? 10 : 13, lineHeight: 1 }}>{i + 1}</span>
+            <div style={{ width: dotSize, height: dotSize, borderRadius: '50%', background: item.color, flexShrink: 0 }}></div>
+            <span style={{ fontSize: compact ? 9 : 10, fontWeight: 800, color: C.ink }}>{item.label}</span>
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  /* 5 — coverage: big percentage */
+  if (type === 'coverage') {
+    const pct = Math.round(73 * progress);
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '100%', gap: compact ? 5 : 7 }}>
+        <div style={labelStyle}>COVERAGE</div>
+        <div style={{ fontFamily: "'Instrument Serif', Georgia, serif", fontSize: compact ? 32 : 42, fontWeight: 400, color: C.ink, lineHeight: 1 }}>
+          {pct}%
+        </div>
+        <div style={{ height: 5, borderRadius: 3, background: 'rgba(24,23,19,0.08)', overflow: 'hidden' }}>
+          <div style={{ width: `${pct}%`, height: '100%', borderRadius: 3, background: color }}></div>
+        </div>
+      </div>
+    );
+  }
+
+  /* 6 — gap: Spearman ρ alignment score */
+  const rho = (0.64 * progress).toFixed(2);
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '100%', gap: compact ? 4 : 7 }}>
+      <div style={labelStyle}>ρ SPEARMAN</div>
+      <div style={{ fontFamily: "'Instrument Serif', Georgia, serif", fontSize: compact ? 24 : 38, fontWeight: 400, color: C.ink, lineHeight: 1 }}>
+        +{rho}
+      </div>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: compact ? 3 : 4 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
+          <div style={{ fontSize: 8, fontWeight: 800, color: C.muted, flexShrink: 0, whiteSpace: 'nowrap' }}>giovani</div>
+          <div style={{ flex: 1, height: 4, borderRadius: 2, background: color, opacity: 0.9 * progress }}></div>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
+          <div style={{ fontSize: 8, fontWeight: 800, color: C.muted, flexShrink: 0, whiteSpace: 'nowrap' }}>politica</div>
+          <div style={{ flex: 1, height: 4, borderRadius: 2, background: color, opacity: 0.35 * progress }}></div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function SplashScene({ width, height, isMobile }) {
+  const t = useTime();
+  const p = (s, e) => clamp((t - s) / (e - s), 0, 1);
+  const ease = (s, e, fn) => (fn || Easing.easeOutCubic)(p(s, e));
+  const W = width, H = height;
+  const cx = W / 2, cy = H / 2;
+  const PW = isMobile ? 178 : 210;
+  const PH = isMobile ? 346 : 400;
+  const cardSize = isMobile ? { width: 146, height: 94 } : { width: 176, height: 112 };
+  const phoneRestY = isMobile ? H * 0.43 : cy;
+
+  /* Phase 1 — phone enters */
+  const phoneEnter = ease(0.12, 1.15);
+  const phoneY = phoneRestY + (1 - phoneEnter) * (isMobile ? 560 : 500);
+  const phoneOp = phoneEnter;
+
+  /* Phase 2 — profile */
+  const profileP = ease(0.95, 1.65);
+
+  /* Phase 3 — 6 post rows appear (staggered) */
+  const rowAppear = [
+    ease(1.35, 1.85), ease(1.55, 2.05), ease(1.75, 2.25),
+    ease(1.95, 2.45), ease(2.15, 2.65), ease(2.35, 2.85),
+  ];
+
+  /* Phase 4 — 6 cards extracted one by one */
+  const extractTimings = [
+    { s: 2.15, e: 2.85 }, { s: 2.75, e: 3.45 }, { s: 3.35, e: 4.05 },
+    { s: 3.80, e: 4.50 }, { s: 4.15, e: 4.85 }, { s: 4.50, e: 5.20 },
+  ];
+
+  const targets = isMobile ? [
+    { x: cx - 88, y: H * 0.24,  rot: -7 },
+    { x: cx + 88, y: H * 0.29,  rot:  6 },
+    { x: cx + 82, y: H * 0.73,  rot: -3 },
+    { x: cx - 82, y: H * 0.73,  rot:  4 },
+    { x: cx - 30, y: H * 0.17,  rot: -4 },  // upper-center → will spread to center row
+    { x: cx + 30, y: H * 0.83,  rot:  3 },  // lower-center → will spread to center row
+  ] : [
+    { x: cx - 285, y: cy -  85, rot: -8 },
+    { x: cx + 275, y: cy -  55, rot:  6 },
+    { x: cx + 285, y: cy + 155, rot: -3 },
+    { x: cx - 285, y: cy + 155, rot:  4 },
+    { x: cx -  20, y: cy - 155, rot: -5 },  // upper-center → will spread to center top
+    { x: cx +  20, y: cy + 120, rot:  3 },  // lower-center → will spread to center bottom
+  ];
+
+  const extractions = extractTimings.map((et) => ({
+    ep: Easing.easeInOutCubic(p(et.s, et.e)),
+  }));
+
+  /* Phase 5 — morph all cards into data viz */
+  const morphP  = Easing.easeInOutCubic(p(5.2, 6.2));
+
+  /* Phase 6 — spread cards wider and straighten */
+  const spreadP = Easing.easeInOutCubic(p(5.2, 6.0));
+  // Spread: 3×2 grid (desktop) / 2×3 grid (mobile).
+  // Cards 5 and 6 fill the center where the phone was.
+  // A subtle vertical arch (center cards ±20px) avoids a rigid grid feel.
+  const spreadTargets = isMobile ? [
+    { x: cx - 82, y: H * 0.22, rot: 0 },   // top-left
+    { x: cx + 82, y: H * 0.25, rot: 0 },   // top-right    (stagger +3%)
+    { x: cx + 82, y: H * 0.47, rot: 0 },   // center-right (phone area)
+    { x: cx - 82, y: H * 0.50, rot: 0 },   // center-left  (stagger +3%)
+    { x: cx - 82, y: H * 0.73, rot: 0 },   // bottom-left
+    { x: cx + 82, y: H * 0.76, rot: 0 },   // bottom-right (stagger +3%)
+  ] : [
+    { x: cx - 220, y: cy -  95, rot: 0 },  // left,  upper
+    { x: cx + 220, y: cy -  95, rot: 0 },  // right, upper
+    { x: cx + 220, y: cy + 120, rot: 0 },  // right, lower
+    { x: cx - 220, y: cy + 120, rot: 0 },  // left,  lower
+    { x: cx, y: cy - 115, rot: 0 },         // CENTER upper  (arch −20 vs sides)
+    { x: cx, y: cy + 140, rot: 0 },         // CENTER lower  (arch +20 vs sides)
+  ];
+
+  /* Phase 7 — everything fades, brand appears */
+  const vizFade     = Easing.easeInCubic(p(6.8, 7.4));
+  const phoneExit   = ease(4.8, 5.5, Easing.easeInCubic);
+  const phoneFinalOp    = Math.max(0, phoneOp * (1 - phoneExit));
+  const phoneFinalScale = 1 - phoneExit * 0.15;
+  const brandOp     = ease(7.2, 8.0);
+  const brandShift  = (1 - brandOp) * 30;
+
+  return (
+    <div style={{
+      width: W, height: H, position: 'relative', overflow: 'hidden',
+      background: `
+        linear-gradient(90deg, rgba(24,23,19,0.04) 1px, transparent 1px) 0 0 / 76px 76px,
+        linear-gradient(0deg, rgba(24,23,19,0.03) 1px, transparent 1px) 0 0 / 76px 76px,
+        ${C.paper}`,
+      fontFamily: 'Inter, system-ui, sans-serif',
+    }}>
+
+      {/* ── Extracted / morphing cards ── */}
+      {extractions.map((ext, i) => {
+        if (ext.ep <= 0) return null;
+        const cardOp = Math.max(0, ext.ep * (1 - vizFade));
+        if (cardOp <= 0) return null;
+        const tgt = targets[i];
+        const spr = spreadTargets[i];
+
+        const baseX   = cx + (tgt.x - cx) * ext.ep;
+        const baseY   = phoneY + (tgt.y - phoneY) * ext.ep;
+        const baseRot = tgt.rot * ext.ep;
+
+        const fx   = baseX   + (spr.x - baseX)   * spreadP;
+        const fy   = baseY   + (spr.y - baseY)   * spreadP;
+        const fRot = baseRot + (spr.rot - baseRot) * spreadP;
+
+        const fScale = 0.9 + ext.ep * 0.1 + morphP * 0.15;
+
+        return (
+          <MorphCard key={i} x={fx} y={fy} rotation={fRot} scale={fScale}
+            opacity={cardOp} color={POST_COLORS[i]} morphP={morphP}
+            type={CARD_TYPES[i]}
+            cardWidth={cardSize.width} cardHeight={cardSize.height} />
+        );
+      })}
+
+      {/* ── Phone ── */}
+      <div style={{
+        position: 'absolute',
+        left: cx - PW / 2, top: phoneY - PH / 2,
+        width: PW, height: PH,
+        borderRadius: 40, background: C.white, border: 'none',
+        boxShadow: '0 24px 80px rgba(58,46,27,0.10), 0 0 0 1px rgba(24,23,19,0.08)',
+        opacity: phoneFinalOp,
+        transform: `scale(${phoneFinalScale})`,
+        overflow: 'hidden',
+        zIndex: 2,
+      }}>
+        <div style={{ height: 28 }}></div>
+
+        {/* profile area */}
+        <div style={{ padding: '14px 0 10px', textAlign: 'center', opacity: profileP }}>
+          <div style={{
+            width: 40, height: 40, borderRadius: '50%', background: C.ink, opacity: 0.08,
+            margin: '0 auto 8px', transform: `scale(${profileP})`,
+          }}></div>
+          <div style={{ width: 60, height: 5, borderRadius: 3, background: C.ink, opacity: 0.12, margin: '0 auto 5px' }}></div>
+          <div style={{ width: 84, height: 4, borderRadius: 2, background: C.ink, opacity: 0.06, margin: '0 auto' }}></div>
+        </div>
+        <div style={{ height: 1, background: C.ink, opacity: 0.08 * profileP, margin: '6px 16px' }}></div>
+
+        {/* 6 post rows */}
+        {POST_COLORS.map((color, i) => {
+          const extracted = extractions[i].ep;
+          const rowOp  = rowAppear[i] * (1 - extracted);
+          const lift   = extracted * -20;
+          const flashP = p(extractTimings[i].s, extractTimings[i].s + 0.25);
+          const flash  = flashP > 0 && flashP < 1 ? Math.sin(flashP * Math.PI) * 0.2 : 0;
+          return (
+            <div key={i} style={{ position: 'relative' }}>
+              {flash > 0 && (
+                <div style={{
+                  position: 'absolute', inset: '0 8px', borderRadius: 4,
+                  background: color, opacity: flash,
+                }}></div>
+              )}
+              <PhonePostRow color={color} opacity={Math.max(0, rowOp)} yShift={lift} />
+            </div>
+          );
+        })}
+
+        <div style={{
+          position: 'absolute', bottom: 10, left: '50%', transform: 'translateX(-50%)',
+          width: 56, height: 4, borderRadius: 2, background: C.ink, opacity: 0.12,
+        }}></div>
+      </div>
+
+      {/* ── Brand text ── */}
+      <div style={{
+        position: 'absolute', left: 0, right: 0,
+        top: (isMobile ? H * 0.46 : cy - 30) + brandShift,
+        textAlign: 'center', opacity: brandOp,
+      }}>
+        <div style={{
+          fontFamily: "'Instrument Serif', Georgia, serif",
+          fontSize: isMobile ? 54 : 68, fontWeight: 400, color: C.ink,
+          letterSpacing: '-0.02em', lineHeight: 1,
+        }}>Su.Data</div>
+        <div style={{
+          marginTop: 14, fontSize: isMobile ? 10 : 11, fontWeight: 850,
+          color: C.muted, letterSpacing: '0.12em', textTransform: 'uppercase',
+        }}>Osservatorio Politico Instagram</div>
+      </div>
+    </div>
+  );
+}
+
+function App() {
+  const [viewport, setViewport] = React.useState(() => ({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  }));
+
+  /* resize */
+  React.useEffect(() => {
+    const update = () => setViewport({ width: window.innerWidth, height: window.innerHeight });
+    window.addEventListener('resize', update);
+    window.addEventListener('orientationchange', update);
+    return () => {
+      window.removeEventListener('resize', update);
+      window.removeEventListener('orientationchange', update);
+    };
+  }, []);
+
+  /* hidden skip: 5 rapid clicks → postMessage to parent */
+  React.useEffect(() => {
+    const times = [];
+    const onSkip = () => {
+      const now = Date.now();
+      times.push(now);
+      if (times.length > 5) times.shift();
+      if (times.length === 5 && now - times[0] < 1500) {
+        window.parent.postMessage({ type: 'splashSkip' }, '*');
+      }
+    };
+    document.addEventListener('click', onSkip);
+    return () => document.removeEventListener('click', onSkip);
+  }, []);
+
+  const isMobile = viewport.width <= 680 || viewport.height > viewport.width * 1.25;
+
+  return (
+    <Stage width={viewport.width} height={viewport.height} duration={SPLASH_DURATION_SECONDS} background={C.paper} loop={false} persistKey={null} showControls={false}>
+      <SplashScene width={viewport.width} height={viewport.height} isMobile={isMobile} />
+    </Stage>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

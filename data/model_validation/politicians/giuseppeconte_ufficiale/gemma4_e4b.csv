@@ -1,0 +1,11 @@
+folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
+2025-12-10_001,image,it,1,2,1,1,1,1,5,1,3,1,poliziotti;carabinieri;sicurezza;manovra;pacchetto sicurezza;fondi;periferie,negative,high
+2025-09-18_001,image,it,3,4,1,1,4,1,1,1,3,1,Intelligenza Artificiale;lavoro;istruzione;Napoli;innovazione;bene comune,positive,none
+2025-09-05_002,video,it,1,1,1,1,1,1,2,1,3,1,Gaza;assedio;Palestina;sanzioni economiche;Netanyahu;genocidio;riconoscimento Stato,negative,high
+2026-01-06_001,video,it,1,1,1,1,1,1,3,1,4,1,diritto internazionale;sovranità;azioni militari unilaterali;credibilità internazionale;politica estera;Stati Uniti;Nazioni Unite,negative,high
+2025-10-11_001,image,it,1,1,1,3,1,1,2,1,3,1,sport;associazioni;inclusione sociale;legalità;comunità;Movimento 5 Stelle,positive,low
+2025-10-07_001,video,it,1,1,1,1,1,1,1,1,1,1,Meloni;Vespa;Gaza;genocidio;Israele;sequestro;diritti umani,negative,high
+2025-10-03_003,video,it,1,1,1,1,2,1,1,1,4,1,Presidente del Consiglio;scontro sociale;manifestazioni pacifiche;Gaza;propaganda israeliana;cittadini italiani detenuti,negative,high
+2025-09-23_002,image,it,1,4,4,3,1,1,1,1,1,1,stipendi;liste d'attesa;Pnrr;salario minimo regionale;giovani;servizi sanitari;programma serio,negative,medium
+2026-01-03_001,image,it,1,1,1,1,1,1,4,1,4,1,diritto internazionale;violazione;stato sovrano;attacco;Venezuela;diritto,negative,medium
+2025-09-17_003,image,it,1,1,1,1,1,1,1,1,1,1,Mattia Furlani;atletica;mondiali;Tokyo;oro italiano,positive,none

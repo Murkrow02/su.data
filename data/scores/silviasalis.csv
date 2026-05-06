@@ -1,0 +1,128 @@
+folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
+2025-09-03_001,image,it,,,,,,,,,,,,,
+2025-09-03_002,video,it,,,,,,,,,,,,,
+2025-09-03_003,image,it,1,4,1,1,4,1,1,1,1,1,Salone Nautico;Genova;lavoro nautico;formazione professionale;giovani;mercato del lavoro,positive,low
+2025-09-03_004,image,it,1,1,1,1,1,1,1,1,1,1,Genova;Stadio Luigi Ferraris;riqualificazione;cultura;spettacolo;comunità,positive,low
+2025-09-05_001,video,it,1,5,3,3,2,4,1,3,1,1,inclusione;donne;lavoro;competitività;diversità;salario;disabilità,mixed,low
+2025-09-07_001,image,it,3,1,1,1,1,1,1,1,1,1,Genova;Ocean Race;sport;sostenibilità;mare;atleti,positive,none
+2025-09-11_001,image,it,1,4,2,1,1,1,1,1,3,1,Iren;Genova;investimenti;lavoratori;rete idrica;appalti;Patto di sindacato,mixed,low
+2025-09-14_001,video,it,1,3,1,1,1,4,1,1,1,1,donne;libertà;sogni;opportunità;giovani;Genova;Milano,positive,low
+2025-09-14_002,video,it,2,2,2,1,1,1,1,1,4,4,decentramento;lavori pubblici;manutenzioni;spazi pubblici;PNRR;Mondobimbo;Municipi,positive,medium
+2025-09-15_001,video,it,1,1,1,3,5,3,3,1,1,1,primo giorno di scuola;manutenzione;riqualificazione;ambiente sicuro;benessere;scuola;studenti,positive,low
+2025-09-17_001,image,it,1,3,2,3,1,1,3,3,1,1,sindaci;incontri;manovra finanziaria;sicurezza;servizi pubblici;personale comunale;welfare aziendale,positive,low
+2025-09-17_002,image,it,1,1,1,1,1,1,1,1,1,1,sindaca;Genova;anniversario;servizio,positive,none
+2025-09-18_001,video,it,1,4,1,1,3,1,1,1,1,1,Salone Nautico;Genova;sviluppo;lavoro;formazione;Made in Italy,positive,low
+2025-09-18_002,image,it,3,4,1,1,3,1,1,1,1,1,Salone Nautico;Genova;Blue Economy;crescita;lavoro qualificato;transizione ecologica;cantieristica,positive,low
+2025-09-19_001,image,it,1,2,1,5,3,2,1,1,1,1,sport;Genova;Sport Senior;over 65;riqualificazione;impiantistica;UEFA 2032;salute,positive,low
+2025-09-20_001,image,it,1,1,1,1,1,1,1,1,4,1,Resistenza;Liberazione;regimi nazifascisti;memoria storica;comunità;mondo più giusto,positive,low
+2025-09-23_001,image,it,1,4,1,1,2,1,1,1,1,1,Salone Nautico;Genova;blue economy;lavoro qualificato;under 25;infrastrutture;sviluppo,positive,low
+2025-09-26_001,video,it,1,1,1,5,2,1,1,1,1,1,servizio nazionale di psicologia;salute mentale;diritto;prevenzione;psicologi pubblici;benessere,positive,low
+2025-09-26_002,image,it,1,2,1,3,1,1,2,1,1,1,Caruggiadi;centro storico;sport;socialità;vitalità;diritto sociale,positive,low
+2025-09-27_001,video,it,1,3,1,5,1,1,1,1,1,1,Sport Senior;attività fisica;over 65;Comune;salute;neolaureati,positive,none
+2025-09-28_001,video,it,1,1,1,1,1,1,1,1,3,1,Gaza;aiuti umanitari;Palestina libera;genocidio;diritti civili;manifestazioni;pace,negative,medium
+2025-10-03_001,video,it,1,4,2,1,1,1,1,1,3,1,AMT;perdite;bilancio;servizio pubblico;tariffaria;trasparenza;Corte dei Conti,mixed,medium
+2025-10-05_001,image,it,1,1,1,1,1,1,1,1,1,1,compleanno;biondino;amore,positive,none
+2025-10-06_001,video,it,1,2,1,1,1,1,1,1,1,1,Nodo Ferroviario;Voltri;Sampierdarena;mobilità urbana;trasporto su ferro;treni merci;servizi ai cittadini,positive,low
+2025-10-08_001,image,it,1,1,1,1,3,1,4,1,3,1,Ponte Morandi;tragedia;sicurezza;trasparenza;memoria;istituzioni;Genova,negative,medium
+2025-10-09_001,image,it,2,1,1,1,1,1,2,1,2,1,Adunata nazionale alpini;Genova;solidarietà;impegno civile;comunità;memoria condivisa,positive,none
+2025-10-12_001,image,it,1,4,2,1,3,2,2,1,1,2,Genova;opportunità;cervelli in fuga;lavoratori;studenti;porto sicuro,positive,low
+2025-10-14_001,image,it,1,1,1,1,1,1,1,1,1,1,Genova;Premio Paganini;cultura;arte;talento;musica;inclusione,positive,none
+2025-10-16_001,video,it,1,2,1,1,1,1,4,1,3,3,Darsena;riqualificazione;degrado;sicurezza;passerella;decoro;progetto,positive,low
+2025-10-22_001,video,it,1,3,4,2,1,1,2,1,2,1,tariffe;trasporti;Amt;gratuità;abbonamenti;centrodestra;responsabilità,mixed,medium
+2025-10-23_001,image,it,1,3,1,1,5,4,1,1,1,1,festivalscienza;ricerca;formazione;giovani;scoperte;donne;percorsi scientifici,positive,low
+2025-10-24_001,video,it,3,1,1,3,1,1,1,1,1,1,Forte Puin;patrimonio;valorizzazione;cultura;sostenibilità;sport;Genova,positive,low
+2025-10-25_001,image,it,2,1,1,1,1,1,3,1,5,2,Resistenza;antifascismo;giustizia sociale;impegno politico;spopolamento;dissesto idrogeologico;servizi,positive,medium
+2025-10-26_001,image,it,4,4,1,1,3,1,1,1,1,1,Transumanza;montagna;tradizione;saperi;lavoro antico;comunità;Genova,positive,none
+2025-10-30_001,video,it,1,1,1,4,1,1,1,1,1,1,Sport Senior;over 65;prevenzione;socialità;allenamenti;Genova;progetto gratuito,positive,none
+2025-10-31_001,video,it,1,2,3,1,3,1,5,3,1,1,sicurezza;forze di polizia;sindaci;manovra economica;polizia locale;immigrazione;risorse;spesa corrente,negative,medium
+2025-11-02_001,image,it,1,1,1,1,1,1,1,1,1,1,ricordo;morte;Sant’Agostino;riflessione;continuità;lacrime;amore,positive,none
+2025-11-03_001,video,it,1,4,1,1,3,1,1,2,2,1,IIT;taglio fondi;ricerca;ricercatori;sviluppo economico;giovani;investimenti,negative,medium
+2025-11-04_001,video,it,1,1,1,2,3,5,2,1,3,1,educazione affettiva;sessuale;femminicidi;violenza;sindaca;sessismo;social media,negative,medium
+2025-11-04_002,image,it,3,1,1,1,1,1,3,1,1,1,alluvione;memoria;vittime;impegno;sicurezza;dovere istituzionale,negative,low
+2025-11-07_001,video,it,1,1,1,1,1,1,1,1,4,2,giunta itinerante;Municipio Ponente;sopralluoghi;amministrazione comunale;ascolto dei cittadini;progetti,positive,low
+2025-11-08_001,video,it,5,1,1,1,1,1,1,1,1,1,Ecovan;smaltimento rifiuti;economia circolare;rifiuti pericolosi;Amiu;Genova,positive,none
+2025-11-10_001,image,it,1,1,1,1,1,1,1,1,1,1,concerto;Genova;Pinguini Tattici Nucleari;Hello World;Piazza della Vittoria;ingresso gratuito,positive,none
+2025-11-10_002,video,it,1,1,1,1,1,1,1,1,1,1,Capodanno;concerto;Piazza della Vittoria;Genova;2026,positive,none
+2025-11-11_001,image,it,1,1,1,1,1,3,2,1,4,1,Mirella Alloisio;resistenza;Genova;diritti delle donne;Costituzione;democrazia;dittatura,negative,medium
+2025-11-12_001,image,it,3,4,3,2,1,2,3,1,1,4,sindaci;giustizia sociale;lavoro dignitoso;mobilità sostenibile;politiche dell’abitare;ANCI,positive,low
+2025-11-13_001,video,it,1,3,1,3,1,5,5,1,3,3,sicurezza;illuminazione;uguaglianza di genere;welfare;educazione sessuale;patto generazionale;commercio di prossimità,negative,medium
+2025-11-15_001,video,it,4,1,1,1,1,1,3,1,1,1,maltempo;allerta arancione;Protezione Civile;disagi;sopraelevata;cautela;Genova,negative,none
+2025-11-15_002,image,it,3,1,1,1,1,1,1,1,1,1,pioggia intensa;Genova Alert;viabilità;meteo;aggiornamenti;Comune di Genova,neutral,none
+2025-11-15_003,image,it,1,1,1,1,1,1,1,1,1,1,compleanno;papà;regista,positive,none
+2025-11-16_001,video,it,5,1,1,1,3,1,3,1,1,1,allerta arancione;protezione civile;perturbazioni;corsi d'acqua;misure precauzionali;scuole,neutral,none
+2025-11-17_001,video,it,4,2,1,1,1,1,4,1,1,3,maltempo;sopralluoghi;protezione civile;danni;sicurezza;coordinamento,positive,low
+2025-11-18_001,video,it,1,3,4,2,5,1,1,1,1,3,giovani;orientamenti;università;servizi;futuro;passioni,positive,low
+2025-11-18_002,video,it,2,3,1,1,5,1,1,1,2,2,potenziamento ferroviario;risarcimenti;distretto tecnologico;liceo scientifico;parco;partenariato pubblico-privato,positive,low
+2025-11-19_001,image,it,3,5,1,1,1,1,1,1,1,1,Ex Ilva;Cornigliano;lavoratori;forno elettrico;garanzie occupazionali;piano industriale;sviluppo economico,negative,medium
+2025-11-20_001,video,it,1,5,1,1,1,1,1,1,1,1,ex Ilva;lavoratori;Genova;investimento;produzione;polo del Nord;dramma sociale,negative,medium
+2025-11-21_001,video,it,3,1,3,2,4,1,1,1,3,4,Giunta itinerante;ex Cinema Nazionale;area verde;PNRR;Istituto Comprensivo;IMU;sopralluoghi,mixed,low
+2025-11-23_001,video,it,1,5,3,4,1,5,1,1,3,1,gender gap lavorativo;pari opportunità;pari probabilità;carriera femminile;welfare;economia,negative,medium
+2025-11-24_001,video,it,3,4,5,4,4,1,2,1,3,4,bilancio;servizi sociali;lavori pubblici;IMU;IRPEF;assunzioni;manutenzioni;risorse,positive,high
+2025-11-25_001,video,it,1,3,1,4,3,5,4,1,4,1,violenza contro le donne;femminicidio;case rifugio;legge organica;autodeterminazione;diritti;sistema strutturale,negative,high
+2025-11-25_002,video,it,1,1,1,1,1,5,1,1,1,1,violenza domestica;violenza contro le donne;dipendenza economica;controllo;indipendenza;abuso emotivo,negative,none
+2025-11-26_001,video,it,1,1,1,2,4,5,1,2,2,1,educazione affettiva;scuole materne;violenza psicologica;genova;famiglie;sindaco,positive,low
+2025-11-28_001,image,it,5,3,1,1,1,1,5,1,2,1,dissesto idrogeologico;piano nazionale;sicurezza del territorio;protezione civile;rischio idraulico;erosione costiera,negative,medium
+2025-12-01_001,video,it,1,5,1,1,1,1,1,1,1,1,lavoratori;ex Ilva;piano transitorio;sviluppo di Genova;investitori privati;linea di produzione,negative,medium
+2025-12-02_001,video,it,1,4,2,1,1,1,1,1,3,1,Natale;eventi;presepi;lavoro;Palazzo Tursi;Piazza De Ferrari,positive,medium
+2025-12-05_001,video,it,1,5,1,1,3,1,2,1,3,1,stabilimento Ilva;diritto al lavoro;occupazione;Genova Cornigliano;Ministero Urso;linea dello zincato,positive,low
+2025-12-07_001,video,it,1,5,4,1,1,1,1,1,1,1,working poor;salari;bollette;mense sociali;qualità del lavoro;occupati;vita dignitosa,negative,medium
+2025-12-08_001,video,it,2,3,1,1,1,1,1,1,1,1,Natale;Genova;piazza De Ferrari;albero di Natale;bambini;futuro;lavoro;servizio,positive,low
+2025-12-08_002,image,it,1,1,1,1,1,1,1,1,1,1,8 dicembre;Natale;presepe;famiglia;pace;serenità,positive,none
+2025-12-11_001,video,it,4,3,2,2,1,1,3,1,4,3,riforma dei Municipi;decentramento;riqualificazione del territorio;bilancio partecipativo;manutenzione ordinaria;personale;sicurezza urbana,positive,low
+2025-12-12_001,image,it,,,,,,,,,,,,,
+2025-12-15_001,video,it,1,2,1,1,1,1,1,1,2,3,riqualificazione;piazze;centro storico;PNRR;socialità;co-progettazione,positive,low
+2025-12-16_001,video,it,1,1,1,1,1,1,1,1,2,1,Palazzo Tursi;Babbo Natale;feste;bambini;laboratori;Comune di Genova,positive,none
+2025-12-19_001,image,it,1,4,2,1,3,2,1,1,3,1,sindaca;centrosinistra;lavoratori;equità sociale;leader;elettorale;laicità,mixed,medium
+2025-12-19_002,video,it,1,3,1,1,1,1,1,1,3,1,bilancio comunale;approvazione;sforzi;responsabilità;ostruzionismo;distensione,positive,low
+2025-12-20_001,image,it,1,1,1,1,1,1,1,1,2,1,Genova;sindaca;amministrazione;tradizioni;cittadini;responsabilità,positive,low
+2025-12-24_001,video,it,1,2,1,2,1,1,1,1,3,2,Sindaca di Genova;tempo;cittadini;quartieri;emergenza;progettare;affetti,positive,low
+2025-12-25_001,image,it,1,1,1,2,1,1,1,1,1,1,volontariato;Sant'Egidio;Genova;solidarietà;istituzioni;Natale,positive,low
+2025-12-25_002,image,it,1,1,2,1,1,1,1,1,1,1,Natale;famiglia;perdita;tavola;pensiero,negative,none
+2025-12-25_003,video,it,1,1,1,1,1,1,1,1,1,1,Natale;Genova;auguri;bambini;ringraziamento,positive,none
+2025-12-27_001,image,it,1,5,4,2,4,1,1,1,3,2,sviluppo;Genova;blue economy;sburocratizzazione;lavoro;ex Ilva;commercio di prossimità,positive,low
+2025-12-27_002,image,it,1,1,1,1,1,1,1,1,1,1,Presepe di Pentema;tradizioni;volontariato;patrimonio culturale;identità;comunità,positive,none
+2025-12-28_001,video,it,1,1,1,1,1,2,1,2,5,1,antifascismo;Cervi;Resistenza;Costituzione;libertà;vigilanza;democrazia,negative,high
+2025-12-29_001,video,it,1,1,1,1,1,1,1,1,3,1,indagini;Hamas;solidarietà palestinese;magistratura;fotomontaggi;sindaci,negative,medium
+2025-12-30_001,video,it,5,4,1,1,1,1,1,1,1,1,igiene urbana;raccolta differenziata;rifiuti;lavoratori;piano natale;smaltimento,positive,low
+2025-12-31_001,image,it,1,1,1,1,1,1,1,1,1,1,Genova;2026;augurio,positive,none
+2025-12-31_002,video,it,3,4,3,4,4,1,1,1,3,2,Genova;servizi di prossimità;ex Ilva;mobilità;decentramento;studentato;debiti AMT;Val Bisagno,positive,medium
+2026-01-01_001,video,it,1,2,1,1,1,1,1,1,1,1,festa;Genova;piazza della Vittoria;grande musica;ripartire;lavoro,positive,low
+2026-01-04_001,image,it,1,1,1,1,1,1,1,1,1,1,neve;sosta;batterie;ripartire,positive,none
+2026-01-06_001,image,it,1,1,1,1,1,1,2,1,1,1,Befana;Genova;Comune;famiglie;Natale;piazza Matteotti,positive,none
+2026-01-07_001,video,it,1,1,1,1,1,3,1,1,4,1,sindaco;provocazioni;classe dirigente;galateo;istituzioni;attacchi personali,negative,medium
+2026-01-09_001,video,it,1,2,1,1,1,1,1,1,1,1,Fiamma Olimpica;Genova;Olimpiadi;investimenti;valori olimpici;Milano-Cortina 2026,positive,none
+2026-01-10_001,image,it,1,1,1,3,1,1,1,1,1,1,fiamma olimpica;pace;solidarietà;ospedale gaslini;speranza;comunità,positive,none
+2026-01-11_001,video,it,1,1,1,1,2,1,2,1,5,1,Winter Park;Faccetta nera;nostalgie fasciste;simboli fascismo;Genova;antifascista;sanzioni,negative,high
+2026-01-11_002,image,it,1,1,1,1,1,1,1,1,1,1,Fabrizio De André;Genova;identità culturale;margini;umanità;libertà,positive,none
+2026-01-12_001,video,it,5,1,1,1,1,1,2,1,2,1,cura del territorio;spazi pubblici;manutenzione;municipi;aree verdi;riordino,positive,low
+2026-01-13_001,video,it,1,3,4,1,2,4,1,2,5,4,Iran;democrazia;libertà;inflazione;diritti;donne;repressione;Genova,negative,high
+2026-01-14_001,video,it,5,1,1,4,1,2,2,1,1,1,verde pubblico;task force;stanziamento fondi;cambiamenti climatici;monitoraggio piante;benessere;Genova,positive,low
+2026-01-18_001,image,it,1,3,3,3,4,1,5,2,3,1,disagio giovanile;sicurezza;politiche sociali;investire scuole;sostegno psicologico;realtà politica,negative,high
+2026-01-19_001,video,it,1,4,3,1,1,1,2,1,1,1,ponti;impalcati;sicurezza;infrastrutture;fondi;Genova;emergenza,negative,medium
+2026-01-19_002,video,it,1,3,2,1,1,1,1,1,3,1,Amt;fallimento;Comune di Genova;risanamento;debito;bilancio;giunta di destra,negative,high
+2026-01-23_001,video,it,1,5,1,1,2,1,3,1,5,1,Guido Rossa;operaio;delegato sindacale;lotta operaia;democrazia;sacrificio;industria,positive,medium
+2026-01-26_001,video,it,1,2,1,2,5,1,1,1,1,1,scuole dell'infanzia;emergenza insegnanti;servizio pubblico;assunzione personale;piano formativo;Genova,positive,low
+2026-01-27_001,video,it,1,1,1,1,2,3,3,1,5,1,fascismo;memoria;diritti umani;democrazia;progressismo;leggi razziali,negative,high
+2026-01-28_001,video,it,1,1,1,1,1,1,5,1,3,1,sicurezza;paura;speranza;governo;dati;città metropolitane;centrodestra,negative,high
+2026-01-29_001,video,it,1,2,2,4,1,1,1,1,2,5,persone senza dimora;volontariato;solidarietà;Genova;rilevazione;assistenza;istituzioni,mixed,medium
+2026-01-30_001,video,it,1,4,3,1,1,1,1,1,3,1,Amt;bilancio 2024;debiti;risanamento;trasporto pubblico;fallimento;servizio,negative,medium
+2026-01-30_002,video,it,4,2,2,3,4,1,1,1,1,3,giunta itinerante;ex ospedale psichiatrico;aree verdi;decoro urbano;scuole;sopralluoghi,positive,medium
+2026-02-01_001,video,it,1,1,1,1,1,1,1,2,5,1,Giulio Regeni;verità;giustizia;diritti umani;democrazia;Genova;Palazzo Tursi,negative,high
+2026-02-03_001,image,it,1,1,1,1,1,1,1,1,3,1,Giulio Regeni;verità e giustizia;Palazzo Tursi;relazioni con l'Egitto;ricordo;governo italiano,negative,medium
+2026-02-04_001,image,it,1,1,1,1,1,1,1,1,1,1,concerto;Fiorella Mannoia;Fabrizio De André;solitudine;margini;cultura;Genova,positive,none
+2026-02-05_001,image,it,1,1,1,2,5,1,1,1,1,1,scuole;educazione;sistema educativo;vandalismo;scuola pubblica;spirito critico,positive,low
+2026-02-07_001,image,it,1,1,1,1,1,1,1,1,1,1,Olimpiadi;Milano Cortina 2026;sport;armonia;atleta;resilienza;sogni,positive,none
+2026-02-08_001,image,it,1,2,3,1,1,1,1,1,3,2,Infrastrutture;finanziamenti;Genova;trasporti;progetti;amministrazione;Rixi,negative,high
+2026-02-09_001,image,it,1,1,1,1,1,1,1,1,1,1,Genova;sport;pallanuoto;Ju Jitsu;evento;organizzazione;atleti,positive,none
+2026-02-10_001,image,it,1,1,1,1,1,1,1,1,2,1,elezioni;Comune;poteri forti;politica;memoria;papà,negative,none
+2026-02-11_001,video,it,1,2,1,1,1,1,1,2,1,1,turismo;Genova;crescita;turisti stranieri;eventi;sviluppo urbano,positive,low
+2026-02-12_001,video,it,1,2,1,3,1,1,1,1,3,1,riqualificazione;stadio;interesse pubblico;concessione;investimento;servizi pubblici;trasparenza,positive,medium
+2026-02-14_001,image,it,1,1,1,1,1,1,1,1,1,1,Cremona;Talk;podcast;notizie;Teatro Ponchielli;direttore,positive,none
+2026-02-15_001,image,it,1,1,1,1,1,1,1,1,1,1,Carnevale;Genova;tradizione popolare;spazi pubblici;cultura;socialità,positive,none
+2026-02-18_001,video,it,5,2,1,1,1,1,1,1,1,1,raccolta differenziata;Genova;spazi comuni;servizi efficienti;campagna AMIU;gesto semplice,positive,none
+2026-02-19_001,video,it,1,3,4,2,4,1,3,1,3,1,Genova;sindaca;età media;giovani;esodo;servizi per i giovani;politica progressista,mixed,low
+2026-02-19_002,image,it,3,1,1,3,1,1,3,1,1,4,maltempo;cedimento muraglione;evacuazione;assistenza abitativa;intervento strutturale;prevenzione,negative,medium
+2026-02-22_001,image,it,1,1,1,3,1,1,1,1,1,1,donare sangue;Fidas;volontariato;solidarietà;Genova,positive,none
+2026-02-24_001,video,it,1,1,1,1,1,1,5,1,2,1,sicurezza urbana;pattuglie;polizia locale;prevenzione;centro storico;zone a vigilanza rafforzata,positive,medium
+2026-02-25_001,video,it,1,4,1,1,1,1,1,1,3,1,Stadio Luigi Ferraris;riqualificazione;concessione;interesse pubblico;investimento privato;risorse pubbliche,negative,high
+2026-02-27_001,video,it,2,1,3,4,4,1,1,1,3,3,Valpolcevera;giunte itineranti;decentramento;cantieri pubblici;allagamenti;poliambulatorio;scuola di infanzia;progetti sociali,positive,low

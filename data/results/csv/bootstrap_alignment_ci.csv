@@ -1,0 +1,4 @@
+politician,n_posts,spearman_rho,rho_ci_low_95,rho_ci_high_95,rho_ci_width,rho_share_cross_0,kendall_tau,tau_ci_low_95,tau_ci_high_95,tau_ci_width,tau_share_cross_0,n_boot
+Elly Schlein,233,0.189028,0.067279,0.359763,0.292484,0.0005,0.204598,0.09196,0.295531,0.203571,0.0,2000
+Giuseppe Conte,231,0.085367,-0.006098,0.280493,0.286591,0.0565,0.068199,0.022733,0.204598,0.181865,0.0025,2000
+Giorgia Meloni,278,0.006116,-0.067279,0.298471,0.36575,0.1845,0.04598,-0.04598,0.250065,0.296045,0.0665,2000

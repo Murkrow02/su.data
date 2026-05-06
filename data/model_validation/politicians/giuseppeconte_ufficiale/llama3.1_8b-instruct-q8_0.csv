@@ -1,0 +1,11 @@
+folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
+2025-12-10_001,image,it,1,2,1,3,1,1,5,4,2,1,sicurezza;polizia;agenti;stipendi;pensione;risorse;Albania,negative,medium
+2025-09-18_001,image,it,4,5,1,1,5,1,1,1,3,1,intelligenza artificiale;lavoro;istruzione;ambiente;democrazia,neutral,none
+2025-09-05_002,video,it,1,1,1,1,1,1,5,1,2,1,Gaza;assedio;Palestina;Netanyahu;sanzioni;riconoscimento dello Stato di Palestina,negative,high
+2026-01-06_001,video,it,1,1,1,1,1,1,5,1,4,1,diritto internazionale;patriottismo;servilismo;Venezuela;attacco militare;sovranismo,negative,high
+2025-10-11_001,image,it,1,1,1,2,1,1,4,1,5,3,sport;inclusione sociale;democrazia;legalità;comunità,positive,low
+2025-10-07_001,video,it,1,1,1,1,1,1,5,1,4,1,blocco navale;Gaza;genocidio;carestia;accordi di cooperazione militare,negative,high
+2025-10-03_003,video,it,1,1,1,1,1,1,4,2,5,1,manifestazioni;piazze;estremismo;Gaza;Italia;croati parlamentari;detenuti italiani,negative,high
+2025-09-23_002,image,it,1,5,4,4,2,1,1,1,3,1,imprese;stipendi;liste d'attesa;Pnrr;giovani;salario minimo regionale,negative,medium
+2026-01-03_001,image,it,1,1,1,1,1,1,5,1,4,1,Venezuela;attacco americano;diritto internazionale;regole del gioco;sovrani;governo Meloni,negative,high
+2025-09-17_003,image,it,1,1,1,1,2,1,1,1,1,1,atletica;mondiali;oro,positive,none

@@ -1,0 +1,41 @@
+Entità,Metrica,Topic,Rank,Valore
+Giovani IT,EB %,Ambiente e clima,1.0,0.46
+Giovani IT,EB %,Lavoro e economia,2.0,0.38
+Giovani IT,EB %,Costo della vita,3.5,0.34
+Giovani IT,EB %,Salute e welfare,3.5,0.34
+Giovani IT,EB %,Istruzione e formazione,5.0,0.26
+Giovani IT,EB %,Uguaglianza di genere,6.0,0.24
+Giovani IT,EB %,Difesa e sicurezza,7.0,0.16
+Giovani IT,EB %,Immigrazione,8.5,0.15
+Giovani IT,EB %,Democrazia e legalità,8.5,0.15
+Giovani IT,EB %,Abitazione,10.0,0.09
+Elly Schlein,Coverage ≥3,Democrazia e legalità,1.0,1.0
+Elly Schlein,Coverage ≥3,Lavoro e economia,2.0,0.8889
+Elly Schlein,Coverage ≥3,Salute e welfare,3.0,0.7778
+Elly Schlein,Coverage ≥3,Costo della vita,4.0,0.6667
+Elly Schlein,Coverage ≥3,Difesa e sicurezza,5.0,0.5556
+Elly Schlein,Coverage ≥3,Istruzione e formazione,6.0,0.4444
+Elly Schlein,Coverage ≥3,Uguaglianza di genere,7.0,0.3333
+Elly Schlein,Coverage ≥3,Abitazione,8.0,0.2222
+Elly Schlein,Coverage ≥3,Ambiente e clima,9.0,0.1111
+Elly Schlein,Coverage ≥3,Immigrazione,10.0,0.0
+Giorgia Meloni,Coverage ≥3,Democrazia e legalità,1.0,1.0
+Giorgia Meloni,Coverage ≥3,Difesa e sicurezza,2.0,0.8889
+Giorgia Meloni,Coverage ≥3,Lavoro e economia,3.0,0.7778
+Giorgia Meloni,Coverage ≥3,Salute e welfare,4.5,0.6111
+Giorgia Meloni,Coverage ≥3,Immigrazione,4.5,0.6111
+Giorgia Meloni,Coverage ≥3,Ambiente e clima,6.0,0.4444
+Giorgia Meloni,Coverage ≥3,Costo della vita,7.0,0.3333
+Giorgia Meloni,Coverage ≥3,Istruzione e formazione,8.0,0.2222
+Giorgia Meloni,Coverage ≥3,Abitazione,9.0,0.1111
+Giorgia Meloni,Coverage ≥3,Uguaglianza di genere,10.0,0.0
+Giuseppe Conte,Coverage ≥3,Democrazia e legalità,1.0,1.0
+Giuseppe Conte,Coverage ≥3,Lavoro e economia,2.0,0.8889
+Giuseppe Conte,Coverage ≥3,Difesa e sicurezza,3.0,0.7778
+Giuseppe Conte,Coverage ≥3,Costo della vita,4.0,0.6667
+Giuseppe Conte,Coverage ≥3,Salute e welfare,5.0,0.5556
+Giuseppe Conte,Coverage ≥3,Istruzione e formazione,6.0,0.4444
+Giuseppe Conte,Coverage ≥3,Abitazione,7.0,0.3333
+Giuseppe Conte,Coverage ≥3,Ambiente e clima,8.0,0.2222
+Giuseppe Conte,Coverage ≥3,Immigrazione,9.0,0.1111
+Giuseppe Conte,Coverage ≥3,Uguaglianza di genere,10.0,0.0

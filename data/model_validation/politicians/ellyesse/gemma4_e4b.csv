@@ -1,0 +1,11 @@
+folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
+2025-09-23_002,image,it,1,3,1,3,3,1,1,1,1,1,elezioni regionali;Marche;sanità pubblica;lavoro dignitoso;scuola;diritti,positive,medium
+2025-09-07_003,image,it,1,5,5,5,1,1,1,1,3,1,carovita;bollette;salario minimo;sanità;produzione industriale;energia;PNRR;coalizione,negative,high
+2025-12-03_001,video,it,1,1,1,1,5,5,1,1,2,1,violenza di genere;educazione sessuale;scuole primarie;scuole secondarie;violenza patriarcale;educazione all'affettività,negative,high
+2025-11-19_002,image,it,1,1,1,1,1,5,1,1,3,1,consenso;violenza di genere;stupro;diritto;atto sessuale;legislazione,positive,low
+2025-11-14_002,image,it,1,1,1,1,1,1,1,1,1,1,Veneto;Giovanni Manlido;Partito Democratico;evento;Verona;Belluno,neutral,none
+2025-10-02_001,video,it,1,3,1,1,1,1,2,1,4,1,Netanyahu;Flottiglia;diritto internazionale;manifestazioni;diritto di sciopero;Gaza;pirateria,negative,high
+2025-09-21_006,image,it,,,,,,,,,,,,,
+2025-09-20_001,image,it,1,1,1,1,1,1,1,1,1,1,Calabria;SCHLEIN;SAN GIOVANNI IN FIORE;CS;evento,neutral,none
+2026-02-06_003,image,it,3,1,4,1,1,1,1,1,1,5,piano casa;emergenza abitativa;affitti;beni confiscati;cooperative;diritto all'abitare;rigenerazione urbana,negative,high
+2025-09-09_002,image,it,1,1,1,1,1,1,1,1,1,1,Marche;candidato presidente;S.Benedetto del Tronto;ASGOLIPICEND;Pan Democratic,neutral,low

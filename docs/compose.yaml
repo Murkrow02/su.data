@@ -1,0 +1,12 @@
+services:
+  # `docker compose up` — watch mode: ricompila ad ogni salvataggio di .tex/.bib
+  latex:
+    build: .
+    image: hds-latex
+    volumes:
+      - .:/docs
+    # -pvc  = preview-continuous (watch loop)
+    # -view = none  (nessun viewer da aprire nel container)
+    command: ["-pvc", "-view=none", "relazione.tex"]
+    stdin_open: true
+    tty: true

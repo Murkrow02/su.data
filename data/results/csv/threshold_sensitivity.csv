@@ -1,0 +1,91 @@
+politician,threshold,topic,youth_rank,coverage,rank
+Elly Schlein,2,Democrazia e legalità,8.5,0.7082,1.0
+Elly Schlein,2,Lavoro e economia,2.0,0.3433,2.0
+Elly Schlein,2,Salute e welfare,3.5,0.2661,3.0
+Elly Schlein,2,Costo della vita,3.5,0.2532,4.0
+Elly Schlein,2,Difesa e sicurezza,7.0,0.2403,5.0
+Elly Schlein,2,Istruzione e formazione,5.0,0.1459,6.0
+Elly Schlein,2,Uguaglianza di genere,6.0,0.1245,7.0
+Elly Schlein,2,Abitazione,10.0,0.0987,8.0
+Elly Schlein,2,Ambiente e clima,1.0,0.073,9.0
+Elly Schlein,2,Immigrazione,8.5,0.0472,10.0
+Elly Schlein,3,Democrazia e legalità,8.5,0.5365,1.0
+Elly Schlein,3,Lavoro e economia,2.0,0.3004,2.0
+Elly Schlein,3,Salute e welfare,3.5,0.2318,3.0
+Elly Schlein,3,Costo della vita,3.5,0.2103,4.0
+Elly Schlein,3,Difesa e sicurezza,7.0,0.176,5.0
+Elly Schlein,3,Istruzione e formazione,5.0,0.1202,6.0
+Elly Schlein,3,Uguaglianza di genere,6.0,0.0858,7.0
+Elly Schlein,3,Abitazione,10.0,0.0773,8.0
+Elly Schlein,3,Ambiente e clima,1.0,0.0687,9.0
+Elly Schlein,3,Immigrazione,8.5,0.0343,10.0
+Elly Schlein,4,Democrazia e legalità,8.5,0.3305,1.0
+Elly Schlein,4,Lavoro e economia,2.0,0.1931,2.0
+Elly Schlein,4,Salute e welfare,3.5,0.1502,3.0
+Elly Schlein,4,Costo della vita,3.5,0.1116,4.0
+Elly Schlein,4,Difesa e sicurezza,7.0,0.0601,5.0
+Elly Schlein,4,Uguaglianza di genere,6.0,0.0558,6.0
+Elly Schlein,4,Istruzione e formazione,5.0,0.0472,7.5
+Elly Schlein,4,Abitazione,10.0,0.0472,7.5
+Elly Schlein,4,Ambiente e clima,1.0,0.0258,9.0
+Elly Schlein,4,Immigrazione,8.5,0.0172,10.0
+Giorgia Meloni,2,Democrazia e legalità,8.5,0.5288,1.0
+Giorgia Meloni,2,Difesa e sicurezza,7.0,0.3921,2.0
+Giorgia Meloni,2,Lavoro e economia,2.0,0.3597,3.0
+Giorgia Meloni,2,Salute e welfare,3.5,0.1187,4.0
+Giorgia Meloni,2,Immigrazione,8.5,0.1007,5.0
+Giorgia Meloni,2,Costo della vita,3.5,0.0935,6.0
+Giorgia Meloni,2,Ambiente e clima,1.0,0.0899,7.0
+Giorgia Meloni,2,Istruzione e formazione,5.0,0.0612,8.0
+Giorgia Meloni,2,Uguaglianza di genere,6.0,0.0324,9.5
+Giorgia Meloni,2,Abitazione,10.0,0.0324,9.5
+Giorgia Meloni,3,Democrazia e legalità,8.5,0.3669,1.0
+Giorgia Meloni,3,Difesa e sicurezza,7.0,0.3201,2.0
+Giorgia Meloni,3,Lavoro e economia,2.0,0.3129,3.0
+Giorgia Meloni,3,Salute e welfare,3.5,0.0791,4.5
+Giorgia Meloni,3,Immigrazione,8.5,0.0791,4.5
+Giorgia Meloni,3,Ambiente e clima,1.0,0.0755,6.0
+Giorgia Meloni,3,Costo della vita,3.5,0.0576,7.0
+Giorgia Meloni,3,Istruzione e formazione,5.0,0.0468,8.0
+Giorgia Meloni,3,Abitazione,10.0,0.0252,9.0
+Giorgia Meloni,3,Uguaglianza di genere,6.0,0.0108,10.0
+Giorgia Meloni,4,Difesa e sicurezza,7.0,0.2338,1.0
+Giorgia Meloni,4,Democrazia e legalità,8.5,0.1763,2.0
+Giorgia Meloni,4,Lavoro e economia,2.0,0.1691,3.0
+Giorgia Meloni,4,Immigrazione,8.5,0.0576,4.0
+Giorgia Meloni,4,Costo della vita,3.5,0.036,5.0
+Giorgia Meloni,4,Ambiente e clima,1.0,0.0252,6.0
+Giorgia Meloni,4,Salute e welfare,3.5,0.0216,7.5
+Giorgia Meloni,4,Istruzione e formazione,5.0,0.0216,7.5
+Giorgia Meloni,4,Abitazione,10.0,0.0144,9.0
+Giorgia Meloni,4,Uguaglianza di genere,6.0,0.0036,10.0
+Giuseppe Conte,2,Democrazia e legalità,8.5,0.7446,1.0
+Giuseppe Conte,2,Lavoro e economia,2.0,0.5238,2.0
+Giuseppe Conte,2,Difesa e sicurezza,7.0,0.4372,3.0
+Giuseppe Conte,2,Costo della vita,3.5,0.3983,4.0
+Giuseppe Conte,2,Salute e welfare,3.5,0.3247,5.0
+Giuseppe Conte,2,Istruzione e formazione,5.0,0.1775,6.0
+Giuseppe Conte,2,Abitazione,10.0,0.0952,7.0
+Giuseppe Conte,2,Ambiente e clima,1.0,0.0693,8.0
+Giuseppe Conte,2,Immigrazione,8.5,0.0606,9.0
+Giuseppe Conte,2,Uguaglianza di genere,6.0,0.026,10.0
+Giuseppe Conte,3,Democrazia e legalità,8.5,0.5065,1.0
+Giuseppe Conte,3,Lavoro e economia,2.0,0.4242,2.0
+Giuseppe Conte,3,Difesa e sicurezza,7.0,0.3463,3.0
+Giuseppe Conte,3,Costo della vita,3.5,0.3203,4.0
+Giuseppe Conte,3,Salute e welfare,3.5,0.2987,5.0
+Giuseppe Conte,3,Istruzione e formazione,5.0,0.1558,6.0
+Giuseppe Conte,3,Abitazione,10.0,0.0693,7.0
+Giuseppe Conte,3,Ambiente e clima,1.0,0.0649,8.0
+Giuseppe Conte,3,Immigrazione,8.5,0.0433,9.0
+Giuseppe Conte,3,Uguaglianza di genere,6.0,0.0173,10.0
+Giuseppe Conte,4,Lavoro e economia,2.0,0.2857,1.0
+Giuseppe Conte,4,Democrazia e legalità,8.5,0.2468,2.0
+Giuseppe Conte,4,Costo della vita,3.5,0.2035,3.0
+Giuseppe Conte,4,Difesa e sicurezza,7.0,0.1732,4.0
+Giuseppe Conte,4,Salute e welfare,3.5,0.1342,5.0
+Giuseppe Conte,4,Istruzione e formazione,5.0,0.0476,6.0
+Giuseppe Conte,4,Immigrazione,8.5,0.026,7.5
+Giuseppe Conte,4,Abitazione,10.0,0.026,7.5
+Giuseppe Conte,4,Ambiente e clima,1.0,0.0043,9.5
+Giuseppe Conte,4,Uguaglianza di genere,6.0,0.0043,9.5

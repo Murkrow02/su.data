@@ -1,0 +1,11 @@
+folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
+2025-09-23_002,image,it,1,4,3,5,4,2,1,1,2,1,elezioni;sanità pubblica;lavoro dignitoso;scuola;diritti,positive,high
+2025-09-07_003,image,it,1,5,4,5,1,1,1,1,2,3,precariato;giovani;stipendi;contratti;salario_minimo;bollette_energia;dazi_Trump,negative,medium
+2025-12-03_001,video,it,1,1,1,5,4,5,2,1,3,1,violenza di genere;educazione sessuale;scuole primarie,negative,medium
+2025-11-19_002,image,it,1,1,1,5,1,4,3,1,2,1,consenso;violenza di genere;stupro;legge italiana,positive,low
+2025-11-14_002,image,it,1,2,1,1,1,1,1,1,4,1,Giovanni Manlido;Partito Democratico;Veneto;elezioni,positive,low
+2025-10-02_001,video,it,,,,,,,,,,,,,
+2025-09-21_006,image,it,1,5,2,4,1,1,1,1,3,1,sanità pubblica;lavoro dignitoso;voto;elezioni;Presidente,positive,high
+2025-09-20_001,image,it,1,1,1,1,1,1,1,1,2,1,Calabria;SCHLEIN;San Giovanni in Fiore,neutral,none
+2026-02-06_003,image,it,4,3,5,1,1,1,1,1,2,5,piano casa;abitare sostenibile;giustizia climatica,negative,high
+2025-09-09_002,image,it,1,2,1,1,1,1,1,1,4,3,Fermo;Asgolipicend;Pi,negative,high
