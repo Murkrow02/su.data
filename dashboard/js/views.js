@@ -45,6 +45,7 @@ import {
 } from "./charts.js";
 
 export function setActiveNav(route) {
+  if (route !== "/about" && window.__researchScrollCleanup) window.__researchScrollCleanup();
   document.querySelectorAll(".nav a").forEach((link) => {
     link.classList.toggle("is-active", link.dataset.link === route);
   });
@@ -131,249 +132,331 @@ export function renderLanding() {
 
 export function renderAbout() {
   setActiveNav("/about");
+  if (window.__researchScrollCleanup) window.__researchScrollCleanup();
 
-  const pipelineSteps = [
-    {
-      n: "01",
-      tag: "Raccolta",
-      title: "Il corpus diventa il fatto.",
-      body: "Per ogni profilo monitorato vengono recuperati tutti i post pubblicati nel periodo di analisi: caption, immagini, caroselli, video. Niente storie, niente commenti, niente metriche di engagement. Solo ciò che il politico ha scelto pubblicamente di dire.",
-    },
-    {
-      n: "02",
-      tag: "Lettura totale",
-      title: "Niente resta fuori dal testo.",
-      body: "La comunicazione su Instagram è multimodale: le immagini contengono slogan, infografiche, dati. I video parlano. Vengono lette tutte e tre le cose — testo della caption, testo dentro le immagini, parlato dei video — e fuse in un'unica rappresentazione testuale del post.",
-    },
-    {
-      n: "03",
-      tag: "Classificazione",
-      title: "Dieci temi, uno score per ciascuno.",
-      body: "Ogni post viene valutato su tutti e dieci i topic Eurobarometer con una scala 1–5: assente, marginale, presente, rilevante, dominante. Un post non appartiene a un solo tema: ne tocca diversi, con intensità diverse, e questo viene misurato in parallelo.",
-    },
-    {
-      n: "04",
-      tag: "Misurazione",
-      title: "Dalla singola voce al profilo.",
-      body: "Gli score per post diventano una firma tematica del profilo: media, coverage (quanto spesso il tema viene davvero trattato), ranking. È la mappa della voce pubblica del politico — non un'impressione, ma una distribuzione numerica su dieci assi.",
-    },
-    {
-      n: "05",
-      tag: "Confronto",
-      title: "Quanto è ampio il gap.",
-      body: "Il ranking tematico del politico viene messo a confronto con quello dei giovani via Spearman, Kendall e Top-K. Una linea orizzontale è allineamento; una diagonale è uno scarto. La distanza tra le due gerarchie è il gap semantico.",
-    },
-  ];
+  const youthItems = topicColumns.map((topic, index) => ({
+    ...topic,
+    value: youthPriorityValues[index],
+    rank: index + 1,
+  }));
 
-  const pipelineHTML = pipelineSteps
+  const topYouthItems = youthItems.slice(0, 5);
+  const allTopics = youthItems
     .map(
-      (s) => `
-    <article class="about-pipeline-step">
-      <span class="ix">${s.n}</span>
-      <span class="tag">${s.tag}</span>
-      <h3>${s.title}</h3>
-      <p>${s.body}</p>
-    </article>`,
+      (topic, index) => `
+        <li style="--topic:${topic.color}; --w:${Math.round(topic.value * 100)}%">
+          <span class="research-topic-index">${String(index + 1).padStart(2, "0")}</span>
+          <span class="research-topic-dot"></span>
+          <strong>${escapeHtml(topic.label)}</strong>
+          <em>${Math.round(topic.value * 100)}%</em>
+          <span class="research-topic-bar"><i></i></span>
+        </li>
+      `,
     )
     .join("");
 
+  const speakerSlides = [
+    {
+      eyebrow: "01 / Domanda",
+      title: "Il punto di partenza è una distanza misurabile.",
+      tone: "question",
+      copy: `
+        <p>La ricerca nasce da una domanda precisa: l'ordine dei temi nei post Instagram dei leader politici italiani è compatibile con l'ordine delle priorità dichiarate dai giovani?</p>
+        <p>Non vogliamo dire genericamente che giovani e politica sembrano lontani. Vogliamo capire se questa distanza compare anche nella gerarchia dei temi.</p>
+      `,
+      aside: `
+        <div class="research-question-card">
+          <span>Domanda guida</span>
+          <strong>Agenda dei giovani</strong>
+          <i>vs</i>
+          <strong>Agenda comunicativa su Instagram</strong>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "02 / Concetto",
+      title: "Il gap semantico non giudica i politici: confronta due ranking.",
+      tone: "compare",
+      copy: `
+        <p>Da una parte c'è la classifica delle priorità giovanili. Dall'altra c'è la classifica dei temi più presenti nei contenuti dei politici.</p>
+        <p>Il punto è circoscritto: quanto la comunicazione pubblica su Instagram ricalca, oppure non ricalca, la gerarchia di priorità dei giovani italiani?</p>
+      `,
+      aside: `
+        <div class="research-compare">
+          <article><span>A</span><strong>Priorità giovanili</strong><p>Temi scelti dai giovani italiani tra 16 e 30 anni.</p></article>
+          <article><span>B</span><strong>Agenda politica</strong><p>Temi presenti nei post Instagram dei leader analizzati.</p></article>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "03 / Fonte",
+      title: "La survey scelta doveva produrre una lista ordinabile.",
+      tone: "source",
+      copy: `
+        <p>Usiamo il Flash Eurobarometer EP013EP del Parlamento Europeo, rivolto ai giovani tra 16 e 30 anni nei 27 Stati membri.</p>
+        <p>Per l'Italia, la domanda Q2 chiede quali tre problemi l'Unione Europea dovrebbe affrontare come priorità nei prossimi cinque anni. Questo ci dà una base direttamente trasformabile in ranking.</p>
+      `,
+      aside: `
+        <div class="research-source-card">
+          <span>Fonte survey</span>
+          <strong>Flash Eurobarometer EP013EP</strong>
+          <p>${escapeHtml(youthSurveySource)}</p>
+          <small>Domanda pick top-3 su lista chiusa</small>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "04 / Ranking giovani",
+      title: "L'Eurobarometro diventa la gerarchia di riferimento.",
+      tone: "ranking",
+      copy: `
+        <p>Ogni tema ha una percentuale di selezione. Ordinando queste percentuali otteniamo il ranking giovanile.</p>
+        <p>Ambiente e clima è al primo posto; lavoro ed economia segue; costo della vita e salute e welfare condividono il terzo posto medio. I pareggi vengono trattati con rank medio.</p>
+      `,
+      aside: `
+        <ol class="research-rank-preview">
+          ${topYouthItems
+            .map(
+              (topic) => `
+                <li style="--topic:${topic.color}; --w:${Math.round(topic.value * 100)}%">
+                  <span>${topic.rank}</span>
+                  <strong>${escapeHtml(topic.label)}</strong>
+                  <em>${Math.round(topic.value * 100)}%</em>
+                  <i></i>
+                </li>
+              `,
+            )
+            .join("")}
+        </ol>
+      `,
+    },
+    {
+      eyebrow: "05 / Scelte escluse",
+      title: "Abbiamo scartato fonti e topic che non erano davvero confrontabili.",
+      tone: "decision",
+      copy: `
+        <p>I dati ISTAT sugli aspetti della vita quotidiana erano ricchi, ma troppo dispersi: non producevano una classifica esplicita di priorità politiche.</p>
+        <p>Anche i topic estratti automaticamente con BERT avrebbero creato un confronto fragile, perché i topic emersi dai post non coincidono necessariamente con quelli chiusi della survey.</p>
+      `,
+      aside: `
+        <div class="research-decision-grid">
+          <article><span>Scartato</span><strong>ISTAT</strong><p>Quadro ampio, ma non ranking politico diretto.</p></article>
+          <article><span>Scartato</span><strong>Topic automatici</strong><p>Spazi tematici non perfettamente sovrapponibili.</p></article>
+          <article><span>Scelto</span><strong>10 temi comuni</strong><p>Stessa griglia per survey e Instagram.</p></article>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "06 / Vocabolario comune",
+      title: "La soluzione è usare i dieci temi come griglia fissa.",
+      tone: "topics",
+      copy: `
+        <p>Ogni post viene valutato rispetto agli stessi dieci temi dell'Eurobarometro. In questo modo il confronto non avviene tra oggetti diversi, ma dentro un vocabolario controllato.</p>
+        <p>La domanda diventa più solida: tra questi dieci temi, quali sono centrali per i giovani e quali sono più presenti nella comunicazione politica?</p>
+      `,
+      aside: `
+        <ul class="research-topic-list">
+          ${allTopics}
+        </ul>
+      `,
+    },
+    {
+      eyebrow: "07 / Campo di osservazione",
+      title: "Instagram è il canale scelto perché intercetta il pubblico giovane.",
+      tone: "roster",
+      copy: `
+        <p>L'Eurobarometro indica Instagram come primo canale digitale per l'informazione politica tra i giovani italiani di 16-30 anni.</p>
+        <p>I profili analizzati sono Giorgia Meloni, Elly Schlein e Giuseppe Conte: leader dei tre principali partiti italiani alle elezioni politiche del 2022, con volumi di attività confrontabili.</p>
+      `,
+      aside: `
+        <div class="research-roster-mini">
+          ${politicians
+            .filter((person) => ["giorgiameloni", "ellyesse", "giuseppeconte_ufficiale"].includes(person.id))
+            .map(
+              (person) => `
+                <article style="--photo:url('${person.photo}'); --accent:${person.palette[1]}">
+                  <span></span>
+                  <div>
+                    <strong>${escapeHtml(person.name)}</strong>
+                    <em>${escapeHtml(person.party)}</em>
+                  </div>
+                </article>
+              `,
+            )
+            .join("")}
+        </div>
+      `,
+    },
+    {
+      eyebrow: "08 / Unità di analisi",
+      title: "Un post non è solo caption: è contenuto multimodale.",
+      tone: "modal",
+      copy: `
+        <p>Instagram combina testo scritto, grafiche e video. Per questo ogni post viene trasformato in un testo unificato composto da caption, OCR delle immagini e trascrizione audio dei reel.</p>
+        <p>Così evitiamo una misura parziale: molti post affidano il messaggio principale a una card o al parlato, non alla sola descrizione.</p>
+      `,
+      aside: `
+        <div class="research-modal-card">
+          <span>Post Instagram</span>
+          <strong>Caption</strong>
+          <strong>OCR immagini</strong>
+          <strong>Trascrizione reel</strong>
+          <i>testo unificato</i>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "09 / Chiusura prima fase",
+      title: "Il ranking è la lingua comune tra survey e Instagram.",
+      tone: "closing",
+      copy: `
+        <p>Le percentuali dell'Eurobarometro e gli score ricavati dai post non sono numeri direttamente comparabili.</p>
+        <p>Per questo l'analisi si sposta sul livello ordinale: non chiediamo se il 46% della survey equivalga a una percentuale di post, ma se i temi alti per i giovani restano alti anche nell'agenda comunicativa dei politici.</p>
+      `,
+      aside: `
+        <div class="research-closing-card">
+          <span>Messaggio da portare avanti</span>
+          <strong>Non confrontiamo scale diverse. Confrontiamo gerarchie di temi.</strong>
+        </div>
+      `,
+    },
+  ];
+
   app.innerHTML = `
-    <section class="about-hero">
-      <div class="about-hero-title">
-        <p class="kicker">Progetto accademico · Human Data Science · A.A. 2024–25</p>
-        <h1>C'è una distanza tra <em>ciò che i giovani chiedono</em> e ciò di cui la politica <em>parla davvero</em>.</h1>
-      </div>
-      <div class="about-hero-foot">
-        <p>La chiamiamo <strong>gap semantico</strong>. Non la stimiamo: la <strong>misuriamo</strong>, post dopo post, confrontando la comunicazione Instagram di leader politici italiani con le priorità dichiarate dai giovani 16-30 nella survey europea.</p>
-        <div class="about-hero-actions">
-          <a class="button primary" href="#/overview">Vedi i risultati</a>
-          <a class="button ghost" href="#/topics">Esplora i topic</a>
-        </div>
-      </div>
-    </section>
+    <section class="research-deck" aria-label="La ricerca, prima fase">
+      <nav class="research-progress" aria-label="Indice slide ricerca">
+        ${speakerSlides
+          .map(
+            (slide, index) => `
+              <button type="button" data-slide-jump="${index + 1}" aria-label="Vai alla slide ${index + 1}">
+                <span>${String(index + 1).padStart(2, "0")}</span>
+              </button>
+            `,
+          )
+          .join("")}
+      </nav>
 
-    <section class="about-project">
-      <header>
-        <p class="kicker">Il progetto</p>
-        <h2>Misurare, non stimare.</h2>
-      </header>
-      <div class="about-project-grid">
-        <div class="about-project-block">
-          <span class="ix">La domanda</span>
-          <p>I leader politici italiani parlano davvero di ciò che i giovani considerano prioritario? La risposta intuitiva è «no» — ma intuizioni senza misura sono opinioni. Questo progetto prende la domanda sul serio e costruisce una risposta numerica.</p>
-        </div>
-        <div class="about-project-block">
-          <span class="ix">Il metodo</span>
-          <p>Ogni post Instagram viene classificato su dieci temi da un modello linguistico locale. Il ranking tematico che ne emerge — quante volte ogni tema compare, con quale intensità — viene confrontato con le priorità dei giovani 16-30 rilevate dalla Flash Eurobarometer.</p>
-        </div>
-        <div class="about-project-block">
-          <span class="ix">Il risultato</span>
-          <p>Non un'opinione, ma tre numeri: ρ di Spearman, τ di Kendall e Top-K overlap quantificano con precisione quanto le due agende coincidono. Il gap non si legge tra le righe: si calcola.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="about-sources">
-      <header>
-        <p class="kicker">Le fonti</p>
-        <h2>Tre ingressi, una misura.</h2>
-        <p>I dati vengono da tre sistemi distinti che vivono in spazi di misura diversi. Il confronto finale avviene sui ranghi — l'unica lingua che tutti e tre parlano.</p>
-      </header>
-      <div class="about-sources-grid">
-        <article class="about-source-card">
-          <span class="src-num">01</span>
-          <h3>Le priorità dei giovani</h3>
-          <p>Il vocabolario tematico e le percentuali di priorità vengono dalla <strong>Flash Eurobarometer EP013EP</strong> — Youth Survey 2024, domanda Q2, giovani 16-30 anni, Italia. Il profilo demografico di sfondo è costruito sui microdati <strong>ISTAT AVQ</strong> (Aspetti della Vita Quotidiana, 2021–2023): 29 archetipi sintetici generati via LLM a partire da cluster sociodemografici reali.</p>
-          <div class="src-tag">Eurobarometer · ISTAT AVQ</div>
-        </article>
-        <article class="about-source-card">
-          <span class="src-num">02</span>
-          <h3>La comunicazione politica</h3>
-          <p>Per ogni profilo monitorato vengono scaricati tutti i post pubblici del periodo. La lettura è <strong>multimodale</strong>: caption testuale, testo estratto con OCR dalle immagini, parlato trascritto con <strong>Whisper</strong> dai video. Niente storie, niente commenti, nessuna metrica di engagement. Solo ciò che il politico ha scelto consapevolmente di pubblicare.</p>
-          <div class="src-tag">Instagram · OCR · Whisper</div>
-        </article>
-        <article class="about-source-card">
-          <span class="src-num">03</span>
-          <h3>La classificazione tematica</h3>
-          <p>Un LLM locale (<strong>Qwen3 14B via Ollama</strong>) valuta ogni post su ciascuno dei dieci topic con scala ordinale 1–5: assente, marginale, presente, rilevante, dominante. L'inferenza gira interamente in locale su hardware consumer: nessun testo lascia il sistema, nessuna API esterna coinvolta.</p>
-          <div class="src-tag">Qwen3 14B · Ollama · locale</div>
-        </article>
-      </div>
-    </section>
-
-    <section class="about-pipeline-band">
-      <header>
-        <p class="kicker">Il metodo</p>
-        <h2>Da un post alla misura del gap, in cinque passaggi.</h2>
-      </header>
-      <div class="about-pipeline-grid">${pipelineHTML}</div>
-    </section>
-
-    <section class="about-metrics-band">
-      <header>
-        <p class="kicker">Come si misura</p>
-        <h2>Tre metriche, un'unica domanda.</h2>
-        <p>Survey e post esistono in spazi di misura diversi: percentuali di risposta da un lato, score LLM dall'altro. Il confronto avviene sui ranghi — l'ordine è la lingua comune.</p>
-      </header>
-      <div class="about-metrics-grid">
-        <article class="about-metric">
-          <span class="ix">α</span>
-          <span class="tag">Coverage</span>
-          <h3>Quanto spesso il tema viene davvero trattato.</h3>
-          <div class="about-katex-formula">\\[ c_{i,p} = \\frac{1}{N_p} \\sum_{j=1}^{N_p} \\mathbf{1}[s_{i,j,p} \\geq 3] \\]</div>
-          <p>Conta la quota di post in cui il tema è almeno <em>presente</em> (score ≥ 3). È la metrica più confrontabile con la survey: una scelta esplicita, non una sfumatura di intensità.</p>
-        </article>
-        <article class="about-metric">
-          <span class="ix">β</span>
-          <span class="tag">Ranking ordinale</span>
-          <h3>Si confrontano gli ordini, non le quantità assolute.</h3>
-          <div class="about-katex-formula">\\[ \\rho = \\operatorname{corr}(r_y,\\, r_p) \\qquad \\tau = \\frac{C - D}{C + D} \\]</div>
-          <p>Spearman pesa gli scarti di rango ampi. Kendall confronta tutte le coppie di topic: C sono le coppie concordi, D quelle discordi. Entrambi vanno da −1 a +1.</p>
-        </article>
-        <article class="about-metric">
-          <span class="ix">γ</span>
-          <span class="tag">Top-K Overlap</span>
-          <h3>I temi caldi dei giovani sono caldi anche per i politici?</h3>
-          <div class="about-katex-formula">\\[ \\text{overlap}_k = |\\,T_{k,y} \\cap T_{k,p}\\,| \\]</div>
-          <p>Si confrontano i podi: i K topic più scelti dai giovani contro i K più trattati dal politico. Una misura immediata, leggibile senza calcoli.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="about-glossary">
-      <header>
-        <p class="kicker">Numeri del progetto</p>
-        <h2>I parametri in un colpo d'occhio.</h2>
-        <p>Tutti i valori numerici usati nelle analisi, raccolti in un unico riferimento.</p>
-      </header>
-      <dl class="about-glossary-grid">
-        <div class="about-glossary-item">
-          <dt>Rispondenti italiani EP013EP (Q2)</dt>
-          <dd>1012</dd>
-        </div>
-        <div class="about-glossary-item">
-          <dt>Età rispondenti</dt>
-          <dd>16-30</dd>
-        </div>
-        <div class="about-glossary-item">
-          <dt>Periodo rilevazione Eurobarometer</dt>
-          <dd>set-ott 2024</dd>
-        </div>
-        <div class="about-glossary-item">
-          <dt>Profili politici analizzati</dt>
-          <dd>3</dd>
-        </div>
-        <div class="about-glossary-item">
-          <dt>Totale post analizzati</dt>
-          <dd>742</dd>
-        </div>
-        <div class="about-glossary-item">
-          <dt>Post di validazione (umani)</dt>
-          <dd>30 <span class="about-glossary-note">(10 per profilo)</span></dd>
-        </div>
-        <div class="about-glossary-item">
-          <dt>Annotatori umani</dt>
-          <dd>4</dd>
-        </div>
-        <div class="about-glossary-item">
-          <dt>Osservazioni appaiate per modello (val.)</dt>
-          <dd>300</dd>
-        </div>
-        <div class="about-glossary-item">
-          <dt>Modelli LLM testati</dt>
-          <dd>3</dd>
-        </div>
-        <div class="about-glossary-item">
-          <dt>Modello adottato</dt>
-          <dd>gemma3:4b</dd>
-        </div>
-        <div class="about-glossary-item">
-          <dt>κ<sub>w</sub> del modello adottato</dt>
-          <dd>0,781</dd>
-        </div>
-        <div class="about-glossary-item">
-          <dt>MAE del modello adottato</dt>
-          <dd>0,244</dd>
-        </div>
-        <div class="about-glossary-item">
-          <dt>Bias medio modello</dt>
-          <dd>+0,10</dd>
-        </div>
-        <div class="about-glossary-item">
-          <dt>Soglia salienza Coverage</dt>
-          <dd>τ = 3</dd>
-        </div>
-      </dl>
-    </section>
-
-    <section class="about-disclosure">
-      <article>
-        <span>Privacy</span>
-        <h3>Solo contenuti pubblici, solo profili pubblici.</h3>
-        <p>L'osservatorio analizza esclusivamente i post pubblici di account politici pubblici. Nessun follower, nessun commento, nessuna storia, nessun dato di terzi. La lettura del contenuto avviene tutta in locale: niente lascia il sistema.</p>
-      </article>
-      <article>
-        <span>Honest by design</span>
-        <h3>I numeri non sostituiscono i post.</h3>
-        <p>OCR, trascrizioni e classificazione automatica sono utili, ma fallibili. Per questo ogni grafico è cliccabile fino al post di origine: il dato sintetico orienta la lettura, il contenuto originale la conferma o la smentisce.</p>
-      </article>
-      <article>
-        <span>Limiti</span>
-        <h3>Una fotografia, non una sentenza.</h3>
-        <p>Il campione è limitato, la finestra temporale è breve, i topic sono dieci. Non rispondiamo alla domanda «chi è il politico migliore»; rispondiamo a una più stretta: <em>quanto la sua comunicazione su Instagram intercetta le priorità dei giovani in questo periodo?</em></p>
-      </article>
-    </section>
-
-    <section class="about-closing">
-      <p class="kicker">Il punto</p>
-      <h2>La distanza tra <em>chiedere</em> e <em>parlarne</em> ha una forma. Si può guardare.</h2>
-      <div class="about-closing-actions">
-        <a class="button primary" href="#/overview">Inizia dalla panoramica</a>
-        <a class="button ghost" href="#/topics">Esplora i topic</a>
+      <div class="research-slides-stage" style="--slide-count:${speakerSlides.length}">
+        ${speakerSlides
+          .map(
+            (slide, index) => `
+              <article id="research-slide-${index + 1}" class="research-slide research-slide--${slide.tone}" data-research-slide="${index + 1}" style="--accent:${youthItems[index % youthItems.length].color}">
+                <div class="research-slide-inner">
+                  <div class="research-slide-copy">
+                    <p class="kicker">${escapeHtml(slide.eyebrow)}</p>
+                    <h1>${escapeHtml(slide.title)}</h1>
+                    <div class="research-slide-text">${slide.copy}</div>
+                  </div>
+                  <aside class="research-slide-aside">
+                    ${slide.aside}
+                  </aside>
+                </div>
+              </article>
+            `,
+          )
+          .join("")}
       </div>
     </section>
   `;
 
+  const slides = [...app.querySelectorAll("[data-research-slide]")];
+  const progressLinks = [...app.querySelectorAll("[data-slide-jump]")];
+  let activeIndex = 0;
+  let isAnimating = false;
+  let touchStartY = 0;
+  let wheelDebt = 0;
+  const lockMs = 920;
+  const wheelThreshold = 78;
+  const touchThreshold = 44;
+
+  const setActiveSlide = (nextIndex, { instant = false } = {}) => {
+    const clampedIndex = clamp(nextIndex, 0, slides.length - 1);
+    if (clampedIndex === activeIndex && !instant) return;
+    const previousIndex = activeIndex;
+    activeIndex = clampedIndex;
+
+    slides.forEach((slide, index) => {
+      const offset = index - activeIndex;
+      slide.style.setProperty("--section-offset", offset);
+      slide.classList.toggle("is-active", index === activeIndex);
+      slide.classList.toggle("is-before", index < activeIndex);
+      slide.classList.toggle("is-after", index > activeIndex);
+      slide.setAttribute("aria-hidden", index === activeIndex ? "false" : "true");
+      slide.tabIndex = index === activeIndex ? 0 : -1;
+    });
+    progressLinks.forEach((link) => {
+      const isActive = Number(link.dataset.slideJump) === activeIndex + 1;
+      link.classList.toggle("is-active", isActive);
+      link.setAttribute("aria-current", isActive ? "step" : "false");
+    });
+
+    if (!instant && previousIndex !== activeIndex) {
+      isAnimating = true;
+      window.setTimeout(() => {
+        isAnimating = false;
+        wheelDebt = 0;
+      }, lockMs);
+    }
+  };
+
+  const moveBy = (direction) => {
+    if (isAnimating) return;
+    setActiveSlide(activeIndex + direction);
+  };
+
+  const onWheel = (event) => {
+    const direction = event.deltaY > 0 ? 1 : -1;
+    event.preventDefault();
+    if (isAnimating) return;
+    if (Math.sign(wheelDebt) !== Math.sign(event.deltaY)) wheelDebt = 0;
+    wheelDebt += event.deltaY;
+    if (Math.abs(wheelDebt) < wheelThreshold) return;
+    moveBy(direction);
+  };
+
+  const onKeydown = (event) => {
+    const downKeys = ["ArrowDown", "PageDown", "Space"];
+    const upKeys = ["ArrowUp", "PageUp"];
+    if (![...downKeys, ...upKeys, "Home", "End"].includes(event.code)) return;
+    event.preventDefault();
+    if (event.code === "Home") setActiveSlide(0);
+    else if (event.code === "End") setActiveSlide(slides.length - 1);
+    else moveBy(downKeys.includes(event.code) ? 1 : -1);
+  };
+
+  const onTouchStart = (event) => {
+    touchStartY = event.touches[0]?.clientY ?? 0;
+  };
+
+  const onTouchMove = (event) => {
+    event.preventDefault();
+  };
+
+  const onTouchEnd = (event) => {
+    const touchEndY = event.changedTouches[0]?.clientY ?? touchStartY;
+    const delta = touchStartY - touchEndY;
+    if (Math.abs(delta) < touchThreshold) return;
+    moveBy(delta > 0 ? 1 : -1);
+  };
+
+  progressLinks.forEach((link) => {
+    link.addEventListener("click", () => setActiveSlide(Number(link.dataset.slideJump) - 1));
+  });
+
+  setActiveSlide(0, { instant: true });
+  window.addEventListener("wheel", onWheel, { passive: false });
+  window.addEventListener("keydown", onKeydown);
+  window.addEventListener("touchstart", onTouchStart, { passive: true });
+  window.addEventListener("touchmove", onTouchMove, { passive: false });
+  window.addEventListener("touchend", onTouchEnd, { passive: true });
+  window.__researchScrollCleanup = () => {
+    window.removeEventListener("wheel", onWheel);
+    window.removeEventListener("keydown", onKeydown);
+    window.removeEventListener("touchstart", onTouchStart);
+    window.removeEventListener("touchmove", onTouchMove);
+    window.removeEventListener("touchend", onTouchEnd);
+    window.__researchScrollCleanup = null;
+  };
 }
 
 export function renderOverview() {

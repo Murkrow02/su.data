@@ -92,16 +92,15 @@ export const politicians = [
     palette: ["#f5dde0", "#8b1a1a", "#d63030"],
     photo: "Dashboard/dati/Elly_Schlein.jpg",
   },
-  // Temporarily hidden from the dashboard. Keep the config and data ready for reinsertion.
-  // {
-  //   id: "silviasalis",
-  //   name: "Silvia Salis",
-  //   handle: "@silviasalis",
-  //   party: "Partito Democratico",
-  //   role: "Vicesindaca di Genova",
-  //   palette: ["#e8f4e8", "#1a5c1a", "#2e8b2e"],
-  //   photo: "Dashboard/dati/Silvia_Salis.jpg",
-  // },
+  {
+    id: "silviasalis",
+    name: "Silvia Salis",
+    handle: "@silviasalis",
+    party: "Partito Democratico",
+    role: "Vicesindaca di Genova",
+    palette: ["#e8f4e8", "#1a5c1a", "#2e8b2e"],
+    photo: "Dashboard/dati/Silvia_Salis.jpg",
+  },
 ];
 
 const byId = (collection, id) => collection.find((item) => item.id === id);
