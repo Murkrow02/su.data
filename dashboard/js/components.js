@@ -219,7 +219,7 @@ export function landingEntryPanel() {
        <div class="landing-entry-links">
         <a href="#/overview"><span>Panoramica</span><strong>Capisci il quadro generale</strong></a>
         <a href="#/politicians"><span>Politici</span><strong>Confronta i profili</strong></a>
-        <a href="#/about"><span>About us</span><strong>Metodo, pipeline e limiti</strong></a>
+        <a href="#/about"><span>La Ricerca</span><strong>Il racconto del progetto</strong></a>
       </div>
       <div class="landing-stats" aria-label="Dimensione del corpus">
         <div><strong>${state.posts.length}</strong><span>post</span></div>
