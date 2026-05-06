@@ -436,8 +436,17 @@ function App() {
         window.parent.postMessage({ type: 'splashSkip' }, '*');
       }
     };
+    const onKey = (e) => {
+      if (e.key === 'Escape') {
+        window.parent.postMessage({ type: 'splashSkip' }, '*');
+      }
+    };
     document.addEventListener('click', onSkip);
-    return () => document.removeEventListener('click', onSkip);
+    window.addEventListener('keydown', onKey);
+    return () => {
+      document.removeEventListener('click', onSkip);
+      window.removeEventListener('keydown', onKey);
+    };
   }, []);
 
   const isMobile = viewport.width <= 680 || viewport.height > viewport.width * 1.25;

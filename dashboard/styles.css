@@ -4488,7 +4488,6 @@ main:has(.research-deck) {
 }
 
 .research-slide--source .research-slide-inner {
-  align-items: stretch;
   background:
     linear-gradient(180deg, rgba(37, 63, 114, 0.08), transparent 42%),
     var(--paper);
