@@ -157,61 +157,77 @@ export function renderAbout() {
 
   const speakerSlides = [
     {
-      eyebrow: "01 / Domanda",
-      title: "Il punto di partenza è una distanza misurabile.",
+      eyebrow: "01 / Domanda di ricerca",
+      title: "La comunicazione social dei politici italiani è allineata alle priorità giovanili?",
       tone: "question",
       copy: `
-        <p>La ricerca nasce da una domanda precisa: l'ordine dei temi nei post Instagram dei leader politici italiani è compatibile con l'ordine delle priorità dichiarate dai giovani?</p>
-        <p>Non vogliamo dire genericamente che giovani e politica sembrano lontani. Vogliamo capire se questa distanza compare anche nella gerarchia dei temi.</p>
+        <p>La distanza tra giovani e politica viene spesso raccontata in modo qualitativo, attraverso impressioni o esempi isolati. Noi abbiamo provato a trattarla come un problema di misura.</p>
+        <p>Non ci siamo limitati a dire che giovani e politica sembrano distanti: ci siamo chiesti se questa distanza si vede anche nell'ordine dei temi che emergono dai dati.</p>
       `,
       aside: `
-        <div class="research-question-card">
-          <span>Domanda guida</span>
-          <strong>Agenda dei giovani</strong>
-          <i>vs</i>
-          <strong>Agenda comunicativa su Instagram</strong>
+        <div class="research-question-card big">
+          <span>Domanda di ricerca</span>
+          <div class="question-vs-asym">
+            <div class="pole pole-a">
+              <strong>Agenda comunicativa</strong>
+              <small>cosa pubblicano i leader su Instagram</small>
+            </div>
+            <div class="vs-circle">vs</div>
+            <div class="pole pole-b">
+              <strong>Priorità giovanili</strong>
+              <small>cosa dichiarano i giovani 16-30</small>
+            </div>
+          </div>
         </div>
       `,
     },
     {
-      eyebrow: "02 / Concetto",
-      title: "Il gap semantico non giudica i politici: confronta due ranking.",
+      eyebrow: "02 / Il concetto chiave",
+      title: "Il gap semantico è la distanza tra due classifiche di temi, non un giudizio sui politici.",
       tone: "compare",
       copy: `
-        <p>Da una parte c'è la classifica delle priorità giovanili. Dall'altra c'è la classifica dei temi più presenti nei contenuti dei politici.</p>
-        <p>Il punto è circoscritto: quanto la comunicazione pubblica su Instagram ricalca, oppure non ricalca, la gerarchia di priorità dei giovani italiani?</p>
+        <p>Da una parte c'è la classifica delle priorità giovanili: l'ordine dei temi che i giovani italiani tra 16 e 30 anni indicano come più importanti.</p>
+        <p>Dall'altra c'è la classifica dell'agenda comunicativa: i temi più presenti nei post Instagram dei leader analizzati.</p>
       `,
       aside: `
         <div class="research-compare">
-          <article><span>A</span><strong>Priorità giovanili</strong><p>Temi scelti dai giovani italiani tra 16 e 30 anni.</p></article>
-          <article><span>B</span><strong>Agenda politica</strong><p>Temi presenti nei post Instagram dei leader analizzati.</p></article>
+          <article><span>Classifica A</span><strong>Priorità giovanili</strong><p>Temi ordinati per percentuale di selezione nel Flash Eurobarometro, giovani 16-30 anni.</p></article>
+          <article><span>Classifica B</span><strong>Agenda comunicativa</strong><p>Temi ordinati per coverage nei post Instagram dei leader analizzati.</p></article>
+          <article class="research-compare-gap"><span>Gap semantico</span><strong>Distanza tra le due gerarchie</strong><p>Misurabile con metriche ordinali: Spearman, Kendall, Top-K Jaccard.</p></article>
         </div>
       `,
     },
     {
-      eyebrow: "03 / Fonte",
-      title: "La survey scelta doveva produrre una lista ordinabile.",
+      eyebrow: "03 / La fonte",
+      title: "Il Flash Eurobarometro EP013EP produce una classifica diretta di priorità politiche per i giovani.",
       tone: "source",
       copy: `
-        <p>Usiamo il Flash Eurobarometer EP013EP del Parlamento Europeo, rivolto ai giovani tra 16 e 30 anni nei 27 Stati membri.</p>
-        <p>Per l'Italia, la domanda Q2 chiede quali tre problemi l'Unione Europea dovrebbe affrontare come priorità nei prossimi cinque anni. Questo ci dà una base direttamente trasformabile in ranking.</p>
+        <p>La domanda Q2 chiede ai giovani: <em>"Tra i seguenti, quali tre temi dovrebbero essere affrontati come priorità dall'Unione Europea nei prossimi cinque anni?"</em> È una domanda pick top-3 su lista chiusa.</p>
+        <p>Per ogni tema sappiamo quale percentuale di giovani italiani lo ha selezionato. È la fonte più recente e direttamente trasformabile in ranking.</p>
       `,
       aside: `
-        <div class="research-source-card">
-          <span>Fonte survey</span>
-          <strong>Flash Eurobarometer EP013EP</strong>
-          <p>${escapeHtml(youthSurveySource)}</p>
-          <small>Domanda pick top-3 su lista chiusa</small>
+        <div class="research-source-stack">
+          <div class="research-source-card">
+            <span>Fonte adottata</span>
+            <strong>Flash Eurobarometer EP013EP</strong>
+            <p>${escapeHtml(youthSurveySource)}</p>
+            <small>Domanda Q2 — pick top-3 su lista chiusa</small>
+          </div>
+          <div class="research-source-rejected">
+            <span>Fonte considerata e scartata</span>
+            <strong>ISTAT — Aspetti della vita quotidiana 2023</strong>
+            <p>Quadro ampio sulla condizione giovanile, ma troppo disperso: non produce una classifica esplicita di priorità politiche direttamente confrontabile con un'agenda comunicativa.</p>
+          </div>
         </div>
       `,
     },
     {
-      eyebrow: "04 / Ranking giovani",
-      title: "L'Eurobarometro diventa la gerarchia di riferimento.",
+      eyebrow: "04 / Il ranking giovanile",
+      title: "Ambiente e clima al primo posto con il 46%.",
       tone: "ranking",
       copy: `
-        <p>Ogni tema ha una percentuale di selezione. Ordinando queste percentuali otteniamo il ranking giovanile.</p>
-        <p>Ambiente e clima è al primo posto; lavoro ed economia segue; costo della vita e salute e welfare condividono il terzo posto medio. I pareggi vengono trattati con rank medio.</p>
+        <p>Ordinando le percentuali di selezione otteniamo il ranking di riferimento. Lavoro ed economia è secondo al 38%; costo della vita e salute e welfare condividono il terzo posto al 34%. I pareggi vengono trattati con il rank medio.</p>
+        <p>Questa gerarchia è il benchmark con cui confrontiamo l'agenda comunicativa di ciascun profilo analizzato.</p>
       `,
       aside: `
         <ol class="research-rank-preview">
@@ -231,28 +247,35 @@ export function renderAbout() {
       `,
     },
     {
-      eyebrow: "05 / Scelte escluse",
-      title: "Abbiamo scartato fonti e topic che non erano davvero confrontabili.",
+      eyebrow: "05 / Scelte non utilizzate",
+      title: "Avevamo considerato un approccio basato su topic emersi automaticamente.<br><span class=\"title-break\">Non funzionava.</span>",
       tone: "decision",
       copy: `
-        <p>I dati ISTAT sugli aspetti della vita quotidiana erano ricchi, ma troppo dispersi: non producevano una classifica esplicita di priorità politiche.</p>
-        <p>Anche i topic estratti automaticamente con BERT avrebbero creato un confronto fragile, perché i topic emersi dai post non coincidono necessariamente con quelli chiusi della survey.</p>
+        <p>L'idea iniziale era far emergere i topic dai post tramite BERT e poi confrontarli con i temi della survey via similarità coseno.</p>
+        <p>Ma BERT raggruppa parole e topic in modo troppo rigido: la similarità coseno tra i topic emersi e quelli dell'Eurobarometro restituiva valori instabili e poco interpretabili. Per questo abbiamo abbandonato la strada del calcolo metrico via embedding.</p>
       `,
       aside: `
         <div class="research-decision-grid">
-          <article><span>Scartato</span><strong>ISTAT</strong><p>Quadro ampio, ma non ranking politico diretto.</p></article>
-          <article><span>Scartato</span><strong>Topic automatici</strong><p>Spazi tematici non perfettamente sovrapponibili.</p></article>
-          <article><span>Scelto</span><strong>10 temi comuni</strong><p>Stessa griglia per survey e Instagram.</p></article>
+          <article>
+            <span>Provato</span>
+            <strong>BERT + similarità coseno</strong>
+            <p>Topic raggruppati rigidamente; il confronto semantico con i temi Eurobarometro non funziona in modo affidabile.</p>
+          </article>
+          <article class="is-chosen">
+            <span>Adottato</span>
+            <strong>Scoring LLM su griglia fissa</strong>
+            <p>Punteggio Likert 1–5 sui dieci temi Eurobarometro per ogni post: stesso vocabolario su entrambi i lati.</p>
+          </article>
         </div>
       `,
     },
     {
-      eyebrow: "06 / Vocabolario comune",
-      title: "La soluzione è usare i dieci temi come griglia fissa.",
+      eyebrow: "06 / Ranking, non percentuali",
+      title: "Stessa griglia di dieci temi su entrambi i lati. E confrontiamo i ranking, non le percentuali.",
       tone: "topics",
       copy: `
-        <p>Ogni post viene valutato rispetto agli stessi dieci temi dell'Eurobarometro. In questo modo il confronto non avviene tra oggetti diversi, ma dentro un vocabolario controllato.</p>
-        <p>La domanda diventa più solida: tra questi dieci temi, quali sono centrali per i giovani e quali sono più presenti nella comunicazione politica?</p>
+        <p>Le percentuali Eurobarometro e i Coverage Rate dei post non sono numeri direttamente comparabili: scale diverse, unità diverse. L'unico livello davvero comune è quello ordinale.</p>
+        <p>Per questo l'analisi confronta il <strong>ranking</strong> dei dieci temi su entrambi i lati. Una posizione, non una percentuale.</p>
       `,
       aside: `
         <ul class="research-topic-list">
@@ -261,12 +284,12 @@ export function renderAbout() {
       `,
     },
     {
-      eyebrow: "07 / Campo di osservazione",
-      title: "Instagram è il canale scelto perché intercetta il pubblico giovane.",
+      eyebrow: "07 / Il campo di osservazione",
+      title: "Instagram è il primo canale digitale per l'informazione politica tra i giovani italiani di 16-30 anni.",
       tone: "roster",
       copy: `
-        <p>L'Eurobarometro indica Instagram come primo canale digitale per l'informazione politica tra i giovani italiani di 16-30 anni.</p>
-        <p>I profili analizzati sono Giorgia Meloni, Elly Schlein e Giuseppe Conte: leader dei tre principali partiti italiani alle elezioni politiche del 2022, con volumi di attività confrontabili.</p>
+        <p>Lo indica l'Eurobarometro EP013EP. TikTok è comparabile, ma i contenuti dei politici italiani vengono spesso pubblicati in cross-posting: Instagram cattura la maggior parte del segnale comunicativo rivolto al pubblico giovane.</p>
+        <p>I profili analizzati sono i leader dei tre partiti più votati alle elezioni politiche del 2022, con volumi di attività confrontabili.</p>
       `,
       aside: `
         <div class="research-roster-mini">
@@ -288,37 +311,108 @@ export function renderAbout() {
       `,
     },
     {
-      eyebrow: "08 / Unità di analisi",
-      title: "Un post non è solo caption: è contenuto multimodale.",
-      tone: "modal",
+      eyebrow: "08 / Lo scraping",
+      title: "Abbiamo raccolto tutto quello che è disponibile pubblicamente. Tranne l'engagement.",
+      tone: "scrape",
       copy: `
-        <p>Instagram combina testo scritto, grafiche e video. Per questo ogni post viene trasformato in un testo unificato composto da caption, OCR delle immagini e trascrizione audio dei reel.</p>
-        <p>Così evitiamo una misura parziale: molti post affidano il messaggio principale a una card o al parlato, non alla sola descrizione.</p>
+        <p>Per ciascun profilo abbiamo scaricato i post pubblicati nella finestra di osservazione: caption, immagini, video, metadati pubblici e i numeri di like e visualizzazioni dichiarati pubblicamente da ogni post.</p>
+        <p>Quello che resta fuori è l'<em>engagement interno</em>: i dati demografici di chi interagisce, ad esempio la percentuale di giovani 16-30 che mette like a un post. Questi dati sono visibili soltanto al titolare dell'account dentro Instagram Insights e non sono accessibili dall'esterno.</p>
       `,
       aside: `
-        <div class="research-modal-card">
-          <span>Post Instagram</span>
-          <strong>Caption</strong>
-          <strong>OCR immagini</strong>
-          <strong>Trascrizione reel</strong>
-          <i>testo unificato</i>
+        <div class="research-scrape-card big">
+          <span>Cosa entra nell'analisi</span>
+          <ul class="scrape-list">
+            <li class="ok"><b>Caption</b><em>testo della descrizione del post</em></li>
+            <li class="ok"><b>Immagini</b><em>tutte le slide del carousel</em></li>
+            <li class="ok"><b>Video</b><em>reel completi</em></li>
+            <li class="ok"><b>Metadati pubblici</b><em>data, tipo, ID, like e view dichiarati</em></li>
+            <li class="no"><b>Engagement interno</b><em>demografia di chi interagisce: solo Instagram Insights</em></li>
+          </ul>
         </div>
       `,
     },
     {
-      eyebrow: "09 / Chiusura prima fase",
-      title: "Il ranking è la lingua comune tra survey e Instagram.",
-      tone: "closing",
+      eyebrow: "09 / Estrazione del messaggio",
+      title: "Da quei file abbiamo estratto il messaggio: testo dalle immagini, parlato dai video.",
+      tone: "extract",
       copy: `
-        <p>Le percentuali dell'Eurobarometro e gli score ricavati dai post non sono numeri direttamente comparabili.</p>
-        <p>Per questo l'analisi si sposta sul livello ordinale: non chiediamo se il 46% della survey equivalga a una percentuale di post, ma se i temi alti per i giovani restano alti anche nell'agenda comunicativa dei politici.</p>
+        <p>Su Instagram il messaggio politico spesso non è nella caption: è in una grafica, in una card informativa o nel parlato di un reel.</p>
+        <p>Abbiamo usato modelli di riconoscimento per leggere il testo presente nelle immagini e per trascrivere l'audio dei video. Ogni post viene così ridotto a un unico testo unificato pronto per l'analisi tematica.</p>
       `,
       aside: `
-        <div class="research-closing-card">
-          <span>Messaggio da portare avanti</span>
-          <strong>Non confrontiamo scale diverse. Confrontiamo gerarchie di temi.</strong>
+        <div class="research-pipeline-card">
+          <span>Estrazione</span>
+          <div class="pipeline-flow">
+            <div class="pipe-node"><b>Caption</b><i>già testo</i><em>scaricata direttamente</em></div>
+            <div class="pipe-node"><b>Immagine</b><i>OCR</i><em>testo nelle grafiche</em></div>
+            <div class="pipe-node"><b>Video</b><i>ASR</i><em>parlato trascritto</em></div>
+          </div>
+          <div class="pipe-merge">
+            <b>Testo unificato del post</b>
+            <em>→ pronto per lo scoring tematico</em>
+          </div>
         </div>
       `,
+    },
+    {
+      eyebrow: "10 / L'esito più sorprendente",
+      title: "Ambiente e clima è il tema #1 per i giovani. Per i tre leader scivola tra il rank 6 e il rank 9.",
+      tone: "result",
+      copy: `
+        <p>È l'inversione più netta dell'analisi: il tema in cima alla classifica giovanile, scelto dal 46% dei rispondenti, finisce sistematicamente nella metà bassa delle agende comunicative.</p>
+        <p>E lo specchio: <strong>democrazia e legalità</strong>, che tra i giovani è solo al rank 8.5, è in vetta a tutti e tre i profili.</p>
+      `,
+      aside: `
+        <div class="research-result-card">
+          <article class="result-block under">
+            <span class="result-tag">Sotto-rappresentato</span>
+            <strong class="result-topic">Ambiente e clima</strong>
+            <div class="result-row">
+              <div class="rank-cell youth">
+                <em>Giovani</em>
+                <b>#1</b>
+                <small>46%</small>
+              </div>
+              <span class="rank-arrow">↘</span>
+              <div class="rank-cell pol">
+                <em>Politici</em>
+                <div class="rank-stack">
+                  <span><i>Meloni</i><b>#6</b></span>
+                  <span><i>Conte</i><b>#8</b></span>
+                  <span><i>Schlein</i><b>#9</b></span>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="result-block over">
+            <span class="result-tag">Sovra-rappresentato</span>
+            <strong class="result-topic">Democrazia e legalità</strong>
+            <div class="result-row">
+              <div class="rank-cell youth low">
+                <em>Giovani</em>
+                <b>#8.5</b>
+                <small>15%</small>
+              </div>
+              <span class="rank-arrow">↗</span>
+              <div class="rank-cell pol high">
+                <em>Politici</em>
+                <div class="rank-stack">
+                  <span><i>Schlein</i><b>#1</b></span>
+                  <span><i>Conte</i><b>#1</b></span>
+                  <span><i>Meloni</i><b>#1</b></span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "",
+      title: "Capiamo come abbiamo fatto.",
+      tone: "intermission",
+      copy: `<p>Le fasi successive del progetto.</p>`,
+      aside: ``,
     },
   ];
 
@@ -344,7 +438,7 @@ export function renderAbout() {
                 <div class="research-slide-inner">
                   <div class="research-slide-copy">
                     <p class="kicker">${escapeHtml(slide.eyebrow)}</p>
-                    <h1>${escapeHtml(slide.title)}</h1>
+                    <h1>${slide.title}</h1>
                     <div class="research-slide-text">${slide.copy}</div>
                   </div>
                   <aside class="research-slide-aside">

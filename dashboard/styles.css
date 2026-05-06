@@ -4415,7 +4415,7 @@ main:has(.research-deck) {
   width: min(100%, 1480px);
   min-height: 100%;
   margin: 0 auto;
-  padding: clamp(28px, 5vw, 72px) clamp(18px, 4vw, 56px);
+  padding: clamp(20px, 3vw, 44px) clamp(18px, 4vw, 56px);
   border-bottom: 1px solid var(--line);
   background:
     linear-gradient(135deg, rgba(255, 252, 246, 0.86), rgba(248, 243, 234, 0.7)),
@@ -4434,13 +4434,40 @@ main:has(.research-deck) {
 }
 
 .research-slide--question .research-slide-inner {
-  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.66fr);
+  grid-template-columns: minmax(0, 0.85fr) minmax(440px, 1fr);
   background:
     linear-gradient(90deg, rgba(24, 23, 19, 0.035), transparent 44%),
     var(--paper);
 }
 
 .research-slide--question .research-slide-inner::before {
+  inset: 34px auto 34px 34px;
+  width: 7px;
+  background: var(--red);
+}
+
+.research-slide--scrape .research-slide-inner {
+  grid-template-columns: minmax(0, 0.78fr) minmax(460px, 1.05fr);
+  background:
+    linear-gradient(135deg, rgba(37, 63, 114, 0.06), transparent 50%),
+    var(--paper);
+}
+
+.research-slide--extract .research-slide-inner {
+  grid-template-columns: minmax(0, 0.95fr) minmax(400px, 0.92fr);
+  background:
+    linear-gradient(180deg, rgba(47, 125, 91, 0.07), transparent 46%),
+    var(--paper);
+}
+
+.research-slide--result .research-slide-inner {
+  grid-template-columns: minmax(0, 0.78fr) minmax(440px, 1fr);
+  background:
+    linear-gradient(135deg, rgba(189, 67, 44, 0.07), transparent 52%),
+    var(--paper);
+}
+
+.research-slide--result .research-slide-inner::before {
   inset: 34px auto 34px 34px;
   width: 7px;
   background: var(--red);
@@ -4496,6 +4523,8 @@ main:has(.research-deck) {
 .research-slide--closing .research-slide-inner {
   grid-template-columns: minmax(0, 1fr);
   place-items: center;
+  align-content: center;
+  gap: clamp(16px, 3vw, 36px);
   text-align: center;
 }
 
@@ -4529,9 +4558,9 @@ main:has(.research-deck) {
   max-width: 960px;
   margin: 0;
   font-family: "Instrument Serif", Georgia, serif;
-  font-size: clamp(46px, 6.4vw, 112px);
+  font-size: clamp(28px, 2.8vw, 44px);
   font-weight: 400;
-  line-height: 0.94;
+  line-height: 1.1;
 }
 
 .research-slide-copy::after {
@@ -4588,8 +4617,8 @@ main:has(.research-deck) {
 .research-source-card,
 .research-closing-card {
   display: grid;
-  gap: 16px;
-  padding: clamp(26px, 4vw, 46px);
+  gap: 14px;
+  padding: clamp(18px, 2.8vw, 34px);
 }
 
 .research-question-card span,
@@ -4608,21 +4637,53 @@ main:has(.research-deck) {
 .research-question-card strong,
 .research-closing-card strong {
   font-family: "Instrument Serif", Georgia, serif;
-  font-size: clamp(34px, 4vw, 58px);
+  font-size: clamp(20px, 2.2vw, 34px);
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.15;
 }
 
-.research-question-card i {
-  width: fit-content;
-  border: 1px solid var(--ink);
+.question-vs-pair {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: clamp(12px, 2vw, 24px);
+  align-items: center;
+  margin-top: 4px;
+}
+
+.question-vs-pole {
+  display: grid;
+  gap: 10px;
+}
+
+.question-vs-pole em {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
   border-radius: 50%;
-  padding: 14px 12px;
-  color: var(--ink);
-  background: var(--paper);
+  background: var(--ink);
+  color: var(--paper);
   font-family: "Instrument Serif", Georgia, serif;
-  font-size: 24px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.question-vs-pole strong {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(18px, 1.8vw, 26px);
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--ink);
+}
+
+.question-vs-sep {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(16px, 1.6vw, 22px);
   font-style: italic;
+  color: var(--muted);
+  text-align: center;
+  padding: 0 4px;
 }
 
 .research-compare,
@@ -4635,7 +4696,7 @@ main:has(.research-deck) {
 .research-decision-grid article {
   display: grid;
   gap: 8px;
-  padding: clamp(20px, 2.8vw, 30px);
+  padding: clamp(14px, 1.8vw, 22px);
 }
 
 .research-compare strong,
@@ -4643,9 +4704,9 @@ main:has(.research-deck) {
 .research-source-card strong,
 .research-modal-card strong {
   font-family: "Instrument Serif", Georgia, serif;
-  font-size: clamp(26px, 2.8vw, 38px);
+  font-size: clamp(18px, 2vw, 28px);
   font-weight: 400;
-  line-height: 1.05;
+  line-height: 1.15;
 }
 
 .research-compare p,
@@ -4829,6 +4890,516 @@ main:has(.research-deck) {
   text-transform: uppercase;
 }
 
+/* Compact two-column topic list inside slides (fixes slide 06 overflow) */
+.research-slide .research-topic-list {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+}
+
+.research-slide .research-topic-list li {
+  padding: 8px 10px;
+}
+
+.research-slide .research-topic-bar {
+  display: none;
+}
+
+/* Slide 01: enlarged question card with asymmetric VS layout */
+.research-question-card.big {
+  padding: clamp(28px, 3.5vw, 48px);
+  min-height: clamp(340px, 40vh, 460px);
+}
+
+.question-vs-asym {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto auto;
+  margin-top: clamp(12px, 1.5vw, 22px);
+  padding-block: clamp(20px, 3vw, 36px);
+  isolation: isolate;
+}
+
+.question-vs-asym .pole {
+  display: grid;
+  gap: 6px;
+  max-width: 70%;
+}
+
+.question-vs-asym .pole-a {
+  grid-row: 1;
+  justify-self: start;
+  text-align: left;
+}
+
+.question-vs-asym .pole-b {
+  grid-row: 2;
+  justify-self: end;
+  text-align: right;
+  margin-top: clamp(40px, 5vw, 64px);
+}
+
+.question-vs-asym .pole strong {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(24px, 2.6vw, 38px);
+  line-height: 1.05;
+  font-weight: 400;
+  color: var(--ink);
+}
+
+.question-vs-asym .pole small {
+  font-size: 13px;
+  font-style: italic;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.question-vs-asym .vs-circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: clamp(64px, 6.6vw, 88px);
+  height: clamp(64px, 6.6vw, 88px);
+  border: 2px solid var(--red);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--paper);
+  font-family: "Instrument Serif", Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(22px, 2.4vw, 32px);
+  color: var(--red);
+  z-index: 1;
+  box-shadow: 0 6px 22px rgba(189, 67, 44, 0.18);
+}
+
+/* Chosen item in decision grid */
+.research-decision-grid article.is-chosen {
+  border-color: rgba(47, 125, 91, 0.5);
+  background: rgba(47, 125, 91, 0.08);
+}
+
+.research-decision-grid article.is-chosen > span {
+  color: var(--green);
+}
+
+/* Third compare item (gap) */
+.research-compare-gap {
+  border-color: rgba(37, 63, 114, 0.35) !important;
+  background: rgba(37, 63, 114, 0.06) !important;
+}
+
+.research-compare-gap > span {
+  color: var(--blue) !important;
+}
+
+/* Slide 03: source stack — adopted source + rejected source below */
+.research-source-stack {
+  display: grid;
+  gap: 14px;
+}
+
+.research-source-rejected {
+  display: grid;
+  gap: 10px;
+  padding: clamp(16px, 2vw, 24px);
+  border: 1px solid rgba(189, 67, 44, 0.25);
+  background: rgba(189, 67, 44, 0.05);
+  position: relative;
+}
+
+.research-source-rejected::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: var(--red);
+  opacity: 0.6;
+}
+
+.research-source-rejected > span {
+  color: var(--red);
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.research-source-rejected strong {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(18px, 2vw, 26px);
+  font-weight: 400;
+  line-height: 1.15;
+  color: var(--ink);
+  text-decoration: line-through;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: rgba(189, 67, 44, 0.55);
+}
+
+.research-source-rejected p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+/* Slide 05: forced line break and emphasis on second sentence */
+.research-slide-copy h1 .title-break {
+  display: block;
+  color: var(--red);
+}
+
+/* Slide 08: scraping — what we collected, what we did not */
+.research-scrape-card {
+  display: grid;
+  gap: 16px;
+  padding: clamp(24px, 3vw, 38px);
+  border: 1px solid var(--line);
+  background: rgba(255, 252, 246, 0.88);
+  box-shadow: var(--shadow);
+}
+
+.research-scrape-card.big {
+  gap: 18px;
+  padding: clamp(28px, 3.4vw, 44px);
+  min-height: clamp(360px, 50vh, 520px);
+  align-content: center;
+}
+
+.research-scrape-card > span {
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.scrape-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.scrape-list li {
+  display: grid;
+  grid-template-columns: 32px minmax(180px, 0.55fr) minmax(0, 1fr);
+  gap: 14px;
+  align-items: center;
+  padding: 14px 18px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.scrape-list li::before {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: 26px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1;
+}
+
+.scrape-list li.ok::before {
+  content: "✓";
+  color: var(--green);
+}
+
+.scrape-list li.no::before {
+  content: "✕";
+  color: var(--red);
+}
+
+.scrape-list li.no {
+  background: rgba(189, 67, 44, 0.06);
+  border-color: rgba(189, 67, 44, 0.22);
+}
+
+.scrape-list li b {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(17px, 1.7vw, 22px);
+  color: var(--ink);
+  line-height: 1.1;
+}
+
+.scrape-list li em {
+  font-style: normal;
+  color: var(--muted);
+  font-size: clamp(13px, 1.05vw, 15px);
+  line-height: 1.5;
+}
+
+/* Slide 09: extraction pipeline */
+.research-pipeline-card {
+  display: grid;
+  gap: 12px;
+  padding: clamp(18px, 2.4vw, 28px);
+  border: 1px solid var(--line);
+  background: rgba(255, 252, 246, 0.85);
+  box-shadow: var(--shadow);
+}
+
+.research-pipeline-card > span {
+  color: var(--red);
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.pipeline-flow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.pipe-node {
+  display: grid;
+  gap: 6px;
+  padding: 14px 12px;
+  text-align: center;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.pipe-node b {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(17px, 1.7vw, 22px);
+  font-weight: 400;
+  color: var(--ink);
+}
+
+.pipe-node i {
+  font-style: normal;
+  font-size: 11px;
+  color: var(--green);
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.pipe-node em {
+  font-style: normal;
+  font-size: 11.5px;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.pipe-merge {
+  display: grid;
+  gap: 4px;
+  padding: 14px 16px;
+  text-align: center;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.pipe-merge b {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(18px, 1.9vw, 26px);
+  font-weight: 400;
+}
+
+.pipe-merge em {
+  font-style: normal;
+  font-size: 11px;
+  color: rgba(255, 252, 246, 0.7);
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* Slide 10: result data card — under/over rappresentation */
+.research-result-card {
+  display: grid;
+  gap: 12px;
+}
+
+.result-block {
+  display: grid;
+  gap: 10px;
+  padding: clamp(14px, 1.8vw, 22px);
+  border: 1px solid var(--line);
+  background: rgba(255, 252, 246, 0.85);
+  box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+.result-block.under::before,
+.result-block.over::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 5px;
+}
+
+.result-block.under::before { background: var(--red); }
+.result-block.over::before { background: var(--blue); }
+
+.result-tag {
+  font-size: 10px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.result-block.under .result-tag { color: var(--red); }
+.result-block.over .result-tag { color: var(--blue); }
+
+.result-topic {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(20px, 2.2vw, 30px);
+  font-weight: 400;
+  line-height: 1.05;
+  color: var(--ink);
+}
+
+.result-row {
+  display: grid;
+  grid-template-columns: minmax(96px, auto) 28px 1fr;
+  gap: 12px;
+  align-items: center;
+}
+
+.rank-cell {
+  display: grid;
+  gap: 4px;
+}
+
+.rank-cell em {
+  font-style: normal;
+  font-size: 10px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.rank-cell.youth b {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(36px, 4.4vw, 56px);
+  font-weight: 400;
+  line-height: 1;
+  color: var(--green);
+}
+
+.rank-cell.youth.low b {
+  color: var(--muted);
+}
+
+.rank-cell.youth small {
+  font-size: 12px;
+  font-weight: 850;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.rank-arrow {
+  font-size: 26px;
+  text-align: center;
+  color: var(--muted);
+  line-height: 1;
+}
+
+.result-block.under .rank-arrow { color: var(--red); }
+.result-block.over .rank-arrow { color: var(--blue); }
+
+.rank-stack {
+  display: grid;
+  gap: 4px;
+}
+
+.rank-stack span {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  align-items: center;
+  padding: 7px 12px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.rank-stack span i {
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 850;
+  color: var(--ink);
+}
+
+.rank-stack span b {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(16px, 1.6vw, 22px);
+}
+
+.result-block.under .rank-stack span b { color: var(--red); }
+.result-block.over .rank-stack span b { color: var(--blue); }
+.rank-cell.pol.high .rank-stack span { background: rgba(37, 63, 114, 0.06); }
+
+/* Slide 11: intermission — black chapter break */
+.research-slide--intermission .research-slide-inner {
+  grid-template-columns: 1fr;
+  background: var(--ink);
+  place-items: center;
+  align-content: center;
+  text-align: center;
+  border-bottom-color: rgba(255, 250, 242, 0.12);
+}
+
+.research-slide--intermission .research-slide-inner::before {
+  display: none;
+}
+
+.research-slide--intermission .research-slide-copy {
+  width: 100%;
+  max-width: 980px;
+}
+
+.research-slide--intermission .kicker {
+  display: none;
+}
+
+.research-slide--intermission h1 {
+  margin: 0 auto;
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(48px, 7.2vw, 104px);
+  line-height: 1.02;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--paper);
+  max-width: none;
+}
+
+.research-slide--intermission .research-slide-copy::after {
+  background: var(--paper);
+  margin-inline: auto;
+  transform-origin: center;
+  height: 2px;
+  width: clamp(80px, 10vw, 160px);
+}
+
+.research-slide--intermission .research-slide-text {
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.research-slide--intermission .research-slide-text p {
+  color: rgba(255, 252, 246, 0.55);
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 850;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.research-slide--intermission .research-slide-aside {
+  display: none;
+}
+
 @media (max-width: 1000px) {
   .research-slide {
     padding: 0 clamp(16px, 4vw, 32px);
@@ -4870,7 +5441,7 @@ main:has(.research-deck) {
   }
 
   .research-slide-copy h1 {
-    font-size: clamp(34px, 10vw, 56px);
+    font-size: clamp(22px, 7vw, 34px);
   }
 
   .research-slide-text {
@@ -4903,6 +5474,30 @@ main:has(.research-deck) {
   .research-roster-mini article > span {
     width: 68px;
     height: 68px;
+  }
+
+  .question-vs-asym .pole {
+    max-width: 78%;
+  }
+
+  .question-vs-asym .pole-b {
+    margin-top: 30px;
+  }
+
+  .research-source-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .pipeline-flow {
+    grid-template-columns: 1fr;
+  }
+
+  .scrape-list li {
+    grid-template-columns: 22px 100px minmax(0, 1fr);
+  }
+
+  .research-slide--intermission h1 {
+    font-size: clamp(36px, 9vw, 64px);
   }
 }
 
