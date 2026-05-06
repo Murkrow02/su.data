@@ -17,7 +17,7 @@ import matplotlib.ticker as mticker
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from scipy.stats import kendalltau, norm, rankdata, spearmanr
+from scipy.stats import gaussian_kde, kendalltau, norm, rankdata, spearmanr
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from shared import (  # noqa: E402
@@ -510,7 +510,8 @@ def _coverage_ranks(df: pd.DataFrame, threshold: int) -> tuple[np.ndarray, np.nd
 def build_bootstrap_alignment_ci(
     dfs: dict, threshold: int = 3,
     n_boot: int = BOOT_N, seed: int = BOOT_SEED, alpha: float = BOOT_ALPHA,
-) -> pd.DataFrame:
+    return_samples: bool = False,
+):
     """Bootstrap 95% CIs for Spearman ρ and Kendall τ_b vs. youth ranking.
 
     Resamples posts with replacement (post-level uncertainty), recomputes
@@ -519,12 +520,16 @@ def build_bootstrap_alignment_ci(
     CI, and the share of resamples whose correlation crosses zero — a
     direct test of whether the observed alignment is distinguishable from
     no-alignment given the post-level sampling noise.
+
+    If return_samples=True returns (summary_df, samples_dict) where
+    samples_dict maps politician name → {"rho": np.ndarray, "tau": np.ndarray}.
     """
     pcts    = np.array([YOUTH_RAW_PCT_IT[k] for k in TOPIC_KEYS], dtype=float)
     ranks_y = _rank_avg(pcts)
     rng     = np.random.default_rng(seed)
 
-    rows = []
+    rows    = []
+    samples: dict[str, dict[str, np.ndarray]] = {}
     for key, df in dfs.items():
         name   = _pol_name(key)
         scored = df[df["scored"]].reset_index(drop=True)
@@ -546,6 +551,8 @@ def build_bootstrap_alignment_ci(
             ranks_b   = _rank_avg(cov_b)
             rhos[b]   = spearmanr(ranks_y, ranks_b).statistic
             taus[b]   = kendalltau(ranks_y, ranks_b).statistic
+
+        samples[name] = {"rho": rhos, "tau": taus}
 
         lo_p, hi_p = 100 * alpha / 2, 100 * (1 - alpha / 2)
         rho_lo, rho_hi = np.nanpercentile(rhos, [lo_p, hi_p])
@@ -569,7 +576,8 @@ def build_bootstrap_alignment_ci(
             "tau_share_cross_0":   round(tau_zero, 6),
             "n_boot":              n_boot,
         })
-    return pd.DataFrame(rows).sort_values("spearman_rho", ascending=False)
+    result = pd.DataFrame(rows).sort_values("spearman_rho", ascending=False)
+    return (result, samples) if return_samples else result
 
 
 def _apply_bias_correction(dfs: dict, bias: dict[str, float]) -> dict:
@@ -873,6 +881,113 @@ def plot_bootstrap_alignment_ci(boot_df: pd.DataFrame, out: Path,
     )
     plt.tight_layout()
     _save(fig, out / "metric_alignment_bootstrap_ci.png")
+
+
+def plot_bootstrap_distributions(
+    samples: dict,
+    boot_df: pd.DataFrame,
+    out: Path,
+    threshold: int = 3,
+    alpha: float = BOOT_ALPHA,
+) -> None:
+    """KDE of the B bootstrap Spearman ρ and Kendall τ_b distributions.
+
+    One row per politician (ρ left, τ right). Darker-shaded tails show the
+    α/2 = 2.5% excluded from each side; dashed verticals mark the CI bounds
+    with their percentile labels; the solid vertical is the point estimate.
+    """
+    pols   = list(samples.keys())
+    n_pols = len(pols)
+    lo_p   = 100 * alpha / 2        # 2.5
+    hi_p   = 100 * (1 - alpha / 2)  # 97.5
+
+    fig, axes = plt.subplots(n_pols, 2, figsize=(12, 3.8 * n_pols), squeeze=False)
+    plt.subplots_adjust(hspace=0.60, wspace=0.35)
+
+    for row_i, pol in enumerate(pols):
+        color  = _pol_color(pol)
+        row_df = boot_df[boot_df["politician"] == pol].iloc[0]
+
+        for col_i, (metric, lo_col, hi_col, pt_col, xlabel) in enumerate([
+            ("rho", "rho_ci_low_95", "rho_ci_high_95", "spearman_rho", "Spearman ρ"),
+            ("tau", "tau_ci_low_95", "tau_ci_high_95", "kendall_tau",  "Kendall τ_b"),
+        ]):
+            ax     = axes[row_i, col_i]
+            data   = samples[pol][metric]
+            lo_val = float(row_df[lo_col])
+            hi_val = float(row_df[hi_col])
+            pt_val = float(row_df[pt_col])
+
+            # KDE curve over the actual data range
+            kde = gaussian_kde(data, bw_method="scott")
+            xs  = np.linspace(
+                max(-1.0, float(data.min()) - 0.08),
+                min( 1.0, float(data.max()) + 0.08),
+                500,
+            )
+            ys = kde(xs)
+
+            ax.plot(xs, ys, color=color, linewidth=1.8, zorder=3)
+
+            # Shaded regions
+            mask_lo = xs <= lo_val
+            mask_ci = (xs >= lo_val) & (xs <= hi_val)
+            mask_hi = xs >= hi_val
+
+            ax.fill_between(xs[mask_lo], ys[mask_lo], alpha=0.45, color=color,
+                            zorder=2)
+            ax.fill_between(xs[mask_hi], ys[mask_hi], alpha=0.45, color=color,
+                            zorder=2)
+            ax.fill_between(xs[mask_ci], ys[mask_ci], alpha=0.12, color=color,
+                            zorder=1)
+
+            # CI boundary verticals
+            ax.axvline(lo_val, color=color, linewidth=1.3, linestyle="--", zorder=4)
+            ax.axvline(hi_val, color=color, linewidth=1.3, linestyle="--", zorder=4)
+
+            # Point estimate
+            ax.axvline(pt_val, color="black", linewidth=1.8, linestyle="-", zorder=5,
+                       label=f"Stima puntuale: {pt_val:+.3f}")
+
+            # Zero reference
+            ax.axvline(0, color="#888888", linewidth=0.8, linestyle=":", alpha=0.7,
+                       zorder=1, label="Zero (nessun allineamento)")
+
+            # Mixed-transform annotations (x = data coords, y = axes fraction)
+            trans = ax.get_xaxis_transform()
+
+            # Percentile labels above the dashed boundary lines
+            ax.text(lo_val, 0.97, f"P{lo_p:.0f}\n{lo_val:+.3f}",
+                    ha="center", va="top", fontsize=7, color=color,
+                    fontweight="bold", transform=trans)
+            ax.text(hi_val, 0.97, f"P{hi_p:.0f}\n{hi_val:+.3f}",
+                    ha="center", va="top", fontsize=7, color=color,
+                    fontweight="bold", transform=trans)
+
+            # "2.5%" labels inside the shaded tails
+            ax.text(lo_val - 0.02, 0.52, "2.5%",
+                    ha="right", va="center", fontsize=8.5, color=color,
+                    fontweight="bold", transform=trans)
+            ax.text(hi_val + 0.02, 0.52, "2.5%",
+                    ha="left",  va="center", fontsize=8.5, color=color,
+                    fontweight="bold", transform=trans)
+
+            ax.set_xlabel(xlabel, fontsize=9)
+            ax.set_ylabel("Densità KDE", fontsize=8)
+            if col_i == 0:
+                ax.set_title(pol, fontsize=10.5, fontweight="bold",
+                             color=color, loc="left", pad=8)
+            ax.legend(fontsize=7.5, loc="upper left")
+            ax.grid(axis="x", linestyle="--", alpha=0.3)
+            ax.set_xlim(-1.05, 1.05)
+
+    fig.suptitle(
+        f"Distribuzioni Bootstrap — Spearman ρ e Kendall τ_b (Coverage ≥{threshold})\n"
+        f"B = {int(boot_df['n_boot'].iloc[0])} ricampionamenti — "
+        "zone scure = 2.5% escluso da ciascun estremo del CI al 95%",
+        fontsize=11, fontweight="bold", y=1.01,
+    )
+    _save(fig, out / "metric_alignment_bootstrap_distributions.png")
 
 
 def plot_bias_correction(corr_align: pd.DataFrame,
@@ -1368,8 +1483,13 @@ def main() -> None:
 
     # ── Robustness: bootstrap CIs, bias correction, threshold sensitivity ────
     print("\n[Robustness] Bootstrap CI sulle correlazioni di rank...")
-    boot_ci = build_bootstrap_alignment_ci(dfs, args.threshold)
+    boot_ci, boot_samples = build_bootstrap_alignment_ci(
+        dfs, args.threshold, return_samples=True
+    )
     plot_bootstrap_alignment_ci(boot_ci, plots_dir, args.threshold)
+
+    print("[Robustness] Distribuzioni bootstrap per politico...")
+    plot_bootstrap_distributions(boot_samples, boot_ci, plots_dir, args.threshold)
 
     print("[Robustness] Correzione formale del bias del modello...")
     corr_ranks    = build_bias_corrected_ranks(dfs, MODEL_BIAS_GEMMA, args.threshold)
