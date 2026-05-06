@@ -82,9 +82,4 @@ Run the pipeline wizard first (`python tools/main.py`) — the dashboard display
 
 ---
 
-## Methodology notes
-
-Scoring uses a 1–5 ordinal scale per topic per post:
-`1` absent · `2` marginal · `3` present · `4` relevant · `5` dominant
-
-Coverage is the share of posts scoring ≥ τ on a topic (τ = 3 by default). Rankings derived from coverage are compared to the youth-priority ranking via Spearman ρ and Kendall τ; Top-K overlap counts shared topics between the two top-k sets. Chart info panels in the UI show the formulas inline.
+See `tools/results_analyzer/README.md` for the definitions of coverage rate, ρ, τ and Top-K overlap as used by the dashboard. Chart info panels in the UI show the formulas inline.

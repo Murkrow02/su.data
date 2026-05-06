@@ -1,34 +1,16 @@
 # 1. Content Scraping — Instagram Scraper
 
-> **Stage 1 of the HDS pipeline.** Extracts the raw signal — politicians' Instagram posts — that all downstream analyses are built on.
+> **Stage 1 of the HDS pipeline.** Downloads the politicians' Instagram posts (media + caption + minimal metadata) within a configurable date window.
 
 ---
 
-## 1. Purpose
+## 1. What it produces
 
-This tool builds the empirical corpus on which the entire *Semantic Gap* study rests. For each tracked politician it downloads, in a configurable date window:
-
-* every published post (image, carousel, video, reel) within range,
-* the post caption,
-* a structural metadata file (`info.json`) used by Stage 2 (Transcriber) and Stage 3 (Scorer).
-
-It is the single source of "what the politicians actually said on social media in this period". The fidelity of every later metric — Coverage Rate, Jensen-Shannon Divergence, Agenda Alignment Score — depends on the completeness and date-correctness of this corpus.
+For each tracked politician and date window, the scraper writes one folder per post under `data/content/<profile>/<YYYY-MM-DD_NNN>/` containing the media files and an `info.json`. This is the unit-of-analysis consumed by Stage 2.
 
 ---
 
-## 2. Theoretical Framing
-
-Instagram is treated as a **public proxy for a politician's communicative agenda** in the sense of agenda-setting theory (McCombs & Shaw, 1972): the salience of a topic in the political discourse is operationalised as the frequency with which it is selected for posting. Compared to TV interviews or parliamentary speech, Instagram has three properties relevant to this thesis:
-
-1. **First-person authorship.** The candidate (or their staff) controls the content, framing and timing — there is no journalistic mediation.
-2. **Mass-distribution by default.** Each post is broadcast to followers and surfaced algorithmically; there is intent for the message to reach an audience that includes young voters.
-3. **Temporal density.** Politicians post several times per week, allowing a fine-grained reconstruction of their agenda within the survey window.
-
-Restricting the analysis to a fixed date range tied to the Eurobarometer fielding period (Sept–Oct 2024) is critical: the youth priorities measured by EB EP013EP are themselves date-stamped, so comparing them to a politician's communication in a non-overlapping period would conflate change-over-time with cross-sectional gap.
-
----
-
-## 3. Data Flow
+## 2. Data Flow
 
 ```
                         ┌────────────────────────────┐
@@ -43,12 +25,12 @@ Restricting the analysis to a fixed date range tied to the Eurobarometer fieldin
 ```
 
 * **Inputs** — Instagram session cookies (`.env` at repo root) and a profile username.
-* **Outputs** — per-post folders under `data/content/<profile>/`. Each post folder is a unit-of-analysis for downstream tools.
-* **Downstream consumer** — `tools/text_transcriber/transcriber.py` reads the same folders.
+* **Outputs** — per-post folders under `data/content/<profile>/`.
+* **Downstream consumer** — `tools/text_transcriber/transcriber.py`.
 
 ---
 
-## 4. Setup
+## 3. Setup
 
 ```bash
 cd tools/content_scraping
@@ -72,7 +54,7 @@ Cookies can be retrieved from any browser via `F12 → Application → Cookies �
 
 ---
 
-## 5. Usage
+## 4. Usage
 
 ```bash
 # Interactive: lists profiles already in data/content/ and prompts for a choice
@@ -96,49 +78,39 @@ The wizard `tools/main.py` calls this stage with the right venv binary.
 
 ---
 
-## 6. Methodology / Algorithms
+## 5. Implementation Notes
 
-### 6.1 Date filtering and the early-exit heuristic
+### 5.1 Date filtering
 
-Instagram's `Profile.get_posts()` returns posts in reverse chronological order. We iterate from newest to oldest:
+Instagram's `Profile.get_posts()` returns posts in reverse chronological order. The scraper iterates from newest to oldest, skipping posts strictly newer than `--end`, keeping posts within `[start, end]`, and breaking after **5** consecutive posts strictly older than `--start`. The threshold tolerates short out-of-order streaks (pinned/reshared posts) while bounding fetch volume.
 
-* skip posts strictly newer than `--end`,
-* keep posts within `[start, end]`,
-* count consecutive posts strictly older than `--start` and break after **five** of them.
+### 5.2 Folder identifier scheme
 
-The break threshold of five trades off completeness against API quota: it tolerates a short out-of-order streak (Instagram occasionally serves a pinned or reshared post out of date order) while bounding the worst-case number of fetched posts.
+Each post receives a deterministic folder name `YYYY-MM-DD_NNN`, with `NNN` a zero-padded counter local to that day. The counter is derived by scanning existing folders, so re-runs are idempotent and natural sort matches chronology.
 
-### 6.2 Folder identifier scheme
+### 5.3 Media renaming
 
-Each post receives a deterministic folder name `YYYY-MM-DD_NNN`, where `NNN` is a zero-padded counter local to that day. This:
+`instaloader` writes media into a temporary `_temp_<shortcode>` folder mixed with extras (`.txt`, `.json.xz`, video thumbnails). The scraper:
 
-* is stable across re-runs (existing folders are scanned to derive the next counter),
-* sorts naturally,
-* preserves the chronological grouping needed by aggregation (Stage 2 produces one `<profile>.json` per profile by sorting `folder_id`s lexicographically).
+1. Strips non-media extras.
+2. Renames surviving media to `<folder_id>_<n>.<ext>`.
+3. Deletes the temporary folder.
 
-### 6.3 Media renaming
+Result: every post folder contains only numeric, ordered media filenames plus `info.json`.
 
-`instaloader` writes media into a temporary `_temp_<shortcode>` folder, mixes them with extras (`.txt`, `.json.xz`, video thumbnails) and uses Instagram's shortcode as a prefix. We:
+### 5.4 Rate limiting
 
-1. strip non-media extras,
-2. rename surviving media to `<folder_id>_<n>.<ext>`,
-3. delete the temporary folder.
-
-Result: every post folder contains *only* numeric, ordered media filenames plus `info.json`. This is what makes the Transcriber's pipeline deterministic.
-
-### 6.4 Rate limiting & politeness
-
-* `instaloader` is initialised with `sleep=True` and `quiet=True`, so it inserts default rate-limit pauses between requests.
+* `instaloader` is initialised with `sleep=True` and `quiet=True` (default rate-limit pauses between requests).
 * The scraper additionally `time.sleep(3)` between posts.
-* No comments, video thumbnails, or follower lists are downloaded — only the strictly necessary objects.
+* No comments, video thumbnails or follower lists are downloaded.
 
-### 6.5 Why no metadata?
+### 5.5 Slim payload
 
-`save_metadata=False` is passed to `instaloader`. We *do* need the caption and the post type, but not the JSON dump of likes / view counts / location. Slimming the payload reduces the on-disk footprint by ~40%, and keeps the pipeline's data-protection surface minimal: `info.json` records only the strict minimum each downstream tool needs.
+`save_metadata=False` is passed to `instaloader`. `info.json` records only `folder_id`, `caption` and `type` — the strict minimum each downstream tool needs.
 
 ---
 
-## 7. Output Artifacts
+## 6. Output Schema
 
 Each post folder contains `info.json`:
 
@@ -156,17 +128,15 @@ Each post folder contains `info.json`:
 | `caption`   | string | Raw caption (may contain emoji, URLs, line breaks). |
 | `type`      | enum   | `"image"` (single or carousel) or `"video"`.        |
 
-Plus the media files themselves at `<folder_id>_<n>.<ext>`.
-
-Per-profile aggregate `<profile>.json` is **not** produced here — that file is created by Stage 2 (Transcriber) once OCR/STT have run.
+Plus the media files at `<folder_id>_<n>.<ext>`. Per-profile aggregate `<profile>.json` is **not** produced here — it is created by Stage 2 once OCR/STT have run.
 
 ---
 
-## 8. Limitations & Notes
+## 7. Limitations & Notes
 
-* **Instagram TOS.** This pipeline uses authenticated session cookies of a real user; it is suitable for academic research on a small, fixed set of public political accounts. Do not redistribute the downloaded media.
-* **GDPR / data protection.** Only public posts are downloaded. No follower lists, no comments, no profile metadata of third parties.
+* **Instagram TOS.** This pipeline uses authenticated session cookies of a real user; suitable for academic research on a small, fixed set of public political accounts. Do not redistribute downloaded media.
+* **GDPR / data protection.** Only public posts are downloaded. No follower lists, no comments, no third-party profile metadata.
 * **Stories & Reels.** Stories (24h ephemeral) are out of scope. Public Reels appear in `get_posts()` and are captured.
-* **Reproducibility.** Re-running the scraper on the same window is idempotent for already-present folders (it counts existing date-prefixed dirs to assign the next `NNN`). To force a clean re-fetch, delete the relevant date folders first.
-* **Carousels.** A single post that is a carousel of N images yields N media files, all named with the same `folder_id`. The `type` is set to the type of the first slide as exposed by `instaloader.Post.is_video`.
-* **Rate-limit failures.** Instagram occasionally throttles or returns transient HTTP errors mid-iteration; the scraper logs the per-post status (`OK` / `ERROR: ...`) and continues with the next post rather than aborting the run.
+* **Reproducibility.** Re-running on the same window is idempotent for already-present folders. To force a clean re-fetch, delete the relevant date folders first.
+* **Carousels.** A carousel of N images yields N media files sharing the same `folder_id`. `type` is set to the type of the first slide (`instaloader.Post.is_video`).
+* **Rate-limit failures.** Instagram occasionally throttles or returns transient HTTP errors mid-iteration; the scraper logs `OK` / `ERROR: ...` per post and continues.
