@@ -1,18 +1,12 @@
 # HDS Pipeline — Tooling Index
 
-> Five-stage pipeline that turns Italian politicians' Instagram activity into the alignment metrics underpinning the *Semantic Gap* report. Each stage lives in its own folder with its own venv and its own README.
+> Five-stage pipeline that turns Italian politicians' Instagram activity into the alignment metrics produced by Stage 5. Each stage lives in its own folder with its own venv and its own README.
 
 ---
 
 ## Pipeline Overview
 
 ```
-   ┌────────────────────────────────────────────────────────────────────┐
-   │  Flash Eurobarometer EP013EP — Youth Survey 2024 (Italy, Q2)       │
-   │  → ground-truth distribution YOUTH_RAW_PCT_IT (10 topics)          │
-   └────────────────────────────────────────────────────────────────────┘
-                                  │  used by Stage 5
-                                  ▼
    ┌─────────────────┐    ┌──────────────────┐    ┌──────────────────┐
    │ 1. Scraping     │───▶│ 2. Transcribing  │───▶│ 3. Scoring (LLM) │
    │ Instagram posts │    │ OCR + ASR fusion │    │ 10 topic Likert  │
@@ -22,9 +16,9 @@
                                 ┌──────────────────────────┼──────────────────────────┐
                                 ▼                                                     ▼
                        ┌──────────────────┐                               ┌──────────────────────┐
-                       │ 4. Validation    │   κ_w, ρ, MAE, Wilcoxon, α     │ 5. Analysis & Plots │
-                       │ (LLM vs humans)  │   ──────────────────────────▶  │ ranks + alignment   │
-                       │  optional        │   feeds back into model choice │ heatmaps + report   │
+                       │ 4. Validation    │   κ_w, ρ, MAE, Wilcoxon, α    │ 5. Analysis & Plots  │
+                       │ (LLM vs humans)  │   ─────────────────────────▶  │ ranks + alignment    │
+                       │  optional        │   feeds bias correction (§5)  │ + robustness checks  │
                        └──────────────────┘                               └──────────────────────┘
 ```
 
@@ -36,7 +30,7 @@
 |  4    | `tools/model_validation/`       | `validator.py`      | `data/model_validation/politicians/*/*.csv`  | `data/model_validation/results/results.md`      |
 |  5    | `tools/results_analyzer/`       | `analyzer.py`       | `data/scores/*.csv`                          | `data/results/{plots,csv}/`                     |
 
-Each `tools/<stage>/README.md` is a self-contained chapter — purpose, theoretical framing, data flow, setup, usage, methodology, output schema, limitations. Concatenating them top-to-bottom produces a draft of the project's technical report.
+Each `tools/<stage>/README.md` documents that stage end-to-end: data flow, setup, usage, implementation notes, output schema, limitations.
 
 ---
 

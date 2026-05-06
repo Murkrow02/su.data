@@ -1,14 +1,6 @@
 # Human Data Science — The Semantic Gap
 
-> Quantifying the divergence between Italian youth's policy priorities and the agenda Italian political leaders communicate on Instagram.
-
-This is the codebase for a **Human Data Science** course project. It builds an end-to-end empirical pipeline — scrape, transcribe, score, validate, analyse — that produces every figure and metric used in the final report (`docs/relazione.pdf`).
-
----
-
-## Thesis in one paragraph
-
-The Flash Eurobarometer **EP013EP** (Youth Survey 2024, Q2, Italy row, ages 16–30) gives a survey-grounded ranking of the topics young Italians want their government to prioritise. We compare this ranking against an empirically-derived ranking of what Italian political leaders actually *post about* on Instagram during the same window. The gap between the two — measured by Spearman ρ, Kendall τ, and Top-K Jaccard over coverage rates — is the *semantic gap* the project aims to expose.
+> Codebase for the **Human Data Science** course project. End-to-end pipeline — scrape, transcribe, score, validate, analyse — that produces every figure and metric in `docs/relazione.pdf`.
 
 ---
 
@@ -45,11 +37,6 @@ The pipeline and tooling are documented in detail in **[`tools/README.md`](tools
 
 ---
 
-## Tracked politicians
-
-`ellyesse`, `giorgiameloni`, `giuseppeconte_ufficiale`, `matteosalviniofficial`, `silviasalis`. Adding a new politician is one wizard run away — Stage 1 prompts for the username, downstream stages auto-discover.
-
----
 
 ## Privacy and ethics
 
@@ -57,8 +44,3 @@ This pipeline downloads only public Instagram posts of public political accounts
 
 ---
 
-## Reference
-
-* Flash Eurobarometer **EP013EP** — Youth Survey 2024 (full PDF in `data/Youth_Survey_2024_FL013EP_report_en.pdf`).
-* McCombs, M. & Shaw, D. (1972). *The Agenda-Setting Function of Mass Media*.
-* Landis, J. R. & Koch, G. G. (1977). *The Measurement of Observer Agreement for Categorical Data* — used in Stage 4 for Cohen's κ interpretive bands.
