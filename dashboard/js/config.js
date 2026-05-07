@@ -101,6 +101,24 @@ export const politicians = [
     palette: ["#e8f4e8", "#1a5c1a", "#2e8b2e"],
     photo: "Dashboard/dati/Silvia_Salis.jpg",
   },
+  {
+    id: "nicolafratoianni",
+    name: "Nicola Fratoianni",
+    handle: "@nicolafratoianni",
+    party: "Alleanza Verdi Sinistra",
+    role: "Segretario di Sinistra Italiana",
+    palette: ["#fde9c7", "#a8431a", "#e07a1f"],
+    photo: "Dashboard/dati/Nicola_Fratoianni.jpg",
+  },
+  {
+    id: "carlocalenda",
+    name: "Carlo Calenda",
+    handle: "@carlocalenda",
+    party: "Azione",
+    role: "Segretario di Azione",
+    palette: ["#eef4fb", "#002b5c", "#005696"],
+    photo: "Dashboard/dati/Carlo_Calenda.png",
+  },
 ];
 
 const byId = (collection, id) => collection.find((item) => item.id === id);

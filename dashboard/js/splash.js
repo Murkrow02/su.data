@@ -14,4 +14,8 @@
   window.addEventListener("message", (e) => {
     if (e.data?.type === "splashSkip") dismiss();
   });
+
+  window.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") dismiss();
+  });
 })();
