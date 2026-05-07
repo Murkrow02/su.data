@@ -420,17 +420,412 @@ export function renderAbout() {
       aside: ``,
     },
     {
-      eyebrow: "Fase 2 / Raccolta dati",
-      title: "Il corpus: struttura, dimensioni e finestra temporale.",
-      tone: "phase2",
-      copy: `
-        <p>[Placeholder] Questa sezione descriverà come abbiamo costruito il dataset: i profili selezionati, la finestra di osservazione, il numero totale di post raccolti e la distribuzione per tipo di contenuto.</p>
-      `,
+      eyebrow: "Fase 2 / Pipeline · 01",
+      title: "Cinque stadi. Lo scoring biforca verso validazione e analisi.",
+      tone: "pipe-overview",
+      copy: ``,
       aside: `
-        <div class="research-phase-wip">
-          <span>In costruzione</span>
-          <strong>Raccolta dati</strong>
-          <p>I contenuti di questa sezione verranno completati a breve.</p>
+        <div class="int2-pipeline-bar">
+          <div class="int2-stage">
+            <span>Stadio 1</span>
+            <b>Scraping</b>
+            <em>Instaloader</em>
+          </div>
+          <div class="int2-arrow">→</div>
+          <div class="int2-stage">
+            <span>Stadio 2</span>
+            <b>OCR + ASR</b>
+            <em>Tesseract · Whisper</em>
+          </div>
+          <div class="int2-arrow">→</div>
+          <div class="int2-stage int2-stage--key">
+            <span>Stadio 3</span>
+            <b>Scoring LLM</b>
+            <em>Ollama · locale</em>
+          </div>
+          <div class="int2-arrow int2-arrow--fork">
+            <span>↗</span>
+            <span>↘</span>
+          </div>
+          <div class="int2-stage-stack">
+            <div class="int2-stage">
+              <span>Stadio 4</span>
+              <b>Validazione</b>
+              <em>vs annotatori umani</em>
+            </div>
+            <div class="int2-stage">
+              <span>Stadio 5</span>
+              <b>Analisi finale</b>
+              <em>Coverage + ranking</em>
+            </div>
+          </div>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "Fase 2 / Pipeline · 02",
+      title: "Stadio 1 — Instaloader. Solo contenuti pubblici.",
+      tone: "pipe-scrape",
+      copy: ``,
+      aside: `
+        <div class="int2-scrape-grid">
+          <div class="int2-code-block">
+            <div class="int2-code-header">
+              <span>Output JSON</span>
+              <b>per ogni post</b>
+            </div>
+            <pre>{
+  "folder_id" : "2025-09-01_001",
+  "caption"   : "Oggi al Senato...",
+  "type"      : "video"
+}</pre>
+          </div>
+          <div class="int2-meta-stack">
+            <article class="int2-meta-card ok">
+              <b>Contenuti pubblici</b>
+              <em>caption · immagine · video · metadati</em>
+            </article>
+            <article class="int2-meta-card ok">
+              <b>GDPR compliant</b>
+              <em>account politici pubblici · niente profiling</em>
+            </article>
+            <article class="int2-meta-card no">
+              <b>Esclusi</b>
+              <em>follower · commenti · engagement interno</em>
+            </article>
+          </div>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "Fase 2 / Pipeline · 03",
+      title: "Stadio 2 — Tre input convergono in un unico testo.",
+      tone: "pipe-extract",
+      copy: ``,
+      aside: `
+        <div class="int2-merge-grid">
+          <div class="int2-merge-inputs">
+            <div class="int2-input-row">
+              <span class="int2-tag">CAP</span>
+              <div>
+                <b>Caption</b>
+                <em>già testo · scaricata diretta</em>
+              </div>
+            </div>
+            <div class="int2-input-row">
+              <span class="int2-tag">OCR</span>
+              <div>
+                <b>Immagine</b>
+                <em>Tesseract · slogan e infografiche</em>
+              </div>
+            </div>
+            <div class="int2-input-row">
+              <span class="int2-tag">ASR</span>
+              <div>
+                <b>Video</b>
+                <em>faster-whisper large-v3-turbo</em>
+              </div>
+            </div>
+          </div>
+          <div class="int2-merge-arrow">→</div>
+          <div class="int2-merge-output">
+            <span>Output unificato</span>
+            <b>Testo del post</b>
+            <em>pronto per scoring tematico</em>
+          </div>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "Fase 2 / Pipeline · 04",
+      title: "Stadio 3 — Una chiamata, dieci score. Locale.",
+      tone: "pipe-scoring",
+      copy: ``,
+      aside: `
+        <div class="int2-scoring-flow">
+          <article class="int2-flow-step">
+            <span>Input</span>
+            <b>Prompt</b>
+            <p>"Analizza · score 1–5 per ogni tema · output JSON valido"</p>
+            <small>10 temi Eurobarometro</small>
+          </article>
+          <div class="int2-arrow">→</div>
+          <article class="int2-flow-step int2-flow-step--key">
+            <span>Engine</span>
+            <b>Ollama locale</b>
+            <p>nessuna API esterna · privacy garantita</p>
+            <small>temperature = 0</small>
+          </article>
+          <div class="int2-arrow">→</div>
+          <article class="int2-flow-step">
+            <span>Output</span>
+            <b>JSON multi-tema</b>
+            <pre>{
+  "ambiente_clima"     : 1,
+  "lavoro_economia"    : 4,
+  "democrazia_legalita": 3,
+  ...
+}</pre>
+          </article>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "Fase 2 / Pipeline · 05",
+      title: "Scala Likert 1–5. Asimmetrica e deterministica.",
+      tone: "pipe-likert",
+      copy: ``,
+      aside: `
+        <div class="int2-likert-bar">
+          <div class="int2-likert-step int2-likert--1">
+            <b>1</b>
+            <em>completamente assente</em>
+          </div>
+          <div class="int2-likert-step int2-likert--2">
+            <b>2</b>
+            <em>appena accennato</em>
+          </div>
+          <div class="int2-likert-step int2-likert--3">
+            <b>3</b>
+            <em>presente, secondario</em>
+          </div>
+          <div class="int2-likert-step int2-likert--4">
+            <b>4</b>
+            <em>significativo, profondità</em>
+          </div>
+          <div class="int2-likert-step int2-likert--5">
+            <b>5</b>
+            <em>oggetto principale del post</em>
+          </div>
+        </div>
+        <p class="int2-likert-caption">Stessa rubrica per LLM e annotatori umani · temperature = 0 → output deterministico</p>
+      `,
+    },
+    {
+      eyebrow: "Fase 2 / Pipeline · 06",
+      title: "Stadio 4 — 3 modelli vs 4 umani su 30 post × 10 temi.",
+      tone: "pipe-valid",
+      copy: ``,
+      aside: `
+        <div class="int2-valid-grid">
+          <div class="int2-valid-side int2-valid-humans">
+            <span>Riferimento</span>
+            <div class="int2-humans-row">
+              <i></i><i></i><i></i><i></i>
+            </div>
+            <b>4 annotatori umani</b>
+            <em>media arrotondata per difetto</em>
+          </div>
+          <div class="int2-valid-center">
+            <div class="int2-grid-30">
+              ${Array.from({ length: 30 }).map((_, i) => `<i${(i + 1) % 10 === 0 ? ' class="row-end"' : ""}></i>`).join("")}
+            </div>
+            <strong>30 post · 10 temi</strong>
+            <em>300 coppie modello-umano per modello</em>
+          </div>
+          <div class="int2-valid-side int2-valid-models">
+            <span>Candidati</span>
+            <div class="int2-model-list">
+              <b>gemma4:e4b</b>
+              <b>llama3.1:8b</b>
+              <b>qwen3:14b</b>
+            </div>
+            <em>open-weight · locali</em>
+          </div>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "Fase 2 / Pipeline · 07",
+      title: "Cinque metriche per scale ordinali appaiate.",
+      tone: "pipe-metrics",
+      copy: ``,
+      aside: `
+        <div class="int2-metric-groups">
+          <div class="int2-metric-group">
+            <span class="int2-group-head">Errore</span>
+            <div class="int2-metric-row">
+              <article>
+                <b>MAE</b>
+                <em>scarto medio assoluto in punti scala</em>
+              </article>
+              <article>
+                <b>Bias medio</b>
+                <em>segno dell'errore sistematico (over/under-stima)</em>
+              </article>
+            </div>
+          </div>
+          <div class="int2-metric-group">
+            <span class="int2-group-head">Accordo</span>
+            <div class="int2-metric-row">
+              <article>
+                <b>κ pesato</b>
+                <em>accordo · penalizza errori grandi</em>
+              </article>
+              <article>
+                <b>α Krippendorff</b>
+                <em>reliability ordinale robusta su distribuzioni asimmetriche</em>
+              </article>
+            </div>
+          </div>
+          <div class="int2-metric-group">
+            <span class="int2-group-head">Ordinamento</span>
+            <div class="int2-metric-row">
+              <article>
+                <b>Spearman ρ</b>
+                <em>accordo sull'ordinamento dei valori</em>
+              </article>
+            </div>
+          </div>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "Fase 2 / Pipeline · 08",
+      title: "Gemma4:e4b vince su tutte e tre le metriche chiave.",
+      tone: "pipe-choice",
+      copy: ``,
+      aside: `
+        <div class="int2-choice-grid">
+          <article class="int2-mini-bars">
+            <header>
+              <span>MAE</span>
+              <b>più basso = meglio</b>
+            </header>
+            <div class="int2-bars int2-bars--mini">
+              <div class="int2-bar int2-bar--win">
+                <label>gemma4</label>
+                <div class="int2-bar-track"><div class="int2-bar-fill" style="width:49%"></div></div>
+                <strong>0.244</strong>
+              </div>
+              <div class="int2-bar">
+                <label>qwen3</label>
+                <div class="int2-bar-track"><div class="int2-bar-fill" style="width:56%"></div></div>
+                <strong>0.282</strong>
+              </div>
+              <div class="int2-bar int2-bar--lose">
+                <label>llama3.1</label>
+                <div class="int2-bar-track"><div class="int2-bar-fill" style="width:95%"></div></div>
+                <strong>0.473</strong>
+              </div>
+            </div>
+          </article>
+          <article class="int2-mini-bars">
+            <header>
+              <span>Bias medio</span>
+              <b>vicino a 0 = meglio</b>
+            </header>
+            <div class="int2-bars int2-bars--mini">
+              <div class="int2-bar int2-bar--win">
+                <label>gemma4</label>
+                <div class="int2-bar-track"><div class="int2-bar-fill" style="width:20%"></div></div>
+                <strong>+0.10</strong>
+              </div>
+              <div class="int2-bar">
+                <label>qwen3</label>
+                <div class="int2-bar-track"><div class="int2-bar-fill" style="width:42%"></div></div>
+                <strong>+0.21</strong>
+              </div>
+              <div class="int2-bar int2-bar--lose">
+                <label>llama3.1</label>
+                <div class="int2-bar-track"><div class="int2-bar-fill" style="width:82%"></div></div>
+                <strong>+0.41</strong>
+              </div>
+            </div>
+          </article>
+          <article class="int2-mini-bars">
+            <header>
+              <span>Kappa pesato</span>
+              <b>più alto = meglio</b>
+            </header>
+            <div class="int2-bars int2-bars--mini">
+              <div class="int2-bar int2-bar--win">
+                <label>gemma4</label>
+                <div class="int2-bar-track"><div class="int2-bar-fill" style="width:78%"></div></div>
+                <strong>0.784</strong>
+              </div>
+              <div class="int2-bar int2-bar--win">
+                <label>qwen3</label>
+                <div class="int2-bar-track"><div class="int2-bar-fill" style="width:78%"></div></div>
+                <strong>0.780</strong>
+              </div>
+              <div class="int2-bar int2-bar--lose">
+                <label>llama3.1</label>
+                <div class="int2-bar-track"><div class="int2-bar-fill" style="width:60%"></div></div>
+                <strong>0.601</strong>
+              </div>
+            </div>
+          </article>
+        </div>
+        <p class="int2-choice-note">Nota: kappa gemma–qwen quasi pari (0.784 vs 0.780). Differenza decisiva su MAE e bias · gemma è anche 4B vs 14B di qwen → costo inferenza inferiore.</p>
+      `,
+    },
+    {
+      eyebrow: "Fase 2 / Pipeline · 09",
+      title: "Limite noto: democrazia e difesa sovrastimati.",
+      tone: "pipe-limits",
+      copy: ``,
+      aside: `
+        <div class="int2-bars-card">
+          <header><span>MAE per tema (gemma4) — media globale 0.244</span></header>
+          <div class="int2-bars">
+            <div class="int2-bar int2-bar--warn">
+              <label>democrazia_legalita</label>
+              <div class="int2-bar-track"><div class="int2-bar-fill" style="width:97%"></div></div>
+              <strong>0.58</strong>
+            </div>
+            <div class="int2-bar int2-bar--warn">
+              <label>difesa_sicurezza</label>
+              <div class="int2-bar-track"><div class="int2-bar-fill" style="width:92%"></div></div>
+              <strong>0.55</strong>
+            </div>
+            <div class="int2-bar">
+              <label>altri 8 temi (media)</label>
+              <div class="int2-bar-track"><div class="int2-bar-fill" style="width:30%"></div></div>
+              <strong>~0.18</strong>
+            </div>
+          </div>
+          <footer>
+            <div>
+              <span>Bias democrazia</span>
+              <b style="grid-column:span 3;color:var(--red)">+0.37 — sovrastima sistematica</b>
+            </div>
+            <div>
+              <span>Causa</span>
+              <b style="grid-column:span 3;font-family:inherit;font-weight:400">cornici retoriche generiche attivano il tema su contenuto decorativo</b>
+            </div>
+          </footer>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "Fase 2 / Pipeline · 10",
+      title: "Pipeline validata. 742 post × 10 temi.",
+      tone: "pipe-close",
+      copy: ``,
+      aside: `
+        <div class="int2-close-grid">
+          <div class="int2-close-stat">
+            <span>Post</span>
+            <strong>742</strong>
+            <em>processati end-to-end</em>
+          </div>
+          <div class="int2-close-arrow">×</div>
+          <div class="int2-close-stat">
+            <span>Temi</span>
+            <strong>10</strong>
+            <em>griglia Eurobarometro</em>
+          </div>
+          <div class="int2-close-arrow">=</div>
+          <div class="int2-close-stat int2-close-stat--key">
+            <span>Score totali</span>
+            <strong>7.420</strong>
+            <em>MAE medio 0.244 · gemma4:e4b</em>
+          </div>
+        </div>
+        <div class="int2-close-note">
+          <span>Caveat metodologico</span>
+          <p>Validazione vs media di 4 annotatori umani — non ground truth assoluto. I risultati sono misure costruite, verificabili e utili. Non sentenze automatiche.</p>
         </div>
       `,
     },

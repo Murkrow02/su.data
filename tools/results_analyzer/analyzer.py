@@ -201,6 +201,9 @@ def plot_rankings(dfs: dict, out: Path, threshold: int = 3) -> pd.DataFrame:
     gs  = fig.add_gridspec(1, n_pols + 1, wspace=0.6)
 
     def _fmt_rank(r: float) -> str:
+        import math
+        if r is None or (isinstance(r, float) and math.isnan(r)):
+            return "–"
         return f"{int(r)}" if r == int(r) else f"{r:.1f}"
 
     def _draw_panel(ax, labels, vals, ranks, color, alpha, title, xlabel):

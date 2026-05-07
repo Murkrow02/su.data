@@ -6208,3 +6208,837 @@ main:has(.research-deck) {
     transition-duration: 1ms;
   }
 }
+
+/* =====================================================================
+   INTERVENTO 2 — Pipeline slides (visual-first horizontal layouts)
+   ===================================================================== */
+
+.research-slide--pipe-overview .research-slide-inner,
+.research-slide--pipe-scrape .research-slide-inner,
+.research-slide--pipe-extract .research-slide-inner,
+.research-slide--pipe-scoring .research-slide-inner,
+.research-slide--pipe-likert .research-slide-inner,
+.research-slide--pipe-valid .research-slide-inner,
+.research-slide--pipe-metrics .research-slide-inner,
+.research-slide--pipe-choice .research-slide-inner,
+.research-slide--pipe-limits .research-slide-inner,
+.research-slide--pipe-close .research-slide-inner {
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  gap: clamp(28px, 3.6vw, 56px);
+  align-items: start;
+  align-content: center;
+  padding: clamp(40px, 5vw, 80px) clamp(32px, 5vw, 72px);
+  width: min(100%, 1480px);
+}
+
+.research-slide--pipe-overview .research-slide-aside,
+.research-slide--pipe-scrape .research-slide-aside,
+.research-slide--pipe-extract .research-slide-aside,
+.research-slide--pipe-scoring .research-slide-aside,
+.research-slide--pipe-likert .research-slide-aside,
+.research-slide--pipe-valid .research-slide-aside,
+.research-slide--pipe-metrics .research-slide-aside,
+.research-slide--pipe-choice .research-slide-aside,
+.research-slide--pipe-limits .research-slide-aside,
+.research-slide--pipe-close .research-slide-aside {
+  display: block;
+}
+
+.research-slide--pipe-overview .research-slide-copy,
+.research-slide--pipe-scrape .research-slide-copy,
+.research-slide--pipe-extract .research-slide-copy,
+.research-slide--pipe-scoring .research-slide-copy,
+.research-slide--pipe-likert .research-slide-copy,
+.research-slide--pipe-valid .research-slide-copy,
+.research-slide--pipe-metrics .research-slide-copy,
+.research-slide--pipe-choice .research-slide-copy,
+.research-slide--pipe-limits .research-slide-copy,
+.research-slide--pipe-close .research-slide-copy {
+  max-width: none;
+}
+
+.research-slide--pipe-overview .research-slide-copy h1,
+.research-slide--pipe-scrape .research-slide-copy h1,
+.research-slide--pipe-extract .research-slide-copy h1,
+.research-slide--pipe-scoring .research-slide-copy h1,
+.research-slide--pipe-likert .research-slide-copy h1,
+.research-slide--pipe-valid .research-slide-copy h1,
+.research-slide--pipe-metrics .research-slide-copy h1,
+.research-slide--pipe-choice .research-slide-copy h1,
+.research-slide--pipe-limits .research-slide-copy h1,
+.research-slide--pipe-close .research-slide-copy h1 {
+  font-size: clamp(30px, 3vw, 48px);
+  max-width: 1200px;
+  line-height: 1.15;
+}
+
+.research-slide--pipe-overview .research-slide-copy::after,
+.research-slide--pipe-scrape .research-slide-copy::after,
+.research-slide--pipe-extract .research-slide-copy::after,
+.research-slide--pipe-scoring .research-slide-copy::after,
+.research-slide--pipe-likert .research-slide-copy::after,
+.research-slide--pipe-valid .research-slide-copy::after,
+.research-slide--pipe-metrics .research-slide-copy::after,
+.research-slide--pipe-choice .research-slide-copy::after,
+.research-slide--pipe-limits .research-slide-copy::after,
+.research-slide--pipe-close .research-slide-copy::after {
+  margin-top: clamp(14px, 2vw, 22px);
+  width: clamp(80px, 12vw, 160px);
+}
+
+.research-slide--pipe-overview .research-slide-text,
+.research-slide--pipe-scrape .research-slide-text,
+.research-slide--pipe-extract .research-slide-text,
+.research-slide--pipe-scoring .research-slide-text,
+.research-slide--pipe-likert .research-slide-text,
+.research-slide--pipe-valid .research-slide-text,
+.research-slide--pipe-metrics .research-slide-text,
+.research-slide--pipe-choice .research-slide-text,
+.research-slide--pipe-limits .research-slide-text,
+.research-slide--pipe-close .research-slide-text {
+  display: none;
+}
+
+.research-slide--pipe-overview .research-slide-aside,
+.research-slide--pipe-scrape .research-slide-aside,
+.research-slide--pipe-extract .research-slide-aside,
+.research-slide--pipe-scoring .research-slide-aside,
+.research-slide--pipe-likert .research-slide-aside,
+.research-slide--pipe-valid .research-slide-aside,
+.research-slide--pipe-metrics .research-slide-aside,
+.research-slide--pipe-choice .research-slide-aside,
+.research-slide--pipe-limits .research-slide-aside,
+.research-slide--pipe-close .research-slide-aside {
+  width: 100%;
+  max-width: 1380px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ----- 01 Pipeline overview: horizontal 5-stage bar with fork ------- */
+.int2-pipeline-bar {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  padding: clamp(16px, 2vw, 28px);
+  border: 1px solid var(--line);
+  background: rgba(255, 252, 246, 0.85);
+  box-shadow: var(--shadow);
+}
+.int2-stage {
+  flex: 1 1 0;
+  display: grid;
+  gap: 8px;
+  padding: 18px 14px;
+  text-align: center;
+  align-content: center;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.7);
+}
+.int2-stage span {
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+.int2-stage b {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(20px, 1.9vw, 28px);
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1.15;
+}
+.int2-stage em {
+  font-style: normal;
+  font-size: clamp(13px, 1vw, 15px);
+  color: var(--muted);
+  line-height: 1.45;
+}
+.int2-stage--key {
+  background: var(--ink);
+  border-color: var(--ink);
+}
+.int2-stage--key span { color: rgba(255, 252, 246, 0.6); }
+.int2-stage--key em { color: rgba(255, 252, 246, 0.7); }
+.int2-stage--key b { color: var(--paper); }
+
+.int2-arrow {
+  flex: 0 0 auto;
+  min-width: 32px;
+  display: grid;
+  place-items: center;
+  font-size: clamp(24px, 2.4vw, 34px);
+  color: var(--accent);
+  font-weight: 200;
+}
+.int2-arrow--fork {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+  gap: 4px;
+}
+
+.int2-stage-stack {
+  flex: 1.05 1 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.int2-stage-stack .int2-stage {
+  flex: 1 1 50%;
+  padding: 12px 12px;
+}
+.int2-stage-stack .int2-stage b { font-size: clamp(15px, 1.35vw, 19px); }
+
+/* ----- 02 Scraping: code block + meta cards ----- */
+.int2-scrape-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: clamp(16px, 2vw, 28px);
+  align-items: stretch;
+}
+.int2-code-block {
+  display: grid;
+  gap: 10px;
+  padding: clamp(18px, 2vw, 26px);
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  box-shadow: var(--shadow);
+}
+.int2-code-header {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+}
+.int2-code-header span {
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.18em;
+  color: rgba(255, 252, 246, 0.6);
+  text-transform: uppercase;
+}
+.int2-code-header b {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(18px, 1.6vw, 24px);
+}
+.int2-code-block pre {
+  margin: 0;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: clamp(14px, 1.05vw, 17px);
+  line-height: 1.7;
+  color: rgba(255, 252, 246, 0.92);
+}
+.int2-code-block pre .k { color: #ffd58a; }
+.int2-meta-stack { display: grid; gap: 10px; align-content: stretch; }
+.int2-meta-card {
+  display: grid;
+  gap: 4px;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.7);
+}
+.int2-meta-card {
+  padding: 18px 20px;
+  gap: 6px;
+}
+.int2-meta-card b {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(17px, 1.5vw, 22px);
+}
+.int2-meta-card em {
+  font-style: normal;
+  color: var(--muted);
+  font-size: clamp(13.5px, 1vw, 15.5px);
+  line-height: 1.5;
+}
+.int2-meta-card.ok { border-left: 4px solid var(--green); }
+.int2-meta-card.no {
+  border-left: 4px solid var(--red);
+  opacity: 0.78;
+}
+
+/* ----- 03 OCR/ASR merge: 3 inputs → unified text ----- */
+.int2-merge-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) auto minmax(0, 1fr);
+  gap: clamp(14px, 2vw, 28px);
+  align-items: stretch;
+}
+.int2-merge-inputs { display: grid; gap: 10px; }
+.int2-input-row {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.7);
+}
+.int2-input-row .int2-tag {
+  display: grid;
+  place-items: center;
+  height: 42px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--paper);
+  font-weight: 850;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+}
+.int2-input-row b {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(18px, 1.7vw, 24px);
+  color: var(--ink);
+}
+.int2-input-row em {
+  font-style: normal;
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: clamp(13.5px, 1vw, 15.5px);
+}
+.int2-merge-arrow {
+  display: grid;
+  place-items: center;
+  font-size: clamp(36px, 4vw, 56px);
+  color: var(--accent);
+  font-weight: 200;
+}
+.int2-merge-output {
+  display: grid;
+  align-content: center;
+  gap: 8px;
+  padding: clamp(20px, 2.4vw, 32px);
+  text-align: center;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+}
+.int2-merge-output span {
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.18em;
+  color: rgba(255, 252, 246, 0.6);
+  text-transform: uppercase;
+}
+.int2-merge-output b {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(24px, 2.4vw, 36px);
+}
+.int2-merge-output em {
+  font-style: normal;
+  color: rgba(255, 252, 246, 0.78);
+  font-size: clamp(13.5px, 1vw, 15.5px);
+}
+
+/* ----- 04 Scoring LLM: prompt → engine → JSON ----- */
+.int2-scoring-flow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1.1fr);
+  gap: clamp(10px, 1.4vw, 18px);
+  align-items: stretch;
+}
+.int2-flow-step {
+  display: grid;
+  gap: 8px;
+  padding: clamp(16px, 1.8vw, 22px);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.75);
+}
+.int2-flow-step span {
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+.int2-flow-step b {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(22px, 2vw, 30px);
+  color: var(--ink);
+}
+.int2-flow-step p {
+  margin: 0;
+  font-size: clamp(13.5px, 1vw, 15.5px);
+  color: var(--muted);
+  line-height: 1.55;
+}
+.int2-flow-step small {
+  font-size: 12.5px;
+  color: var(--muted);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+.int2-flow-step--key {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+.int2-flow-step--key span { color: rgba(255, 252, 246, 0.6); }
+.int2-flow-step--key b { color: var(--paper); }
+.int2-flow-step--key p,
+.int2-flow-step--key small { color: rgba(255, 252, 246, 0.78); }
+.int2-flow-step pre {
+  margin: 0;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: clamp(12px, 0.95vw, 14px);
+  line-height: 1.6;
+  color: var(--ink);
+}
+.int2-code-block pre {
+  font-size: clamp(13.5px, 1.1vw, 18px);
+}
+
+/* ----- 05 Likert: horizontal 5-step bar with progressive fill ----- */
+.int2-likert-bar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+.int2-likert-step {
+  display: grid;
+  gap: 10px;
+  padding: clamp(20px, 2.4vw, 32px) 14px;
+  text-align: center;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.65);
+  position: relative;
+}
+.int2-likert-step b {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(36px, 4vw, 60px);
+  line-height: 1;
+  color: var(--ink);
+}
+.int2-likert-step em {
+  font-style: normal;
+  font-size: clamp(13.5px, 1.05vw, 16px);
+  color: var(--muted);
+  line-height: 1.5;
+}
+.int2-likert--1 { background: rgba(110, 110, 110, 0.08); }
+.int2-likert--2 { background: rgba(110, 110, 110, 0.14); }
+.int2-likert--3 {
+  background: rgba(189, 67, 44, 0.16);
+  border-color: rgba(189, 67, 44, 0.45);
+}
+.int2-likert--4 {
+  background: rgba(189, 67, 44, 0.32);
+  border-color: rgba(189, 67, 44, 0.6);
+}
+.int2-likert--5 {
+  background: rgba(189, 67, 44, 0.5);
+  border-color: rgba(189, 67, 44, 0.85);
+}
+.int2-likert--3 b,
+.int2-likert--4 b,
+.int2-likert--5 b { color: var(--ink); }
+.int2-likert-caption {
+  margin: 22px 0 0;
+  text-align: center;
+  font-size: clamp(14px, 1.1vw, 17px);
+  color: var(--muted);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+/* ----- 06 Validation setup: humans ↔ posts grid ↔ models ----- */
+.int2-valid-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.3fr) minmax(0, 0.85fr);
+  gap: clamp(14px, 2vw, 28px);
+  align-items: stretch;
+}
+.int2-valid-side {
+  display: grid;
+  gap: 10px;
+  padding: clamp(18px, 2vw, 26px);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.7);
+  align-content: center;
+  text-align: center;
+}
+.int2-valid-side span {
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+.int2-valid-side b {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(20px, 1.8vw, 28px);
+  color: var(--ink);
+}
+.int2-valid-side em {
+  font-style: normal;
+  font-size: clamp(13.5px, 1vw, 15.5px);
+  color: var(--muted);
+  line-height: 1.5;
+}
+.int2-humans-row {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.int2-humans-row i {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  background: var(--green);
+  opacity: 0.85;
+}
+.int2-model-list {
+  display: grid;
+  gap: 6px;
+}
+.int2-model-list b {
+  padding: 10px 14px;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid var(--line);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: clamp(14px, 1.15vw, 17px);
+  font-weight: 700;
+}
+.int2-model-list b.is-chosen {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+.int2-valid-center {
+  display: grid;
+  gap: 14px;
+  align-content: center;
+  padding: clamp(18px, 2vw, 26px);
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  text-align: center;
+}
+.int2-grid-30 {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 4px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.int2-grid-30 i {
+  aspect-ratio: 1;
+  background: rgba(255, 252, 246, 0.16);
+  border: 1px solid rgba(255, 252, 246, 0.22);
+}
+.int2-grid-30 i.row-end { background: rgba(255, 252, 246, 0.28); }
+.int2-valid-center strong {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(22px, 2.1vw, 32px);
+}
+.int2-valid-center em {
+  font-style: normal;
+  color: rgba(255, 252, 246, 0.78);
+  font-size: clamp(12.5px, 1vw, 14px);
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* ----- 07 Validation metrics: 3 grouped columns ----- */
+.int2-metric-groups {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1.4fr) minmax(0, 0.9fr);
+  gap: clamp(14px, 2vw, 24px);
+  align-items: stretch;
+}
+.int2-metric-group {
+  display: grid;
+  gap: 12px;
+  align-content: start;
+}
+.int2-group-head {
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.18em;
+  color: var(--red);
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+.int2-metric-row {
+  display: grid;
+  gap: 10px;
+}
+.int2-metric-row article {
+  display: grid;
+  gap: 6px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.72);
+}
+.int2-metric-row article {
+  padding: 20px 22px;
+  gap: 8px;
+}
+.int2-metric-row article b {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(24px, 2.2vw, 34px);
+  color: var(--ink);
+}
+.int2-metric-row article em {
+  font-style: normal;
+  font-size: clamp(14px, 1.05vw, 16px);
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+/* ----- 08 + 09 Bars chart ----- */
+.int2-bars-card {
+  display: grid;
+  gap: 16px;
+  padding: clamp(18px, 2.2vw, 30px);
+  border: 1px solid var(--line);
+  background: rgba(255, 252, 246, 0.85);
+  box-shadow: var(--shadow);
+}
+.int2-bars-card header span {
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.18em;
+  color: var(--red);
+  text-transform: uppercase;
+}
+.int2-bars { display: grid; gap: 12px; }
+.int2-bar {
+  display: grid;
+  grid-template-columns: minmax(180px, 240px) 1fr 80px;
+  align-items: center;
+  gap: 18px;
+}
+.int2-bar label {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: clamp(14px, 1.15vw, 17px);
+  color: var(--ink);
+  font-weight: 700;
+}
+.int2-bar-track {
+  position: relative;
+  height: 32px;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--line);
+  overflow: hidden;
+}
+.int2-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, rgba(110, 110, 110, 0.55), rgba(110, 110, 110, 0.7));
+}
+.int2-bar--win .int2-bar-fill {
+  background: linear-gradient(90deg, var(--green), color-mix(in srgb, var(--green) 70%, var(--ink)));
+}
+.int2-bar--lose .int2-bar-fill {
+  background: linear-gradient(90deg, rgba(110, 110, 110, 0.4), rgba(110, 110, 110, 0.55));
+  opacity: 0.65;
+}
+.int2-bar--warn .int2-bar-fill {
+  background: linear-gradient(90deg, var(--red), color-mix(in srgb, var(--red) 70%, var(--ink)));
+}
+.int2-bar strong {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(22px, 2vw, 30px);
+  color: var(--ink);
+  text-align: right;
+}
+.int2-bar-mean-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  border-left: 2px dashed rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.int2-bars-card footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+.int2-bars-card footer > div {
+  display: grid;
+  grid-template-columns: minmax(120px, 160px) repeat(3, 1fr);
+  align-items: center;
+  gap: 10px;
+}
+.int2-bars-card footer span {
+  font-size: clamp(11.5px, 0.85vw, 13px);
+  font-weight: 850;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+.int2-bars-card footer b {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: clamp(15px, 1.2vw, 18px);
+  color: var(--ink);
+  font-weight: 700;
+}
+
+/* ----- 08 Model choice: 3 mini bar charts side-by-side ----- */
+.int2-choice-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(14px, 1.6vw, 22px);
+  align-items: stretch;
+}
+.int2-mini-bars {
+  display: grid;
+  gap: 14px;
+  padding: clamp(18px, 2vw, 26px);
+  border: 1px solid var(--line);
+  background: rgba(255, 252, 246, 0.85);
+  box-shadow: var(--shadow);
+}
+.int2-mini-bars > header {
+  display: grid;
+  gap: 4px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+.int2-mini-bars > header span {
+  font-size: clamp(12px, 0.95vw, 14px);
+  font-weight: 850;
+  letter-spacing: 0.18em;
+  color: var(--red);
+  text-transform: uppercase;
+}
+.int2-mini-bars > header b {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(15px, 1.2vw, 18px);
+  color: var(--muted);
+}
+.int2-bars--mini { gap: 10px; }
+.int2-bars--mini .int2-bar {
+  grid-template-columns: minmax(80px, 100px) 1fr minmax(58px, 80px);
+  gap: 10px;
+}
+.int2-bars--mini .int2-bar label {
+  font-size: clamp(13px, 1vw, 15px);
+}
+.int2-bars--mini .int2-bar-track {
+  height: 26px;
+}
+.int2-bars--mini .int2-bar strong {
+  font-size: clamp(17px, 1.4vw, 22px);
+}
+.int2-choice-note {
+  margin: clamp(14px, 1.8vw, 22px) 0 0;
+  text-align: center;
+  font-size: clamp(13.5px, 1.05vw, 16px);
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+/* ----- 10 Closure: big stat row + caveat ----- */
+.int2-close-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1.2fr;
+  align-items: stretch;
+  gap: clamp(12px, 1.6vw, 24px);
+}
+.int2-close-stat {
+  display: grid;
+  gap: 8px;
+  align-content: center;
+  padding: clamp(20px, 2.4vw, 36px);
+  text-align: center;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.7);
+}
+.int2-close-stat span {
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+.int2-close-stat strong {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(48px, 6vw, 96px);
+  line-height: 1;
+  color: var(--ink);
+}
+.int2-close-stat em {
+  font-style: normal;
+  font-size: clamp(14px, 1.1vw, 17px);
+  color: var(--muted);
+  line-height: 1.5;
+}
+.int2-close-stat--key {
+  background: var(--ink);
+  border-color: var(--ink);
+}
+.int2-close-stat--key span { color: rgba(255, 252, 246, 0.6); }
+.int2-close-stat--key strong { color: var(--paper); }
+.int2-close-stat--key em { color: rgba(255, 252, 246, 0.78); }
+.int2-close-arrow {
+  display: grid;
+  place-items: center;
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(40px, 5vw, 72px);
+  color: var(--accent);
+}
+.int2-close-note {
+  margin-top: clamp(14px, 2vw, 22px);
+  display: grid;
+  grid-template-columns: minmax(160px, 200px) 1fr;
+  gap: 16px;
+  padding: 16px 20px;
+  border-left: 4px solid var(--red);
+  background: rgba(189, 67, 44, 0.05);
+}
+.int2-close-note span {
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.18em;
+  color: var(--red);
+  text-transform: uppercase;
+}
+.int2-close-note p {
+  margin: 0;
+  font-size: clamp(14.5px, 1.1vw, 17px);
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+/* ----- Responsive collapse ----- */
+@media (max-width: 960px) {
+  .int2-pipeline-bar { flex-wrap: wrap; }
+  .int2-scrape-grid,
+  .int2-merge-grid,
+  .int2-scoring-flow,
+  .int2-valid-grid,
+  .int2-metric-groups,
+  .int2-choice-grid,
+  .int2-close-grid {
+    grid-template-columns: 1fr;
+  }
+  .int2-likert-bar { grid-template-columns: repeat(5, 1fr); gap: 4px; }
+  .int2-likert-step { padding: 12px 6px; }
+  .int2-likert-step em { font-size: 10.5px; }
+  .int2-bar { grid-template-columns: 120px 1fr 50px; }
+}
