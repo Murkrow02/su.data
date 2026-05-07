@@ -6153,8 +6153,10 @@ main:has(.research-deck) {
 
 .int4-forest-card {
   display: grid;
-  gap: 16px;
-  padding: clamp(16px, 2vw, 26px);
+  gap: 18px;
+  padding: clamp(18px, 2.2vw, 30px);
+  min-height: clamp(390px, 48vh, 520px);
+  align-content: center;
 }
 
 .int4-forest-card header {
@@ -6180,7 +6182,9 @@ main:has(.research-deck) {
 .int4-forest-panels {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  gap: 0;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .int4-forest-panel h3,
@@ -6190,6 +6194,17 @@ main:has(.research-deck) {
   font-family: "Instrument Serif", Georgia, serif;
   font-size: clamp(20px, 1.8vw, 28px);
   font-weight: 400;
+}
+
+.int4-forest-panel {
+  display: grid;
+  gap: 8px;
+  align-content: center;
+  padding: clamp(12px, 1.4vw, 20px);
+}
+
+.int4-forest-panel--kendall {
+  border-left: 1px solid var(--line);
 }
 
 .int4-forest-panel svg {
@@ -6225,6 +6240,33 @@ main:has(.research-deck) {
 .int4-forest-panel .tick {
   font-size: 11px;
   font-variant-numeric: tabular-nums;
+}
+
+.int4-forest-values {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.int4-forest-values span {
+  display: grid;
+  gap: 2px;
+  border-top: 3px solid var(--profile);
+  padding: 7px 8px;
+  background: rgba(255, 252, 246, 0.72);
+  color: var(--muted);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.int4-forest-values b {
+  color: var(--ink);
+  font-size: 12px;
+}
+
+.int4-forest-values em {
+  font-style: normal;
 }
 
 .int4-slope-grid {
@@ -6281,10 +6323,12 @@ main:has(.research-deck) {
 .int4-heatmap {
   display: grid;
   grid-template-columns: 96px repeat(var(--cols), minmax(0, 1fr));
-  border: 1px solid var(--line);
-  background: rgba(255, 252, 246, 0.92);
+  gap: 6px;
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 12px;
+  background: rgba(255, 252, 246, 0.86);
   box-shadow: var(--shadow);
-  overflow: hidden;
 }
 
 .int4-heat-corner,
@@ -6292,12 +6336,8 @@ main:has(.research-deck) {
 .int4-heat-label,
 .int4-heat-side,
 .int4-heat-cell {
-  min-height: 42px;
   display: grid;
-  place-items: center;
-  border-right: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  text-align: center;
+  align-items: center;
 }
 
 .int4-heat-corner,
@@ -6311,45 +6351,57 @@ main:has(.research-deck) {
 }
 
 .int4-heat-rank {
-  min-height: 26px;
+  min-height: 24px;
+  justify-items: center;
   color: rgba(24, 23, 19, 0.45);
   font-size: 11px;
   font-weight: 850;
   font-variant-numeric: tabular-nums;
 }
 
+.int4-heat-label {
+  justify-content: start;
+  min-width: 54px;
+  min-height: 72px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  line-height: 1.15;
+}
+
 .int4-heat-corner.small {
   justify-items: start;
-  padding-left: 12px;
 }
 
 .int4-heat-side {
-  justify-items: start;
-  padding-left: 12px;
+  justify-content: end;
+  min-height: 52px;
+  text-align: right;
   color: var(--ink);
-  background: rgba(255, 252, 246, 0.98);
-  border-left: 5px solid var(--profile);
+  border-right: 5px solid var(--profile);
+  padding-right: 10px;
 }
 
 .int4-heat-cell {
   position: relative;
-  min-height: 64px;
-  color: #fffaf2;
-  background: color-mix(in srgb, #253f72 calc(var(--v) * 100%), #fffaf2);
-  font-size: 12px;
-  font-weight: 900;
+  display: grid;
+  min-width: 50px;
+  min-height: 52px;
+  place-items: center;
+  border: 1px solid rgba(24, 23, 19, 0.08);
+  background: var(--cell);
+  color: var(--ink);
   font-variant-numeric: tabular-nums;
 }
 
-.int4-heat-cell span {
-  padding: 4px 6px;
-  border-radius: 4px;
-  background: rgba(24, 23, 19, calc(var(--v) * 0.36));
+.int4-heat-cell strong {
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 850;
 }
 
 .int4-heat-cell.is-highlight {
-  outline: 3px solid var(--profile);
-  outline-offset: -4px;
+  border-color: var(--profile);
+  box-shadow: inset 0 0 0 2px var(--profile);
 }
 
 .int4-heat-cell em {
@@ -6367,21 +6419,21 @@ main:has(.research-deck) {
 .int4-case-card {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 210px;
-  gap: 18px;
-  padding: clamp(18px, 2vw, 28px);
+  grid-template-columns: minmax(0, 1fr) 220px;
+  gap: 22px;
+  padding: clamp(20px, 2.4vw, 34px);
   overflow: hidden;
 }
 
 .int4-case-bars {
   display: grid;
-  gap: 18px;
+  gap: 16px;
   align-content: center;
 }
 
 .int4-case-row {
   display: grid;
-  grid-template-columns: 76px minmax(0, 1fr) 58px 96px;
+  grid-template-columns: 82px minmax(0, 1fr) 64px 104px;
   gap: 12px;
   align-items: center;
   font-variant-numeric: tabular-nums;
@@ -6396,15 +6448,18 @@ main:has(.research-deck) {
 
 .int4-case-track {
   position: relative;
-  height: 28px;
+  height: 34px;
   border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.72);
+  background:
+    linear-gradient(90deg, rgba(24, 23, 19, 0.08) 1px, transparent 1px) 0 0 / 25% 100%,
+    rgba(255, 255, 255, 0.72);
 }
 
 .int4-case-track i {
   position: absolute;
-  inset: 0 auto 0 0;
+  inset: 5px auto 5px 0;
   width: var(--w);
+  min-width: 3px;
   background: var(--profile);
 }
 
@@ -6412,11 +6467,11 @@ main:has(.research-deck) {
   position: absolute;
   left: var(--lo);
   width: calc(var(--hi) - var(--lo));
-  top: 7px;
-  bottom: 7px;
+  top: 3px;
+  bottom: 3px;
   border-left: 2px solid var(--ink);
   border-right: 2px solid var(--ink);
-  background: rgba(24, 23, 19, 0.12);
+  background: linear-gradient(90deg, transparent 0 48%, rgba(24, 23, 19, 0.42) 48% 52%, transparent 52%);
 }
 
 .int4-case-row b {
@@ -6429,6 +6484,24 @@ main:has(.research-deck) {
   color: var(--muted);
   font-size: 12px;
   font-style: normal;
+}
+
+.int4-case-axis {
+  position: relative;
+  height: 20px;
+  margin-left: 94px;
+  margin-right: 180px;
+  border-top: 1px solid var(--line);
+}
+
+.int4-case-axis span {
+  position: absolute;
+  top: 6px;
+  transform: translateX(-50%);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
 }
 
 .int4-case-ranks {

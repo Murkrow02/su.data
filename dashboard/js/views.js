@@ -209,6 +209,11 @@ export function renderAbout() {
   const phase4Rank = (value) => String(value).replace(".", ",");
   const phase4X = (value) => 60 + ((value + 0.5) / 1) * 300;
   const phase4Y = (rank) => 28 + ((rank - 1) / 9) * 244;
+  const phase4TieOffset = (items, item, rankOf) => {
+    const tied = items.filter((candidate) => rankOf(candidate) === rankOf(item));
+    if (tied.length <= 1) return 0;
+    return (tied.findIndex((candidate) => candidate.id === item.id) - (tied.length - 1) / 2) * 13;
+  };
 
   const phase4AlignmentTable = () => `
     <table class="int4-alignment-table">
@@ -242,28 +247,41 @@ export function renderAbout() {
           ["Kendall τ_b", phase4Forest.kendall],
         ]
           .map(
-            ([title, rows]) => `
-              <section class="int4-forest-panel">
+            ([title, rows]) => {
+              const isKendall = title.includes("Kendall");
+              return `
+              <section class="int4-forest-panel ${isKendall ? "int4-forest-panel--kendall" : ""}">
                 <h3>${title}</h3>
-                <svg viewBox="0 0 430 180" role="img" aria-label="${title} con intervalli bootstrap">
-                  <line class="zero" x1="${phase4X(0)}" y1="18" x2="${phase4X(0)}" y2="142"></line>
-                  <line class="axis" x1="${phase4X(-0.5)}" y1="142" x2="${phase4X(0.5)}" y2="142"></line>
-                  ${[-0.5, 0, 0.5].map((tick) => `<text class="tick" x="${phase4X(tick)}" y="166" text-anchor="middle">${formatDecimal(tick)}</text>`).join("")}
+                <svg viewBox="0 0 430 220" role="img" aria-label="${title} con intervalli bootstrap">
+                  <line class="zero" x1="${phase4X(0)}" y1="22" x2="${phase4X(0)}" y2="164"></line>
+                  <line class="axis" x1="${phase4X(-0.5)}" y1="164" x2="${phase4X(0.5)}" y2="164"></line>
+                  ${[-0.5, 0, 0.5].map((tick) => `<text class="tick" x="${phase4X(tick)}" y="190" text-anchor="middle">${formatDecimal(tick)}</text>`).join("")}
                   ${rows
                     .map((row, index) => {
                       const profile = phase4Profile(row.profile);
-                      const y = 34 + index * 42;
+                      const y = 42 + index * 52;
                       return `
                         <text class="name" x="4" y="${y + 4}">${profile.short}</text>
                         <line x1="${phase4X(row.low)}" y1="${y}" x2="${phase4X(row.high)}" y2="${y}" stroke="${profile.color}" stroke-width="5" stroke-linecap="round"></line>
                         <circle cx="${phase4X(row.value)}" cy="${y}" r="7" fill="${profile.color}"></circle>
-                        <text class="value" x="${phase4X(row.high) + 14}" y="${y + 4}">${formatDecimal(row.value)} [${formatDecimal(row.low)}; ${formatDecimal(row.high)}]</text>
+                        ${isKendall ? "" : `<text class="value" x="${phase4X(row.high) + 14}" y="${y + 4}">${formatDecimal(row.value)} [${formatDecimal(row.low)}; ${formatDecimal(row.high)}]</text>`}
                       `;
                     })
                     .join("")}
                 </svg>
+                ${
+                  isKendall
+                    ? `<div class="int4-forest-values">${rows
+                        .map((row) => {
+                          const profile = phase4Profile(row.profile);
+                          return `<span style="--profile:${profile.color}"><b>${profile.short}</b> ${formatDecimal(row.value)} <em>[${formatDecimal(row.low)}; ${formatDecimal(row.high)}]</em></span>`;
+                        })
+                        .join("")}</div>`
+                    : ""
+                }
               </section>
-            `,
+            `;
+            },
           )
           .join("")}
       </div>
@@ -285,8 +303,10 @@ export function renderAbout() {
                 <line class="axis-line" x1="264" y1="28" x2="264" y2="272"></line>
                 ${phase4Topics
                   .map((topic) => {
-                    const youthY = phase4Y(topic.youth);
-                    const polY = phase4Y(phase4Ranks[profileId][topic.id]);
+                    const youthOffset = phase4TieOffset(phase4Topics, topic, (candidate) => candidate.youth);
+                    const polOffset = phase4TieOffset(phase4Topics, topic, (candidate) => phase4Ranks[profileId][candidate.id]);
+                    const youthY = phase4Y(topic.youth) + youthOffset;
+                    const polY = phase4Y(phase4Ranks[profileId][topic.id]) + polOffset;
                     const focus = ["ambiente", "democrazia"].includes(topic.id);
                     const color = focus ? topic.color : "rgba(24,23,19,0.22)";
                     return `
@@ -323,7 +343,8 @@ export function renderAbout() {
                   highlights &&
                   ((profile.id === "meloni" && ["difesa", "immigrazione"].includes(topic.id)) ||
                     (["schlein", "conte"].includes(profile.id) && topic.id === "democrazia"));
-                return `<div class="int4-heat-cell ${special ? "is-highlight" : ""}" style="--v:${value / 100};--profile:${profile.color}"><span>${Math.round(value)}%</span>${special ? `<em>${profile.id === "meloni" && topic.id === "difesa" ? "#2" : profile.id === "meloni" ? "più alta" : "#1"}</em>` : ""}</div>`;
+                const tone = `color-mix(in srgb, var(--blue) ${Math.round((value / 100) * 76)}%, #fffaf2)`;
+                return `<div class="int4-heat-cell ${special ? "is-highlight" : ""}" style="--cell:${tone};--profile:${profile.color}"><strong>${Math.round(value)}%</strong>${special ? `<em>${profile.id === "meloni" && topic.id === "difesa" ? "#2" : profile.id === "meloni" ? "più alta" : "#1"}</em>` : ""}</div>`;
               })
               .join("")}
           `,
@@ -361,6 +382,9 @@ export function renderAbout() {
               `;
             })
             .join("")}
+          <div class="int4-case-axis">
+            ${[0, max / 2, max].map((tick) => `<span style="left:${(tick / max) * 100}%">${Math.round(tick)}%</span>`).join("")}
+          </div>
         </div>
         ${marker ? `<div class="int4-case-marker"><span>${marker}</span></div>` : ""}
         <aside class="int4-case-ranks">
@@ -1335,7 +1359,7 @@ export function renderAbout() {
         <p>Ambiente e clima è il primo tema per i giovani italiani, con il 46% delle selezioni. Nei ranking politici scivola al rank 9 per Schlein, 8 per Conte, 6 per Meloni.</p>
         <p>I Coverage Rate confermano: meno di un post su dieci tratta il tema che i giovani mettono in cima. La sensitivity analysis indica che non sale mai sopra il rank 6 con τ = 2, 3 o 4.</p>
       `,
-      aside: phase4CaseBars({ topicId: "ambiente", max: 20, marker: "Priorità giovani: 46% fuori scala" }),
+      aside: phase4CaseBars({ topicId: "ambiente", max: 20 }),
     },
     {
       eyebrow: "Fase 4 / Risultati · 06",
@@ -1386,24 +1410,22 @@ export function renderAbout() {
       title: "Il gap non è solo una sensazione: è misurabile.",
       tone: "int4-close",
       copy: `
-        <p>La conclusione è duplice: sostanziale e metodologica. Sostanzialmente, ambiente e clima scende in fondo per tutti, mentre democrazia e legalità domina l'agenda comunicativa.</p>
-        <p>Metodologicamente, il ranking è la lingua comune tra survey e social: Coverage Rate costruisce la salienza, bootstrap e sensitivity analysis evitano di leggere troppo dentro i numeri.</p>
+        <p>La domanda iniziale era circoscritta: l'ordine dei temi nei post Instagram intercetta l'ordine delle priorità dichiarate dai giovani italiani?</p>
+        <p>La risposta è no, almeno nel periodo osservato. Il contributo del lavoro è rendere quel no controllabile: non una lettura impressionistica, ma una distanza ordinata, stimata e verificata.</p>
       `,
       aside: `
         <div class="int4-close-card">
           <section>
-            <h3>Cosa abbiamo trovato</h3>
-            <p>Ambiente e clima: rank 1 giovani → rank 6–9 politici</p>
-            <p>Democrazia e legalità: rank 8,5 giovani → rank 1 politici</p>
-            <p>Spearman ≤ +0,19 per tutti i profili</p>
-            <p>Gap strutturale, non isolato a un profilo</p>
+            <h3>Risposta alla RQ</h3>
+            <p>L'allineamento globale resta debole.</p>
+            <p>Il gap attraversa i tre profili osservati.</p>
+            <p>La forma del disallineamento è leggibile nei ranking.</p>
           </section>
           <section>
-            <h3>Come lo abbiamo misurato</h3>
-            <p>Coverage Rate + soglia τ = 3</p>
-            <p>Ranking come lingua comune</p>
-            <p>Bootstrap B=2000 per gli intervalli</p>
-            <p>Sensitivity analysis su τ ∈ {2, 3, 4}</p>
+            <h3>Perché è controllabile</h3>
+            <p>Survey e social vengono confrontati sullo stesso livello: l'ordine.</p>
+            <p>L'incertezza viene mostrata, non nascosta.</p>
+            <p>I limiti del modello entrano nella lettura finale.</p>
           </section>
           <strong>Il gap non è solo una sensazione — è misurabile.</strong>
         </div>
