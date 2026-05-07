@@ -326,3 +326,8 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2025-04-10_001,video,it,1,1,1,1,1,1,4,1,3,1,Polizia di Stato;Medaglie al Valor Civile;servitori dello Stato;coraggio;dedizione;Nazione,positive,low
 2025-04-10_002,image,it,1,1,1,1,1,1,5,1,4,1,Polizia di Stato;legalità;sicurezza;Decreto Sicurezza;Forze dell'Ordine;dedizione,positive,medium
 2025-04-14_001,image,it,1,1,1,1,1,1,1,1,3,1,Fabrizio Quattrocchi;uccisione;coraggio;orgoglio nazionale,negative,medium
+2025-04-15_001,video,it,1,4,1,1,1,1,1,1,2,1,Premio Leonardo;eccellenza italiana;export;imprenditori;competitività;sistema Italia;ricchezza,positive,low
+2025-04-16_001,image,it,1,1,1,1,1,1,2,5,3,1,Paesi sicuri di origine;Patto Migrazione e Asilo;flussi migratori;confini esterni;rimpatri;procedure accelerate;Italia-Albania,positive,high
+2025-04-16_002,image,it,1,1,1,1,1,1,1,1,3,1,Stefano e Virgilio Mattei;odio politico;giustizia;orrori;memoria,negative,high
+2025-04-17_001,video,it,1,1,1,1,1,1,2,1,2,1,Occidente;escalazione;soluzioni;visita;Europa;West Great Again,positive,medium
+2025-04-17_002,image,it,1,3,1,1,1,1,4,3,1,1,Washington;Trump;sicurezza;difesa;immigrazione illegale;dialogo internazionale,positive,low
