@@ -1,5 +1,7 @@
 # Data files
 *.mp4
+*.webp
+*.jpeg
 *.wav
 
 # Firebase

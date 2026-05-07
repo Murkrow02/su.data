@@ -1,14 +1,14 @@
 politician,topic,n_posts,n_above,coverage,ci_low_95,ci_high_95,ci_width
-Elly Schlein,Democrazia e legalità,233,125,0.5365,0.4724,0.5994,0.127
-Elly Schlein,Lavoro e economia,233,70,0.3004,0.2452,0.3621,0.117
-Elly Schlein,Salute e welfare,233,54,0.2318,0.1822,0.29,0.1078
-Elly Schlein,Costo della vita,233,49,0.2103,0.1629,0.2671,0.1042
-Elly Schlein,Difesa e sicurezza,233,41,0.176,0.1324,0.23,0.0976
-Elly Schlein,Istruzione e formazione,233,28,0.1202,0.0845,0.1682,0.0837
-Elly Schlein,Uguaglianza di genere,233,20,0.0858,0.0563,0.1289,0.0726
-Elly Schlein,Abitazione,233,18,0.0773,0.0494,0.1188,0.0694
-Elly Schlein,Ambiente e clima,233,16,0.0687,0.0427,0.1086,0.0659
-Elly Schlein,Immigrazione,233,8,0.0343,0.0175,0.0663,0.0488
+Elly Schlein,Democrazia e legalità,498,282,0.5663,0.5224,0.6091,0.0867
+Elly Schlein,Lavoro e economia,498,177,0.3554,0.3146,0.3984,0.0838
+Elly Schlein,Salute e welfare,498,112,0.2249,0.1904,0.2636,0.0732
+Elly Schlein,Costo della vita,498,102,0.2048,0.1717,0.2425,0.0708
+Elly Schlein,Difesa e sicurezza,498,98,0.1968,0.1642,0.234,0.0697
+Elly Schlein,Istruzione e formazione,498,57,0.1145,0.0894,0.1454,0.056
+Elly Schlein,Uguaglianza di genere,498,49,0.0984,0.0752,0.1277,0.0525
+Elly Schlein,Ambiente e clima,498,34,0.0683,0.0493,0.0939,0.0446
+Elly Schlein,Immigrazione,498,30,0.0602,0.0425,0.0847,0.0422
+Elly Schlein,Abitazione,498,30,0.0602,0.0425,0.0847,0.0422
 Giorgia Meloni,Democrazia e legalità,278,102,0.3669,0.3124,0.425,0.1126
 Giorgia Meloni,Difesa e sicurezza,278,89,0.3201,0.2681,0.3771,0.109
 Giorgia Meloni,Lavoro e economia,278,87,0.3129,0.2613,0.3697,0.1084
@@ -29,26 +29,16 @@ Giuseppe Conte,Abitazione,231,16,0.0693,0.0431,0.1095,0.0665
 Giuseppe Conte,Ambiente e clima,231,15,0.0649,0.0397,0.1044,0.0646
 Giuseppe Conte,Immigrazione,231,10,0.0433,0.0237,0.0778,0.0542
 Giuseppe Conte,Uguaglianza di genere,231,4,0.0173,0.0068,0.0437,0.0369
-carlocalenda,Democrazia e legalità,588,393,0.6684,0.6293,0.7052,0.0759
-carlocalenda,Difesa e sicurezza,588,219,0.3724,0.3343,0.4122,0.0779
-carlocalenda,Lavoro e economia,588,150,0.2551,0.2215,0.2918,0.0703
-carlocalenda,Costo della vita,588,56,0.0952,0.0741,0.1217,0.0476
-carlocalenda,Salute e welfare,588,55,0.0935,0.0726,0.1198,0.0472
-carlocalenda,Istruzione e formazione,588,47,0.0799,0.0606,0.1047,0.044
-carlocalenda,Ambiente e clima,588,24,0.0408,0.0276,0.06,0.0324
-carlocalenda,Immigrazione,588,13,0.0221,0.013,0.0375,0.0245
-carlocalenda,Abitazione,588,9,0.0153,0.0081,0.0288,0.0208
-carlocalenda,Uguaglianza di genere,588,8,0.0136,0.0069,0.0266,0.0197
-nicolafratoianni,Lavoro e economia,217,107,0.4931,0.4273,0.5591,0.1319
-nicolafratoianni,Democrazia e legalità,217,102,0.47,0.4047,0.5364,0.1317
-nicolafratoianni,Costo della vita,217,77,0.3548,0.2942,0.4205,0.1263
-nicolafratoianni,Salute e welfare,217,60,0.2765,0.2213,0.3395,0.1182
-nicolafratoianni,Difesa e sicurezza,217,54,0.2488,0.196,0.3104,0.1144
-nicolafratoianni,Istruzione e formazione,217,40,0.1843,0.1384,0.2413,0.1029
-nicolafratoianni,Abitazione,217,21,0.0968,0.0642,0.1434,0.0792
-nicolafratoianni,Ambiente e clima,217,18,0.0829,0.0531,0.1273,0.0742
-nicolafratoianni,Uguaglianza di genere,217,9,0.0415,0.022,0.0769,0.055
-nicolafratoianni,Immigrazione,217,4,0.0184,0.0072,0.0464,0.0392
+nicolafratoianni,Lavoro e economia,219,107,0.4886,0.4232,0.5544,0.1313
+nicolafratoianni,Democrazia e legalità,219,104,0.4749,0.4098,0.5409,0.1311
+nicolafratoianni,Costo della vita,219,77,0.3516,0.2914,0.4169,0.1255
+nicolafratoianni,Salute e welfare,219,60,0.274,0.2192,0.3366,0.1174
+nicolafratoianni,Difesa e sicurezza,219,55,0.2511,0.1983,0.3125,0.1142
+nicolafratoianni,Istruzione e formazione,219,40,0.1826,0.1371,0.2391,0.102
+nicolafratoianni,Abitazione,219,21,0.0959,0.0636,0.1421,0.0786
+nicolafratoianni,Ambiente e clima,219,18,0.0822,0.0526,0.1262,0.0735
+nicolafratoianni,Uguaglianza di genere,219,9,0.0411,0.0218,0.0762,0.0545
+nicolafratoianni,Immigrazione,219,4,0.0183,0.0071,0.046,0.0389
 silviasalis,Lavoro e economia,124,44,0.3548,0.2761,0.4423,0.1661
 silviasalis,Democrazia e legalità,124,42,0.3387,0.2614,0.4257,0.1644
 silviasalis,Istruzione e formazione,124,29,0.2339,0.1681,0.3157,0.1476

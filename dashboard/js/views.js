@@ -744,15 +744,19 @@ export function renderAbout() {
   app.innerHTML = `
     <section class="research-deck" aria-label="La ricerca, prima fase">
       <nav class="research-progress" aria-label="Indice slide ricerca">
-        ${speakerSlides
-          .map(
-            (slide, index) => `
-              <button type="button" data-slide-jump="${index + 1}" aria-label="Vai alla slide ${index + 1}">
-                <span>${String(index + 1).padStart(2, "0")}</span>
-              </button>
-            `,
-          )
-          .join("")}
+        <button type="button" class="research-progress-arrow" data-progress-dir="-1" aria-label="Scorri su">▲</button>
+        <div class="research-progress-list">
+          ${speakerSlides
+            .map(
+              (slide, index) => `
+                <button type="button" data-slide-jump="${index + 1}" aria-label="Vai alla slide ${index + 1}">
+                  <span>${String(index + 1).padStart(2, "0")}</span>
+                </button>
+              `,
+            )
+            .join("")}
+        </div>
+        <button type="button" class="research-progress-arrow" data-progress-dir="1" aria-label="Scorri giù">▼</button>
       </nav>
 
       <div class="research-slides-stage" style="--slide-count:${speakerSlides.length}">
@@ -780,6 +784,13 @@ export function renderAbout() {
 
   const slides = [...app.querySelectorAll("[data-research-slide]")];
   const progressLinks = [...app.querySelectorAll("[data-slide-jump]")];
+  const progressList = app.querySelector(".research-progress-list");
+  const updateArrows = () => {
+    if (!progressList) return;
+    const [upBtn, downBtn] = app.querySelectorAll(".research-progress-arrow");
+    if (upBtn) upBtn.classList.toggle("is-hidden", progressList.scrollTop <= 0);
+    if (downBtn) downBtn.classList.toggle("is-hidden", progressList.scrollTop + progressList.clientHeight >= progressList.scrollHeight - 1);
+  };
   let activeIndex = 0;
   let isAnimating = false;
   let touchStartY = 0;
@@ -808,6 +819,19 @@ export function renderAbout() {
       link.classList.toggle("is-active", isActive);
       link.setAttribute("aria-current", isActive ? "step" : "false");
     });
+
+    if (progressList) {
+      const activeLink = progressLinks[clampedIndex];
+      if (activeLink) {
+        const listTop = progressList.scrollTop;
+        const listH = progressList.clientHeight;
+        const linkTop = activeLink.offsetTop;
+        const linkH = activeLink.offsetHeight;
+        if (linkTop < listTop) progressList.scrollTop = linkTop - 8;
+        else if (linkTop + linkH > listTop + listH) progressList.scrollTop = linkTop + linkH - listH + 8;
+      }
+      updateArrows();
+    }
 
     if (!instant && previousIndex !== activeIndex) {
       isAnimating = true;
@@ -860,6 +884,14 @@ export function renderAbout() {
 
   progressLinks.forEach((link) => {
     link.addEventListener("click", () => setActiveSlide(Number(link.dataset.slideJump) - 1));
+  });
+
+  app.querySelectorAll(".research-progress-arrow").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const dir = Number(btn.dataset.progressDir);
+      progressList.scrollTop += dir * (34 + 8) * 3;
+      updateArrows();
+    });
   });
 
   setActiveSlide(0, { instant: true });

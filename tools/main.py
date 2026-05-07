@@ -15,6 +15,8 @@ Stdlib only — runnable as `python tools/main.py` from anywhere.
 
 from __future__ import annotations
 
+import csv
+import json
 import os
 import subprocess
 import sys
@@ -74,33 +76,92 @@ def discover_profiles() -> list[str]:
                   if d.is_dir() and not d.name.startswith((".", "_")))
 
 
+def _date_bounds(dates: list[str]) -> tuple[str, str]:
+    if not dates:
+        return ("", "")
+    return (min(dates), max(dates))
+
+
+def _scrape_bounds(prof_dir: Path) -> tuple[str, str]:
+    dates = [
+        d.name[:10] for d in prof_dir.iterdir()
+        if d.is_dir() and not d.name.startswith((".", "_")) and len(d.name) >= 10
+    ]
+    return _date_bounds(dates)
+
+
+def _transcribe_bounds(prof_dir: Path, prof: str) -> tuple[str, str]:
+    json_path = prof_dir / f"{prof}.json"
+    if not json_path.exists():
+        return ("", "")
+    try:
+        posts = json.loads(json_path.read_text(encoding="utf-8"))
+        dates = [p["folder_id"][:10] for p in posts if len(p.get("folder_id", "")) >= 10]
+        return _date_bounds(dates)
+    except Exception:
+        return ("", "")
+
+
+def _score_bounds(prof: str) -> tuple[str, str]:
+    csv_path = SCORES_DIR / f"{prof}.csv"
+    if not csv_path.exists():
+        return ("", "")
+    try:
+        with csv_path.open(encoding="utf-8") as f:
+            dates = [
+                row["folder_id"][:10]
+                for row in csv.DictReader(f)
+                if len(row.get("folder_id", "")) >= 10
+            ]
+        return _date_bounds(dates)
+    except Exception:
+        return ("", "")
+
+
 def status_table() -> str:
     profs = discover_profiles()
     if not profs:
         return "  (nessun profilo ancora scrapato in data/content/)\n"
 
-    rows = [("Profilo", "Scrape", "Transcribe", "Score", "Analyze")]
+    # Collect per-profile data
+    Profile = tuple[str, bool, bool, bool, bool, tuple, tuple, tuple]
+    data: list[Profile] = []
     for prof in profs:
-        prof_dir   = CONTENT_DIR / prof
-        scraped    = any(d.is_dir() and not d.name.startswith("_") for d in prof_dir.iterdir())
+        prof_dir    = CONTENT_DIR / prof
+        scraped     = any(d.is_dir() and not d.name.startswith("_") for d in prof_dir.iterdir())
         transcribed = (prof_dir / f"{prof}.json").exists()
-        scored     = (SCORES_DIR / f"{prof}.csv").exists()
-        analyzed   = (RESULTS_DIR / "csv" / "rankings.csv").exists() and scored
-        rows.append((
-            prof,
-            "✓" if scraped     else "·",
-            "✓" if transcribed else "·",
-            "✓" if scored      else "·",
-            "✓" if analyzed    else "·",
+        scored      = (SCORES_DIR / f"{prof}.csv").exists()
+        analyzed    = (RESULTS_DIR / "csv" / "rankings.csv").exists() and scored
+        data.append((
+            prof, scraped, transcribed, scored, analyzed,
+            _scrape_bounds(prof_dir) if scraped else ("", ""),
+            _transcribe_bounds(prof_dir, prof) if transcribed else ("", ""),
+            _score_bounds(prof) if scored else ("", ""),
         ))
 
-    widths = [max(len(r[c]) for r in rows) for c in range(len(rows[0]))]
+    # Build rows: header + for each profile: tick row, start row, end row
+    DATE_W = 10  # len("YYYY-MM-DD")
+    header = ("Profilo", "Scrape", "Transcribe", "Score", "Analyze")
+    all_rows = [header]
+    for prof, sc, tr, sk, an, sc_b, tr_b, sk_b in data:
+        all_rows.append((prof, "✓" if sc else "·", "✓" if tr else "·", "✓" if sk else "·", "✓" if an else "·"))
+        all_rows.append(("", sc_b[0], tr_b[0], sk_b[0], ""))
+        all_rows.append(("", sc_b[1], tr_b[1], sk_b[1], ""))
+
+    widths = [max(len(r[c]) for r in all_rows) for c in range(5)]
+
     out = []
-    for i, row in enumerate(rows):
-        line = "  " + "  ".join(cell.ljust(widths[c]) for c, cell in enumerate(row))
-        out.append(line)
+    prof_idx = 0
+    for i, row in enumerate(all_rows):
         if i == 0:
-            out.append("  " + "  ".join("-" * widths[c] for c in range(len(widths))))
+            out.append("  " + "  ".join(cell.ljust(widths[c]) for c, cell in enumerate(row)))
+            out.append("  " + "  ".join("-" * widths[c] for c in range(5)))
+        else:
+            block = (i - 1) % 3  # 0=tick, 1=start, 2=end
+            if block == 0 and i > 1:
+                out.append("")  # blank line between profiles
+            out.append("  " + "  ".join(cell.ljust(widths[c]) for c, cell in enumerate(row)))
+
     return "\n".join(out) + "\n"
 
 
