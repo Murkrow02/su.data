@@ -9,6 +9,16 @@ Giovani IT,EB %,Difesa e sicurezza,7.0,0.16
 Giovani IT,EB %,Immigrazione,8.5,0.15
 Giovani IT,EB %,Democrazia e legalità,8.5,0.15
 Giovani IT,EB %,Abitazione,10.0,0.09
+antoniotajani,Coverage ≥3,Lavoro e economia,2.0,0.8889
+antoniotajani,Coverage ≥3,Difesa e sicurezza,2.0,0.8889
+antoniotajani,Coverage ≥3,Democrazia e legalità,2.0,0.8889
+antoniotajani,Coverage ≥3,Salute e welfare,4.0,0.6667
+antoniotajani,Coverage ≥3,Istruzione e formazione,5.0,0.5556
+antoniotajani,Coverage ≥3,Immigrazione,6.0,0.4444
+antoniotajani,Coverage ≥3,Costo della vita,7.0,0.3333
+antoniotajani,Coverage ≥3,Ambiente e clima,8.0,0.2222
+antoniotajani,Coverage ≥3,Uguaglianza di genere,9.5,0.0556
+antoniotajani,Coverage ≥3,Abitazione,9.5,0.0556
 carlocalenda,Coverage ≥3,Democrazia e legalità,1.0,1.0
 carlocalenda,Coverage ≥3,Difesa e sicurezza,2.0,0.8889
 carlocalenda,Coverage ≥3,Lavoro e economia,3.0,0.7778
@@ -55,8 +65,8 @@ matteosalviniofficial,Coverage ≥3,Immigrazione,3.0,0.7778
 matteosalviniofficial,Coverage ≥3,Lavoro e economia,4.0,0.6667
 matteosalviniofficial,Coverage ≥3,Istruzione e formazione,5.0,0.5556
 matteosalviniofficial,Coverage ≥3,Salute e welfare,6.0,0.4444
-matteosalviniofficial,Coverage ≥3,Ambiente e clima,8.0,0.2222
 matteosalviniofficial,Coverage ≥3,Costo della vita,8.0,0.2222
+matteosalviniofficial,Coverage ≥3,Ambiente e clima,8.0,0.2222
 matteosalviniofficial,Coverage ≥3,Abitazione,8.0,0.2222
 matteosalviniofficial,Coverage ≥3,Uguaglianza di genere,10.0,0.0
 nicolafratoianni,Coverage ≥3,Lavoro e economia,1.0,1.0
@@ -72,8 +82,8 @@ nicolafratoianni,Coverage ≥3,Immigrazione,10.0,0.0
 silviasalis,Coverage ≥3,Lavoro e economia,1.0,1.0
 silviasalis,Coverage ≥3,Democrazia e legalità,2.0,0.8889
 silviasalis,Coverage ≥3,Istruzione e formazione,3.0,0.7778
-silviasalis,Coverage ≥3,Ambiente e clima,4.5,0.6111
 silviasalis,Coverage ≥3,Salute e welfare,4.5,0.6111
+silviasalis,Coverage ≥3,Ambiente e clima,4.5,0.6111
 silviasalis,Coverage ≥3,Difesa e sicurezza,6.0,0.4444
 silviasalis,Coverage ≥3,Costo della vita,7.0,0.3333
 silviasalis,Coverage ≥3,Abitazione,8.0,0.2222
