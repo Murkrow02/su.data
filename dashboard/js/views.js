@@ -160,6 +160,218 @@ export function renderAbout() {
       ? window.katex.renderToString(latex, { throwOnError: false, displayMode: display })
       : (display ? `<code>\\[${latex}\\]</code>` : `<code>\\(${latex}\\)</code>`);
 
+  const phase4Profiles = [
+    { id: "schlein", name: "Elly Schlein", short: "Schlein", n: 233, color: "#d63030", soft: "rgba(214, 48, 48, 0.1)" },
+    { id: "conte", name: "Giuseppe Conte", short: "Conte", n: 231, color: "#c58b00", soft: "rgba(232, 168, 0, 0.16)" },
+    { id: "meloni", name: "Giorgia Meloni", short: "Meloni", n: 278, color: "#1a3470", soft: "rgba(26, 52, 112, 0.12)" },
+  ];
+  const phase4Topics = [
+    { id: "ambiente", label: "Ambiente", full: "Ambiente e clima", youth: 1, color: "#be4a2f" },
+    { id: "lavoro", label: "Lavoro", full: "Lavoro e economia", youth: 2, color: "#8b5d2e" },
+    { id: "costo", label: "Costo vita", full: "Costo della vita", youth: 3.5, color: "#be4a2f" },
+    { id: "salute", label: "Salute", full: "Salute e welfare", youth: 3.5, color: "#3f6ea8" },
+    { id: "istruzione", label: "Istruzione", full: "Istruzione e formazione", youth: 5, color: "#6f57a8" },
+    { id: "uguaglianza", label: "Uguaglianza", full: "Uguaglianza di genere", youth: 6, color: "#bb4f7e" },
+    { id: "difesa", label: "Difesa", full: "Difesa e sicurezza", youth: 7, color: "#495057" },
+    { id: "immigrazione", label: "Immigrazione", full: "Immigrazione", youth: 8.5, color: "#197278" },
+    { id: "democrazia", label: "Democrazia", full: "Democrazia e legalità", youth: 8.5, color: "#253f72" },
+    { id: "abitazione", label: "Abitazione", full: "Abitazione", youth: 10, color: "#cc7a00" },
+  ];
+  const phase4Alignment = [
+    { profile: "schlein", spearman: "+0,19", spearmanCi: "[+0,07; +0,36]", kendall: "+0,20", kendallCi: "[+0,09; +0,30]", j: "0,25 / 0,43" },
+    { profile: "conte", spearman: "+0,09", spearmanCi: "[−0,01; +0,28]", kendall: "+0,07", kendallCi: "[+0,02; +0,20]", j: "0,25 / 0,43" },
+    { profile: "meloni", spearman: "+0,01", spearmanCi: "[−0,07; +0,30]", kendall: "+0,05", kendallCi: "[−0,05; +0,25]", j: "0,25 / 0,25" },
+  ];
+  const phase4Forest = {
+    spearman: [
+      { profile: "schlein", value: 0.19, low: 0.06, high: 0.34 },
+      { profile: "conte", value: 0.09, low: -0.01, high: 0.28 },
+      { profile: "meloni", value: 0.01, low: -0.09, high: 0.27 },
+    ],
+    kendall: [
+      { profile: "schlein", value: 0.20, low: 0.11, high: 0.30 },
+      { profile: "conte", value: 0.07, low: 0.02, high: 0.20 },
+      { profile: "meloni", value: 0.05, low: -0.07, high: 0.21 },
+    ],
+  };
+  const phase4Coverage = {
+    schlein: { ambiente: 6.9, lavoro: 35.5, costo: 20.5, salute: 22.5, istruzione: 11.4, uguaglianza: 9.8, difesa: 19.7, immigrazione: 6.0, democrazia: 53.6, abitazione: 6.0 },
+    conte: { ambiente: 6.5, lavoro: 42.4, costo: 32.0, salute: 29.9, istruzione: 15.6, uguaglianza: 1.7, difesa: 34.6, immigrazione: 4.3, democrazia: 50.6, abitazione: 6.9 },
+    meloni: { ambiente: 7.6, lavoro: 31.2, costo: 5.5, salute: 7.3, istruzione: 5.2, uguaglianza: 1.2, difesa: 31.8, immigrazione: 7.9, democrazia: 36.7, abitazione: 2.4 },
+  };
+  const phase4Ranks = {
+    schlein: { ambiente: 9, lavoro: 2, costo: 4, salute: 3, istruzione: 6, uguaglianza: 7, difesa: 5, immigrazione: 8, democrazia: 1, abitazione: 10 },
+    conte: { ambiente: 8, lavoro: 2, costo: 4, salute: 5, istruzione: 6, uguaglianza: 10, difesa: 3, immigrazione: 9, democrazia: 1, abitazione: 7 },
+    meloni: { ambiente: 6, lavoro: 3, costo: 7, salute: 5, istruzione: 8, uguaglianza: 10, difesa: 2, immigrazione: 4, democrazia: 1, abitazione: 9 },
+  };
+  const formatDecimal = (value) => (value > 0 ? "+" : value < 0 ? "−" : "") + Math.abs(value).toFixed(2).replace(".", ",");
+  const phase4Profile = (id) => phase4Profiles.find((profile) => profile.id === id);
+  const phase4Rank = (value) => String(value).replace(".", ",");
+  const phase4X = (value) => 60 + ((value + 0.5) / 1) * 300;
+  const phase4Y = (rank) => 28 + ((rank - 1) / 9) * 244;
+
+  const phase4AlignmentTable = () => `
+    <table class="int4-alignment-table">
+      <thead>
+        <tr><th>Politico</th><th>Spearman ρ <span>CI 95%</span></th><th>Kendall τ<sub>b</sub> <span>CI 95%</span></th><th>J<sub>3</sub> / J<sub>5</sub></th></tr>
+      </thead>
+      <tbody>
+        ${phase4Alignment
+          .map((row) => {
+            const profile = phase4Profile(row.profile);
+            return `
+              <tr style="--profile:${profile.color};--soft:${profile.soft}">
+                <td><strong>${profile.name}</strong><span>N=${profile.n}</span></td>
+                <td><b>${row.spearman}</b> <em>${row.spearmanCi}</em></td>
+                <td><b>${row.kendall}</b> <em>${row.kendallCi}</em></td>
+                <td><b>${row.j}</b></td>
+              </tr>
+            `;
+          })
+          .join("")}
+      </tbody>
+    </table>
+  `;
+
+  const phase4ForestPlot = () => `
+    <div class="int4-forest-card">
+      <header><span>Bootstrap CI 95%</span><strong>resampling sui post · B=2000</strong></header>
+      <div class="int4-forest-panels">
+        ${[
+          ["Spearman ρ", phase4Forest.spearman],
+          ["Kendall τ_b", phase4Forest.kendall],
+        ]
+          .map(
+            ([title, rows]) => `
+              <section class="int4-forest-panel">
+                <h3>${title}</h3>
+                <svg viewBox="0 0 430 180" role="img" aria-label="${title} con intervalli bootstrap">
+                  <line class="zero" x1="${phase4X(0)}" y1="18" x2="${phase4X(0)}" y2="142"></line>
+                  <line class="axis" x1="${phase4X(-0.5)}" y1="142" x2="${phase4X(0.5)}" y2="142"></line>
+                  ${[-0.5, 0, 0.5].map((tick) => `<text class="tick" x="${phase4X(tick)}" y="166" text-anchor="middle">${formatDecimal(tick)}</text>`).join("")}
+                  ${rows
+                    .map((row, index) => {
+                      const profile = phase4Profile(row.profile);
+                      const y = 34 + index * 42;
+                      return `
+                        <text class="name" x="4" y="${y + 4}">${profile.short}</text>
+                        <line x1="${phase4X(row.low)}" y1="${y}" x2="${phase4X(row.high)}" y2="${y}" stroke="${profile.color}" stroke-width="5" stroke-linecap="round"></line>
+                        <circle cx="${phase4X(row.value)}" cy="${y}" r="7" fill="${profile.color}"></circle>
+                        <text class="value" x="${phase4X(row.high) + 14}" y="${y + 4}">${formatDecimal(row.value)} [${formatDecimal(row.low)}; ${formatDecimal(row.high)}]</text>
+                      `;
+                    })
+                    .join("")}
+                </svg>
+              </section>
+            `,
+          )
+          .join("")}
+      </div>
+    </div>
+  `;
+
+  const phase4Slopegraph = () => `
+    <div class="int4-slope-grid">
+      ${["schlein", "meloni", "conte"]
+        .map((profileId) => {
+          const profile = phase4Profile(profileId);
+          return `
+            <article class="int4-slope-panel" style="--profile:${profile.color}">
+              <h3>${profile.name}</h3>
+              <svg viewBox="0 0 360 322" role="img" aria-label="Slopegraph ${profile.name}">
+                <text class="axis-label" x="96" y="18" text-anchor="middle">Giovani</text>
+                <text class="axis-label" x="264" y="18" text-anchor="middle">${profile.short}</text>
+                <line class="axis-line" x1="96" y1="28" x2="96" y2="272"></line>
+                <line class="axis-line" x1="264" y1="28" x2="264" y2="272"></line>
+                ${phase4Topics
+                  .map((topic) => {
+                    const youthY = phase4Y(topic.youth);
+                    const polY = phase4Y(phase4Ranks[profileId][topic.id]);
+                    const focus = ["ambiente", "democrazia"].includes(topic.id);
+                    const color = focus ? topic.color : "rgba(24,23,19,0.22)";
+                    return `
+                      <line x1="96" y1="${youthY}" x2="264" y2="${polY}" stroke="${color}" stroke-width="${focus ? 4 : 1.5}" opacity="${focus ? 0.95 : 0.7}"></line>
+                      <circle cx="96" cy="${youthY}" r="${focus ? 4.8 : 2.8}" fill="${color}"></circle>
+                      <circle cx="264" cy="${polY}" r="${focus ? 4.8 : 2.8}" fill="${color}"></circle>
+                      <text class="${focus ? "topic focus" : "topic"}" x="88" y="${youthY + 4}" text-anchor="end">${phase4Rank(topic.youth)} ${topic.label}</text>
+                      <text class="${focus ? "topic focus" : "topic"}" x="272" y="${polY + 4}">${phase4Rank(phase4Ranks[profileId][topic.id])} ${topic.label}</text>
+                    `;
+                  })
+                  .join("")}
+              </svg>
+            </article>
+          `;
+        })
+        .join("")}
+    </div>
+  `;
+
+  const phase4Heatmap = ({ highlights = false } = {}) => `
+    <div class="int4-heatmap" style="--cols:${phase4Topics.length}">
+      <div class="int4-heat-corner"></div>
+      ${phase4Topics.map((topic) => `<div class="int4-heat-rank">${phase4Rank(topic.youth)}</div>`).join("")}
+      <div class="int4-heat-corner small">Politico</div>
+      ${phase4Topics.map((topic) => `<div class="int4-heat-label">${topic.label}</div>`).join("")}
+      ${phase4Profiles
+        .map(
+          (profile) => `
+            <div class="int4-heat-side" style="--profile:${profile.color}">${profile.short}</div>
+            ${phase4Topics
+              .map((topic) => {
+                const value = phase4Coverage[profile.id][topic.id];
+                const special =
+                  highlights &&
+                  ((profile.id === "meloni" && ["difesa", "immigrazione"].includes(topic.id)) ||
+                    (["schlein", "conte"].includes(profile.id) && topic.id === "democrazia"));
+                return `<div class="int4-heat-cell ${special ? "is-highlight" : ""}" style="--v:${value / 100};--profile:${profile.color}"><span>${Math.round(value)}%</span>${special ? `<em>${profile.id === "meloni" && topic.id === "difesa" ? "#2" : profile.id === "meloni" ? "più alta" : "#1"}</em>` : ""}</div>`;
+              })
+              .join("")}
+          `,
+        )
+        .join("")}
+    </div>
+  `;
+
+  const phase4CaseBars = ({ topicId, max, marker = null, warning = "" }) => {
+    const rows = {
+      ambiente: [
+        { profile: "schlein", value: 6.9, low: 4.3, high: 10.9, rank: "#9" },
+        { profile: "conte", value: 6.5, low: 4.0, high: 10.4, rank: "#8" },
+        { profile: "meloni", value: 7.6, low: 5.0, high: 11.3, rank: "#6" },
+      ],
+      democrazia: [
+        { profile: "schlein", value: 53.6, low: 47.2, high: 59.9, rank: "#1" },
+        { profile: "conte", value: 50.6, low: 44.2, high: 57.0, rank: "#1" },
+        { profile: "meloni", value: 36.7, low: 31.2, high: 42.5, rank: "#1 pari" },
+      ],
+    }[topicId];
+    return `
+      <div class="int4-case-card">
+        <div class="int4-case-bars">
+          ${rows
+            .map((row) => {
+              const profile = phase4Profile(row.profile);
+              return `
+                <div class="int4-case-row" style="--profile:${profile.color};--w:${(row.value / max) * 100}%;--lo:${(row.low / max) * 100}%;--hi:${(row.high / max) * 100}%">
+                  <strong>${profile.short}</strong>
+                  <div class="int4-case-track"><i></i><span></span></div>
+                  <b>${row.value.toFixed(1).replace(".", ",")}%</b>
+                  <em>[${row.low.toFixed(1).replace(".", ",")}–${row.high.toFixed(1).replace(".", ",")}%]</em>
+                </div>
+              `;
+            })
+            .join("")}
+        </div>
+        ${marker ? `<div class="int4-case-marker"><span>${marker}</span></div>` : ""}
+        <aside class="int4-case-ranks">
+          <b>Rank giovani: ${topicId === "ambiente" ? "#1 (46%)" : "#8,5"}</b>
+          ${rows.map((row) => `<span>Rank ${phase4Profile(row.profile).short}: <strong>${row.rank}</strong></span>`).join("")}
+        </aside>
+        ${warning ? `<p class="int4-warning">${warning}</p>` : ""}
+      </div>
+    `;
+  };
+
   const speakerSlides = [
     {
       eyebrow: "01 / Domanda di ricerca",
@@ -1076,17 +1288,124 @@ export function renderAbout() {
       `,
     },
     {
-      eyebrow: "Fase 4 / Dashboard",
-      title: "Come leggere i dati: grafici, metriche e viste comparative.",
-      tone: "phase4",
+      eyebrow: "Fase 4 / Risultati · 01",
+      title: "Allineamento globale: nessun profilo riproduce davvero l'ordine delle priorità giovanili.",
+      tone: "int4-table",
       copy: `
-        <p>[Placeholder] Questa sezione descriverà la struttura della dashboard: le viste disponibili, le metriche utilizzate e come interpretare i grafici di correlazione e confronto.</p>
+        <p>La tabella risponde alla domanda centrale: quanto il ranking politico ricalca il ranking giovanile?</p>
+        <p>La risposta è debole per tutti. Spearman resta vicino allo zero: Schlein +0,19, Conte +0,09, Meloni +0,01. Kendall tau-b racconta la stessa storia, quindi il risultato non dipende da una singola metrica.</p>
+      `,
+      aside: phase4AlignmentTable(),
+    },
+    {
+      eyebrow: "Fase 4 / Risultati · 02",
+      title: "Gli intervalli di confidenza impediscono di trasformare differenze piccole in classifiche robuste.",
+      tone: "int4-forest",
+      copy: `
+        <p>Gli intervalli sono calcolati con bootstrap non parametrico su B=2000 ricampionamenti. Con soli dieci temi, la risoluzione statistica delle correlazioni globali è limitata.</p>
+        <p>Schlein mostra un segnale debole ma distinguibile dal rumore; Conte resta al margine; Meloni include lo zero. Il punto non è chi vince, ma che nessuno si avvicina a un allineamento forte.</p>
+      `,
+      aside: phase4ForestPlot(),
+    },
+    {
+      eyebrow: "Fase 4 / Risultati · 03",
+      title: "Lo slopegraph rende visibile il gap: quasi tutte le linee si incrociano.",
+      tone: "int4-slope",
+      copy: `
+        <p>Ogni linea collega il rank giovanile al rank politico dello stesso tema. Le linee inclinate e incrociate mostrano il disaccordo tra i due ordinamenti.</p>
+        <p>Il pattern è comune: ambiente e clima scende dalla prima posizione, mentre democrazia e legalità sale dal fondo alla vetta.</p>
+      `,
+      aside: phase4Slopegraph(),
+    },
+    {
+      eyebrow: "Fase 4 / Risultati · 04",
+      title: "Coverage Rate: le celle più scure non si concentrano dove i giovani mettono le priorità.",
+      tone: "int4-heat",
+      copy: `
+        <p>Le colonne sono ordinate per priorità giovanile decrescente: ambiente a sinistra, abitazione a destra. Se ci fosse allineamento, le celle più scure dovrebbero stare a sinistra.</p>
+        <p>Succede l'opposto: la densità cresce verso i temi meno prioritari per i giovani. Ambiente e clima resta quasi bianco su tutti e tre i profili.</p>
+      `,
+      aside: phase4Heatmap(),
+    },
+    {
+      eyebrow: "Fase 4 / Risultati · 05",
+      title: "Ambiente e clima: il tema più sotto-rappresentato.",
+      tone: "int4-case",
+      copy: `
+        <p>Ambiente e clima è il primo tema per i giovani italiani, con il 46% delle selezioni. Nei ranking politici scivola al rank 9 per Schlein, 8 per Conte, 6 per Meloni.</p>
+        <p>I Coverage Rate confermano: meno di un post su dieci tratta il tema che i giovani mettono in cima. La sensitivity analysis indica che non sale mai sopra il rank 6 con τ = 2, 3 o 4.</p>
+      `,
+      aside: phase4CaseBars({ topicId: "ambiente", max: 20, marker: "Priorità giovani: 46% fuori scala" }),
+    },
+    {
+      eyebrow: "Fase 4 / Risultati · 06",
+      title: "Democrazia e legalità: il tema più sovra-rappresentato.",
+      tone: "int4-case",
+      copy: `
+        <p>Tra i giovani è nella parte bassa, al rank 8,5. Nei tre profili politici è invece in testa o al vertice: 54% per Schlein, 51% per Conte, 37% per Meloni.</p>
+        <p>Il contesto politico aiuta a leggerlo, ma va mantenuta una riserva: in validazione questo è uno dei temi su cui il modello mostra overshooting.</p>
+      `,
+      aside: phase4CaseBars({ topicId: "democrazia", max: 70, warning: "Overshooting: il modello tende a sovrastimare questo tema nella validazione (MAE 0,58)." }),
+    },
+    {
+      eyebrow: "Fase 4 / Risultati · 07",
+      title: "Il disallineamento è comune, ma i profili non sono indistinti.",
+      tone: "int4-heat-notes",
+      copy: `
+        <p>Meloni è l'unico profilo in cui difesa e sicurezza entra nei primi due rank, con Coverage Rate intorno al 32%. Anche immigrazione è più alta rispetto a Schlein e Conte.</p>
+        <p>Schlein e Conte sono più simili tra loro, entrambi dominati da democrazia e legalità e lavoro. La pipeline cattura differenze interpretabili, non profili piatti.</p>
       `,
       aside: `
-        <div class="research-phase-wip">
-          <span>In costruzione</span>
-          <strong>Dashboard</strong>
-          <p>I contenuti di questa sezione verranno completati a breve.</p>
+        <div class="int4-heat-notes-wrap">
+          ${phase4Heatmap({ highlights: true })}
+          <div class="int4-profile-notes">
+            <p><strong>Meloni</strong> unico profilo con Difesa top-2 (32%).</p>
+            <p><strong>Meloni</strong> Immigrazione più alta di Schlein e Conte.</p>
+            <p><strong>Schlein ≈ Conte</strong> simili su Democrazia e Lavoro.</p>
+          </div>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "Fase 4 / Risultati · 08",
+      title: "Tre limiti da dichiarare prima della conclusione.",
+      tone: "int4-limits",
+      copy: `
+        <p>I risultati sono leggibili, ma non vanno sovrainterpretati. Il limite statistico principale è n=10 temi; quello empirico è la specificità del riferimento Eurobarometro; quello metodologico è il giudizio umano residuo nella pipeline.</p>
+      `,
+      aside: `
+        <div class="int4-limit-grid">
+          <article><span>1</span><strong>Potenza statistica</strong><p>n=10 temi → CI bootstrap circa ±0,3. Non discrimina robustamente tra profili.</p></article>
+          <article><span>2</span><strong>Specificità del riferimento</strong><p>Eurobarometro = istantanea 2024. Altri target possono produrre altri ranking.</p></article>
+          <article><span>3</span><strong>Giudizio umano residuo</strong><p>Prompt design, campione di validazione e interpretazione restano scelte qualitative.</p></article>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "Fase 4 / Conclusione",
+      title: "Il gap non è solo una sensazione: è misurabile.",
+      tone: "int4-close",
+      copy: `
+        <p>La conclusione è duplice: sostanziale e metodologica. Sostanzialmente, ambiente e clima scende in fondo per tutti, mentre democrazia e legalità domina l'agenda comunicativa.</p>
+        <p>Metodologicamente, il ranking è la lingua comune tra survey e social: Coverage Rate costruisce la salienza, bootstrap e sensitivity analysis evitano di leggere troppo dentro i numeri.</p>
+      `,
+      aside: `
+        <div class="int4-close-card">
+          <section>
+            <h3>Cosa abbiamo trovato</h3>
+            <p>Ambiente e clima: rank 1 giovani → rank 6–9 politici</p>
+            <p>Democrazia e legalità: rank 8,5 giovani → rank 1 politici</p>
+            <p>Spearman ≤ +0,19 per tutti i profili</p>
+            <p>Gap strutturale, non isolato a un profilo</p>
+          </section>
+          <section>
+            <h3>Come lo abbiamo misurato</h3>
+            <p>Coverage Rate + soglia τ = 3</p>
+            <p>Ranking come lingua comune</p>
+            <p>Bootstrap B=2000 per gli intervalli</p>
+            <p>Sensitivity analysis su τ ∈ {2, 3, 4}</p>
+          </section>
+          <strong>Il gap non è solo una sensazione — è misurabile.</strong>
         </div>
       `,
     },
