@@ -57,12 +57,12 @@ searchInput.addEventListener("input", (event) => {
   if (route !== "posts") {
     const params = new URLSearchParams();
     params.set("search", "1");
-    if (state.query.trim()) params.set("q", state.query.trim());
+    if (state.query.trim()) params.set("q", state.query);
     history.replaceState(null, "", `#/posts?${params.toString()}`);
   } else {
     const params = routeParams();
     params.set("search", "1");
-    if (state.query.trim()) params.set("q", state.query.trim());
+    if (state.query.trim()) params.set("q", state.query);
     else params.delete("q");
     params.delete("page");
     history.replaceState(null, "", `#/posts?${params.toString()}`);
