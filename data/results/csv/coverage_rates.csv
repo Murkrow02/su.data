@@ -9,16 +9,16 @@ Elly Schlein,Uguaglianza di genere,498,49,0.0984,0.0752,0.1277,0.0525
 Elly Schlein,Ambiente e clima,498,34,0.0683,0.0493,0.0939,0.0446
 Elly Schlein,Immigrazione,498,30,0.0602,0.0425,0.0847,0.0422
 Elly Schlein,Abitazione,498,30,0.0602,0.0425,0.0847,0.0422
-Giorgia Meloni,Democrazia e legalità,278,102,0.3669,0.3124,0.425,0.1126
-Giorgia Meloni,Difesa e sicurezza,278,89,0.3201,0.2681,0.3771,0.109
-Giorgia Meloni,Lavoro e economia,278,87,0.3129,0.2613,0.3697,0.1084
-Giorgia Meloni,Salute e welfare,278,22,0.0791,0.0528,0.1169,0.0641
-Giorgia Meloni,Immigrazione,278,22,0.0791,0.0528,0.1169,0.0641
-Giorgia Meloni,Ambiente e clima,278,21,0.0755,0.0499,0.1127,0.0628
-Giorgia Meloni,Costo della vita,278,16,0.0576,0.0357,0.0914,0.0557
-Giorgia Meloni,Istruzione e formazione,278,13,0.0468,0.0275,0.0784,0.0508
-Giorgia Meloni,Abitazione,278,7,0.0252,0.0122,0.0511,0.0388
-Giorgia Meloni,Uguaglianza di genere,278,3,0.0108,0.0037,0.0312,0.0276
+Giorgia Meloni,Democrazia e legalità,330,121,0.3667,0.3165,0.4199,0.1034
+Giorgia Meloni,Difesa e sicurezza,330,105,0.3182,0.2703,0.3703,0.1
+Giorgia Meloni,Lavoro e economia,330,103,0.3121,0.2645,0.364,0.0995
+Giorgia Meloni,Immigrazione,330,26,0.0788,0.0543,0.1129,0.0586
+Giorgia Meloni,Salute e welfare,330,24,0.0727,0.0494,0.1059,0.0566
+Giorgia Meloni,Ambiente e clima,330,23,0.0697,0.0469,0.1024,0.0555
+Giorgia Meloni,Costo della vita,330,18,0.0545,0.0348,0.0846,0.0498
+Giorgia Meloni,Istruzione e formazione,330,17,0.0515,0.0324,0.0809,0.0485
+Giorgia Meloni,Abitazione,330,8,0.0242,0.0123,0.0471,0.0348
+Giorgia Meloni,Uguaglianza di genere,330,4,0.0121,0.0047,0.0307,0.026
 Giuseppe Conte,Democrazia e legalità,231,117,0.5065,0.4424,0.5703,0.1279
 Giuseppe Conte,Lavoro e economia,231,98,0.4242,0.3623,0.4887,0.1264
 Giuseppe Conte,Difesa e sicurezza,231,80,0.3463,0.2879,0.4097,0.1218
@@ -29,6 +29,26 @@ Giuseppe Conte,Abitazione,231,16,0.0693,0.0431,0.1095,0.0665
 Giuseppe Conte,Ambiente e clima,231,15,0.0649,0.0397,0.1044,0.0646
 Giuseppe Conte,Immigrazione,231,10,0.0433,0.0237,0.0778,0.0542
 Giuseppe Conte,Uguaglianza di genere,231,4,0.0173,0.0068,0.0437,0.0369
+carlocalenda,Democrazia e legalità,588,393,0.6684,0.6293,0.7052,0.0759
+carlocalenda,Difesa e sicurezza,588,219,0.3724,0.3343,0.4122,0.0779
+carlocalenda,Lavoro e economia,588,150,0.2551,0.2215,0.2918,0.0703
+carlocalenda,Costo della vita,588,56,0.0952,0.0741,0.1217,0.0476
+carlocalenda,Salute e welfare,588,55,0.0935,0.0726,0.1198,0.0472
+carlocalenda,Istruzione e formazione,588,47,0.0799,0.0606,0.1047,0.044
+carlocalenda,Ambiente e clima,588,24,0.0408,0.0276,0.06,0.0324
+carlocalenda,Immigrazione,588,13,0.0221,0.013,0.0375,0.0245
+carlocalenda,Abitazione,588,9,0.0153,0.0081,0.0288,0.0208
+carlocalenda,Uguaglianza di genere,588,8,0.0136,0.0069,0.0266,0.0197
+matteosalviniofficial,Democrazia e legalità,610,229,0.3754,0.3379,0.4145,0.0766
+matteosalviniofficial,Difesa e sicurezza,610,224,0.3672,0.3299,0.4062,0.0763
+matteosalviniofficial,Immigrazione,610,96,0.1574,0.1306,0.1884,0.0578
+matteosalviniofficial,Lavoro e economia,610,95,0.1557,0.1291,0.1867,0.0575
+matteosalviniofficial,Istruzione e formazione,610,35,0.0574,0.0415,0.0788,0.0372
+matteosalviniofficial,Salute e welfare,610,28,0.0459,0.0319,0.0655,0.0336
+matteosalviniofficial,Ambiente e clima,610,21,0.0344,0.0226,0.0521,0.0294
+matteosalviniofficial,Costo della vita,610,21,0.0344,0.0226,0.0521,0.0294
+matteosalviniofficial,Abitazione,610,21,0.0344,0.0226,0.0521,0.0294
+matteosalviniofficial,Uguaglianza di genere,610,16,0.0262,0.0162,0.0422,0.026
 nicolafratoianni,Lavoro e economia,219,107,0.4886,0.4232,0.5544,0.1313
 nicolafratoianni,Democrazia e legalità,219,104,0.4749,0.4098,0.5409,0.1311
 nicolafratoianni,Costo della vita,219,77,0.3516,0.2914,0.4169,0.1255

@@ -1,0 +1,611 @@
+folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
+2025-09-01_001,video,it,1,2,1,1,1,1,1,1,1,1,Todi;ascensori;Porta Orvietana;investimenti;trasporti;opere,positive,medium
+2025-09-01_002,video,it,1,3,4,1,1,1,2,1,1,1,tasse;famiglie;cartelle esattoriali;Lega;bilancio;Agenzia delle Entrate,negative,medium
+2025-09-01_003,image,it,1,1,1,1,1,1,3,5,1,1,Bresciano;espulsioni;irregolari;stranieri;maxi operazione;Polizia di Stato;Carabinieri,negative,low
+2025-09-01_004,video,it,1,1,1,1,1,1,1,1,2,1,Pontida25;non molliamo;manifestazione;sostegno,positive,low
+2025-09-02_001,image,it,1,1,1,1,1,1,4,1,2,1,TASER;Forze dell'Ordine;sicurezza;aggressione;furto;espulsione,positive,high
+2025-09-02_002,image,it,1,1,1,1,1,1,3,1,2,1,aggressore;stupratori;castrazione chimica;crimini;Giornale;IBENNE,negative,high
+2025-09-02_003,image,it,1,1,1,1,1,1,1,1,1,1,elezioni regionali;Lega;Sirolo;Francesco Acquaroli;squadra;territorio,positive,medium
+2025-09-03_001,video,it,1,1,1,1,1,1,1,1,1,1,violenza;sport;genitori;ragazzo;rispetto;adulti,negative,none
+2025-09-03_002,video,it,1,1,1,1,1,1,1,1,1,1,Pontida25;pullman;legaonline.it;appuntamento,neutral,none
+2025-09-03_003,image,it,1,1,1,1,1,1,2,1,4,1,libertà di espressione;totalitarismo;comici;Londra;polizia;diritti,negative,medium
+2025-09-03_004,image,it,1,1,1,1,1,1,4,1,4,1,mafia;criminalità;generale;memoria;lotta,negative,medium
+2025-09-04_001,video,it,1,1,1,1,1,1,4,4,2,1,estremismo islamico;pericolo;confini;tolleranza zero;difesa,negative,high
+2025-09-04_002,image,it,1,1,1,1,1,1,1,1,1,1,Giorgio Armani;eccellenza italiana;Made in Italy;maestro;stile;creatività,positive,none
+2025-09-04_003,video,it,1,1,1,1,1,1,1,1,1,1,amministratore;parlamentare;Alberto;bravo;cuore;coraggio,positive,low
+2025-09-04_004,image,it,1,1,1,1,1,1,5,3,3,1,Viterbo;attentato;Forze dell'Ordine;terrorismo;mitra;sicurezza,positive,medium
+2025-09-05_001,image,it,1,1,1,1,1,1,1,1,1,1,manita;Ringhio;vittoria;sport,positive,none
+2025-09-05_002,video,it,1,3,1,1,5,1,1,1,1,1,scuola italiana;240 milioni;personale scolastico;contratto;stipendi,positive,medium
+2025-09-05_003,image,it,1,1,1,1,1,1,4,4,2,1,violenza sessuale;turisti;irregolari;marocchini;passaggio;arrestati,negative,medium
+2025-09-05_004,video,it,1,1,1,1,1,1,5,4,3,1,sicurezza interna;militari;difesa nazionale;piazze;accoltellato;cittadini,negative,high
+2025-09-05_005,image,it,1,1,1,1,1,1,4,3,3,1,borseggiatori;cittadini;denuncia;Venezia;ladre ROM;provvedimenti,negative,high
+2025-09-06_001,video,it,1,1,1,1,1,1,1,1,1,1,PONTIDA25;pullman;legaonline.it;trasporto,neutral,none
+2025-09-06_002,video,it,1,1,1,1,1,1,3,1,3,1,Forze dell'Ordine;manifestazione;abusivismo;illegalità;Piantedosi;solidarietà,negative,high
+2025-09-06_003,image,it,1,1,1,1,1,1,1,1,1,1,pipe;crack;sinistra;cittadini;distribuzione,negative,high
+2025-09-06_004,image,it,1,3,1,1,1,1,1,1,1,1,Ponte degli Italiani;Sicilia;infrastruttura;Catania;opera fondamentale,positive,low
+2025-09-06_005,image,it,1,1,1,1,1,1,3,1,1,1,Willy Monteiro Duarte;valore civile;memoria;difesa;preghiera,neutral,low
+2025-09-07_001,image,it,1,4,1,1,1,1,1,1,1,1,investimenti pubblici;opere pubbliche;sviluppo tecnologico;competitività;piano 204 miliardi,positive,low
+2025-09-07_002,video,it,1,1,1,1,1,1,1,1,1,1,campionesse;medaglia d'oro;Italia;sport;vittoria,positive,none
+2025-09-07_003,image,it,1,1,1,1,1,1,1,1,1,1,Carlo Acutis;Santo;Assisi;giovani;ispirazione;Beatificato,positive,none
+2025-09-08_001,image,it,1,1,1,1,1,1,1,1,1,1,Natività;Vergine Maria;preghiera;pace,positive,none
+2025-09-08_002,image,it,1,2,1,1,1,1,1,1,3,1,Macron;Popolo Francese;Assemblea Nazionale;bocciatura;fiducia,positive,medium
+2025-09-08_003,video,it,3,3,1,1,1,1,1,3,2,1,TAV;opere infrastrutturali;risparmio ambientale;tempo;agricoltori;siciliani;calabresi,positive,high
+2025-09-08_004,image,it,1,3,4,1,1,1,1,1,1,1,manovra correttiva;sacrifici agli italiani;interventi significativi;famiglie,positive,low
+2025-09-08_005,image,it,1,1,1,1,1,1,4,1,2,1,terrorismo;Gaza;ostaggi;Hamas;pace;attentato,negative,high
+2025-09-09_001,image,it,1,1,1,1,1,1,1,4,2,1,accoglienza;migranti;ospitare;cittadini;bando;Roma,negative,medium
+2025-09-09_002,image,it,1,1,1,1,1,1,1,1,1,1,elezioni regionali;Lega;Catanzaro;Occhiuto;centrodestra;buongoverno,positive,medium
+2025-09-09_003,video,it,1,1,1,1,1,1,5,1,2,1,soldati italiani;Ucraina;Russia;diplomazia;dialogo;guerre non nostre,negative,high
+2025-09-10_001,image,it,1,1,1,1,1,1,1,1,3,1,Charlie Kirk;ucciso;incontro pubblico;Libertà;famiglia;Paese,negative,high
+2025-09-10_002,video,it,1,1,1,1,1,1,1,1,1,1,attentato;Charlie Kirk;violenza;attivista;sconvolgimento,negative,none
+2025-09-10_003,video,it,1,3,2,1,1,1,1,1,1,2,diga;Campolattaro;infrastruttura idrica;agricoltori;lavori;promessa,positive,medium
+2025-09-10_004,video,it,1,1,1,1,1,1,3,1,2,1,aggressione;branco;colpi;carcere;vigliacchi,negative,medium
+2025-09-10_005,video,it,1,1,1,1,1,1,3,1,3,1,truffi;anziano;Decreto Sicurezza;manette;tolleranza zero,negative,medium
+2025-09-10_006,video,it,1,1,1,1,1,1,4,1,1,1,omicidio;criminalità;sicurezza;cittadini;pugno duro;Charlotte;Trump,negative,medium
+2025-09-11_001,video,it,1,1,1,1,1,1,1,1,1,1,"Charlie Kirk;America;preghiera;America, America;grazia",neutral,none
+2025-09-11_002,image,it,3,4,1,1,1,1,1,1,1,1,diga;Campolattaro;opera pubblica;Mezzogiorno;rifinanziamento;collaborazione,positive,low
+2025-09-11_003,image,it,1,1,1,1,1,1,1,1,1,1,Ambasciata Stati Uniti;omaggio floreale;Marta Costanzo Youth;amicizia;cordoglio;11 settembre 2001,neutral,none
+2025-09-11_004,image,it,1,1,1,1,1,1,4,1,4,1,11 settembre;terrorismo islamista;minaccia all'Occidente;libertà;democrazia;fanatismo,negative,medium
+2025-09-12_001,video,it,1,1,1,1,1,1,1,1,1,1,Amazing grace;salvezza;perduto;visione,neutral,none
+2025-09-12_002,video,it,1,1,1,1,1,1,5,2,2,1,militari;sicurezza;carabinieri;protezione;stazioni;criminalità,negative,medium
+2025-09-12_003,image,it,1,1,1,1,1,1,1,1,1,1,Charlie Kirk;omicidio;bossolo;Bella ciao,negative,high
+2025-09-12_004,image,it,1,1,1,1,1,1,2,1,3,1,Charlie Kirk;pena di morte;crimine;idee;valori;Trump,negative,medium
+2025-09-12_005,image,it,1,1,1,1,1,1,2,1,4,1,omicidio politico;clima d'odio;democratici;cultura di protesta;sconfitta;violenza,negative,high
+2025-09-12_006,image,it,1,1,1,1,1,1,4,1,3,1,Forze dell'Ordine;inseguimento;incidente;legalità;sicurezza,negative,medium
+2025-09-12_007,image,it,1,1,1,1,1,1,1,1,5,1,riforma giustizia;giustizia;referendum;Lega;sinistra,negative,high
+2025-09-13_001,video,it,1,1,1,1,1,1,1,1,1,1,grazie;ringraziamento,positive,none
+2025-09-13_002,image,it,1,1,1,1,1,1,1,3,2,1,Stati Uniti;visto stranieri;assassinio;Landau,negative,medium
+2025-09-13_003,image,it,3,1,1,1,1,1,4,1,1,1,Guardia Costiera;Global Summit;sicurezza in mare;ambiente marino;difesa delle frontiere,positive,low
+2025-09-14_001,video,it,1,3,1,1,1,1,1,1,1,1,PONTIDA25;pullman;Lombardia;Puglia;Emilia;Calabria;lavoro;dignità,positive,low
+2025-09-14_002,video,it,1,1,1,1,2,1,1,1,5,1,libertà di parola;dibattito;democrazia;opinioni;civiltà;Occidente,negative,high
+2025-09-14_003,video,it,1,2,1,1,1,3,3,3,4,1,Lega;Patrioti per l'Europa;attacco terroristico;valori;famiglia;confini;rabbia;coraggio,negative,high
+2025-09-14_004,image,it,1,1,1,1,4,1,2,3,4,1,Charlie Kirk;Pontida;scuole;odio;sinistra;immigrazione;dialogo,negative,high
+2025-09-14_005,image,it,1,1,1,1,1,1,1,1,1,1,Santo Padre;saggezza;Grazia della Vergine Maria;Pace in terra,positive,none
+2025-09-14_006,video,it,1,1,1,1,1,1,1,1,1,1,droni;Piazza San Pietro;Vaticano;messaggio di pace,positive,low
+2025-09-15_001,video,it,1,1,1,1,1,1,3,1,3,1,Carabinieri;taser;sinistra;bloccato;violenza;sicurezza,negative,high
+2025-09-15_002,image,it,1,4,1,1,1,1,1,1,1,1,aziende;dipendenti;provvedimenti;ex dipendenti;comunicare,neutral,medium
+2025-09-15_003,image,it,1,1,1,1,1,3,1,1,2,1,mostrificazione;sinistra;intolleranti;associazioni Lgtbq;clima d'odio,negative,medium
+2025-09-15_004,image,it,1,1,1,1,1,1,1,1,3,1,libertà;dovere;pensiero;Oriana Fallaci;anniversario,neutral,low
+2025-09-15_005,image,it,1,1,1,1,4,1,1,1,1,1,scuola;anno scolastico;futuro;ragazzi,positive,none
+2025-09-16_001,video,it,1,1,1,2,1,1,1,1,1,1,bambino;mamma;comunità;affetto,positive,none
+2025-09-16_002,video,it,1,3,4,1,1,1,4,5,3,3,sicurezza nazionale;confini;delinquenti stranieri;bonus pubblici;cartelle esattoriali;regionalità;Lega;Fratelli d'Italia,negative,high
+2025-09-16_003,image,it,1,1,1,1,1,1,1,1,1,1,Robert Redford;leggenda del cinema;Hollywood;ispirato;emozionato,positive,none
+2025-09-16_004,image,it,1,1,1,1,1,1,1,1,4,1,aggressione;bambini;responsabilità;legge;giustizia;genitori,negative,medium
+2025-09-16_005,image,it,1,4,1,1,1,2,1,1,3,1,libero professionista;piccolo imprenditore;ripercussioni;elezioni regionali;Lega;Toscana,negative,medium
+2025-09-17_001,image,it,1,1,1,1,1,1,2,1,1,2,aggressione;padre;incendio;intervento;cane;San Lazzaro di Savena,negative,low
+2025-09-17_002,video,it,1,1,1,1,1,1,1,1,3,1,Charlie Kirk;sacrificio;idee;evento;commemorazione;matteo,negative,medium
+2025-09-17_003,image,it,1,1,1,1,1,1,1,1,1,1,Mattia Furlani;Mondiali di Tokyo;salto in lungo;8.39;orgoglio azzurro,positive,none
+2025-09-17_004,video,it,1,1,1,1,3,1,2,1,3,1,aule universitarie;professore;Pisa;clima di odio;Palestina;solidarietà;accordi,negative,high
+2025-09-17_005,image,it,1,1,1,1,1,1,5,1,3,1,militari italiani;terrorismo;sacrificio;Kabul;attentato;memoria,negative,low
+2025-09-18_001,image,it,2,3,1,1,1,1,1,1,2,1,Brennero;Galleria di Base;tunnel continuo;Italia-Austria;opere concrete,positive,medium
+2025-09-18_002,image,it,1,1,1,1,1,1,1,1,1,1,PONTIDA25;pullman;legaonline.it;evento;trasporto,neutral,low
+2025-09-18_003,video,it,1,1,1,1,1,1,1,1,5,1,riforma giustizia;Camera;Senato;giustizia più giusta;centrodestra;Lega,positive,medium
+2025-09-19_001,image,it,1,1,1,1,1,1,1,1,2,1,Ancona;centrodestra;piazza;Francesco Acquaroli;Lega;buon governo,positive,medium
+2025-09-19_002,video,it,1,3,1,1,1,1,1,1,5,1,riforma giustizia;separare carriere;magistrati;vizi politici;libertà;arresti ingiusti,negative,medium
+2025-09-19_003,image,it,1,1,1,1,1,1,1,1,4,1,riforma Lega;giustizia;Magistratura;denunce;processo;vergognoso,negative,high
+2025-09-19_004,video,it,1,1,1,1,1,4,1,1,3,1,Charlie Kirk;cristianesimo;comunitarismo;orientamento sessuale;conservatorismo;teocrazia,negative,medium
+2025-09-19_005,video,it,1,1,1,1,1,1,1,1,3,1,minuto di silenzio;Brigate Rosse;morti;colpe;giustizia,negative,high
+2025-09-19_006,image,it,1,1,1,1,1,1,1,1,1,1,Pontida;legaonline.it;pullman;21 settembre 2025;evento,neutral,none
+2025-09-20_001,video,it,1,1,1,1,1,1,1,1,2,1,Lega;Giovani;Pontida;valori;Italia,positive,high
+2025-09-20_002,image,it,1,1,1,1,1,1,1,1,1,1,PONTIDA25;pullman;legaonline.it;domnica;21 settembre,neutral,none
+2025-09-20_003,video,it,1,2,3,1,1,1,1,2,3,1,Lega;Pontida;libertà;normative;tasse;Europa;islamismo,negative,high
+2025-09-20_004,video,it,2,1,1,1,1,1,2,4,5,1,Pontida;libertà;immigrati;Lega;persecuzioni giudiziarie;autonomia,negative,high
+2025-09-21_001,video,it,1,1,1,1,1,1,1,1,1,1,funerali;Charlie Kirk;saluto;popolo;messaggio,neutral,none
+2025-09-21_002,image,it,1,1,1,1,1,1,1,1,1,1,Pontida25;Lega;Salvini;grazie,positive,low
+2025-09-21_003,video,it,1,1,1,1,1,1,1,1,1,1,Pontida25;Lega;fratelli;battaglie,neutral,none
+2025-09-21_004,video,it,1,1,1,1,1,1,1,1,2,1,PONTIDA25;Libertà;Orgoglio;Lega;battaglia;futuro,positive,high
+2025-09-22_001,video,it,1,1,1,1,1,1,2,1,3,1,famiglia;radici;terre;valori;civiltà occidentale;manifestazione;libertà,positive,high
+2025-09-22_002,image,it,1,1,1,1,1,1,1,1,3,1,Lega;manifestazione;pagare;proposta;Parlamento,negative,medium
+2025-09-22_003,image,it,1,1,1,1,1,1,3,1,3,1,pacifisti;delinquenti;guerriglia;assalto;stazione;violenti,negative,high
+2025-09-22_004,video,it,1,3,1,1,1,1,4,1,3,1,sciopero;violenza;Forze dell'Ordine;scontri;lavoratori;PRO-PAL,negative,high
+2025-09-22_005,video,it,1,4,2,1,1,1,1,1,3,1,diritto allo sciopero;delinquenza;violenza;lavoratori;migliaia;Palestine,negative,high
+2025-09-22_006,video,it,1,1,1,1,1,1,1,1,1,1,perdono;Erika;Charlie Kirk;violenza;Cristo,positive,low
+2025-09-23_001,image,it,1,1,1,1,1,1,1,1,1,1,Lega;Salvini;parte giusta,neutral,low
+2025-09-23_002,video,it,1,1,1,1,1,1,3,1,3,1,manifestazione;pace;Gaza;scontri;violenza;polizia,negative,medium
+2025-09-23_003,image,it,1,3,1,1,2,2,5,2,2,1,Guardia costiera;Comandante generale;Ammiraglio;efficienza;modernità;Corpo delle capitanerie di porto,positive,low
+2025-09-23_004,video,it,1,3,1,2,1,1,3,1,3,1,scioperi;trasporti;manifestazioni;ordine pubblico;teppisti;cauzione,negative,medium
+2025-09-23_005,image,it,1,1,1,1,1,1,1,1,4,1,Parlamento europeo;immunità;Salis;voto;Strasburgo;legalità,negative,high
+2025-09-23_006,image,it,1,1,1,1,1,1,1,1,1,1,volo;cani;sicurezza;passeggeri;garanzia;Moka,positive,none
+2025-09-24_001,video,it,1,1,1,1,1,1,1,1,1,1,cani di grossa taglia;viaggio aereo;Milano Linate;diritti animali;Ita Airways,positive,none
+2025-09-24_002,video,it,1,4,3,1,1,1,1,1,2,2,infrastrutture;ferrovia;investimenti;Marche;gallerie;trasporti;opera pubblica,positive,high
+2025-09-24_003,video,it,1,1,1,1,1,1,2,4,2,1,gesto vile;criminali;espulsione;tolleranza,negative,high
+2025-09-24_004,image,it,1,1,1,1,1,1,2,1,2,1,irresponsabili;bloccare il Paese;caos;Cgil;Gaza;Global Sumud Flottilla,negative,high
+2025-09-24_005,image,it,1,1,1,1,1,1,4,1,4,1,violenze;forze dell'ordine;cortei;cauzione;estremisti;disordini,negative,medium
+2025-09-24_006,image,it,1,1,1,1,1,1,1,1,1,1,cani di grossa taglia;cabina;turismo;amici a quattro zampe;civiltà,positive,low
+2025-09-25_001,video,it,1,1,1,1,1,1,3,1,1,1,Offida;Marche;centrodestra;buongoverno;sicura;Lega,positive,low
+2025-09-25_002,image,it,1,1,1,4,1,1,1,1,2,1,anestesista;sciopero;cancro;salute;paziente,negative,medium
+2025-09-25_003,image,it,1,1,1,1,1,1,4,1,1,1,rapine;veneto;guardia giurata;ladri;grazia;Massimo Zen,positive,medium
+2025-09-25_004,image,it,1,1,1,1,1,1,1,1,2,1,solidarietà;Giorgia Meloni;clima d'odio;Porta Susa;LegaSalviniPremier,positive,high
+2025-09-25_005,video,it,1,1,1,1,1,1,1,1,5,1,manifestazioni;danni;cozione;Salvini;elettorato;centro-destra;consenso,neutral,low
+2025-09-25_006,video,it,1,1,1,1,1,1,1,4,2,1,protezione internazionale;rimpatrio;Italia;migrazione;aspetta,negative,high
+2025-09-25_007,image,it,1,1,1,1,1,1,1,1,2,1,Cristianesimo;religione;perseguitata;Nazioni Unite,neutral,low
+2025-09-26_001,video,it,1,1,1,1,1,1,4,1,4,1,Carabiniere;rapina;sparatoria;sicurezza;legalità;eroe;delinquente,positive,low
+2025-09-26_002,video,it,1,1,1,1,1,1,1,5,2,1,permesso di soggiorno;punti;reati;infrazioni;cittadinanza;rispedire,negative,high
+2025-09-26_003,image,it,1,3,1,1,1,1,4,1,1,1,sicurezza;stazioni;treni;assunzioni;dipendenti;FS security,positive,low
+2025-09-27_001,video,it,1,1,1,1,1,1,1,1,1,1,vergogna;pace;musica,negative,high
+2025-09-27_002,video,it,1,5,3,1,1,1,1,2,1,1,porto di Ancona;investimenti;lavoro;crescita;benessere;Marche;posti di lavoro,positive,medium
+2025-09-27_003,image,it,1,1,1,1,1,1,3,5,3,1,accoglienza illimitata;quartieri;insicurezza;leggi;Sharia,negative,high
+2025-09-27_004,video,it,1,3,1,2,2,1,2,1,4,1,diritto alla manifestazione;blocchi illegali;diritto al lavoro;mobilità;caos;ordine pubblico,negative,medium
+2025-09-28_001,video,it,2,4,1,1,1,1,1,1,1,1,ponte;Grand Canyon;stretto di Messina;opera strategica;sviluppo;lavoro;giovani,positive,medium
+2025-09-28_002,video,it,1,1,1,1,2,1,3,5,1,1,immigrazione;reati;irregolari;scippi;rapine;rimandare;controllo,negative,high
+2025-09-28_003,video,it,1,1,1,1,1,1,1,1,1,1,volley;campioni del mondo;Italia;titolo;sport;orgoglio,positive,none
+2025-09-28_004,image,it,1,1,1,1,1,1,3,1,5,1,proiettile;Chiesa;malavita;legalità;giustizia;minaccia,negative,high
+2025-09-28_005,video,it,1,1,1,1,1,1,1,1,3,1,Lega;libertà;coraggio;determinati;paura,positive,high
+2025-09-29_001,video,it,3,5,2,1,3,1,3,1,1,1,Motonave Ambrosiana;navigazione laghi;assunzioni;pendolari;turismo;lavoro;Guardia Costiera,positive,low
+2025-09-29_002,image,it,1,1,1,1,1,1,1,1,1,1,Marchigiani;Acquaroli;Presidente;elezioni regionali;vittoria;P!?;NR Marche,positive,high
+2025-09-29_003,video,it,1,1,1,1,1,1,5,1,2,1,Polizia di Stato;sicurezza;dedizione;protettore;italiani,positive,low
+2025-09-29_004,image,it,1,1,1,1,1,1,1,1,1,1,Silvio;compleanno;auguri;anniversario,neutral,none
+2025-09-30_001,video,it,4,4,1,1,1,1,1,1,1,1,Expo Ferroviaria 2025;treno green;Altamura-Matera;idrogeno;sostenibilità;industria ferroviaria;Bruxelles,positive,medium
+2025-09-30_002,video,it,1,1,1,1,1,1,3,1,1,1,Global Sub-Bus Lottiglia;Marina Militare;nave alfino;coordinamento;posizione;trasferimento,neutral,none
+2025-09-30_003,video,it,1,1,1,1,1,1,5,4,5,1,processo;Cassazione;confini;clandestini;difendere;dovere;diritto,negative,high
+2025-09-30_004,video,it,1,1,1,1,1,1,1,1,3,1,antisemitismo;aggressione;Firenze;tollerabile;diritti,negative,high
+2025-09-30_005,video,it,1,1,1,1,1,1,3,1,2,1,manifestare;Palestina;acque internazionali;scontro;zona di guerra;incidente diplomatico,negative,medium
+2025-10-01_001,image,it,1,2,1,1,1,1,1,1,2,1,Flotilla;diplomazia internazionale;sindacati di sinistra;sciopero;provocazione,negative,high
+2025-10-01_002,video,it,1,3,1,1,1,1,1,1,2,1,scontro;lavoratori;proposta Lega;cortei;manifestazioni;cauzione,negative,medium
+2025-10-01_003,video,it,1,1,1,1,1,1,1,1,2,1,aiuti;Gaza;canale diretto;Pizzaballa;missione;Israele,negative,high
+2025-10-01_004,video,it,1,1,1,1,1,1,3,2,3,1,sindaco PD;ostaggi israeliani;tagliagole islamici;genocidio;follia;vergogna,negative,high
+2025-10-01_005,video,it,1,2,1,1,1,1,1,5,3,1,estremismo islamico;cultura;valori;immigrazione;diritto di rimanere;tornare al paese,negative,high
+2025-10-01_006,image,it,1,1,1,1,3,1,4,5,3,1,Polizia Locale;illegalità;minorenni;famiglie Rom;criminalità;futuro dignitoso,negative,high
+2025-10-02_001,video,it,1,1,1,1,1,1,1,1,1,1,pro-caos;critica;politica,negative,high
+2025-10-02_002,video,it,1,4,1,1,2,1,3,1,5,1,sciopero illegittimo;buonsenso;sanzioni;ordine pubblico;lavoratori;rispetto delle regole,negative,high
+2025-10-02_003,image,it,1,1,1,1,1,1,3,1,3,1,Manchester;attacco terroristico;antisemitismo;Yom Kippur;sinagoga;estremismo islamico,negative,medium
+2025-10-02_004,image,it,1,1,1,1,1,1,3,1,4,1,Ministro dei Trasporti;manifestazione;scioperare;cauzione;conseguenze penalmente,negative,high
+2025-10-03_001,video,it,1,1,1,1,1,1,1,1,1,1,Reggio Calabria;piazza;bellissima;grazie,positive,none
+2025-10-03_002,image,it,1,2,1,1,1,1,1,1,2,1,Reggio Calabria;Lega;centrodestra;buon governo;Roberto Occhiuto;Calabria,positive,medium
+2025-10-03_003,video,it,1,1,1,1,1,1,1,1,1,1,Salvini;sciopero;Ministro;lotta;politica;critica,negative,high
+2025-10-03_004,video,it,1,4,3,3,2,1,4,1,5,1,sciopero illegittimo;sanzioni;diritto di sciopero;Forze dell'Ordine;revisione legge;danni;cauzione,negative,high
+2025-10-03_005,image,it,1,1,1,1,1,1,1,1,3,1,Salvini;Genova;minacce;violenza;libertà;battaglie,positive,high
+2025-10-04_001,video,it,3,2,1,1,1,1,2,1,1,1,autobus;investimento pubblico;connettività;MilanoCortina2026;Calabria;trasporti,positive,medium
+2025-10-04_002,video,it,1,1,1,1,1,1,4,1,3,1,scontri;violenze;Polizia;Carabinieri;criminali;divisa,negative,medium
+2025-10-04_003,image,it,1,1,1,1,1,1,1,1,3,1,carneficina;barbarie;manifestazioni;Hamas;vergogna;forze politiche,negative,high
+2025-10-04_004,image,it,1,1,1,1,1,1,1,1,3,1,Roma;Piazza dei 500;Fascista;Falce e Martello;critica,negative,high
+2025-10-04_005,image,it,1,3,1,1,1,1,1,1,1,1,insulti;minacce;lavoro;comunisti;politica,negative,high
+2025-10-04_006,image,it,1,1,1,1,1,1,4,1,2,1,San Francesco d’Assisi;PACE;eserciti europei;diplomazia;Ucraina;Gaza,negative,high
+2025-10-05_001,video,it,1,1,1,1,1,1,1,1,1,1,Reggio Calabria;Lega;Hamas;Palestinesi;Israeliani;assassini;ostaggio,negative,high
+2025-10-05_002,video,it,1,1,1,1,1,1,1,1,3,1,Silvio Berlusconi;lutto nazionale;Maria Elena Adeglia;festeggiare;politica;scuse,negative,high
+2025-10-05_003,video,it,1,1,1,1,1,1,1,1,3,1,Hamas;finanziamenti;parlamentari;teatro;critica politica;conduttrice,negative,high
+2025-10-05_004,video,it,3,5,4,1,2,1,1,1,2,1,Ponte sullo Stretto;Calabria;Sicilia;lavoro;sviluppo;pendolari;trasporti,positive,high
+2025-10-05_005,image,it,1,1,1,1,1,1,1,1,1,5,casa;sgomberata;restituita;anziana;occupano;lega,positive,medium
+2025-10-05_006,image,it,1,1,1,1,1,1,1,1,1,1,Sammy Basso;ricordo;intelligenza;coraggio,neutral,none
+2025-10-06_001,image,it,1,1,1,1,1,1,4,1,2,1,Forze dell'Ordine;crimine;reati sessuali;Modena;arresto;tolleranza zero,negative,high
+2025-10-06_002,image,it,1,4,1,1,1,1,1,1,2,1,Calabria;buon governo;infrastrutture;Ponte sullo Stretto;lavoro;voto,positive,high
+2025-10-06_003,image,it,1,1,1,1,1,1,3,1,2,1,Calabria;centrodestra;Forze dell'Ordine;elezioni regionali;Roberto Occhiuto;vittoria,positive,high
+2025-10-06_004,video,it,1,1,1,1,1,1,1,1,4,1,Liliana Segre;antisemitismo;sinagoga;vergogna;senatrice;genocidio,negative,high
+2025-10-06_005,image,it,1,2,1,1,1,1,1,1,4,1,sciopero;Cgil;garante degli scioperi;illegalità;scontro;responsabilità;legge,negative,high
+2025-10-06_006,image,it,1,1,1,1,1,1,1,1,1,1,vergognosi;pericolosi;resistenza;palestinese,negative,high
+2025-10-07_001,video,it,1,1,1,1,1,1,1,1,1,1,Silvio Berlusconi;poveri comunisti;contestatori;frase,negative,high
+2025-10-07_002,video,it,1,1,1,1,1,1,4,1,3,1,Polizia;bombe carta;fumogeni;teppisti rossi;agente ferito;forza delle idee,negative,high
+2025-10-07_004,image,it,1,1,1,1,1,1,1,1,4,1,voto segreto;organizzazione criminale;processo;Salis;vergogna;Parlamento Europeo,negative,high
+2025-10-07_005,video,it,1,1,1,1,1,1,5,1,4,1,terrorismo;Hamas;Medio Oriente;sicurezza;fanatismo;libertà,negative,high
+2025-10-08_001,video,it,1,1,1,3,1,1,2,1,3,1,trattative di pace;Hamas;Israele;sinistra;Gaza;clima politico;flottiglia,negative,high
+2025-10-08_002,image,it,1,1,1,1,4,1,3,1,2,1,Università Statale;collettivo rosso;studenti;Forze dell'Ordine;protesta;occupazione,negative,medium
+2025-10-08_003,video,it,1,1,1,1,1,1,1,1,1,1,Cretino;criminale;grazie,negative,high
+2025-10-08_004,video,it,1,1,1,1,1,1,2,3,2,1,Toscana;politica;Palestina;Lega;libertà;paghi,negative,high
+2025-10-08_005,video,it,1,1,1,1,1,1,1,1,1,1,confini;Toscana;Lombardia;ponte;geografia,negative,none
+2025-10-08_006,image,it,1,1,1,1,1,1,1,1,2,1,Sondrio;castrazione chimica;espulsione;violenza,negative,high
+2025-10-08_007,video,it,1,1,1,1,1,1,3,1,4,1,manifestazioni;autorizzazione;Polizia;stato terrorista;aggressioni,negative,high
+2025-10-09_001,image,it,3,1,1,1,1,1,1,1,1,1,Vajont;Monte Toc;frana;tragedia;scelte umane;vittime,negative,low
+2025-10-09_002,image,it,1,1,1,1,1,1,3,1,1,1,Trump;Israele;Hamas;accordo,neutral,low
+2025-10-09_003,video,it,1,1,1,1,1,1,3,1,2,1,Gaza;cessate il fuoco;ostaggi;Trump;Lega;ricostruzione;Palestina,positive,high
+2025-10-09_004,image,it,1,1,1,1,1,1,4,1,1,1,ostaggi israeliani;cessate il fuoco;Gaza;accordo;Premio Nobel per la Pace,positive,medium
+2025-10-10_001,video,it,1,1,1,1,1,1,1,1,1,1,Firenze;Toscana;Lega;accoglienza;cambiare le cose,positive,high
+2025-10-10_002,video,it,1,1,1,1,1,1,1,1,2,1,Francesca Albanese;piano di pace;Netanyahu;Hamas;ONU;cittadinanza onoraria,negative,high
+2025-10-10_003,video,it,1,1,1,1,1,1,1,1,1,1,mercato;Signa;Lega;contestatori;Principessa;fumama,negative,high
+2025-10-10_004,video,it,1,2,1,1,1,1,5,1,4,1,sgombero;caserma occupata;criminalità;zona rossa;sicurezza;delinquenti;legalità,negative,high
+2025-10-10_005,video,it,1,2,1,1,1,1,3,2,3,1,Trump;diplomazia;cessate il fuoco;Israele;Hamas;Russia;Ucraina,positive,high
+2025-10-10_006,video,it,1,1,1,1,1,1,3,3,4,1,Charlie Kirk;libertà;immigrazione clandestina;difesa dei confini;idee;Milano,negative,high
+2025-10-11_001,video,it,1,1,1,1,1,1,1,1,1,1,ragazza;carabinieri;aiutare;famiglia;incoraggiamento,positive,none
+2025-10-11_002,video,it,1,1,1,1,1,1,4,4,3,1,processo;sbarchi clandestini;confini dello Stato;ministro dell'interno;Salis;Salvini,negative,high
+2025-10-11_003,image,it,1,1,1,1,1,1,3,1,1,1,Carabinieri;Arma;Onore;ANSA;colpito,neutral,none
+2025-10-11_004,image,it,1,1,1,1,1,1,2,3,1,1,Vergogna;Islamici moderati;Torino;Giornale;resistenza,negative,high
+2025-10-11_005,image,it,1,1,1,1,1,1,3,1,1,1,Gaza;pace;Trump;forza;Vicepremier;Trasporti,negative,high
+2025-10-11_006,image,it,1,1,1,1,1,1,1,1,2,1,Firenze;Toscana;cambiamento;piazza,positive,low
+2025-10-12_001,video,it,1,1,1,1,1,1,1,1,3,1,fanatismo;integralismo;pericolo;valori;simboli,negative,high
+2025-10-12_002,video,it,1,1,1,1,1,1,4,1,2,1,disarmo;pace;dialogo;fratellanza;giustizia;perdono,positive,medium
+2025-10-12_003,image,it,1,2,1,1,1,1,1,1,1,1,Columbus Day;Cristoforo Colombo;Italia-Stati Uniti;storia;lavoro;sacrificio,positive,medium
+2025-10-13_001,image,it,1,1,1,1,1,1,1,1,1,1,muro;Milano;pensiero;buoni;scritta,negative,high
+2025-10-13_002,image,it,1,1,1,1,1,1,3,1,1,1,guerra;Medio Oriente;Trump;pace;Stati Uniti,neutral,none
+2025-10-13_003,video,it,1,1,1,1,1,1,1,1,1,1,giornata storica;famiglie;ostaggi;speranza,positive,none
+2025-10-14_001,video,it,1,1,1,1,1,1,3,1,1,1,Trump;Israele;Palestina;guerra;teppisti;Italia,negative,high
+2025-10-14_002,image,it,1,1,1,1,1,1,5,1,3,3,Carabinieri;tragedia;dovere;servire lo Stato;sgombero;morte,negative,low
+2025-10-14_003,image,it,1,1,1,1,1,1,5,1,1,1,Carabinieri;esplosione;dovere;militari;Verona;sgombero,negative,low
+2025-10-15_001,image,it,1,1,1,1,1,1,1,1,1,1,Veneto;Stefani;Presidente,positive,low
+2025-10-15_002,video,it,1,1,1,1,3,1,1,1,2,1,attivisti;delinquenti;liceo;voce;critica,negative,high
+2025-10-15_003,image,it,1,1,1,1,1,1,4,1,2,1,Alpini;coraggio;sacrificio;orgoglio nazionale;servizio,positive,low
+2025-10-15_004,image,it,1,3,3,1,1,1,1,1,1,1,cartelle esattoriali;dichiarazione dei redditi;rate;pagamento;Lega;governo,positive,medium
+2025-10-16_001,video,it,1,1,1,1,4,1,4,1,1,1,protocollo d'intesa;sicurezza stradale;educazione civica;aree pilota;Forze dell'ordine;NUE 112,positive,none
+2025-10-16_002,image,it,1,1,1,1,1,1,4,1,3,1,Trump;Putin;cessate il fuoco;Ucraina;Russia;distensione;pace,positive,low
+2025-10-16_003,image,it,1,1,1,1,1,1,5,1,4,1,Carabinieri;operazione di sgombero;sacrificio;istituzioni;senso del dovere;cordoglio,negative,low
+2025-10-16_004,video,it,1,2,1,1,1,1,1,1,3,1,Lega;Veneto;Zaia;Salvini;elezioni;centrodestra;sindaci,positive,medium
+2025-10-16_005,image,it,1,1,1,1,1,1,5,1,1,1,sicurezza stradale;incidenti;vittime;Ministero delle Infrastrutture e dei Trasporti;Polizia Stradale;Carabinieri,positive,low
+2025-10-16_006,image,it,1,1,1,1,1,1,4,1,3,1,Arma;Carabinieri;Verona;strage;politica,negative,medium
+2025-10-16_007,image,it,1,1,1,1,1,1,1,1,1,1,Veneto;Zaia;Alberto Stefani;governatore;giovani;percorso,positive,high
+2025-10-17_001,video,it,1,1,1,1,1,1,1,1,1,1,padre;dovere;onore;sacrificio;memoria;eredità,neutral,none
+2025-10-17_002,image,it,1,1,1,1,1,1,5,1,1,1,funerali;Carabinieri;esplosione;onore;divisa;sacrificio,negative,none
+2025-10-17_003,video,it,1,3,4,2,1,1,1,1,1,1,pace fiscale;rottamazione cartelle;Agenzia delle Entrate;caro energia;rate;bilancio,positive,medium
+2025-10-17_004,image,it,1,1,1,1,1,1,3,5,3,1,odio;estremismo islamico;Hamas;migiliani;permessi di soggiorno,negative,high
+2025-10-18_001,video,it,1,1,1,1,1,1,3,1,1,1,furto;ladri;coraggio;casa;salvataggio,positive,none
+2025-10-18_002,video,it,1,1,1,1,1,1,4,1,3,1,violenti;Forze dell'Ordine;solidarietà;sicurezza,positive,low
+2025-10-18_003,video,it,1,1,1,1,1,1,1,1,1,1,delinquenti;tifosi;critica,negative,high
+2025-10-18_004,video,it,1,4,3,4,1,1,1,1,2,1,pensioni;stipendi;sanità;banche;tasse;profitti;interessi,negative,medium
+2025-10-19_001,image,it,1,1,1,1,1,1,3,1,2,1,tragedia;massi;autista;Tifosi;galera,negative,medium
+2025-10-19_002,video,it,1,1,1,1,1,1,1,1,1,1,delinquente;deficiente;grazie,negative,high
+2025-10-19_003,video,it,1,4,3,3,1,1,1,1,1,3,Robin Hood Tax;banche;equità sociale;profitto;pensioni minime;giovani;mutuo,positive,medium
+2025-10-19_004,video,it,1,1,1,1,1,1,1,1,1,1,rabbia;sinistra;Trump;Bocelli;Italia,negative,high
+2025-10-20_001,video,it,1,3,1,1,1,2,3,1,1,1,servire il Paese;onore;buon lavoro;donne in divisa;uomini in divisa;memorie,positive,low
+2025-10-20_002,video,it,1,3,3,1,1,1,1,5,2,1,immigrazione;Africa;Europa;documenti;lavoro;Nigeria;Salvini,negative,high
+2025-10-20_003,video,it,1,1,1,4,1,1,1,2,3,1,Pronto soccorso;Vigevano;ospedale;delinquente;espulsione;panico,negative,medium
+2025-10-21_001,video,it,1,1,2,1,5,1,1,1,1,2,Bosco della Musica;Conservatorio Verdi;rigenerazione urbana;studenti;cultura;giovani;Milano,positive,low
+2025-10-21_002,video,it,1,1,1,1,1,1,2,1,1,1,muro;graffiti;Milano;scuola;sbirri;legalità,negative,high
+2025-10-21_003,video,it,1,2,1,1,1,1,1,1,4,1,propaganda;democrazia;libertà;governo;proposte concrete;ishline,negative,medium
+2025-10-22_001,image,it,1,3,1,1,1,1,3,4,2,1,Nessuna tolleranza;Marocchino;irregolare;violenza;posto di lavoro,negative,high
+2025-10-22_002,video,it,1,1,1,1,1,1,2,1,5,1,leggi del taglione;collaborazionisti;Annun;questura Milano;istigazione all'odio;manifestazione pubblica,negative,high
+2025-10-22_003,video,it,1,1,1,1,1,1,1,1,3,1,buongoverno;centrodestra;Repubblica;Costituzione;squadra;nazione,positive,medium
+2025-10-23_001,image,it,1,2,1,1,1,1,3,1,4,1,sciopero;blocco;polizia;garante;procedimento;agitazioni,negative,high
+2025-10-23_002,image,it,4,1,1,1,1,1,1,1,1,1,Green Deal;cancellazione;Salvini;Unione Europea;attacco,negative,medium
+2025-10-23_003,video,it,1,2,1,1,1,1,1,1,1,1,giovani;Veneto;candidare;governatore;regione;politica,positive,medium
+2025-10-23_004,image,it,1,1,1,1,1,1,1,1,1,1,SuperSic;Marco;passione;tour;evento,positive,none
+2025-10-24_001,video,it,1,1,1,1,1,1,1,1,2,1,Pal;caos;critica,negative,high
+2025-10-24_002,video,it,1,1,1,1,1,1,3,4,1,1,aggressione;Milano;delinquente;Paese,negative,high
+2025-10-24_003,video,it,1,5,1,1,1,2,1,1,1,1,Ponte sullo Stretto;occupazione;posti di lavoro;crescita;selezione;giovani,positive,low
+2025-10-24_004,video,it,1,1,1,1,1,1,1,1,1,1,grazie;fonte;piantedosi,positive,none
+2025-10-25_001,video,it,1,1,1,1,1,1,1,5,3,1,Islam;integrazione;accordo;Stato italiano;leggi;confessione,negative,high
+2025-10-25_002,image,it,1,1,1,1,1,1,1,1,1,1,mito;generazione;commedie;Maurino;Mauro Di Francesco,neutral,none
+2025-10-25_003,image,it,1,1,1,1,1,1,3,1,2,1,vittima innocente;gara di velocità;scontro auto;matteo salvini;accaduto,negative,medium
+2025-10-26_001,video,it,1,3,1,1,1,1,1,1,2,1,Napoli;cantieri;Ministero di Infrastrutture e Trasporti;investimenti;Lega;campagna,positive,high
+2025-10-26_002,video,it,1,1,1,1,1,1,1,1,1,1,Napoli;Lega;elezioni regionali;centrodestra;Cirielli;candidati,positive,low
+2025-10-26_003,image,it,1,1,1,1,1,1,1,4,3,1,Islam;accordo;Stato italiano;moschee;soggetti islamici,negative,high
+2025-10-27_001,video,it,1,1,1,1,1,1,3,1,3,1,manifestazioni;sinistra;Forze dell'Ordine;Pace,negative,high
+2025-10-27_002,video,it,1,1,1,1,1,1,1,1,1,1,maltrattamento animali;pene;Lega;tutela animali;civiltà,positive,medium
+2025-10-27_003,image,it,1,3,1,1,1,1,1,1,1,4,Piano Casa;fondi;sistema bancario;margini;utili;liberale;iper-liberista,positive,low
+2025-10-28_001,image,it,1,1,1,1,1,1,4,1,3,1,difesa;legittima;carabiniere;assolto;Laccoltellatore;azione necessaria,negative,medium
+2025-10-28_002,image,it,1,1,1,1,1,1,1,1,1,1,ringraziamento;Ungheria;Italia;collaborazione,positive,none
+2025-10-28_003,image,it,1,1,1,1,1,1,3,5,1,1,rifugiato;senegalese;alias;rapine;Porta Venezia;fuori dal nostro paese,negative,high
+2025-10-28_004,video,it,1,1,1,1,1,1,1,1,1,1,incontro;visita;amico;grazie,positive,none
+2025-10-28_005,image,it,1,1,1,1,1,1,1,1,2,5,diritto alla casa;dignità;sgomberato;occupazione;regole;violare,negative,high
+2025-10-29_001,image,it,1,3,1,1,1,1,3,1,4,1,Corte dei Conti;confini;sviluppo;posti di lavoro;lavori;progetto,negative,medium
+2025-10-29_002,image,it,1,2,1,1,1,1,3,1,1,1,MIT;infrastrutture strategiche;Italia Ungheria;Ponte sullo Stretto;cooperazione;Salvini;colloquio,positive,low
+2025-10-29_003,video,it,1,2,1,2,1,1,4,1,3,1,fumogeni;violenza;Forze dell’Ordine;arrestato;ospedale;Padova,mixed,low
+2025-10-29_004,image,it,1,1,1,1,1,1,3,5,3,1,estremismo islamico;donna marocchina;aggressione;metropolitana;Occidente;valori,negative,medium
+2025-10-30_001,video,it,3,1,1,1,1,1,1,1,1,1,ponte;unificazione;sostenibilità;tecnologia;sviluppo;Italia;Europa,positive,medium
+2025-10-30_002,image,it,1,1,1,1,1,1,2,3,2,1,Milanistan;Duomo;polemica;degrado;cittadino egiziano,negative,high
+2025-10-30_003,image,it,1,1,1,1,1,1,1,1,1,1,opere incompiute;blocco;Stretto di Messina,negative,medium
+2025-10-30_004,image,it,1,1,1,1,1,1,1,1,5,1,Giustizia;Tribunali;Riforma della Giustizia;Referendum confermativo;separazione delle carriere,positive,high
+2025-10-31_001,image,it,1,1,1,1,3,1,1,1,4,1,riforma della Giustizia;maestra elementare;assolta;minori;reato,negative,medium
+2025-10-31_002,video,it,1,5,1,2,2,1,5,1,3,1,Polizia di Stato;pensione;servizio;giuramento di fedeltà;poliziotto;questura;dirigente,positive,none
+2025-10-31_003,video,it,1,2,1,1,1,1,1,1,3,1,Ponte;Corte dei Conti;Consiglio dei Ministri;provvedimento;cantieri;opera,positive,medium
+2025-11-01_001,video,it,1,1,1,2,1,1,4,1,2,2,delinquenti;anziani;sassaiole;stalking;sicurezza;paura;videosorveglianza,negative,medium
+2025-11-01_002,image,it,1,1,1,1,1,1,4,1,1,1,guida sotto effetto droghe;omicidio;arresto;test droga;sicurezza stradale,negative,medium
+2025-11-01_003,image,it,1,1,1,1,1,1,5,1,2,1,Polizia di Stato;agente;dovere;scontro;dirupo;colleghi,negative,low
+2025-11-01_004,image,it,1,1,1,1,1,1,1,1,1,1,Ognissanti;saluti;augurio,neutral,none
+2025-11-02_001,image,it,1,1,1,1,1,1,1,1,1,1,Giovanni Galeone;maestro;calcio;allenatore;panchina,neutral,none
+2025-11-02_002,image,it,1,1,1,1,1,1,1,1,1,1,ONFA;Parigi;numero uno;critica,positive,high
+2025-11-02_003,video,it,1,1,1,1,1,1,3,4,4,1,rispetto delle regole;accoglienza indiscriminata;le nostre leggi;VIA DALL’ITALIA;denunciare;polizia,negative,high
+2025-11-03_001,image,it,1,3,1,2,1,1,3,1,1,1,pompieri;operaio;crollo;Fori Imperiali;salvataggio;macerie,positive,none
+2025-11-03_002,video,it,1,1,1,1,1,1,1,1,5,1,riforma Giustizia;ordinamento giudiziario;magistrati;Pubblico Ministero;carriere;Lega,negative,medium
+2025-11-03_003,video,it,1,1,1,1,1,1,4,1,1,1,fatto di sangue;Milano;aggressione;accoltellata;sicurezza,negative,none
+2025-11-04_001,image,it,1,1,1,1,1,1,3,1,2,1,bullismo;Torino;baby gang;minacce;ingiustizia;responsabili,negative,medium
+2025-11-04_002,image,it,1,1,1,1,1,1,4,1,1,1,guerra;Russia;Ucraina;Trump;finanziamento;armi,negative,medium
+2025-11-04_003,video,it,2,5,4,3,3,1,4,1,3,2,ponte di Messina;lavoro;sicurezza infrastrutture;Corte dei Conti;giustizia;stipendi forze dell'ordine,positive,medium
+2025-11-04_004,video,it,1,1,1,1,1,2,5,1,2,1,Forze Armate;sicurezza;confini;protezione;Italia;dedizione,positive,low
+2025-11-04_005,image,it,1,3,1,1,1,1,2,1,1,1,scomparsa;operaio;macerie;soccorritori;vigili del fuoco;Torre dei Conti,negative,none
+2025-11-05_001,video,it,1,1,1,1,1,1,1,1,2,1,elezioni;Donald Trump;vittoria;presidente;America,positive,low
+2025-11-05_002,video,it,1,5,4,4,5,3,1,1,1,1,contratto scuola;stipendi;personale scolastico;arretrati;bonus mensile;cuneo fiscale;welfare;Ministero dell'Istruzione,positive,high
+2025-11-05_003,image,it,1,1,1,1,1,1,5,2,3,1,fanatismo jihadista;estremismo islamico;minaccia;Occidente;sicurezza;Oleron,negative,medium
+2025-11-05_004,image,it,1,1,1,1,1,1,4,1,3,1,Lega;difesa;norme;furto;sicurezza;cittadini,positive,medium
+2025-11-05_005,image,it,1,3,1,1,1,3,3,1,2,1,sindaco;New York;socialista;pro-pal;abolizione proprietà privata;sinistra;Shabana Mahmood,negative,high
+2025-11-06_001,image,it,1,1,1,1,1,1,3,1,3,1,inaccettabile;sgomberare;ANSA;vigili;Roma;spari,negative,medium
+2025-11-06_002,video,it,1,1,1,1,1,1,5,1,3,1,difesa;sicurezza;Lega;proprietà privata;legge;rapina;libertà,positive,high
+2025-11-06_003,video,it,1,3,1,1,1,1,1,1,5,1,giustizia;prigione;riforma;ingiustamente;tribunale;pagare,negative,high
+2025-11-06_004,image,it,1,1,1,1,3,1,3,1,1,1,scontro frontale;scuolabus;studenti;Torinese;cordoglio,negative,none
+2025-11-07_001,video,it,1,3,1,3,1,1,1,1,1,1,Veneto;Lega;Zaia;Stefani;sanità;lavoro;autonomia,positive,medium
+2025-11-07_002,image,it,1,3,1,2,1,1,3,1,1,2,Verona;Arena;mobilità;investimento;accessibili;rampe;centro storico,positive,medium
+2025-11-07_003,image,it,1,1,1,1,1,1,1,1,1,1,linee guida Enac;animali domestici;voli in cabina;benessere animale;spiagge attrezzate,positive,low
+2025-11-07_004,image,it,1,1,1,1,1,1,1,4,1,1,straniero;aggressione;treno;permesso di soggiorno;fuori dal Paese,negative,medium
+2025-11-07_005,image,it,1,3,1,1,1,1,1,1,1,1,sciopero generale;CGIL;Landini;bilancio;venerdì,negative,medium
+2025-11-07_006,image,it,1,1,1,1,1,2,3,3,3,1,Decreto Sicurezza;Lega;Venezia;arrestata;carcere;norme,positive,medium
+2025-11-07_007,video,it,1,4,1,1,1,1,1,1,1,1,Fieracavalli;Verona;Veneto;piccole e medie imprese;presenze;indotto,positive,none
+2025-11-07_008,video,it,1,1,1,1,1,1,1,1,1,1,musica;bene;applausi,positive,none
+2025-11-08_001,video,it,1,1,1,1,1,1,1,1,1,1,viaggio;Maestro;Peppe Vessicchio;orchestra,neutral,none
+2025-11-08_002,image,it,1,1,1,1,1,1,3,1,2,3,Lega;occupata;Polizia;Decreto Sicurezza;proprietario,positive,high
+2025-11-08_003,image,it,1,1,1,1,1,3,4,5,2,1,stupro;reati sessuali;nazionalità straniera;castrazione chimica;sicurezza;immigrazione,negative,high
+2025-11-08_004,image,it,1,1,1,1,1,1,1,1,1,1,Peppe Vessicchio;musica italiana;Sanremo;addio;artista,neutral,none
+2025-11-08_005,image,it,1,1,1,1,1,1,5,1,3,1,legge di Salvini;sicurezza;autodifesa;aggressione;cittadino;diritto,positive,medium
+2025-11-08_006,video,it,1,2,1,2,1,1,2,1,1,1,Olimpiadi Milano Cortina 2026;Arena di Verona;investimento;accessibilità;parapetti;Verona di domani,positive,low
+2025-11-09_001,video,it,1,4,1,1,3,1,1,1,2,1,sciopero;manovra economica;contratto insegnanti;diritti lavoratori;ideologico;ferrovieri,negative,medium
+2025-11-09_002,image,it,1,1,1,1,1,1,1,1,4,1,Muro di Berlino;libertà;Storia;comunismo;democrazia;Manzoni,positive,low
+2025-11-10_001,image,it,1,1,1,1,1,1,1,1,1,1,aula studio;Charlie Kirk,neutral,none
+2025-11-10_002,image,it,1,1,1,1,1,1,1,1,1,1,elezioni regionali;Lega;Puglia;Luigi Lobuono;malgoverno;cambiare volto,negative,high
+2025-11-10_003,video,it,1,1,1,1,1,1,1,5,4,1,immigrazione;cultura;storia;Costituzione;rispetto;fuori dal paese,negative,high
+2025-11-10_004,video,it,1,1,1,1,1,1,1,1,1,1,Bari;centrodestra;Puglia;Luigi Lobuono;cambiamento,positive,high
+2025-11-10_005,image,it,1,1,1,1,1,1,4,1,3,1,Decreto Sicurezza;Carabinieri;borseggiatrici;furti;sicurezza;misure cautelari,positive,medium
+2025-11-10_006,video,it,1,1,1,1,1,1,3,1,1,1,strage;folle;Torino–Milano;sicurezza;vita,negative,low
+2025-11-10_007,image,it,1,1,1,1,1,1,3,5,2,1,carcere;espulsione;pachistano;violenza;arrestato,negative,high
+2025-11-11_001,video,it,1,3,1,1,1,1,4,1,1,1,stazioni;riqualificazione;ferroviaria;sicurezza;pendolari;investimenti;tecnologia,positive,low
+2025-11-11_002,video,it,1,1,1,1,1,1,4,1,3,1,Forze dell'Ordine;cittadini terrorizzati;carcere;polizia;coltello;rubare la moto,negative,medium
+2025-11-11_003,video,it,1,1,1,1,1,1,1,5,3,1,immigrazione;integrazione;leggi;tradizioni;cultura;fanatici islamici;Natale,negative,high
+2025-11-11_004,image,it,1,1,1,1,1,1,2,1,4,1,antisemitismo;odio;legalità;incidenti;sicurezza;arresto,negative,high
+2025-11-11_005,image,it,1,1,1,1,1,1,1,1,1,1,Bari;centrodestra;Puglia;Lega,positive,high
+2025-11-12_001,video,it,1,1,1,1,5,1,1,1,1,1,"educazione sessuale;scuole;giovani;rischi malattie;programmi scolastici;articolo 1,4",positive,medium
+2025-11-12_002,image,it,1,1,1,1,1,1,1,1,4,1,centri culturali islamici;illegalità;censimento;impegno;Repubblica Italiana;confessioni religiose,negative,high
+2025-11-12_003,image,it,1,1,1,1,1,1,5,3,2,1,sicurezza;decreto sicurezza;Lega;burqa;occupazioni,positive,medium
+2025-11-12_004,image,it,1,1,1,2,1,1,4,4,3,1,borseggiatrici;Venezia;nazionalità;criminalità;sicurezza,negative,high
+2025-11-12_005,video,it,1,1,1,1,1,1,5,1,2,1,Caduti;Nassiriya;missioni internazionali;coraggio;onore;servizio,positive,low
+2025-11-13_001,video,it,1,1,1,1,1,1,1,1,1,1,Salerno;Lega;Edmondo Cirielli;Campania;liste;cambiare,positive,high
+2025-11-13_002,image,it,1,1,1,1,1,1,1,3,3,1,proposta di legge;Osservatorio Anti Islam;ILTEMPO;LegaSalviniPremier,negative,high
+2025-11-13_003,image,it,1,1,1,1,1,1,3,1,1,1,borseggiatori;delinquenti;violenti;monitoraggio;inquirenti;sicurezza,negative,medium
+2025-11-13_004,video,it,1,1,1,1,1,1,5,2,3,1,Bataclan;estremismo islamico;sicurezza;fanatismo;memoria;valori,negative,medium
+2025-11-14_001,video,it,1,1,1,1,1,1,1,1,1,1,Napoli;Cirielli;Lega;Campania;sinistra,positive,high
+2025-11-14_002,video,it,1,1,1,1,1,1,1,1,1,1,teppisti;caos;musica,negative,high
+2025-11-14_003,video,it,2,5,1,1,2,1,1,1,1,1,porto di Napoli;investimenti MIT;occupazione;turismo;lavoro;America's Cup 2027,positive,low
+2025-11-14_004,image,it,1,1,1,1,1,1,1,1,2,1,manifestazione;Genova;governo;critica;odio;menzogne,negative,high
+2025-11-14_005,video,it,1,1,1,1,1,1,3,1,1,1,aggressione;metropolitana;Roma;responsabili;identificazione,negative,low
+2025-11-15_001,video,it,1,1,2,2,3,1,1,4,3,3,campo rom;Giugliano;bambini;degrado;sgomberi;servizi;illegalità;cittadino,negative,medium
+2025-11-15_002,video,it,1,4,1,1,1,1,3,1,2,1,metro;Capodichino;operai;architettura;sicurezza;infrastrutture;Napoli,positive,medium
+2025-11-15_003,image,it,1,2,1,1,1,1,1,4,1,1,immigrazione;politiche fiscali;Europa;Presidente Americano;Trump;problema,negative,medium
+2025-11-15_004,video,it,1,1,1,1,1,3,3,5,3,1,immigrazione;leggi;tradizioni;fanatismo islamico;estremismo;diritti civili;sicurezza,negative,high
+2025-11-16_001,image,it,1,1,1,1,1,1,1,1,1,1,Sinner;applausi;Italia,positive,none
+2025-11-16_002,video,it,1,3,1,3,1,1,3,5,3,2,Bagnoli di Sopra;immigrati irregolari;bomba sociale;Lega;accoglienza;reinserimento;ordine,positive,high
+2025-11-16_003,video,it,1,1,1,1,1,1,1,1,4,1,Ayatollah;estremismo islamico;libertà;diritti;democrazia;regime,negative,high
+2025-11-16_004,image,it,1,1,1,1,1,1,1,1,1,1,Veneto;Governatore;compleanno;sinistra;Lega,mixed,medium
+2025-11-16_005,video,it,1,1,1,1,1,1,4,1,1,1,vittime della strada;sicurezza stradale;Lost Talents;zero vittime;MIT;infrastrutture,negative,low
+2025-11-17_001,image,it,1,1,1,1,1,1,5,1,3,1,Polizia Locale;Foggia;sicurezza;agent;solidarietà;divisa,negative,medium
+2025-11-17_002,video,it,1,3,2,1,1,3,4,4,3,1,Lega;Veneto;Alberto Stefani;autonomia;legge di bilancio;sicurezza;immigrazione,positive,high
+2025-11-17_003,image,it,1,2,1,1,1,1,1,1,3,1,sciopero;strumento di pressione;Costituzione;automatismo;diritto,negative,medium
+2025-11-17_004,video,it,1,5,4,2,1,1,1,1,3,1,pace fiscale;partita IVA;Agenzia delle Entrate;attività commerciale;tasse;dipendenti,negative,medium
+2025-11-18_001,image,it,1,1,1,1,1,1,1,1,1,1,Padova;Veneto;Alberto Stefani;serata,positive,low
+2025-11-18_002,video,it,1,3,1,1,1,1,1,1,1,1,Cortina d'Ampezzo;Sliding Centre;atleti;operai;eccellenza;sportivo,positive,low
+2025-11-18_003,image,it,3,4,1,1,1,1,1,1,1,3,Giochi Invernali;Cortina d'Ampezzo;opere strategiche;Villaggio Olimpico;Sliding Centre;infrastrutture,positive,low
+2025-11-18_004,image,it,1,1,1,1,1,1,4,1,3,1,MAXI OPERAZIONE;organizzazione criminale;arresti;Carabinieri;perquisizioni,neutral,none
+2025-11-18_005,video,it,4,5,1,1,3,1,1,1,1,3,villaggio olimpico;sostenibile;Made in Italy;atleti;campus universitario;Dolomiti;operai,positive,medium
+2025-11-18_006,image,it,1,1,1,1,1,1,1,1,1,1,Lega;centrodestra;buon governo;Camisano Vicentino;Venezia,positive,high
+2025-11-19_001,video,it,1,1,1,1,1,1,1,1,1,1,Capua;Lega;elezioni regionali;candidati,positive,low
+2025-11-19_002,video,it,1,1,1,1,1,1,3,1,3,1,Far West;arrestati;carcere;identificati,negative,medium
+2025-11-19_003,image,it,1,1,1,2,1,1,4,1,2,1,violenza;baby gang;aggressione;criminali;giovane;sicurezza,negative,medium
+2025-11-20_001,video,it,1,1,1,1,1,1,5,4,2,1,ghetti zero;campi rom zero;clandestini zero;forze dell'ordine;sicurezza;militari;poliziotti,negative,high
+2025-11-20_002,image,it,1,1,1,1,1,3,4,1,2,1,Forze dell'Ordine;donne;uomini in divisa;rispetto;Bologna;scritte,negative,high
+2025-11-20_003,image,it,1,1,1,1,1,1,1,5,1,1,campo profughi;confini;frontiera Sud;immigrazione;Europa,negative,medium
+2025-11-21_001,image,it,1,1,1,1,1,1,1,1,1,1,Ornella Vanoni;musica italiana;scomparsa;capolavoro;voce unica,neutral,none
+2025-11-21_002,video,it,1,1,1,1,1,1,3,1,1,1,guerriglia urbana;Bologna;violenti;Forze dell’Ordine;Maccabi Tel Aviv,negative,high
+2025-11-21_003,video,it,1,1,1,1,3,1,1,3,3,2,bambini;famiglia;assistenti sociali;tribunale dei minori;servizi;ingiustizia,negative,high
+2025-11-21_004,video,it,1,1,1,1,1,1,5,1,2,1,Carabinieri;Forze dell'Ordine;sicurezza;onore;difesa;dedizione,positive,low
+2025-11-21_005,image,it,1,1,2,3,3,1,2,2,3,2,famiglia;assistenti sociali;campo rom;bambini;scuola;Stato;diritti,negative,medium
+2025-11-22_001,image,it,1,1,1,1,1,1,1,1,3,1,Lega;bambini;famiglia;Abruzzo;Ministero della Giustizia;diviso,positive,medium
+2025-11-22_002,video,it,1,1,1,1,2,1,3,2,4,1,Don Alì;arresto;teppisti;Forze dell'Ordine;Squadra Mobile;leggi italiane,positive,high
+2025-11-22_003,image,it,1,1,1,1,1,1,1,1,1,1,Roberto Maroni;commemorazione;politica;memoria,neutral,none
+2025-11-23_001,image,it,1,1,1,1,1,1,1,1,1,1,fortuna;grinta,positive,none
+2025-11-23_002,image,it,1,1,1,1,1,1,1,1,1,1,Coppa Davis;Italia;vittoria;orgoglio,positive,none
+2025-11-23_003,image,it,3,1,1,1,1,1,2,1,1,1,baby gang;maranza;città;branco;opulenza;arroganza,negative,medium
+2025-11-23_004,image,it,4,1,1,3,1,1,1,1,1,1,assistenti sociali;vandalismo;ideologia estremista;Green;Greta Thunberg;Blitz ambientalista,negative,high
+2025-11-23_005,video,it,3,1,1,3,1,1,1,1,2,3,servizi sociali;famiglia;bambini;vita alternativa;natura;diritto di stare uniti,negative,high
+2025-11-24_001,image,it,1,1,1,1,1,1,1,1,1,1,Lega;voti;Campania;Puglia;elezioni regionali;risultato,positive,high
+2025-11-24_002,image,it,1,3,1,1,1,1,1,1,1,1,Lega;Veneto;risultato storico;impegno;lavoro;fiducia,positive,high
+2025-11-24_003,image,it,1,1,1,1,1,1,1,1,1,1,vittoria;governo;veneto;lavoro,positive,low
+2025-11-24_004,image,it,1,1,1,1,5,1,1,1,3,1,obbligo scolastico;educazione domiciliare;Ministero dell'Istruzione;scuola autorizzata;dirigente istituto;fake news,positive,medium
+2025-11-24_005,video,it,3,3,1,1,1,1,3,1,1,1,treno;Andria;inquinamento;sicurezza;investimenti;passaggi a livello,positive,medium
+2025-11-24_006,video,it,1,1,1,1,1,1,1,1,5,1,referendum;riforma giustizia;civiltà;giustizia non funziona;vicenda Garlasco;sequestro bambini,negative,medium
+2025-11-24_007,image,it,1,1,1,1,1,1,1,1,1,1,bambini;famiglia;separazione;casa;affetto;aiutare,negative,medium
+2025-11-25_001,video,it,1,2,1,1,1,1,1,3,4,1,legge antimaranza;cittadinanza;documento;diritti;reato;impegno,negative,medium
+2025-11-25_002,video,it,1,1,1,1,1,1,1,1,1,1,sconcertante;visione,negative,low
+2025-11-25_003,image,it,1,1,1,1,1,4,1,1,1,1,violenza contro le donne;Giornata internazionale;impegno;abuso;OrangeTheWorld;Ministero,positive,low
+2025-11-25_004,image,it,2,3,1,1,1,1,1,1,1,1,bimbi;famiglia;natura;occupazione;Abruzzo;tristezza,negative,none
+2025-11-25_005,image,it,1,1,1,1,1,1,1,3,3,1,espulsione;cittadinanza;Torino per Gaza;Sheikh Shahin;movimento;piazza,negative,medium
+2025-11-25_006,image,it,1,1,1,1,1,5,3,1,1,1,violenza contro le donne;castrazione chimica;stupratori;pedofili;prevenzione,negative,high
+2025-11-25_007,video,it,1,3,1,1,1,1,1,1,1,1,Lega;Veneto;governatore;motore economico;giovani;Italia,positive,high
+2025-11-26_001,image,it,4,1,1,1,1,1,1,1,1,1,Thunberg;indagati;Canal Grande;verde;LegaSalviniPremier,negative,high
+2025-11-26_002,video,it,1,1,1,1,1,4,1,1,4,1,violenza sessuale;Lega;norma assurda;onere della prova;consenso;libertà,negative,high
+2025-11-26_003,video,it,1,1,1,1,1,1,1,1,2,1,Lega;giovani;passione;impegno;voto;squadra,positive,medium
+2025-11-26_004,image,it,1,1,1,1,1,1,1,1,1,1,Paralimpiadi;sci;snowboard;Cortina;Tesero;eventi sportivi,positive,none
+2025-11-27_001,image,it,1,1,1,1,1,1,1,1,1,1,girasole;memoria;dolore;inciviltà;basket;Milano,negative,medium
+2025-11-27_002,video,it,1,4,1,1,1,1,1,1,1,1,lavoro;impegno;Veneto;governatore;merito;giovani,positive,medium
+2025-11-27_003,image,it,1,1,1,1,1,1,4,1,3,1,stupro;pedofili;pena;attenuanti;Lega;giustizia,negative,high
+2025-11-27_004,image,it,1,1,1,1,1,1,4,1,3,1,Casa Bianca;sicurezza;libertà;Guardia Nazionale;sparatoria;Trump,negative,medium
+2025-11-28_001,video,it,1,1,1,3,3,3,3,1,3,1,leva;educazione civica;volontariato;pronto soccorso;protezione civile;donazione del sangue,positive,low
+2025-11-28_002,video,it,1,1,1,1,1,1,3,1,3,1,Ministero;Polizia;fumogeni;sassi;eucanistà,negative,high
+2025-11-28_003,video,it,1,1,1,4,3,1,1,1,3,1,famiglia;assistente sociale;tribunale di minorenni;homeschooling;campo Rom;violenza,negative,high
+2025-11-29_001,image,it,1,3,1,1,1,1,1,1,1,1,autostrade;Tav;Mose;Ponte;sinistra;costruire,negative,high
+2025-11-29_002,video,it,1,1,1,1,1,1,1,1,3,4,casa nel bosco;chiavi;vicini;unità;serenità;giudiziario,positive,low
+2025-11-29_003,video,it,1,1,1,1,1,1,1,1,1,1,delinquente;biglietto;Paese;inaccettabile,negative,high
+2025-11-29_004,image,it,1,1,1,1,1,1,1,1,1,3,famiglia;casa;bosco;coppia;abitazione,positive,none
+2025-11-29_005,image,it,1,1,1,2,3,1,1,1,3,1,bambini;famiglia;diritti genitoriali;intervento statale;scelte educative;Lega;Abruzzo,negative,high
+2025-11-30_001,image,it,1,1,1,1,1,1,1,1,1,1,Milano;inciviltà;fiore;campetto di basket;girasoli;genitori,negative,low
+2025-11-30_002,video,it,1,1,1,1,1,1,1,1,3,3,bambini;genitorialità;ricongiungimento;tribunale dei minori;ordinanza;avvocati,negative,high
+2025-11-30_003,video,it,1,3,1,1,1,1,1,1,5,1,riforma giustizia;democrazia;arresti ingiusti;magistrati;diritti;legalità,negative,high
+2025-11-30_004,image,it,1,1,1,1,1,1,3,5,2,1,criminale;bengalese;furto;rapina;espulsione;immigrazione,negative,high
+2025-11-30_005,image,it,1,1,1,1,1,1,1,1,1,1,Australia;social media;minori;16 anni;divieto,neutral,none
+2025-12-01_001,video,it,2,3,2,3,4,1,1,1,1,1,scuola;futuro;17 anni;progetti;freddo;consigli,mixed,medium
+2025-12-01_002,image,it,1,1,1,1,1,1,1,1,3,1,Giustizia;Libertà;famiglia;allontanamento;Tribunale;diritti,positive,medium
+2025-12-01_003,video,it,1,1,1,1,1,1,1,1,2,1,guerra;criminali;fascista;governo;risposta,negative,high
+2025-12-01_004,image,it,1,1,1,1,1,1,1,1,1,1,tennista;Nicola Pietrangeli;Slam;leggenda;sport,positive,none
+2025-12-02_001,video,it,1,1,1,1,1,1,1,1,1,1,presepe;Bruxelles;identità;cultura;inclusività;polemiche,negative,medium
+2025-12-02_002,image,it,1,4,1,1,1,1,3,1,1,1,conflitto;Russia;Ucraina;economia italiana;boost;vite,positive,medium
+2025-12-02_003,video,it,1,1,1,1,1,1,4,3,4,1,sequestro;giornalista;Francia;macelleria;sicurezza;deriva,negative,medium
+2025-12-03_001,video,it,1,1,1,1,1,2,1,1,1,1,Presepe Pride;tradizione;Natale;simbolo storico;critica;rispetto,negative,high
+2025-12-03_002,image,it,1,2,1,1,1,1,1,1,1,1,PNRR;MIT;infrastrutture;investimenti;trasporti;alta velocità;Unione europea,positive,low
+2025-12-03_003,image,it,1,1,1,1,1,1,5,1,3,1,legittima difesa;assalto;criminali;giovelliere;processo;diritto,negative,medium
+2025-12-03_004,image,it,1,1,1,1,1,1,4,1,3,1,Carabinieri;processo;Forze dell'Ordine;Giustizia;militari;ANSA,negative,high
+2025-12-03_005,image,it,1,1,1,1,1,1,1,2,4,1,cittadinanza;super-attivista;attacchi;redazione;sinistra;onorificenze,negative,high
+2025-12-03_006,image,it,1,1,1,3,1,1,1,1,1,1,diritti;disabilità;accessibilità;dignità;Ministero per le Disabilità,positive,low
+2025-12-04_001,video,it,1,1,1,1,1,1,5,1,3,1,Carabinieri;forze dell'ordine;sicurezza dello Stato;omicidio stradale;inseguimento;paralisi della polizia,negative,high
+2025-12-04_002,image,it,1,1,1,3,1,1,1,1,2,1,bambini;casa famiglia;giudici;abbraccio;famiglia,negative,medium
+2025-12-04_003,image,it,1,1,1,1,1,1,4,4,1,1,aggressione;treno;Milano;rimpatriato;Gambiano;violenza,negative,low
+2025-12-04_004,image,it,1,2,1,1,1,1,1,1,1,1,Ponte sullo Stretto;Europa;Salvini;Commissione UE;opera;dialogo,positive,medium
+2025-12-04_005,image,it,1,2,1,1,1,1,1,1,1,1,Bruxelles;Consiglio Trasporti;interessi del Paese,positive,low
+2025-12-04_006,video,it,1,1,1,1,1,1,3,1,1,1,Vigili del Fuoco;Marina Militare;servizio;coraggio;dedizione;protezione,positive,none
+2025-12-05_001,video,it,1,1,1,1,1,2,1,1,2,1,Bruxelles;presepe;Natale;tradizioni;inclusivo;istituzioni europee,negative,medium
+2025-12-05_002,image,it,1,1,1,1,1,1,4,1,3,3,legittima difesa;Lega;carcere;assolto;difesa;casa,positive,medium
+2025-12-05_003,image,it,1,1,1,1,1,1,1,1,1,1,Quirinale;Fiamma Olimpica;Giochi Invernali;Milano-Cortina 2026;evento globale,positive,none
+2025-12-05_004,video,it,1,1,1,1,1,1,4,3,4,1,giustizia;referendum;assolto;immigrato;aggressione;diritto;persecuzione,negative,medium
+2025-12-06_001,image,it,1,1,1,1,1,1,1,4,3,1,Trump;Europa;migrazione di massa;Casa Bianca;Unione Europea,negative,medium
+2025-12-06_002,video,it,1,1,1,1,1,1,4,5,3,1,Cassazione;sbarchi;clandestini;confini;sicurezza;sequestro;ministro,negative,high
+2025-12-06_003,image,it,1,1,1,1,1,1,5,1,3,1,violenza;aggressione;sicurezza;pena;Lega;reati sessuali,negative,high
+2025-12-06_004,image,it,1,1,1,1,1,1,1,1,3,1,famiglia;giustizia;vergogna;assistenti sociali;giudici;ricongiungimento;civiltà,negative,high
+2025-12-06_005,video,it,3,5,1,1,1,1,1,1,1,1,motori benzina;diesel;posti di lavoro;battaglie;Green Sea;economia,positive,medium
+2025-12-07_001,image,it,1,1,1,1,1,1,1,1,1,1,cinema;film;serata;emozione;risata,positive,none
+2025-12-07_002,video,it,1,1,1,1,1,1,4,1,1,1,Ambrogino d'Oro;poliziotto;Lambrate;coraggio;sicurezza;divisa,positive,low
+2025-12-07_003,image,it,1,1,1,1,1,1,1,3,3,1,cittadinanza italiana;requisiti stringenti;norme anti-maranza;revoca;ricongiungimenti,negative,medium
+2025-12-07_004,video,it,1,1,1,1,1,1,1,1,1,1,Milano;Piazza Duomo;albero di Natale;Olimpiadi Invernali;Fondazione Milano Cortina 2026,positive,none
+2025-12-07_005,video,it,1,1,1,1,1,1,1,1,3,1,censura;pensiero;comunisti;fascisti;fiera;libri,negative,high
+2025-12-08_001,image,it,1,1,1,1,1,1,1,4,3,1,partito islamico;moschee;integrazione;leggi;tradizioni;immigrazione,negative,high
+2025-12-08_002,image,it,1,1,1,1,1,1,3,4,4,1,processo;assoluzione;difendere i confini;condanna politica;campo profughi,negative,high
+2025-12-08_003,video,it,1,1,1,1,1,1,1,1,1,1,grazie;video;matteopiantedosi,positive,none
+2025-12-08_004,image,it,1,1,1,1,1,1,1,1,1,1,Festa dell'Immacolata;augurio;Concezione;Maria,neutral,none
+2025-12-09_001,image,it,1,4,1,1,1,1,1,1,1,1,innovazione;player globale;automotive;irrilevanti;Europa,negative,medium
+2025-12-09_002,image,it,1,1,1,1,1,1,4,1,1,1,stupratori;pedofili;violenza sessuale;stazione metro;sicurezza,negative,medium
+2025-12-09_003,video,it,1,1,1,1,1,1,1,3,5,1,Cassazione;processo;blocco sbarchi;carcere;legalità;razzismo,negative,high
+2025-12-09_004,image,it,1,3,1,1,1,1,1,1,1,1,sciopero;lavoro;giornata;LegaSalviniPremier,negative,high
+2025-12-09_005,video,it,1,1,1,1,3,1,1,1,3,1,presepe;simboli;religione;tradizioni;scuole;cattolico,negative,high
+2025-12-10_001,video,it,1,1,1,1,1,1,4,1,3,1,difesa;legge;aggredito;rischio;diritto,negative,high
+2025-12-10_002,video,it,1,1,1,4,4,1,1,1,2,1,donazione sangue;educazione civica;volontariato;solidarietà;scuole;cittadinanza responsabile,positive,low
+2025-12-10_003,image,it,1,1,1,1,1,1,1,1,1,1,scettici;AI;PGAZZE;piazzale;arresto;Ghana,negative,high
+2025-12-10_004,image,it,1,1,1,1,1,1,2,2,4,1,processo;trafficante di esseri umani;Matteo Salvini;Viminale;inchiesta,negative,high
+2025-12-10_005,image,it,1,2,1,1,1,1,1,1,1,1,cucina italiana;patrimonio Unesco;filiera agroalimentare;tradizioni;eccellenza,positive,low
+2025-12-10_006,video,it,1,1,1,1,1,1,4,4,3,1,Cassazione;assoluzione;confini dell'Italia;clandestini;giustizia italiana;carcere,negative,medium
+2025-12-11_001,image,it,1,1,1,1,1,1,3,1,2,1,Forze dell'Ordine;cortei;solidarietà;agenti feriti,negative,medium
+2025-12-11_002,image,it,1,3,1,1,1,1,1,1,2,1,sciopero generale;efficienza;rete ferroviaria;lavoratori;diritto allo sciopero;battaglia ideologica,negative,medium
+2025-12-12_001,video,it,1,1,1,1,1,1,3,1,1,1,Venezia;ponte antico;furto;danno;Forze dell'Ordine;intervento,negative,low
+2025-12-12_002,video,it,1,4,2,3,3,1,1,1,2,1,sciopero;trasporto pubblico;salari;lavoro;sanità;mobilità,negative,medium
+2025-12-12_003,image,it,1,3,1,1,1,1,1,1,3,1,sciopero;servizi a singhiozzo;diritti dei cittadini;paralisi;lavoro,negative,medium
+2025-12-12_004,image,it,1,3,1,1,1,1,1,1,1,1,sciopero;FS;centrale operativa;dati incoraggianti;monitoraggio,positive,none
+2025-12-13_001,video,it,1,2,1,1,1,1,1,1,1,3,legge di Bilancio;emendamento;associazioni;cagnolini abbandonati;aiuto economico,positive,low
+2025-12-13_002,image,it,1,1,1,1,1,1,1,1,1,1,Lega;Veneto;elezioni regionali;governare;cittadini veneti,positive,medium
+2025-12-13_003,image,it,1,3,1,1,3,1,1,1,1,1,Landini;Salvini;scuola;trasporti;sciopero;dipendenti PA,negative,medium
+2025-12-13_004,image,it,1,1,1,1,1,1,1,1,1,1,Santa Lucia;buona festa;bimbi,positive,none
+2025-12-14_001,video,it,1,1,1,1,1,1,1,1,1,1,calcio;passione;vita;cuore,positive,none
+2025-12-14_002,video,it,1,1,1,1,1,1,1,1,2,1,Lega;militanza;passione;impegno;comunità politica,positive,low
+2025-12-14_003,image,it,1,1,1,1,1,1,1,1,1,1,anniversario;amore;relazione,positive,none
+2025-12-14_004,image,it,1,1,1,1,1,1,5,2,5,1,accoglienza;solidarietà;processo;Cassazione;difendere i confini,mixed,high
+2025-12-14_005,video,it,1,1,1,1,1,1,1,1,2,1,Australia;vittime;solidarietà;comunità ebraica;antisemitismo;violenza,negative,medium
+2025-12-15_001,video,it,1,3,2,1,3,1,3,1,2,3,ciclovie;Olimpiadi Invernali;infrastrutture;Lombardia;cantieri;studentati universitari,positive,medium
+2025-12-15_002,image,it,1,1,1,1,1,1,3,5,2,1,imam;torino;rifugiati;soggiorno;ordine pubblico,negative,medium
+2025-12-15_003,video,it,1,1,1,1,1,1,4,1,1,1,sicurezza stradale;Codice della Strada;morti;risultati;impegno;vita salvata,positive,low
+2025-12-15_004,video,it,1,1,1,1,1,1,2,1,3,1,Milano;sindaco;Piazza Fontana;fascismo;buche;Maranza;gang,negative,high
+2025-12-15_005,image,it,1,1,1,1,1,3,1,1,1,1,presepe queer;tradizioni;sinistra;Vangelo;Nichi Vendola;cristiani,negative,high
+2025-12-15_006,video,it,1,3,1,1,1,1,4,1,3,1,forze dell'ordine;operai;imprenditori;strade;monopattini;polizia;sinistra,negative,high
+2025-12-16_001,image,it,1,1,1,1,1,1,1,1,3,1,giudici;ricorso;famiglia;natura;decisione;ricongiungimento,negative,medium
+2025-12-16_002,video,it,1,2,1,1,1,1,1,1,1,1,metropolitana;Colosseo;ingegneria italiana;archeostazione;linee metropolitane;Sicilia;Calabria,positive,low
+2025-12-16_003,image,it,1,1,1,1,1,1,3,5,4,1,Cassazione;Open Arms;sbarchi;confini italiani;processo;difesa,positive,medium
+2025-12-16_004,video,it,1,1,1,3,1,1,1,2,2,1,bambini;assistenti sociali;giudici;campi rom;illegalità;serenità,negative,high
+2025-12-17_001,image,it,1,1,1,1,1,1,5,4,3,1,confini;difendere;reato;Lega,positive,high
+2025-12-17_002,image,it,1,1,1,1,1,1,4,4,3,1,giustizia;caccia alle streghe;confini del Paese;sbarco illegale;processi giudiziari,positive,medium
+2025-12-17_003,video,it,1,1,1,1,1,1,3,2,4,1,Matteo Salvini;sequestro di persona;ministro dell'interno;confini italiani;solidarietà,positive,high
+2025-12-17_004,image,it,1,1,1,1,1,1,3,1,5,1,difendere l'Italia;gli italiani;processo;Salvinio;Corte di Cassazione,negative,high
+2025-12-18_001,video,it,1,3,3,2,1,1,3,1,1,1,galleria;nodo ferro-stradale;infrastruttura strategica;traffico;sicurezza;Emilia-Romagna,positive,low
+2025-12-18_002,video,it,1,1,1,1,1,1,5,5,4,1,confini;sbarchi;sicurezza;legalità;immigrazione clandestina;Ministro dell'Interno;reati,positive,high
+2025-12-18_003,image,it,1,1,2,1,1,1,3,4,4,1,processo;Salvini;Cassazione;migranti;confini;sinistra;assolto,negative,high
+2025-12-18_004,image,it,1,1,1,1,1,1,1,1,3,1,ANSA;Torino;sigilli;perquisito;sedi;Stampa,negative,high
+2025-12-18_005,video,it,1,3,2,2,1,1,4,4,4,1,Salvini;migranti;confini;processo politico;guerra;difesa;immigrazione clandestina;età pensionabile,mixed,medium
+2025-12-19_001,video,it,4,5,2,1,1,1,3,1,1,2,diga di Vetto;Appennino Reggiano;Enza;agricoltori;turismo;alluvioni;3 milioni di euro,positive,medium
+2025-12-19_002,image,it,1,2,1,1,1,1,1,1,1,1,presepe;Ministero delle Infrastrutture e dei Trasporti;detenuti;Rebibbia;tradizioni;riscatto,positive,none
+2025-12-19_003,video,it,1,1,1,1,1,1,1,1,1,1,verme;castrazione chimica;espulsione,negative,high
+2025-12-19_004,video,it,1,1,1,1,1,1,1,1,1,1,Fuori;Grazie;politica,negative,high
+2025-12-19_005,image,it,1,1,1,1,1,1,1,1,3,1,giudici;bambini;famiglia;mamma;papà,negative,high
+2025-12-19_006,video,it,1,2,1,1,1,1,5,5,3,1,confini;sbarchi irregolari;sicurezza nazionale;diritto;dovere;processi;contribuenti,positive,medium
+2025-12-20_001,video,it,1,1,1,1,1,1,1,1,1,1,emozioni;bimba;relazione;canzone;messaggio,positive,none
+2025-12-20_002,video,it,1,1,1,1,1,1,3,1,4,1,legalità;sgombero;centri sociali;violenti;RUSPE;agentii,negative,high
+2025-12-20_003,video,it,1,1,1,1,1,1,1,1,5,1,giustizia politicizzata;CSM;magistrati;Palamara;riforma;Legnini;sistema,negative,high
+2025-12-20_004,image,it,1,1,1,1,1,2,3,4,4,1,tradizioni;leggi;statua;Natività;arresto;fuori dal Paese,negative,high
+2025-12-21_001,image,it,1,1,1,1,1,1,1,1,1,1,stazione;bambina;paura;intervento,negative,none
+2025-12-21_002,image,it,1,1,1,1,1,1,2,1,2,1,vandalismo;presepe;giovani;social;responsabili,negative,medium
+2025-12-21_003,image,it,1,3,1,1,2,1,1,1,4,1,sciopero;garante;sanzioni;illegalità;diritto;lavoratori,negative,medium
+2025-12-22_001,video,it,1,1,1,1,1,1,1,1,1,1,grazie;ringraziamento,positive,none
+2025-12-22_002,image,it,1,1,1,1,1,1,2,4,3,1,legge anti-Maranza;tunisino;marocchino;siriano;arrestati,negative,medium
+2025-12-22_003,video,it,1,1,1,1,1,1,3,5,3,1,violenza;impunità;città;fuori;paese,negative,high
+2025-12-22_004,image,it,1,1,1,1,1,1,1,1,1,1,Islam;concessioni;accordo scritto,negative,high
+2025-12-23_001,image,it,1,1,1,1,1,1,2,1,2,1,Olimpiadi;protesta;Israele;Giochi invernali;Guardia Costiera;aggressioni,negative,high
+2025-12-23_002,image,it,1,1,1,1,1,1,1,1,1,1,Greta Thunberg;arrestata;Londra;manifestazione;Palestine,negative,medium
+2025-12-23_003,image,it,1,2,2,4,1,1,4,1,1,4,legge di bilancio;sanità;casa;sicurezza;pensione;tassare le banche,positive,low
+2025-12-23_004,image,it,1,1,1,1,1,1,1,1,3,1,Vergogna;Tribunale per i Minorenni;stato psichico;genitori;giustizia,negative,high
+2025-12-23_005,image,it,1,1,1,1,1,1,2,1,1,1,bambino;sorellina;regalo di Natale;Carabinieri;Mugnano di Napoli,positive,low
+2025-12-24_001,video,it,1,1,1,1,1,1,1,1,1,1,Charlie Chaplin;TG1;scontri;Natale;politica,neutral,none
+2025-12-24_002,image,it,1,1,1,1,1,4,1,1,3,1,parroco;No Global;discriminare;don vitaliano;preti;uguaglianza,negative,high
+2025-12-25_001,video,it,1,1,1,3,1,1,4,1,1,1,salvataggio;militari;anziana;disagio;solitudine;112,positive,none
+2025-12-25_002,video,it,1,1,1,1,1,1,1,1,3,1,violenza istituzionale;separazione familiare;giudici;assistenti sociali;diritti dei minori;famiglia,negative,high
+2025-12-25_003,video,it,1,1,1,2,1,1,4,1,3,1,assolto;libero;sicurezza;confini;dignità;processi,positive,medium
+2025-12-26_001,video,it,1,1,3,1,1,1,1,1,1,1,ponte sullo stretto;Villa San Giovanni;traghetti;costo biglietto;Sicilia;Calabria,negative,high
+2025-12-26_002,video,it,1,1,1,1,1,1,1,1,2,1,vandalismo;basilica;protesta;teppisti,negative,high
+2025-12-26_003,image,it,1,1,1,1,1,1,1,1,1,1,Santo Stefano;saluti;festività,positive,none
+2025-12-27_001,image,it,1,1,1,1,1,1,3,1,1,1,torino;poliziotti;natale;panettoni;pandori,positive,none
+2025-12-27_002,video,it,1,4,3,2,1,1,5,4,4,2,Hamas;finanziatori;indagine;Gaza;7 ottobre;Euro;antiterrorismo;associazioni,negative,medium
+2025-12-27_003,image,it,1,1,1,1,1,1,3,3,4,1,blocco Italia;occupazione stazioni;investigatori;finanziatori terrorismo;arresti Genova;Palestinesi,negative,high
+2025-12-28_001,image,it,1,1,1,2,1,1,1,1,2,1,Maria Cimolato;albero di Natale;cimitero;bambini defunti;Repubblica,neutral,none
+2025-12-28_002,image,it,1,1,1,1,1,1,1,1,1,1,Brigitte Bardot;donna libera;tradizioni;battaglie coraggiose,positive,none
+2025-12-28_003,video,it,1,3,3,1,1,1,5,1,4,1,Mario Roggero;rapina;autodifesa;condanna;commerciante;sostegno;risarcimento,positive,medium
+2025-12-29_001,video,it,1,1,1,1,1,1,1,1,2,1,Cerno;sinistra;PD;manifestazioni;sgombero;centri sociali,negative,high
+2025-12-29_002,image,it,1,1,1,1,1,1,1,1,3,1,Natale;violenza di Stato;bambini;famiglia;proteste;Matteo Salvini,negative,high
+2025-12-30_001,image,it,1,1,1,1,1,1,3,1,1,1,carabinieri;sicurezza;protezione;carriera,positive,none
+2025-12-30_002,image,it,1,1,1,1,1,1,1,1,1,1,botti;Capodanno;animali;sicurezza;rischio,negative,medium
+2025-12-30_003,image,it,1,1,1,1,1,1,3,4,1,1,ius soli;cittadinanza;minorenni;stazione ferroviaria;punizioni;integrazione,negative,medium
+2025-12-30_004,image,it,1,1,1,1,4,1,1,1,1,1,scuola italiana;2026;960 milioni di euro;finanziamento,positive,low
+2025-12-31_001,image,it,1,1,1,1,1,1,1,1,1,1,buon anno;pace;serenità;fiducia,positive,none
+2025-12-31_002,video,it,1,1,1,4,1,1,1,1,1,1,cuore;bambino;personale sanitario;ospedale pediatrico;grazie,positive,none
+2026-01-01_001,image,it,1,1,1,2,1,1,2,1,1,1,strage;Capodanno;Crans-Montana;vittime;feriti,negative,none
+2026-01-02_001,image,it,1,1,1,1,1,1,4,1,3,1,sicurezza;incendio;responsabilità;delinquenti;sotterraneo;investigazione,negative,medium
+2026-01-02_002,image,it,1,1,1,1,1,1,4,1,3,1,castrazione chimica;violenza;Parlamento;aggressione;stazione metropolitana;violenza sessuale,negative,medium
+2026-01-02_003,image,it,1,1,1,1,1,1,3,1,1,1,criminali;carabinieri;feriti;anno;sicurezza,negative,high
+2026-01-04_001,video,it,1,1,1,1,1,1,1,1,1,1,Crans-Montana;tributo;comunità;vittime;assistenza,positive,none
+2026-01-04_002,video,it,1,1,1,3,1,1,1,1,1,1,strappare;genitori;assistenti sociali;giudici minorili;vergogna,negative,high
+2026-01-04_003,image,it,1,2,1,1,1,1,1,1,1,1,preghiera;irresponsabilità;scrupoli;fare soldi;perdita,negative,high
+2026-01-04_004,video,it,1,1,1,1,1,1,1,1,3,1,Maduro;diplomazia;conflitti internazionali;sovranità nazionale;diritto dei popoli;stato di diritto,negative,medium
+2026-01-05_001,image,it,1,1,1,1,1,1,4,2,1,1,difesa;rapinatore;coltellate;giovane;sicurezza;giustizia,negative,low
+2026-01-05_002,image,it,1,1,1,2,1,1,3,5,3,1,clandestino;espulsione;peruviano;CPR;vie urinarie;illegalità,negative,high
+2026-01-05_003,video,it,1,1,1,1,1,1,1,1,4,1,Governo;cittadini;schiavi;pazienza;2026;Italia,negative,high
+2026-01-05_004,image,it,1,1,1,1,1,1,4,4,3,1,odio;terroristi;hacker;polizia;Palestinesi;documenti;Hannoun,negative,high
+2026-01-06_001,image,it,1,1,1,1,1,1,4,3,2,1,poliziotti;coltellate;sparano;Egiziano;irregolare,negative,high
+2026-01-06_002,image,it,1,1,1,3,1,1,1,1,1,1,bambini;famiglia;assistenti sociali;stress;vicenda;gioia,negative,medium
+2026-01-06_003,image,it,1,1,1,1,1,1,1,1,1,1,Epifania;saluti;calendario,neutral,none
+2026-01-07_001,video,it,1,1,1,1,1,1,1,1,1,1,grazie;ringraziamento,positive,none
+2026-01-07_002,image,it,1,1,1,1,1,1,5,3,3,1,Carabiniere;difesa;uso legittimo delle armi;ladro;condanna;forze dell'ordine,negative,high
+2026-01-07_003,image,it,1,1,1,1,1,1,1,1,4,1,gravissimo;piede libero;Giornale;CRANS-MONTANA,negative,medium
+2026-01-08_001,image,it,1,1,1,1,5,1,1,1,1,1,insegnante;studentessa;letteratura;formazione;ricordi;Dante;Storia,positive,none
+2026-01-08_002,image,it,1,3,1,2,1,2,5,1,3,1,castrazione chimica;espulsione;FS Security;stazioni;treni;violenza;arresto,negative,medium
+2026-01-08_003,image,it,1,1,1,1,1,1,3,1,4,1,legge anti-maranza;Lega;Carabinieri;Polizia;legalità,negative,medium
+2026-01-09_001,video,it,1,1,1,1,1,3,1,1,4,1,Iran;oppressione;regime islamista;libertà;diritti;donne,positive,high
+2026-01-09_002,image,it,1,1,1,1,1,1,1,1,3,1,giustizia;arresto;Jacques Moretti;interrogatorio;legalità,positive,medium
+2026-01-10_001,video,it,1,1,1,1,1,1,1,1,1,1,inaccettabile;sport;musica,negative,none
+2026-01-10_002,image,it,1,1,1,1,1,1,1,1,4,1,libertà di parola;espressione;verità;linguaggio;orwelliano;ideologie,negative,medium
+2026-01-10_003,video,it,1,1,1,3,2,1,1,1,4,2,giudici minorili;bambini;famiglia;accanimento;benessere;servizi sociali;diritti,negative,high
+2026-01-11_001,video,it,1,1,1,1,1,1,1,1,1,1,vandalismo;punizione;pagare;bravata;fan,negative,low
+2026-01-11_002,image,it,1,1,1,1,1,1,1,1,2,1,satira;oltraggio;Charlie Hebdo;vignetta;polemiche,negative,medium
+2026-01-11_003,image,it,1,1,1,1,1,1,4,4,3,1,Forze dell'Ordine;manutenzione;repregrazione;stupro;droga;tunisino;sicurezza,negative,high
+2026-01-11_004,image,it,1,1,1,1,1,1,1,1,4,1,libertà;regime islamico;ayatollah;lotta;costo della vita,negative,high
+2026-01-11_005,video,it,1,1,1,1,1,1,1,1,1,1,poeta;utopia;sogno;ideali;passioni,neutral,none
+2026-01-12_001,image,it,1,1,1,4,1,1,1,1,1,1,caregiver familiari;ddl;tutele;cura;dignità;ministro;parlamentare,positive,medium
+2026-01-12_002,video,it,1,3,1,1,1,1,1,1,1,1,Giochi olimpici;Milano-Cortina 2026;infrastrutture;Ministero delle Infrastrutture e dei Trasporti;opere strategiche;eredità,positive,low
+2026-01-12_003,image,it,1,1,1,1,1,1,1,1,1,1,Italiani;a testa alta;GA Emilia Salvini;Modena,positive,high
+2026-01-12_004,image,it,1,1,1,1,1,1,1,1,1,1,Venezuela;Alberto Trentini;Mario Burlò;Italia,positive,low
+2026-01-13_001,video,it,1,1,1,1,1,1,5,1,3,1,militari;forze dell'ordine;decreto sicurezza;sicurezza;stazioni;carabinieri,negative,high
+2026-01-13_002,video,it,1,2,1,1,1,1,4,3,5,1,piazza;manifestanti;dittatore;Venezuela;confrontazione;diritto;sicurezza,negative,high
+2026-01-13_003,image,it,1,1,1,1,1,1,1,1,5,1,riforma;giustizia;referendum;cambiare;Italia,positive,medium
+2026-01-14_001,image,it,1,1,1,1,1,1,4,2,1,1,aggressione;difesa;rapinatore;coltellata;pronto soccorso;sicurezza,negative,medium
+2026-01-14_002,image,it,1,1,1,1,1,1,3,4,3,1,sbarchi;confini;giustizia;condanna;referendum;accoglienza,negative,medium
+2026-01-14_003,video,it,1,1,1,1,1,1,4,1,1,1,flottiglia;Iran;Genova;porto;Salis;Canale di Suez;Golfo Persico,negative,high
+2026-01-14_004,image,it,1,3,1,1,1,1,1,1,1,1,ANAS;Cantoniere;strade;ponti;collegamenti,positive,low
+2026-01-15_001,image,it,1,2,1,1,1,1,1,1,1,1,tedofori;olimpiadi;impianti sportivi;opere pubbliche;ministero;Milano,positive,medium
+2026-01-15_002,image,it,1,1,1,1,1,1,4,1,3,3,difesa legittima;aggredito;abitazione;ladro;Salvini;difesa,positive,medium
+2026-01-15_003,video,it,1,1,1,1,1,1,1,3,4,1,divieto di viaggio;UK government;conducive to the public good;immigrati illegali;libertà;diritti umani,negative,medium
+2026-01-15_004,image,it,1,3,1,1,1,1,3,1,4,1,giustizia;Forze dell'Ordine;referendum;rider;indizi di colpevolezza,negative,high
+2026-01-15_005,image,it,1,1,1,1,1,1,5,4,2,1,sicurezza;Forze dell'Ordine;ordine pubblico;immigrazione;decreto sicurezza;espulsioni,positive,medium
+2026-01-16_001,image,it,1,1,1,1,3,1,5,2,2,1,violenza;coltelli;giovanissimi;pacchetto sicurezza;prevenzione;educazione,negative,medium
+2026-01-16_002,image,it,1,1,1,1,3,1,4,4,1,1,accoltellamento;studente;origine;armi;misure restrittive;violenti,negative,high
+2026-01-16_003,image,it,1,1,1,2,1,1,3,5,2,1,furti;truffe;violenze;ospedali assaltati;campi rom,negative,high
+2026-01-16_004,video,it,1,1,1,1,1,1,4,1,3,1,Carabinieri;Forze dell'Ordine;esercizio dei doveri;difesa;condanna;vergogna,negative,medium
+2026-01-17_001,image,it,1,1,1,1,1,1,1,1,5,1,dossieraggi;giustizia;sistema giudiziario;Lega;inchieste;mandanti;servizi,negative,high
+2026-01-17_002,image,it,1,1,1,1,1,1,4,3,2,1,Decreto Sicurezza;violenza;impunità;Forze dell’Ordine;sicurezza;espulsioni,negative,high
+2026-01-17_003,image,it,1,1,1,1,1,1,1,1,1,1,Milano Cortina 2026;sci;Coppa del Mondo;Nicol Delago;azzurro,positive,none
+2026-01-17_004,video,it,1,1,1,1,1,1,4,1,4,1,capotreno;aggressione;legalità;sicurezza;stazioni;controlli,negative,medium
+2026-01-17_005,video,it,1,1,1,1,1,1,1,1,4,1,dossier;inchieste;riforma giustizia;Lega;giornalismo;mandanti;scomodi,negative,high
+2026-01-18_001,video,it,4,1,1,1,1,1,1,1,1,1,Rigopiano;tragedia;memoria;ambiente,negative,none
+2026-01-18_002,video,it,1,2,1,1,1,1,2,3,2,1,campo nomadi;furto;rapinatore;solidarietà;difesa;legalità,negative,high
+2026-01-19_001,video,it,3,1,1,1,1,1,1,1,1,1,Ponte Manzoni;infrastrutture;Olimpiadi;traffico;inquinamento;investimento,positive,medium
+2026-01-19_002,image,it,1,1,1,1,1,1,5,5,3,1,Decreto Sicurezza;espulsioni;marranza;zone rosse;sanzioni;Forze dell'Ordine;rimpatri,positive,high
+2026-01-19_003,image,it,1,1,1,1,1,1,1,1,1,1,Maestro di eleganza;genio italiano;stile;creatività;protagonista,neutral,none
+2026-01-19_004,video,it,1,1,1,1,1,1,5,1,3,1,legittima difesa;difesa di sé;rapinatori;ladri;sicurezza,positive,low
+2026-01-19_005,image,it,1,1,1,1,1,1,1,1,1,1,André Ventura;Chega;elezioni presidenziali;Portogallo;Patrioti,positive,low
+2026-01-19_006,video,it,1,1,1,1,1,1,1,1,1,1,tragedia;Spagna;soccorritori;sostegno;solidarietà,neutral,none
+2026-01-20_001,video,it,1,3,4,1,1,2,4,3,4,5,riqualificazione;abitazioni;legalità;abusivi;sicurezza;prezzi calmierati;fondi,positive,medium
+2026-01-20_003,video,it,1,1,1,1,3,1,5,4,3,3,Decreto Sicurezza;sicurezza;scuole;controlli polizia;immobili occupati;rispetto leggi;forze dell'ordine,negative,high
+2026-01-20_004,video,it,1,1,1,1,1,1,3,5,4,1,Decreto Sicurezza;tolleranza zero;leggi;immigrazione;FUORI,negative,high
+2026-01-20_005,image,it,1,1,1,1,1,1,4,1,4,1,Polizia Locale;sicurezza;legalità;cittadini;divisa,positive,low
+2026-01-21_001,video,it,1,4,1,1,1,1,1,1,1,1,Olimpiadi;infrastrutture;investimenti;PIL nazionale;Lombardia;riutilizzo,positive,low
+2026-01-21_002,image,it,1,4,1,1,1,1,1,1,1,1,Milano Cortina 2026;infrastrutture;investimento;occupati;sviluppo territoriale,positive,medium
+2026-01-21_003,image,it,1,1,1,1,1,1,2,1,2,1,disprezzo;multa;galera;innocente;morte;volo,negative,high

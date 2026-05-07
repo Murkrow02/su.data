@@ -1,6 +1,0 @@
-folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
-2025-09-01_001,video,it,1,1,1,4,1,1,1,1,1,1,ospedali romani;bambini palestinesi;cure;solidarietà;Ministero;pazienti,positive,low
-2025-09-01_002,image,it,1,5,3,1,1,1,1,1,1,1,disoccupazione;occupati;PIL pro capite;salari bassi;contributi;reddito,positive,low
-2025-09-02_001,image,it,1,1,1,1,1,1,1,1,1,1,Emilio Fede;giornalista;Tg1;Tg4;condoglianze;informazione,neutral,none
-2025-09-04_001,image,it,1,1,1,1,1,1,1,1,1,1,Giorgio Armani;Made in Italy;moda;eleganza;Italia,neutral,none
-2025-09-04_002,image,it,1,1,1,1,1,1,3,2,2,1,Viterbo;Santa Rosa;forze dell'ordine;arresto;sicurezza;campagne d'odio,positive,low
