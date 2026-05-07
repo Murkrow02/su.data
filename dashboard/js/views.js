@@ -155,6 +155,11 @@ export function renderAbout() {
     )
     .join("");
 
+  const kf = (latex, display = true) =>
+    window.katex
+      ? window.katex.renderToString(latex, { throwOnError: false, displayMode: display })
+      : (display ? `<code>\\[${latex}\\]</code>` : `<code>\\(${latex}\\)</code>`);
+
   const speakerSlides = [
     {
       eyebrow: "01 / Domanda di ricerca",
@@ -430,17 +435,248 @@ export function renderAbout() {
       `,
     },
     {
-      eyebrow: "Fase 3 / Scoring LLM",
-      title: "Come il modello ha assegnato i punteggi tematici a ogni post.",
-      tone: "phase3",
+      eyebrow: "Fase 3 / Metriche · 01",
+      title: "Le sorgenti dei dati: due scale non paragonabili.",
+      tone: "metrics-src",
       copy: `
-        <p>[Placeholder] Questa sezione descriverà il processo di scoring: il prompt utilizzato, la scala Likert 1–5, la gestione dei casi edge e la validazione dei risultati.</p>
+        <p>Le percentuali di selezione di una survey <em>pick top-3</em> e gli score Likert prodotti da un classificatore automatico non vivono sulla stessa metrica. Confrontarle per valori grezzi sarebbe scorretto.</p>
       `,
       aside: `
-        <div class="research-phase-wip">
-          <span>In costruzione</span>
-          <strong>Scoring LLM</strong>
-          <p>I contenuti di questa sezione verranno completati a breve.</p>
+        <div class="research-scale-compare">
+          <article>
+            <span>Lato Eurobarometro</span>
+            <strong>Pick top-3</strong>
+            <p>Ogni rispondente sceglie fino a tre temi da una lista chiusa. Output: percentuale di selezione per tema.</p>
+          </article>
+          <article>
+            <span>Lato Instagram</span>
+            <strong>Likert 1–5 multi-tema</strong>
+            <p>Ogni post riceve un punteggio su tutti i 10 temi contemporaneamente. Un post può coprire molti temi.</p>
+          </article>
+          <div class="research-formula-block">
+            <span>Eurobarometro</span>
+            ${kf('x_{r,t} \\in \\{0, 1\\},\\quad \\textstyle\\sum_{t} x_{r,t} \\leq 3')}
+          </div>
+          <div class="research-formula-block">
+            <span>Instagram</span>
+            ${kf('s_{i,t} \\in \\{1,2,3,4,5\\},\\quad \\forall\\, t \\in T')}
+          </div>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "Fase 3 / Metriche · 02",
+      title: "Il ranking è il livello davvero confrontabile.",
+      tone: "metrics-rank",
+      copy: `
+        <p>Scrivere «46% dei giovani vs. 7% dei post» suggerirebbe un confronto numerico diretto fra unità diverse. Scrivere «rank 1 vs. rank 9» è un'affermazione precisa: stiamo confrontando <strong>ordini di priorità</strong>.</p>
+      `,
+      aside: `
+        <div class="research-pipeline">
+          <div class="research-pipe-step">
+            <span>Eurobarometro</span>
+            <strong>% di selezione per tema</strong>
+          </div>
+          <div class="research-pipe-arrow">→</div>
+          <div class="research-pipe-step research-pipe-step--accent">
+            <span>Trasformazione comune</span>
+            <strong>Ranking dei 10 temi</strong>
+            <p>rank medio sui pareggi</p>
+          </div>
+          <div class="research-pipe-arrow">←</div>
+          <div class="research-pipe-step">
+            <span>Instagram</span>
+            <strong>Coverage Rate per tema</strong>
+          </div>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "Fase 3 / Metriche · 03",
+      title: "Il Coverage Rate: una proporzione di post.",
+      tone: "metrics-cr",
+      copy: `
+        <p>Per ogni politico \\(p\\) e tema \\(i\\), la frazione di post in cui il tema è presente in modo non marginale — con soglia \\(\\tau = 3\\).</p>
+        <div class="research-katex-formula" style="margin-top:16px">\\[ c_i^{(p)} = \\frac{1}{N_p}\\sum_{j=1}^{N_p} \\mathbf{1}\\!\\left[s_{i,j}^{(p)} \\geq \\tau\\right] \\]</div>
+        <p style="margin-top:16px"><strong>Perché non la media aritmetica?</strong> La distanza 2→3 non equivale a 4→5: la scala è ordinale, non a intervalli. La logica binaria replica anche la struttura della survey.</p>
+        <p style="margin-top:12px"><strong>Intervalli di confidenza.</strong> I rate di coverage usano la formula di <em>Wilson</em>, stabile agli estremi e corretta anche per campioni piccoli — evitando l'approssimazione normale che si destabilizza vicino a 0 o 1.</p>
+      `,
+      aside: `
+        <div class="research-likert-scale">
+          <p class="research-likert-label">Rubrica Likert · τ = 3 è la soglia di riconoscibilità</p>
+          <div class="research-likert-steps">
+            <div class="research-likert-step">
+              <span class="step-n">1</span>
+              <span class="step-t">tema completamente assente</span>
+            </div>
+            <div class="research-likert-step">
+              <span class="step-n">2</span>
+              <span class="step-t">appena accennato</span>
+            </div>
+            <div class="research-likert-step research-likert-step--active research-likert-step--thr">
+              <span class="step-n">3 — τ</span>
+              <span class="step-t">riconoscibile, secondario</span>
+            </div>
+            <div class="research-likert-step research-likert-step--active">
+              <span class="step-n">4</span>
+              <span class="step-t">significativo, con profondità</span>
+            </div>
+            <div class="research-likert-step research-likert-step--active">
+              <span class="step-n">5</span>
+              <span class="step-t">oggetto principale del post</span>
+            </div>
+          </div>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "Fase 3 / Metriche · 04",
+      title: "La soglia τ non è arbitraria: lo verifichiamo.",
+      tone: "metrics-sens",
+      copy: `
+        <p>Ricalcoliamo Coverage Rate e ranking con \\(\\tau \\in \\{2, 3, 4\\}\\) e osserviamo come cambia la correlazione di Spearman fra ranking giovanile e ranking politico.</p>
+        <ul class="research-points" style="margin-top:20px">
+          <li><strong>Quadro qualitativo stabile.</strong> L'ordinamento dei tre profili per allineamento globale resta identico al variare di τ.</li>
+          <li><strong>Variazione contenuta.</strong> Le differenze di Spearman al variare di τ sono nell'ordine dei centesimi.</li>
+        </ul>
+        <p style="margin-top:16px;font-style:italic;color:var(--muted)">Conclusione: il quadro che leggeremo nei risultati non è un artefatto del cutoff scelto.</p>
+      `,
+      aside: `
+        <table class="research-sens-table">
+          <thead>
+            <tr>
+              <th>Politico</th>
+              <th>ρ · τ = 2</th>
+              <th>ρ · τ = 3</th>
+              <th>ρ · τ = 4</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Elly Schlein</td>
+              <td>+0.19</td>
+              <td>+0.19</td>
+              <td>+0.15</td>
+            </tr>
+            <tr>
+              <td>Giuseppe Conte</td>
+              <td>+0.09</td>
+              <td>+0.09</td>
+              <td>+0.10</td>
+            </tr>
+            <tr>
+              <td>Giorgia Meloni</td>
+              <td>+0.03</td>
+              <td>+0.01</td>
+              <td>−0.02</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="4">Ordinamento per ρ invariante al variare di τ</td>
+            </tr>
+          </tfoot>
+        </table>
+      `,
+    },
+    {
+      eyebrow: "Fase 3 / Metriche · 05",
+      title: "Tre metriche, tre angolazioni.",
+      tone: "metrics-trio",
+      copy: `
+        <p>Per controllare che il risultato non dipenda da una sola scelta di pesi, ogni confronto è riportato con tre indici complementari.</p>
+      `,
+      aside: `
+        <div class="research-metrics-trio">
+          <article class="has-formula-popup metric-card--blue">
+            <div class="metric-sym">${kf('\\rho', false)}</div>
+            <span>Spearman</span>
+            <strong>Allineamento globale.</strong>
+            <p>Correlazione fra i due ranking. Pesa molto gli scarti di rango ampi: un tema dal podio giovanile alla coda politica incide forte.</p>
+            <em>Risposta diretta alla RQ</em>
+            <div class="metric-formula-popup">
+              <span>Formula</span>
+              ${kf('\\rho = 1 - \\dfrac{6\\displaystyle\\sum_{t} d_{t}^{2}}{n(n^{2}-1)}')}
+            </div>
+          </article>
+          <article class="has-formula-popup metric-card--green">
+            <div class="metric-sym">${kf('\\tau_b', false)}</div>
+            <span>Kendall tau-b</span>
+            <strong>Coppie concordi.</strong>
+            <p>Per ogni coppia di temi: l'ordine è concorde o discorde fra giovani e politico? La variante tau-b gestisce i pareggi.</p>
+            <em>Controllo di robustezza</em>
+            <div class="metric-formula-popup">
+              <span>Formula</span>
+              ${kf('\\tau_b = \\dfrac{C - D}{\\sqrt{(C+D+T_x)(C+D+T_y)}}')}
+            </div>
+          </article>
+          <article class="has-formula-popup metric-card--red">
+            <div class="metric-sym metric-sym--j">
+              <span>J<sub>3</sub></span>
+              <span>J<sub>5</sub></span>
+            </div>
+            <span>Top-K Jaccard</span>
+            <strong>Allineamento locale.</strong>
+            <p>I temi nel top-K giovanile sono anche nel top-K politico? Riportato per K = 3 (podio) e K = 5 (metà alta).</p>
+            <em>k = 3 · k = 5</em>
+            <div class="metric-formula-popup">
+              <span>Formula</span>
+              ${kf('J_K = \\dfrac{|\\,T_K^{\\text{giov}} \\cap T_K^{\\text{pol}}\\,|}{|\\,T_K^{\\text{giov}} \\cup T_K^{\\text{pol}}\\,|}')}
+            </div>
+          </article>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "Fase 3 / Metriche · 06",
+      title: "Bootstrap a livello di post, B = 2 000.",
+      tone: "metrics-boot",
+      copy: `
+        <p>Con soli <strong>n = 10 temi</strong>, le correlazioni globali hanno potenza statistica limitata. Non basta un valore puntuale: serve una stima dell'incertezza.</p>
+        <ul class="research-points" style="margin-top:20px">
+          <li><strong>Ricampiona</strong> i post del profilo con reinserimento.</li>
+          <li><strong>Ricalcola</strong> i 10 Coverage Rate sul nuovo campione.</li>
+          <li><strong>Riallinea</strong> a Spearman e Kendall contro il ranking giovanile (fissato).</li>
+          <li>Ripeti <strong>B = 2 000</strong> volte → distribuzione delle correlazioni.</li>
+        </ul>
+      `,
+      aside: `
+        <div class="research-cband-card">
+          <span>Esempio · Schlein — ρ = +0,19</span>
+          <p>95% CI bootstrap = <strong>[+0,07 ; +0,36]</strong></p>
+          <div class="research-cbands">
+            <div class="research-cband">
+              <span class="cband-name">Schlein</span>
+              <div class="cband-track">
+                <div class="cband-zero" style="left:30%"></div>
+                <div class="cband-band" style="left:37%;right:34%"></div>
+                <div class="cband-point" style="left:49%"></div>
+              </div>
+              <span class="cband-val">+0,19</span>
+            </div>
+            <div class="research-cband">
+              <span class="cband-name">Conte</span>
+              <div class="cband-track">
+                <div class="cband-zero" style="left:30%"></div>
+                <div class="cband-band" style="left:29%;right:42%"></div>
+                <div class="cband-point" style="left:39%"></div>
+              </div>
+              <span class="cband-val">+0,09</span>
+            </div>
+            <div class="research-cband">
+              <span class="cband-name">Meloni</span>
+              <div class="cband-track">
+                <div class="cband-zero" style="left:30%"></div>
+                <div class="cband-band" style="left:23%;right:40%"></div>
+                <div class="cband-point" style="left:31%"></div>
+              </div>
+              <span class="cband-val">+0,01</span>
+            </div>
+          </div>
+          <div class="cband-axis-labels">
+            <span>−0,3</span><span>0</span><span>+0,3</span><span>+0,6</span>
+          </div>
+          <p style="margin:0;font-size:14px;color:var(--muted)">Conclusione: <strong style="color:var(--ink)">l'incertezza prepara la lettura</strong>. Un CI ampio colloca il quadro in un <strong style="color:var(--ink)">allineamento debole</strong>.</p>
         </div>
       `,
     },
