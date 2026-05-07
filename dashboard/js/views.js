@@ -414,6 +414,95 @@ export function renderAbout() {
       copy: `<p>Le fasi successive del progetto.</p>`,
       aside: ``,
     },
+    {
+      eyebrow: "Fase 2 / Raccolta dati",
+      title: "Il corpus: struttura, dimensioni e finestra temporale.",
+      tone: "phase2",
+      copy: `
+        <p>[Placeholder] Questa sezione descriverà come abbiamo costruito il dataset: i profili selezionati, la finestra di osservazione, il numero totale di post raccolti e la distribuzione per tipo di contenuto.</p>
+      `,
+      aside: `
+        <div class="research-phase-wip">
+          <span>In costruzione</span>
+          <strong>Raccolta dati</strong>
+          <p>I contenuti di questa sezione verranno completati a breve.</p>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "Fase 3 / Scoring LLM",
+      title: "Come il modello ha assegnato i punteggi tematici a ogni post.",
+      tone: "phase3",
+      copy: `
+        <p>[Placeholder] Questa sezione descriverà il processo di scoring: il prompt utilizzato, la scala Likert 1–5, la gestione dei casi edge e la validazione dei risultati.</p>
+      `,
+      aside: `
+        <div class="research-phase-wip">
+          <span>In costruzione</span>
+          <strong>Scoring LLM</strong>
+          <p>I contenuti di questa sezione verranno completati a breve.</p>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "Fase 4 / Dashboard",
+      title: "Come leggere i dati: grafici, metriche e viste comparative.",
+      tone: "phase4",
+      copy: `
+        <p>[Placeholder] Questa sezione descriverà la struttura della dashboard: le viste disponibili, le metriche utilizzate e come interpretare i grafici di correlazione e confronto.</p>
+      `,
+      aside: `
+        <div class="research-phase-wip">
+          <span>In costruzione</span>
+          <strong>Dashboard</strong>
+          <p>I contenuti di questa sezione verranno completati a breve.</p>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "Il gruppo di ricerca",
+      title: "Chi c'è dietro Su.Data.",
+      tone: "team",
+      copy: `
+        <p>Un progetto realizzato per il corso di Human Data Science.</p>
+      `,
+      aside: `
+        <div class="research-team-grid">
+          <article class="team-member">
+            <div class="team-photo" style="--photo:url('Dashboard/dati/Marco_Coppola.jpg')"></div>
+            <div class="team-info">
+              <h3>Marco Coppola</h3>
+              <blockquote>"Se nel mondo esistesse un po' di bene…"</blockquote>
+              <small>(Vota Verdi)</small>
+            </div>
+          </article>
+          <article class="team-member">
+            <div class="team-photo" style="--photo:url('Dashboard/dati/Davide_DeRosa.jpg')"></div>
+            <div class="team-info">
+              <h3>Davide De Rosa</h3>
+              <blockquote>"Non acconsento alla profilazione dei miei dati."</blockquote>
+              <small>(Vota Futuro Nazione)</small>
+            </div>
+          </article>
+          <article class="team-member">
+            <div class="team-photo" style="--photo:url('Dashboard/dati/Marco_Miozza.png')"></div>
+            <div class="team-info">
+              <h3>Marco Miozza</h3>
+              <blockquote>"Fischia il vento e infuria la bufera."</blockquote>
+              <small>(Vota Calenda)</small>
+            </div>
+          </article>
+          <article class="team-member">
+            <div class="team-photo" style="--photo:url('Dashboard/dati/Valerio_DeNicola.jpg')"></div>
+            <div class="team-info">
+              <h3>Valerio Pio De Nicola</h3>
+              <blockquote>"Osala oppure usala."</blockquote>
+              <small>(Vota Forza Italia)</small>
+            </div>
+          </article>
+        </div>
+      `,
+    },
   ];
 
   app.innerHTML = `

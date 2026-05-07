@@ -5399,6 +5399,105 @@ main:has(.research-deck) {
   display: none;
 }
 
+/* Phase placeholder slides (Fase 2, 3, 4) */
+.research-phase-wip {
+  display: grid;
+  gap: 14px;
+  padding: clamp(18px, 2.8vw, 34px);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  background: rgba(255, 252, 246, 0.82);
+  box-shadow: var(--shadow);
+  max-width: 480px;
+}
+
+.research-phase-wip span {
+  color: var(--red);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.research-phase-wip strong {
+  display: block;
+  font-size: clamp(18px, 1.8vw, 26px);
+  color: var(--ink);
+}
+
+.research-phase-wip p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Team slide */
+.research-slide--team .research-slide-inner {
+  grid-template-columns: minmax(0, 0.52fr) minmax(0, 1fr);
+  align-items: center;
+}
+
+.research-team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(10px, 1.6vw, 20px);
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: clamp(14px, 1.8vw, 22px) clamp(12px, 1.4vw, 18px);
+  border: 1px solid var(--line);
+  background: rgba(255, 252, 246, 0.82);
+  box-shadow: var(--shadow);
+  gap: 0;
+}
+
+.team-photo {
+  width: clamp(68px, 8vw, 108px);
+  height: clamp(68px, 8vw, 108px);
+  border-radius: 50%;
+  background-image: var(--photo), linear-gradient(135deg, var(--paper-2), var(--paper));
+  background-size: cover;
+  background-position: center top;
+  border: 2px solid var(--line);
+  margin-bottom: clamp(10px, 1.2vw, 14px);
+  flex-shrink: 0;
+}
+
+.team-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.team-member h3 {
+  margin: 0;
+  font-size: clamp(13px, 1vw, 16px);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.team-member blockquote {
+  margin: 0;
+  font-size: clamp(11px, 0.85vw, 13px);
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.team-member small {
+  font-size: 11px;
+  color: var(--red);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 @media (max-width: 1000px) {
   .research-slide {
     padding: 0 clamp(16px, 4vw, 32px);
@@ -5497,6 +5596,19 @@ main:has(.research-deck) {
 
   .research-slide--intermission h1 {
     font-size: clamp(36px, 9vw, 64px);
+  }
+
+  .research-slide--team .research-slide-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .research-team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-photo {
+    width: 60px;
+    height: 60px;
   }
 }
 
