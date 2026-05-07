@@ -2,12 +2,18 @@ politician,threshold,spearman_rho,kendall_tau
 Elly Schlein,2,0.16208,0.18392
 Elly Schlein,3,0.30887,0.27588
 Elly Schlein,4,0.085367,0.113666
-Giorgia Meloni,2,0.030581,0.04598
-Giorgia Meloni,3,0.006116,0.04598
-Giorgia Meloni,4,-0.015291,0.04598
+Giorgia Meloni,2,0.054879,0.068199
+Giorgia Meloni,3,-0.024391,0.022733
+Giorgia Meloni,4,-0.024391,0.022733
 Giuseppe Conte,2,0.085367,0.068199
 Giuseppe Conte,3,0.085367,0.068199
 Giuseppe Conte,4,0.095092,0.116279
+carlocalenda,2,0.152442,0.113666
+carlocalenda,3,0.152442,0.113666
+carlocalenda,4,0.051988,0.04598
+matteosalviniofficial,2,-0.231712,-0.159132
+matteosalviniofficial,3,-0.302475,-0.23531
+matteosalviniofficial,4,-0.201836,-0.16093
 nicolafratoianni,2,0.236196,0.209302
 nicolafratoianni,3,0.280493,0.250065
 nicolafratoianni,4,0.36586,0.340997

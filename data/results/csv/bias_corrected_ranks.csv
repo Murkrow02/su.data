@@ -9,16 +9,16 @@ Elly Schlein,Uguaglianza di genere,6.0,0.0984,7.0,0.0622,6.0,-1.0,-0.0361,0.152
 Elly Schlein,Ambiente e clima,1.0,0.0683,8.0,0.0241,10.0,2.0,-0.0442,0.033
 Elly Schlein,Immigrazione,8.5,0.0602,9.5,0.0602,7.5,-2.0,0.0,-0.067
 Elly Schlein,Abitazione,10.0,0.0602,9.5,0.0602,7.5,-2.0,0.0,0.0
-Giorgia Meloni,Democrazia e legalità,8.5,0.3669,1.0,0.1763,2.0,1.0,-0.1906,0.374
-Giorgia Meloni,Difesa e sicurezza,7.0,0.3201,2.0,0.2338,1.0,-1.0,-0.0863,0.052
-Giorgia Meloni,Lavoro e economia,2.0,0.3129,3.0,0.1691,3.0,0.0,-0.1439,0.261
-Giorgia Meloni,Salute e welfare,3.5,0.0791,4.5,0.0216,8.5,4.0,-0.0576,0.032
-Giorgia Meloni,Immigrazione,8.5,0.0791,4.5,0.0791,4.0,-0.5,0.0,-0.067
-Giorgia Meloni,Ambiente e clima,1.0,0.0755,6.0,0.0252,6.5,0.5,-0.0504,0.033
-Giorgia Meloni,Costo della vita,3.5,0.0576,7.0,0.036,5.0,-2.0,-0.0216,0.07
-Giorgia Meloni,Istruzione e formazione,5.0,0.0468,8.0,0.0216,8.5,0.5,-0.0252,0.074
-Giorgia Meloni,Abitazione,10.0,0.0252,9.0,0.0252,6.5,-2.5,0.0,0.0
-Giorgia Meloni,Uguaglianza di genere,6.0,0.0108,10.0,0.0036,10.0,0.0,-0.0072,0.152
+Giorgia Meloni,Democrazia e legalità,8.5,0.3667,1.0,0.1788,2.0,1.0,-0.1879,0.374
+Giorgia Meloni,Difesa e sicurezza,7.0,0.3182,2.0,0.2394,1.0,-1.0,-0.0788,0.052
+Giorgia Meloni,Lavoro e economia,2.0,0.3121,3.0,0.1727,3.0,0.0,-0.1394,0.261
+Giorgia Meloni,Immigrazione,8.5,0.0788,4.0,0.0788,4.0,0.0,0.0,-0.067
+Giorgia Meloni,Salute e welfare,3.5,0.0727,5.0,0.0182,9.0,4.0,-0.0545,0.032
+Giorgia Meloni,Ambiente e clima,1.0,0.0697,6.0,0.0242,6.5,0.5,-0.0455,0.033
+Giorgia Meloni,Costo della vita,3.5,0.0545,7.0,0.0303,5.0,-2.0,-0.0242,0.07
+Giorgia Meloni,Istruzione e formazione,5.0,0.0515,8.0,0.0212,8.0,0.0,-0.0303,0.074
+Giorgia Meloni,Abitazione,10.0,0.0242,9.0,0.0242,6.5,-2.5,0.0,0.0
+Giorgia Meloni,Uguaglianza di genere,6.0,0.0121,10.0,0.0061,10.0,0.0,-0.0061,0.152
 Giuseppe Conte,Democrazia e legalità,8.5,0.5065,1.0,0.2468,2.0,1.0,-0.2597,0.374
 Giuseppe Conte,Lavoro e economia,2.0,0.4242,2.0,0.2857,1.0,-1.0,-0.1385,0.261
 Giuseppe Conte,Difesa e sicurezza,7.0,0.3463,3.0,0.1732,4.0,1.0,-0.1732,0.052
@@ -29,6 +29,26 @@ Giuseppe Conte,Abitazione,10.0,0.0693,7.0,0.0693,6.0,-1.0,0.0,0.0
 Giuseppe Conte,Ambiente e clima,1.0,0.0649,8.0,0.0043,9.5,1.5,-0.0606,0.033
 Giuseppe Conte,Immigrazione,8.5,0.0433,9.0,0.0433,8.0,-1.0,0.0,-0.067
 Giuseppe Conte,Uguaglianza di genere,6.0,0.0173,10.0,0.0043,9.5,-0.5,-0.013,0.152
+carlocalenda,Democrazia e legalità,8.5,0.6684,1.0,0.3588,1.0,0.0,-0.3095,0.374
+carlocalenda,Difesa e sicurezza,7.0,0.3724,2.0,0.2245,2.0,0.0,-0.148,0.052
+carlocalenda,Lavoro e economia,2.0,0.2551,3.0,0.1276,3.0,0.0,-0.1276,0.261
+carlocalenda,Costo della vita,3.5,0.0952,4.0,0.0442,4.0,0.0,-0.051,0.07
+carlocalenda,Salute e welfare,3.5,0.0935,5.0,0.034,5.5,0.5,-0.0595,0.032
+carlocalenda,Istruzione e formazione,5.0,0.0799,6.0,0.034,5.5,-0.5,-0.0459,0.074
+carlocalenda,Ambiente e clima,1.0,0.0408,7.0,0.0119,9.0,2.0,-0.0289,0.033
+carlocalenda,Immigrazione,8.5,0.0221,8.0,0.0221,7.0,-1.0,0.0,-0.067
+carlocalenda,Abitazione,10.0,0.0153,9.0,0.0153,8.0,-1.0,0.0,0.0
+carlocalenda,Uguaglianza di genere,6.0,0.0136,10.0,0.0051,10.0,0.0,-0.0085,0.152
+matteosalviniofficial,Democrazia e legalità,8.5,0.3754,1.0,0.1426,3.0,2.0,-0.2328,0.374
+matteosalviniofficial,Difesa e sicurezza,7.0,0.3672,2.0,0.2082,1.0,-1.0,-0.159,0.052
+matteosalviniofficial,Immigrazione,8.5,0.1574,3.0,0.1574,2.0,-1.0,0.0,-0.067
+matteosalviniofficial,Lavoro e economia,2.0,0.1557,4.0,0.059,4.0,0.0,-0.0967,0.261
+matteosalviniofficial,Istruzione e formazione,5.0,0.0574,5.0,0.0213,6.0,1.0,-0.0361,0.074
+matteosalviniofficial,Salute e welfare,3.5,0.0459,6.0,0.0148,7.5,1.5,-0.0311,0.032
+matteosalviniofficial,Ambiente e clima,1.0,0.0344,8.0,0.0115,9.0,1.0,-0.023,0.033
+matteosalviniofficial,Costo della vita,3.5,0.0344,8.0,0.0148,7.5,-0.5,-0.0197,0.07
+matteosalviniofficial,Abitazione,10.0,0.0344,8.0,0.0344,5.0,-3.0,0.0,0.0
+matteosalviniofficial,Uguaglianza di genere,6.0,0.0262,10.0,0.0082,10.0,0.0,-0.018,0.152
 nicolafratoianni,Lavoro e economia,2.0,0.4886,1.0,0.379,1.0,0.0,-0.1096,0.261
 nicolafratoianni,Democrazia e legalità,8.5,0.4749,2.0,0.1963,3.0,1.0,-0.2785,0.374
 nicolafratoianni,Costo della vita,3.5,0.3516,3.0,0.2603,2.0,-1.0,-0.0913,0.07

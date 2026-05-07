@@ -119,6 +119,15 @@ export const politicians = [
     palette: ["#eef4fb", "#002b5c", "#005696"],
     photo: "Dashboard/dati/Carlo_Calenda.png",
   },
+  {
+    id: "matteosalviniofficial",
+    name: "Matteo Salvini",
+    handle: "@matteosalviniofficial",
+    party: "Lega",
+    role: "Segretario di Lega",
+    palette: ["#27ae60", "#000000", "#cccccc"],
+    photo: "Dashboard/dati/Matteo_Salvini.jpg",
+  }
 ];
 
 const byId = (collection, id) => collection.find((item) => item.id === id);

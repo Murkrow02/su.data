@@ -1,242 +1,77 @@
 folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
-2025-09-01_001,video,it,,,,,,,,,,,,,
-2025-09-01_002,image,it,,,,,,,,,,,,,
-2025-09-02_001,image,it,,,,,,,,,,,,,
-2025-09-04_001,image,it,,,,,,,,,,,,,
-2025-09-04_002,image,it,,,,,,,,,,,,,
-2025-09-08_001,video,it,,,,,,,,,,,,,
-2025-09-11_001,video,it,,,,,,,,,,,,,
-2025-09-11_002,image,it,,,,,,,,,,,,,
-2025-09-12_001,video,it,,,,,,,,,,,,,
-2025-09-12_002,image,it,,,,,,,,,,,,,
-2025-09-14_001,video,it,,,,,,,,,,,,,
-2025-09-17_001,video,it,,,,,,,,,,,,,
-2025-09-18_001,video,it,,,,,,,,,,,,,
-2025-09-18_002,image,it,,,,,,,,,,,,,
-2025-09-19_001,video,it,,,,,,,,,,,,,
-2025-09-20_001,video,it,,,,,,,,,,,,,
-2025-09-20_002,video,it,,,,,,,,,,,,,
-2025-09-22_001,video,it,,,,,,,,,,,,,
-2025-09-22_002,image,it,,,,,,,,,,,,,
-2025-09-23_001,video,it,,,,,,,,,,,,,
-2025-09-26_001,video,it,,,,,,,,,,,,,
-2025-09-26_002,image,it,,,,,,,,,,,,,
-2025-09-27_001,video,it,,,,,,,,,,,,,
-2025-09-28_001,video,it,,,,,,,,,,,,,
-2025-09-28_002,video,it,,,,,,,,,,,,,
-2025-09-29_001,image,it,,,,,,,,,,,,,
-2025-09-30_001,video,it,,,,,,,,,,,,,
-2025-09-30_002,image,it,,,,,,,,,,,,,
-2025-10-01_001,video,it,,,,,,,,,,,,,
-2025-10-01_002,image,it,,,,,,,,,,,,,
-2025-10-02_001,image,it,,,,,,,,,,,,,
-2025-10-02_002,video,it,,,,,,,,,,,,,
-2025-10-02_003,video,it,,,,,,,,,,,,,
-2025-10-04_001,image,it,,,,,,,,,,,,,
-2025-10-05_001,image,it,,,,,,,,,,,,,
-2025-10-06_001,video,it,,,,,,,,,,,,,
-2025-10-06_002,video,it,,,,,,,,,,,,,
-2025-10-07_001,image,it,,,,,,,,,,,,,
-2025-10-07_002,image,it,,,,,,,,,,,,,
-2025-10-08_001,video,it,,,,,,,,,,,,,
-2025-10-09_001,video,it,,,,,,,,,,,,,
-2025-10-09_002,image,it,,,,,,,,,,,,,
-2025-10-10_001,video,it,,,,,,,,,,,,,
-2025-10-10_002,image,it,,,,,,,,,,,,,
-2025-10-10_003,image,it,,,,,,,,,,,,,
-2025-10-11_001,video,it,,,,,,,,,,,,,
-2025-10-11_002,image,it,,,,,,,,,,,,,
-2025-10-12_001,image,it,,,,,,,,,,,,,
-2025-10-14_001,image,it,,,,,,,,,,,,,
-2025-10-14_002,image,it,,,,,,,,,,,,,
-2025-10-15_001,image,it,,,,,,,,,,,,,
-2025-10-16_001,image,it,,,,,,,,,,,,,
-2025-10-16_002,video,it,,,,,,,,,,,,,
-2025-10-16_003,video,it,,,,,,,,,,,,,
-2025-10-17_001,video,it,,,,,,,,,,,,,
-2025-10-17_002,image,it,,,,,,,,,,,,,
-2025-10-18_001,image,it,,,,,,,,,,,,,
-2025-10-18_002,image,it,,,,,,,,,,,,,
-2025-10-20_001,video,it,,,,,,,,,,,,,
-2025-10-20_002,image,it,,,,,,,,,,,,,
-2025-10-20_003,image,it,,,,,,,,,,,,,
-2025-10-21_001,image,it,,,,,,,,,,,,,
-2025-10-21_002,video,it,,,,,,,,,,,,,
-2025-10-22_001,image,it,,,,,,,,,,,,,
-2025-10-23_001,video,it,,,,,,,,,,,,,
-2025-10-23_002,video,it,,,,,,,,,,,,,
-2025-10-24_001,image,it,,,,,,,,,,,,,
-2025-10-24_002,video,it,,,,,,,,,,,,,
-2025-10-25_001,video,it,,,,,,,,,,,,,
-2025-10-25_002,video,it,,,,,,,,,,,,,
-2025-10-25_003,video,it,,,,,,,,,,,,,
-2025-10-25_004,image,it,,,,,,,,,,,,,
-2025-10-28_001,video,it,,,,,,,,,,,,,
-2025-10-28_002,video,it,,,,,,,,,,,,,
-2025-10-29_001,video,it,,,,,,,,,,,,,
-2025-10-30_001,video,it,,,,,,,,,,,,,
-2025-10-30_002,video,it,,,,,,,,,,,,,
-2025-10-30_003,video,it,,,,,,,,,,,,,
-2025-10-31_001,video,it,,,,,,,,,,,,,
-2025-11-01_001,image,it,,,,,,,,,,,,,
-2025-11-02_001,image,it,,,,,,,,,,,,,
-2025-11-03_001,image,it,,,,,,,,,,,,,
-2025-11-04_001,image,it,,,,,,,,,,,,,
-2025-11-05_001,image,it,,,,,,,,,,,,,
-2025-11-06_001,video,it,,,,,,,,,,,,,
-2025-11-06_002,image,it,,,,,,,,,,,,,
-2025-11-07_001,video,it,,,,,,,,,,,,,
-2025-11-08_001,image,it,,,,,,,,,,,,,
-2025-11-09_001,image,it,,,,,,,,,,,,,
-2025-11-09_002,image,it,,,,,,,,,,,,,
-2025-11-10_001,video,it,,,,,,,,,,,,,
-2025-11-10_002,video,it,,,,,,,,,,,,,
-2025-11-11_001,video,it,,,,,,,,,,,,,
-2025-11-12_001,image,it,,,,,,,,,,,,,
-2025-11-12_002,image,it,,,,,,,,,,,,,
-2025-11-14_001,video,it,,,,,,,,,,,,,
-2025-11-14_002,video,it,,,,,,,,,,,,,
-2025-11-14_003,video,it,,,,,,,,,,,,,
-2025-11-15_001,video,it,,,,,,,,,,,,,
-2025-11-15_002,video,it,,,,,,,,,,,,,
-2025-11-16_001,image,it,,,,,,,,,,,,,
-2025-11-16_002,video,it,,,,,,,,,,,,,
-2025-11-18_001,video,it,,,,,,,,,,,,,
-2025-11-18_002,image,it,,,,,,,,,,,,,
-2025-11-21_001,video,it,,,,,,,,,,,,,
-2025-11-21_002,image,it,,,,,,,,,,,,,
-2025-11-23_001,image,it,,,,,,,,,,,,,
-2025-11-23_002,image,it,,,,,,,,,,,,,
-2025-11-24_001,image,it,,,,,,,,,,,,,
-2025-11-25_001,video,it,,,,,,,,,,,,,
-2025-12-01_001,video,it,,,,,,,,,,,,,
-2025-12-01_002,image,it,,,,,,,,,,,,,
-2025-12-02_001,image,it,,,,,,,,,,,,,
-2025-12-02_002,video,it,,,,,,,,,,,,,
-2025-12-03_001,image,it,,,,,,,,,,,,,
-2025-12-03_002,image,it,,,,,,,,,,,,,
-2025-12-04_001,video,it,,,,,,,,,,,,,
-2025-12-04_002,image,it,,,,,,,,,,,,,
-2025-12-05_001,video,it,,,,,,,,,,,,,
-2025-12-08_001,image,it,,,,,,,,,,,,,
-2025-12-09_001,image,it,,,,,,,,,,,,,
-2025-12-10_001,video,it,,,,,,,,,,,,,
-2025-12-10_002,image,it,,,,,,,,,,,,,
-2025-12-10_003,image,it,,,,,,,,,,,,,
-2025-12-12_001,video,it,,,,,,,,,,,,,
-2025-12-12_002,image,it,,,,,,,,,,,,,
-2025-12-12_003,video,it,,,,,,,,,,,,,
-2025-12-13_001,image,it,,,,,,,,,,,,,
-2025-12-14_001,video,it,,,,,,,,,,,,,
-2025-12-14_002,video,it,,,,,,,,,,,,,
-2025-12-15_001,image,it,,,,,,,,,,,,,
-2025-12-16_001,image,it,,,,,,,,,,,,,
-2025-12-17_001,video,it,,,,,,,,,,,,,
-2025-12-18_001,video,it,,,,,,,,,,,,,
-2025-12-19_001,video,it,,,,,,,,,,,,,
-2025-12-20_001,video,it,,,,,,,,,,,,,
-2025-12-22_001,image,it,,,,,,,,,,,,,
-2025-12-23_001,video,it,,,,,,,,,,,,,
-2025-12-24_001,video,it,,,,,,,,,,,,,
-2025-12-24_002,video,it,,,,,,,,,,,,,
-2025-12-25_001,image,it,,,,,,,,,,,,,
-2025-12-27_001,image,it,,,,,,,,,,,,,
-2025-12-30_001,image,it,,,,,,,,,,,,,
-2025-12-31_001,image,it,,,,,,,,,,,,,
-2025-12-31_002,video,it,,,,,,,,,,,,,
-2025-12-31_003,image,it,,,,,,,,,,,,,
-2026-01-02_001,video,it,,,,,,,,,,,,,
-2026-01-02_002,image,it,,,,,,,,,,,,,
-2026-01-05_001,image,it,,,,,,,,,,,,,
-2026-01-06_001,image,it,,,,,,,,,,,,,
-2026-01-06_002,image,it,,,,,,,,,,,,,
-2026-01-09_001,image,it,,,,,,,,,,,,,
-2026-01-09_002,image,it,,,,,,,,,,,,,
-2026-01-10_001,image,it,,,,,,,,,,,,,
-2026-01-12_001,image,it,,,,,,,,,,,,,
-2026-01-13_001,video,it,,,,,,,,,,,,,
-2026-01-13_002,image,it,,,,,,,,,,,,,
-2026-01-14_001,video,it,,,,,,,,,,,,,
-2026-01-17_001,video,it,,,,,,,,,,,,,
-2026-01-17_002,video,it,,,,,,,,,,,,,
-2026-01-17_003,image,it,,,,,,,,,,,,,
-2026-01-18_001,image,it,,,,,,,,,,,,,
-2026-01-19_001,image,it,,,,,,,,,,,,,
-2026-01-19_002,image,it,,,,,,,,,,,,,
-2026-01-21_001,image,it,,,,,,,,,,,,,
-2026-01-22_001,image,it,,,,,,,,,,,,,
-2026-01-22_002,image,it,,,,,,,,,,,,,
-2026-01-22_003,video,it,,,,,,,,,,,,,
-2026-01-23_001,image,it,,,,,,,,,,,,,
-2026-01-23_002,image,it,,,,,,,,,,,,,
-2026-01-24_001,video,it,,,,,,,,,,,,,
-2026-01-24_002,video,it,,,,,,,,,,,,,
-2026-01-25_001,image,it,,,,,,,,,,,,,
-2026-01-25_002,video,it,,,,,,,,,,,,,
-2026-01-26_001,video,it,,,,,,,,,,,,,
-2026-01-27_001,video,it,,,,,,,,,,,,,
-2026-01-27_002,video,it,,,,,,,,,,,,,
-2026-01-29_001,image,it,,,,,,,,,,,,,
-2026-01-31_001,video,it,,,,,,,,,,,,,
-2026-01-31_002,video,it,,,,,,,,,,,,,
-2026-01-31_003,image,it,,,,,,,,,,,,,
-2026-02-01_001,image,it,,,,,,,,,,,,,
-2026-02-01_002,image,it,,,,,,,,,,,,,
-2026-02-01_003,image,it,,,,,,,,,,,,,
-2026-02-02_001,video,it,,,,,,,,,,,,,
-2026-02-03_001,image,it,,,,,,,,,,,,,
-2026-02-04_001,image,it,,,,,,,,,,,,,
-2026-02-04_002,video,it,,,,,,,,,,,,,
-2026-02-04_003,image,it,,,,,,,,,,,,,
-2026-02-05_001,image,it,,,,,,,,,,,,,
-2026-02-05_002,image,it,,,,,,,,,,,,,
-2026-02-05_003,image,it,,,,,,,,,,,,,
-2026-02-06_001,image,it,,,,,,,,,,,,,
-2026-02-06_002,image,it,,,,,,,,,,,,,
-2026-02-06_003,image,it,,,,,,,,,,,,,
-2026-02-07_001,video,it,,,,,,,,,,,,,
-2026-02-07_002,image,it,,,,,,,,,,,,,
-2026-02-07_003,video,it,,,,,,,,,,,,,
-2026-02-07_004,image,it,,,,,,,,,,,,,
-2026-02-08_001,video,it,,,,,,,,,,,,,
-2026-02-08_002,image,it,,,,,,,,,,,,,
-2026-02-09_001,image,it,,,,,,,,,,,,,
-2026-02-10_001,video,it,,,,,,,,,,,,,
-2026-02-11_001,image,it,,,,,,,,,,,,,
-2026-02-11_002,image,it,,,,,,,,,,,,,
-2026-02-12_001,video,it,,,,,,,,,,,,,
-2026-02-12_002,image,it,,,,,,,,,,,,,
-2026-02-12_003,image,it,,,,,,,,,,,,,
-2026-02-12_004,image,it,,,,,,,,,,,,,
-2026-02-12_005,image,it,,,,,,,,,,,,,
-2026-02-13_001,image,it,,,,,,,,,,,,,
-2026-02-14_001,image,it,,,,,,,,,,,,,
-2026-02-14_002,image,it,,,,,,,,,,,,,
-2026-02-14_003,image,it,,,,,,,,,,,,,
-2026-02-15_001,image,it,,,,,,,,,,,,,
-2026-02-15_002,image,it,,,,,,,,,,,,,
-2026-02-15_003,image,it,,,,,,,,,,,,,
-2026-02-17_001,video,it,,,,,,,,,,,,,
-2026-02-17_002,video,it,,,,,,,,,,,,,
-2026-02-17_003,image,it,,,,,,,,,,,,,
-2026-02-17_004,video,it,,,,,,,,,,,,,
-2026-02-17_005,image,it,,,,,,,,,,,,,
-2026-02-18_001,image,it,,,,,,,,,,,,,
-2026-02-18_002,video,it,,,,,,,,,,,,,
-2026-02-19_001,image,it,,,,,,,,,,,,,
-2026-02-19_002,image,it,,,,,,,,,,,,,
-2026-02-19_003,video,it,,,,,,,,,,,,,
-2026-02-20_001,image,it,,,,,,,,,,,,,
-2026-02-21_001,video,it,,,,,,,,,,,,,
-2026-02-21_002,image,it,,,,,,,,,,,,,
-2026-02-22_001,video,it,,,,,,,,,,,,,
-2026-02-22_002,image,it,,,,,,,,,,,,,
-2026-02-23_001,video,it,,,,,,,,,,,,,
-2026-02-23_002,image,it,,,,,,,,,,,,,
-2026-02-24_001,video,it,,,,,,,,,,,,,
-2026-02-24_002,image,it,,,,,,,,,,,,,
-2026-02-25_001,image,it,,,,,,,,,,,,,
-2026-02-27_001,image,it,,,,,,,,,,,,,
-2026-02-27_002,image,it,,,,,,,,,,,,,
-2026-02-28_001,video,it,,,,,,,,,,,,,
-2026-02-28_002,image,it,,,,,,,,,,,,,
+2025-09-01_001,video,it,1,1,1,4,1,1,1,1,1,1,ospedali romani;bambini palestinesi;cure;solidarietà;Ministero;pazienti,positive,low
+2025-09-01_002,image,it,1,5,3,1,1,1,1,1,1,1,disoccupazione;occupati;PIL pro capite;salari bassi;contributi;reddito,positive,low
+2025-09-02_001,image,it,1,1,1,1,1,1,1,1,1,1,Emilio Fede;giornalista;Tg1;Tg4;condoglianze;informazione,neutral,none
+2025-09-04_001,image,it,1,1,1,1,1,1,1,1,1,1,Giorgio Armani;Made in Italy;moda;eleganza;Italia,neutral,none
+2025-09-04_002,image,it,1,1,1,1,1,1,3,2,2,1,Viterbo;Santa Rosa;forze dell'ordine;arresto;sicurezza;campagne d'odio,positive,low
+2025-09-08_001,video,it,4,5,2,3,1,1,3,1,4,1,competitività;nucleare;politica industriale;tassi di interesse;transizione ambientale;riforme;Europa,mixed,medium
+2025-09-11_001,video,it,1,1,1,1,1,1,1,1,4,1,onore;dignità;accuse false;democrazia;corruzione;ministro;opinione pubblica,negative,high
+2025-09-11_002,image,it,1,1,1,1,1,1,3,1,4,1,11 settembre;solidarietà;pace;democrazia;libertà;attentato,neutral,low
+2025-09-12_001,video,it,1,3,1,4,1,1,3,1,5,1,benessere psicologico;istituzioni;libertà;attacco politico;democrazia;responsabilità,mixed,medium
+2025-09-12_002,image,it,1,3,1,1,1,1,1,1,5,1,libertà di stampa;censura;democrazia;pluralismo;giornalismo;diritto a dire,positive,medium
+2025-09-14_001,video,it,1,1,1,1,1,1,1,1,2,1,Libertà;Forza Italia;bandiera;patriottismo,positive,high
+2025-09-17_001,video,it,1,1,1,1,1,1,1,1,3,1,ForzaItalia;Buongoverno;Marche;coalizione politica;governo;centro-destra,positive,medium
+2025-09-18_001,video,it,1,1,1,1,1,1,4,1,3,1,armi italiane;Israele;regolamento Uama;Presidente;munizioni;leggi della Repubblica,negative,medium
+2025-09-18_002,image,it,1,1,1,1,1,1,1,1,5,1,riforma giustizia;magistratura;sistema accusatorio;indipendenza giudiziaria;legalità;garanzie,positive,medium
+2025-09-19_001,video,it,1,3,1,1,2,1,1,1,3,1,valori;ideali;passione politica;meritocrazia;impegno;carriera politica,positive,low
+2025-09-20_001,video,it,1,1,1,1,1,1,1,1,1,1,autonomia;comunità valdostana;presidente;tunnel di Mont Blanc;Melide Blanc,positive,none
+2025-09-20_002,video,it,1,1,1,1,1,1,1,1,2,1,Aosta;libertà;sogno;cantiamo;difendiamo,positive,low
+2025-09-22_001,video,it,1,1,1,1,1,1,3,1,2,1,Assemblea Generale delle Nazioni Unite;Palazzo di Vetro;pace;Medio Oriente;Gaza,positive,low
+2025-09-22_002,image,it,1,3,1,1,1,1,2,1,2,1,Palestina;violenza;economia;diritto allo sciopero;Nazioni Unite;ordine pubblico,negative,medium
+2025-09-23_001,video,it,1,1,1,1,1,1,1,2,3,1,Gaza;beni alimentari;Nazioni Unite;popolazione palestinese;aiuto umanitario;propaganda politica,negative,high
+2025-09-26_001,video,it,1,1,1,1,1,1,1,1,1,1,Mogol;Lucio Battisti;Libertà;successi,positive,none
+2025-09-26_002,image,it,1,1,1,1,1,1,1,1,2,1,Forza Italia;valori;punti di riferimento;libertà,positive,medium
+2025-09-27_001,video,it,1,1,1,1,1,1,1,1,2,1,Mogol;Lucio Battisti;concerto;televisione;libertà;Forza Italia,negative,medium
+2025-09-28_001,video,it,1,1,1,1,1,1,1,1,2,1,militante;Forza Italia;popolo;palazzo;libertà;sentimenti,positive,high
+2025-09-28_002,video,it,1,1,1,1,1,1,1,1,2,1,Libertà;forza Italia;manifesto;identità;Silvio Delosconi,positive,high
+2025-09-29_001,image,it,1,1,1,1,1,1,1,1,1,1,compleanno;Presidente;auguri,positive,none
+2025-09-30_001,video,it,1,2,1,1,1,1,1,1,1,1,Calabria;Roberto Chiudo;Forza Italia;governo nazionale;voto;centrodestra,positive,high
+2025-09-30_002,image,it,3,2,1,4,1,1,1,1,1,1,salute mentale;bambini;benessere psicofisico;ambiente;salvaguardia del suolo;proposte di legge,positive,low
+2025-10-01_001,video,it,1,3,1,3,5,1,1,2,1,1,corridoio universitario;Palestina;studenti;formazione;università italiane;Ministro Bernini;unità di crisi,positive,low
+2025-10-01_002,image,it,1,2,1,3,5,1,1,2,2,1,Corridoio Universitario;Gaza;studenti;ciclo accademico;università;formare classe dirigente,positive,low
+2025-10-02_001,image,it,1,1,1,1,1,1,1,1,1,1,nonni;valori;nipoti;auguri;2ottobre,positive,none
+2025-10-02_002,video,it,1,3,1,1,1,1,5,1,4,1,Forze dell'Ordine;manifestazioni;violenza;ordine pubblico;legalità;sciopero,negative,high
+2025-10-02_003,video,it,1,1,1,2,4,1,1,4,1,1,Palestina;corridoio umanitario;studenti universitari;rifugiati;popolo palestinese;governo italiano,positive,high
+2025-10-04_001,image,it,1,1,1,1,1,1,1,1,3,1,statua;San Giovanni Paolo II;Termini;estremisti di sinistra;odio;manifestazione,negative,medium
+2025-10-05_001,image,it,1,1,1,1,1,1,1,1,1,1,scout cattolici;Ucraina;missili;Polonia;Ambasciata d'Italia;solidarietà,positive,low
+2025-10-06_001,video,it,1,1,1,1,1,1,1,1,1,1,ForzaItalia;Roberto Occhiuto;centrodestra;Calabria;proiezione;vittoria,positive,high
+2025-10-06_002,video,it,1,1,1,1,1,1,1,1,4,1,antisemitismo;Liliana Segre;Shoah;genocidio;vergogna;trasmissione televisiva,negative,high
+2025-10-07_001,image,it,1,1,1,1,1,1,1,1,1,1,accordo di pace;due Stati;coesistenza pacifica;Israele;Palestina;Medio Oriente;stabilità,positive,medium
+2025-10-07_002,image,it,1,1,1,1,1,1,1,1,1,1,Roberto Occhiuto;Calabria;centrodestra;ForzaItalia;elettori;buongoverno,positive,medium
+2025-10-08_001,video,it,1,1,1,1,1,1,1,1,1,1,Olimpiadi;tregua olimpica;pace;Nazioni Unite;Medio Oriente;Ucraina,positive,low
+2025-10-09_001,video,it,1,1,1,1,1,1,1,1,1,1,Tricolore;Gaza;riconoscenza;gratitudine;pace,positive,low
+2025-10-09_002,image,it,1,1,1,1,1,1,3,1,2,1,accordo di pace;Medio Oriente;cessate il fuoco;ostaggi;azione diplomatica;assistenza umanitaria,positive,low
+2025-10-10_001,video,it,1,1,1,1,1,1,1,1,1,1,Firenze;regionali;vincere;Toscana;governare,positive,medium
+2025-10-10_002,image,it,1,1,1,1,1,1,1,1,1,1,Firenze;Piazza San Lorenzo;campagna elettorale;ForzaItalia;Toscana,neutral,low
+2025-10-10_003,image,it,1,1,1,3,3,1,3,1,1,1,Gaza;Piano di pace;soluzione a Due Stati;aiuti umanitari;ricostruzione;Palestina,positive,low
+2025-10-11_001,video,it,1,1,1,1,1,1,1,1,2,1,Toscana;libertà;governo nazionale;Forza Italia;Italia,positive,medium
+2025-10-11_002,image,it,1,2,1,1,1,1,4,1,2,1,Gaza;cessate il fuoco;Piano di Pace;ostaggi;missione di pace;sicurezza;ricostruire Gaza;Stati Uniti,positive,medium
+2025-10-12_001,image,it,1,4,1,1,1,1,1,1,1,1,Expo 2025 Osaka;Premio BIE;Sistema Paese;diplomazia della crescita;innovazione;crescita economica,positive,low
+2025-10-14_001,image,it,1,1,1,1,1,1,1,1,1,1,Piazza Pio XII;Vaticano;Papa Leone XIV;visita ufficiale;Presidente della Repubblica;Sergio Mattarella,neutral,none
+2025-10-14_002,image,it,1,1,1,2,1,1,5,1,1,2,Carabinieri;esplosione;dovere;condoglianze;Polizia di Stato;Vigili del Fuoco,negative,none
+2025-10-15_001,image,it,1,1,1,3,3,1,3,1,2,1,aiuti alimentari;Gaza;ricostruzione;infrastrutture civili;scuole;ospedali;pace,positive,low
+2025-10-16_001,image,it,1,1,1,1,1,4,1,1,2,1,linguaggio volgare;sessista;cambiamento culturale;donna;uguaglianza;leader,positive,medium
+2025-10-16_002,video,it,1,1,1,1,1,1,1,1,3,1,dialogo;pace;diplomazia;Napoli;Ministero degli Esteri;mediare;Koal-Usham al-Sheikh,positive,low
+2025-10-16_003,video,it,1,1,1,2,1,1,1,1,1,1,Gaza;fame;operazione umanitaria;beni alimentari;popolo gazzawi;Rafa,negative,low
+2025-10-17_001,video,it,1,4,4,4,1,1,1,1,2,1,manovra;assunzioni;infermieri;medici;Irpef;extraprofitti;salari;imprese,positive,medium
+2025-10-17_002,image,it,1,1,1,1,1,1,5,1,2,1,Carabinieri;Eroi;Patria;caduti in servizio;memoria,negative,none
+2025-10-18_001,image,it,1,1,1,1,3,1,1,1,1,1,Erasmus;scambi culturali;integrazione;Europa;Sofia Corradi;studenti,neutral,none
+2025-10-18_002,image,it,1,4,3,3,1,1,1,1,1,1,pressione fiscale;ceto medio;aumentare salari;sistema sanitario;economia sociale;manovra,positive,medium
+2025-10-20_001,video,it,1,2,1,3,4,1,1,1,2,1,pace;Slovenia;Italia;Croazia;Unione Europea;Israele;Palestina;ricostruzione,positive,low
+2025-10-20_002,image,it,1,3,1,1,1,1,1,3,1,1,Med9;unità europea;PMI;agricoltura;immigrazione legale;sfide globali,positive,low
+2025-10-20_003,image,it,1,1,1,1,1,1,3,1,2,1,violenza;scontri;atto vile;responsabili;sport;Pisa;Pistoia basket,negative,low
+2025-10-21_001,image,it,1,1,1,1,1,1,1,1,4,1,Cassazione;Berlusconi;Dell'Utri;accanimento giudiziario;menzogne;giustizia,positive,high
+2025-10-21_002,video,it,1,1,1,1,1,1,1,1,1,5,tasse sulla casa;dimora;edilizia popolare;rigenerazione urbana;patrimonio edilizio;proposta di legge,positive,medium
+2025-10-22_001,image,it,1,4,1,1,1,1,1,1,1,1,Ambasciata d'Italia;Londra;CasaItalia;export;crescita economica;imprese italiane,positive,low
+2025-10-23_001,video,it,1,1,1,1,1,1,4,1,2,1,forze dell'ordine;sostegno;azioni concrete;gratitudine,positive,medium
+2025-10-23_002,video,it,1,1,1,1,1,1,1,1,4,1,Repubblica;Costituzione;Nazione;fedele;funzioni,positive,low
+2025-10-24_001,image,it,1,4,1,1,1,1,1,1,2,1,super bonus;denaro pubblico;giovani;clientelari;declino elettorale;banche;PMI,negative,high
+2025-10-24_002,video,it,1,3,1,1,5,1,1,3,1,1,studenti;ricercatori;Gaza;atenei;Palestina;formazione;economia;finanza,positive,low
+2025-10-25_001,video,it,1,1,1,1,1,1,1,1,5,1,Giustizia Giusta;Silvio Berlusconi;sentenza;mafia;giustizia;lettera;sofferenza,positive,high
+2025-10-25_002,video,it,1,1,1,1,1,1,4,1,4,1,forze dell'ordine;democrazia;libertà;manifestazione;Polizia di Stato;diritto di parola,positive,low
+2025-10-25_003,video,it,1,1,1,1,1,1,1,1,1,1,Torino;grazie,positive,none
+2025-10-25_004,image,it,1,4,1,1,1,1,1,1,1,1,Stati generali;diplomazia culturale;patrimonio culturale;crescita;lavoro;Istituti Italiani di cultura,positive,low
+2025-10-28_001,video,it,1,4,1,1,1,1,3,3,1,1,Mauritania;stabilità politica;immigrazione illegale;terrorismo;materie prime;investimenti;posti di lavoro,positive,low
+2025-10-28_002,video,it,1,3,1,1,2,1,4,3,3,1,Mauritania;Senegal;Niger;Africa Occidentale;cooperazione internazionale;sicurezza;traffici internazionali;dialogo interreligioso,positive,low
+2025-10-29_001,video,it,1,4,1,1,3,1,1,5,1,1,migrazione legale;lavoratori senitalesi;lezione di italiano;integrazione;rispetto delle regole,positive,low
+2025-10-30_001,video,it,1,1,1,1,1,1,5,1,2,1,militari;Niger;missione MISIN;stabilità;forze armate;politica estera,positive,low
