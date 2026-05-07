@@ -1,6 +1,4 @@
 folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
-2025-09-03_001,image,it,,,,,,,,,,,,,
-2025-09-03_002,video,it,,,,,,,,,,,,,
 2025-09-03_003,image,it,1,4,1,1,4,1,1,1,1,1,Salone Nautico;Genova;lavoro nautico;formazione professionale;giovani;mercato del lavoro,positive,low
 2025-09-03_004,image,it,1,1,1,1,1,1,1,1,1,1,Genova;Stadio Luigi Ferraris;riqualificazione;cultura;spettacolo;comunità,positive,low
 2025-09-05_001,video,it,1,5,3,3,2,4,1,3,1,1,inclusione;donne;lavoro;competitività;diversità;salario;disabilità,mixed,low
@@ -69,7 +67,6 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2025-12-08_001,video,it,2,3,1,1,1,1,1,1,1,1,Natale;Genova;piazza De Ferrari;albero di Natale;bambini;futuro;lavoro;servizio,positive,low
 2025-12-08_002,image,it,1,1,1,1,1,1,1,1,1,1,8 dicembre;Natale;presepe;famiglia;pace;serenità,positive,none
 2025-12-11_001,video,it,4,3,2,2,1,1,3,1,4,3,riforma dei Municipi;decentramento;riqualificazione del territorio;bilancio partecipativo;manutenzione ordinaria;personale;sicurezza urbana,positive,low
-2025-12-12_001,image,it,,,,,,,,,,,,,
 2025-12-15_001,video,it,1,2,1,1,1,1,1,1,2,3,riqualificazione;piazze;centro storico;PNRR;socialità;co-progettazione,positive,low
 2025-12-16_001,video,it,1,1,1,1,1,1,1,1,2,1,Palazzo Tursi;Babbo Natale;feste;bambini;laboratori;Comune di Genova,positive,none
 2025-12-19_001,image,it,1,4,2,1,3,2,1,1,3,1,sindaca;centrosinistra;lavoratori;equità sociale;leader;elettorale;laicità,mixed,medium
