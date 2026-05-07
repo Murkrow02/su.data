@@ -278,3 +278,51 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2026-02-26_001,video,it,2,4,4,1,3,1,4,5,2,1,Mediterraneo;competitività;immigrazione;sicurezza energetica;Patto di migrazione;cooperazione bilaterale;Unione Europea,positive,low
 2026-02-27_001,image,it,3,1,1,1,1,1,5,1,1,1,Vigili del Fuoco;Anniversario di Fondazione;emergenza;soccorso;sicurezza;salvaguardia,positive,low
 2026-02-28_001,image,it,1,1,1,1,1,1,4,1,2,1,Vertice;Palazzo Chigi;crisi;Medio Oriente,neutral,none
+2025-03-02_001,video,it,1,1,1,1,1,1,1,1,1,1,Keir Starmer;Primo Ministro;dichiarazioni;stampa,neutral,none
+2025-03-03_001,image,it,1,1,1,1,1,1,1,1,1,1,Rai 1;XXI Secolo;televisivo;incontro,neutral,none
+2025-03-04_001,video,it,1,5,2,1,1,1,1,1,3,1,pressione fiscale;reddito di cittadinanza;prodotto interno lordo;lavoro;evasione;entrate dello Stato,positive,medium
+2025-03-04_002,image,it,1,5,1,1,1,1,1,1,1,1,Istat;occupazione;tasso di occupazione;mercato del lavoro;crescita;occupati,positive,low
+2025-03-04_003,video,it,,,,,,,,,,,,,
+2025-03-04_004,video,it,1,1,1,1,1,1,1,1,5,1,magistratura;condizionamenti politici;CSM;riforma;potere esecutivo;correnti,positive,medium
+2025-03-06_001,video,it,1,3,2,1,1,1,5,1,3,1,difesa;Consiglio europeo;patto di stabilità;garanzie europee;coesione;sicurezza;Ucraina;alleanza atlantica,mixed,low
+2025-03-06_002,video,it,1,4,1,1,1,1,1,1,1,1,investimenti;Emirati Arabi Uniti;crescita;posti di lavoro;materie strategiche;economia,positive,low
+2025-03-07_001,video,it,1,2,1,1,3,1,1,1,1,1,CERN;ricerca scientifica;cooperazione internazionale;scienziati;Italia;progetti,positive,low
+2025-03-07_002,video,it,1,1,1,1,1,1,4,1,1,1,Vigili del fuoco;macerie;salvataggio;Bari;eroi,positive,none
+2025-03-07_003,image,it,1,1,3,1,1,1,1,5,3,1,Corte di Cassazione;immigrati illegali;risarcimento;soldi dei cittadini;violazione legge;Diciotti,negative,high
+2025-03-08_001,image,it,1,4,1,1,1,5,1,1,1,1,occupazione femminile;parità;vita privata;opportunità;carriera;potenziale,positive,low
+2025-03-14_001,video,it,1,1,1,1,1,1,1,1,1,1,Giochi Mondiali Invernali;Special Olympics;Torino 2025;sogni;augurio,positive,none
+2025-03-14_002,video,it,4,1,1,1,1,1,3,1,1,1,maltempo;popolazioni colpite;forze dell'ordine;soccorritori;supporto,positive,low
+2025-03-15_001,video,it,1,4,1,1,1,1,1,1,1,1,SpacePark;innovazione;sviluppo;posti di lavoro;settore spaziale;pensare in grande,positive,low
+2025-03-17_001,image,it,1,1,1,1,1,1,1,1,4,1,Unità Nazionale;Costituzione;Inno nazionale;cerimonie istituzionali;simboli della Nazione;atto di rispetto,positive,low
+2025-03-18_001,video,it,1,1,1,1,1,1,4,1,1,1,M5S;difesa;impegni internazionali;2% PIL;Crosetto;Conte,negative,medium
+2025-03-18_002,video,it,1,1,1,3,3,1,5,1,2,1,difesa;sicurezza;spesa;servizi;interesse nazionale;risorse,negative,medium
+2025-03-18_003,video,it,1,2,1,1,1,1,1,1,3,1,Senato della Repubblica;interesse nazionale;libertà;coraggio;Governo;visione,positive,low
+2025-03-19_001,video,it,1,1,1,1,1,1,4,1,3,1,Schlein;Europa;Ucraina;Nato;alleati;convergenza;Macron;Starmer,negative,medium
+2025-03-19_002,video,it,1,2,1,1,1,1,1,1,4,1,manifesto di Ventotene;rivoluzione europea;proprietà privata;metodologia politica democratica;nuovo Stato;dittatura del partito rivoluzionario,negative,high
+2025-03-19_003,image,it,1,1,1,1,1,1,1,1,1,1,Papà;famiglia;genitori;figli;amore;dedizione;Festa del Papà,positive,none
+2025-03-20_001,video,it,1,1,1,1,1,1,1,1,4,1,Manifesto di Ventotene;democrazia;sinistra;autodeterminazione;dibattito politico;legalità,negative,medium
+2025-03-23_001,image,it,1,1,1,1,1,1,1,1,1,1,Papa Francesco;Vaticano;auguri;impegno;guida,positive,none
+2025-03-27_001,image,it,1,3,1,1,1,1,1,1,1,1,PNRR;Piano Nazionale di Ripresa e Resilienza;investimenti;riforme;Europa;obiettivo,positive,medium
+2025-03-27_002,image,it,1,4,1,1,1,1,1,1,1,1,agricoltura;agricoltori;Ministero Lollobrigida;eccellenza;tradizione;prodotti,positive,low
+2025-03-27_003,video,it,1,2,1,1,1,1,1,1,4,1,stabilità_governamentale;premierato;continuità_strategica;governi_duraturi;autorità_internazionale,positive,medium
+2025-03-28_001,image,it,1,3,1,1,1,1,1,1,2,1,Presidente della Repubblica di Polonia;rapporti bilaterali;legami economici;scambio culturale;Inno d'Italia,positive,low
+2025-03-28_002,image,it,1,1,1,1,1,1,5,1,2,1,Aeronautica Militare;eccellenza;difesa;sicurezza;missioni di pace;Nazione;Patria,positive,low
+2025-03-29_001,video,it,1,2,1,1,1,1,1,1,5,1,sfiducia istituzioni;riforme;premierato;giustizia;autonomia;livelli essenziali delle prestazioni;sistema politico,positive,medium
+2025-04-01_001,image,it,1,5,1,1,1,1,1,1,1,1,occupati;Istat;lavoro;imprese;opportunità;economia;Nazione,positive,medium
+2025-04-01_002,image,it,1,1,1,1,1,1,1,1,4,1,democrazia;sentenza;rappresentanza;leader di un grande partito,negative,medium
+2025-04-02_001,video,it,3,5,1,1,4,2,1,1,1,1,cucina italiana;agroalimentare;Maestro dell'Arte;istituti alberghieri;eccellenza culinaria;sostenibilità;patrimonio,positive,medium
+2025-04-02_002,image,it,1,1,1,1,1,1,1,1,1,1,San Giovanni Paolo II;memoria;figura straordinaria;storia,positive,none
+2025-04-03_001,video,it,1,3,1,1,1,1,1,1,2,1,dazi;Trump;economia europea;esportazioni italiane;patto di stabilità;Green Deal;automotive;interessi italiani,mixed,low
+2025-04-03_002,image,it,1,1,1,1,1,1,3,1,1,1,Riccardo Muci;sovrintendente di Polizia;incidente aereo;gesto eroico;Ordine al Merito della Repubblica,neutral,none
+2025-04-04_001,video,it,1,1,1,1,1,1,4,1,1,1,Vigili del Fuoco;giuramento;servizio;sicurezza;Nazione;orgoglio,positive,low
+2025-04-04_002,image,it,1,1,1,1,1,1,5,1,2,1,decreto sicurezza;Forze dell’Ordine;immobili occupati;rigore;sicurezza dei cittadini,positive,medium
+2025-04-04_003,image,it,1,1,1,1,2,1,5,1,1,1,Ortona;Marina Militare;Nave Scuola;Amerigo Vespucci;visita,neutral,none
+2025-04-04_004,video,it,1,1,1,1,1,1,1,1,1,1,disabilità;musicabili;spettacolo;linguaggio;superare;performance,positive,none
+2025-04-04_005,image,it,1,1,1,1,1,1,5,1,4,1,minacce;criminalità organizzata;Giustizia;Stato;determinazione;lotta alla criminalità,positive,medium
+2025-04-06_001,image,it,1,3,1,1,1,1,1,1,1,4,terremoto;L'Aquila;Abruzzo;ricostruzione;solidarietà;rinascita;memoria,positive,none
+2025-04-06_002,video,it,2,5,3,3,1,1,5,4,4,1,congresso;riforme;premierato;sicurezza;immigrazione;lavoro;Green Deal;Stato,positive,high
+2025-04-09_001,image,it,1,2,1,2,3,1,1,1,1,1,Regina Rania;cooperazione bilaterale;istruzione;tutela famiglia;situazione umanitaria;Gaza;assistenza civile,neutral,none
+2025-04-09_002,video,it,1,1,1,1,1,1,1,1,1,1,Re Carlo III;Villa Pamphilj;amicizia;Nazioni;incontro,positive,none
+2025-04-10_001,video,it,1,1,1,1,1,1,4,1,3,1,Polizia di Stato;Medaglie al Valor Civile;servitori dello Stato;coraggio;dedizione;Nazione,positive,low
+2025-04-10_002,image,it,1,1,1,1,1,1,5,1,4,1,Polizia di Stato;legalità;sicurezza;Decreto Sicurezza;Forze dell'Ordine;dedizione,positive,medium
+2025-04-14_001,image,it,1,1,1,1,1,1,1,1,3,1,Fabrizio Quattrocchi;uccisione;coraggio;orgoglio nazionale,negative,medium
