@@ -4340,7 +4340,7 @@ main:has(.research-deck) {
 
 .research-progress {
   position: fixed;
-  top: 50%;
+  top: calc(50% + 38px);
   right: clamp(14px, 2vw, 28px);
   z-index: 80;
   display: grid;
@@ -4348,7 +4348,14 @@ main:has(.research-deck) {
   translate: 0 -50%;
 }
 
-.research-progress button {
+.research-progress-list {
+  display: grid;
+  gap: 8px;
+  overflow: hidden;
+  max-height: calc(100vh - 200px);
+}
+
+.research-progress button:not(.research-progress-arrow) {
   display: grid;
   width: 34px;
   height: 34px;
@@ -4368,12 +4375,42 @@ main:has(.research-deck) {
     border-color 160ms ease;
 }
 
-.research-progress button:hover,
+.research-progress button:not(.research-progress-arrow):hover,
 .research-progress button.is-active {
   color: #fffaf2;
   background: var(--ink);
   border-color: var(--ink);
   transform: scale(1.08);
+}
+
+.research-progress-arrow {
+  display: grid;
+  width: 34px;
+  height: 22px;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--muted);
+  background: rgba(255, 252, 246, 0.78);
+  backdrop-filter: blur(14px);
+  cursor: pointer;
+  font-size: 9px;
+  transition:
+    background 160ms ease,
+    color 160ms ease,
+    border-color 160ms ease,
+    opacity 160ms ease;
+}
+
+.research-progress-arrow:hover {
+  color: #fffaf2;
+  background: var(--ink);
+  border-color: var(--ink);
+}
+
+.research-progress-arrow.is-hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .research-slides-stage {
