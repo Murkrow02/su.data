@@ -230,3 +230,253 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2026-02-26_002,video,it,1,2,1,4,1,1,1,1,5,1,macchina giudiziaria;corruzione;intercettazioni;sanità;sprechi;legalità;processo,negative,high
 2026-02-26_003,video,it,1,1,1,1,1,1,1,1,5,1,referendum;giustizia;Garlasco;riforma;condizionamento;inchieste;Presidente del Consiglio,negative,high
 2026-02-27_001,image,it,1,2,1,1,1,1,1,1,5,1,superpremio di maggioranza;referendum salva-casta;organi di garanzia;magistratura;parlamento;strapotere,negative,high
+2025-03-02_001,image,it,1,3,4,1,1,1,5,1,3,1,Ucraina;spese militari;piano di pace;fallimenti;Washington;Consiglio europeo;Parlamento,negative,high
+2025-03-02_002,image,it,1,1,1,5,1,1,3,1,2,1,sanità;tumore;liste di attesa;investimenti sanitari;Pnrr;spese militari;assistenza sanitaria,negative,high
+2025-03-03_001,image,it,1,1,1,1,1,1,1,1,1,1,Rai 3;Massimo Giletti;Lo stato delle cose;ospite;Lunedì 3,neutral,none
+2025-03-04_001,video,it,3,4,4,3,3,1,5,1,3,1,riarmo;Europa;800 miliardi;sanità;istruzione;caro vita;difesa comune,negative,high
+2025-03-04_002,video,it,1,4,5,3,3,1,3,1,2,1,bollette;caro energia;caro vita;spesa militare;occupazione;sanità;istruzione,negative,high
+2025-03-05_001,video,it,1,4,4,2,1,1,1,1,3,1,carovita;stipendi;gioco d'azzardo;pubblicità;scommesse;cittadini;lobby,negative,high
+2025-03-05_002,image,it,1,1,1,1,1,1,1,1,1,1,Bruno Pizzul;storia collettiva;sport;emozione;momenti,neutral,none
+2025-03-06_001,image,it,1,4,3,3,3,1,5,1,3,1,spesa militare;armi;sanità;carovita;lavoro;Europa;giustizia,negative,medium
+2025-03-06_002,video,it,1,3,4,4,3,1,5,1,2,1,spese militari;patto di stabilità;sanità;bollette;investimenti;difesa;Meloni;von der Leyen,negative,high
+2025-03-07_001,image,it,1,1,2,5,1,1,3,1,3,1,sanità;referti;tumore;liste d'attesa;spese militari;Pnrr;investimenti,negative,high
+2025-03-09_002,image,it,1,1,1,1,1,1,1,1,1,1,Che tempo che fa;Nove;MOVIMENTO,neutral,none
+2025-03-10_001,video,it,1,2,1,3,4,1,4,1,2,1,Strasburgo;riarmo;Europa della pace;istruzione;sanità;solidale,positive,medium
+2025-03-10_002,image,it,1,3,5,3,3,1,4,1,2,1,bollette;spese;pensioni;vincoli europei;sanità;armamenti;Governo Meloni,negative,high
+2025-03-10_003,image,it,1,3,1,1,1,1,1,1,1,1,Cassina;ragazzi autistici;lavoro;danni;supporto,positive,low
+2025-03-11_001,video,it,1,3,4,3,3,1,5,1,3,1,piano di riarmo;sicurezza europea;diplomazia;investimenti;leva obbligatoria;crisi economica,negative,high
+2025-03-11_002,video,it,1,2,1,3,3,1,5,1,4,1,Parlamento europeo;riarmo;incertezza;sanità;istruzione;fallimenti,negative,high
+2025-03-11_003,video,it,1,3,1,3,3,1,5,1,1,1,economia di guerra;Europa della Pace;spesa sociale;sanità;istruzione;armamenti;pace,negative,high
+2025-03-11_004,image,it,1,2,4,3,1,1,4,1,1,1,Parlamento europeo;bollette;carovita;esame medico;armi,negative,high
+2025-03-12_001,image,it,1,3,4,4,1,1,5,1,3,1,riarmo;europarlamento;sanità;carovita;difesa;vincoli;bollette,negative,high
+2025-03-12_003,video,it,1,2,1,3,4,1,5,1,2,1,riarmo;difesa;leva obbligatoria;Next Generation;istruzione;militari;sicurezza,negative,high
+2025-03-13_001,image,it,1,1,1,1,1,1,1,1,1,1,Stasera;tv;Giovedì;Piazzapulita,neutral,none
+2025-03-14_001,image,it,1,5,3,1,1,1,3,1,2,1,produzione industriale;manifattura;dazi;Transizione 4.0;bollette;imprese;crisi;lavoratori,negative,high
+2025-03-14_002,video,it,1,4,5,1,1,1,3,1,1,1,bollette;carovita;ceto medio;extra profitti;inflazione;investimenti;riarmo,negative,medium
+2025-03-16_001,image,it,1,5,1,2,2,1,3,1,1,1,reinserimento lavorativo;Programma Gol;fondi europei;investimenti capitale umano;contratto;Piano di Riarmo,positive,high
+2025-03-17_001,image,it,1,1,1,1,1,1,1,1,4,1,solidarietà;Costituzione;senso di comunità;patrioti;Unità d'Italia;impegno concreto,positive,low
+2025-03-18_001,image,it,1,1,1,1,1,2,3,1,3,1,Gaza;Israele;massacro;embargo sulle armi;Europa dei diritti;Netanyahu;sanzioni,negative,high
+2025-03-19_001,video,it,1,3,1,4,4,1,5,1,3,1,piano di riarmo;sanità;scuola;investimento in armi;economia di guerra;cittadini;Parlamento,negative,high
+2025-03-19_002,image,it,1,4,3,1,1,1,2,1,1,1,festa del papà;sforzo;futuro migliore;contratti precari;stipendi;crisi economiche;mutui,mixed,low
+2025-03-20_001,video,it,1,3,4,1,1,1,3,1,3,1,guerra in Ucraina;escalation militare;riarmo;conseguenze economiche;bollette;inflazione,negative,high
+2025-03-21_001,video,it,1,5,5,3,3,1,4,1,2,4,lavoratori;Mirafiori;perdita lavoro;bollette;stipendio;manifattura;riarmo;piano industriale,negative,high
+2025-03-21_002,image,it,1,5,2,1,1,1,3,1,1,1,cassa integrazione;lavoro;automotive;Fondo Sure;produzione industriale;stipendi;Bruxelles,negative,high
+2025-03-21_003,image,it,1,1,1,1,1,1,1,1,5,1,corruzione;mafie;legalità;istituzioni;europarlamentare;Giornata delle vittime di mafia,positive,high
+2025-03-22_001,image,it,1,4,2,1,3,1,3,1,2,1,lavoratori in crisi;Campi Flegrei;sicurezza;contratti precari;Jabil;ascolto politico,negative,medium
+2025-03-23_001,video,it,4,1,1,2,3,1,5,1,3,5,scosse di terremoto;Campi Flegrei;case agibili;sicurezza;governo;allerta;paura,negative,medium
+2025-03-24_001,image,it,1,1,1,2,1,1,3,1,3,1,Palestina;coloni israeliani;sanzioni;embargo sulle armi;Netanyahu;diritti umani,negative,high
+2025-03-24_002,video,it,1,5,4,1,1,2,3,1,2,1,lavoratori;stipendi arretrati;dignità;licenziamenti;sistema industriale;investimenti militari;giovani,negative,high
+2025-03-26_001,video,it,1,3,4,3,1,1,5,1,4,1,piano di riarmo;Unione Europea;scorte alimentari;economia di guerra;dibattito pubblico;Parlamento,negative,high
+2025-03-26_002,image,it,1,2,4,3,1,1,4,1,3,1,scorte;emergenza;carovita;farmaci;riarmo;guerra;propaganda,negative,high
+2025-03-26_003,image,it,1,5,1,1,1,1,1,1,1,1,lavoratori;crisi aziendale;tavolo ministeriale;prospettiva industriale;futuro del lavoro,positive,low
+2025-03-27_001,video,it,1,1,1,1,1,1,3,1,4,1,piazza;mobilitazione;Europa sociale;Europa democratica;costituzione;diritti;intervento,negative,high
+2025-03-28_001,image,it,1,1,1,1,1,1,1,1,1,1,Cosenza;evento;incontro;Corso Mazzini;29 marzo,neutral,none
+2025-03-28_002,image,it,1,1,1,2,1,1,5,4,3,1,sparatorie;sicurezza;criminalità;forze dell'ordine;operazione Albania;Pnrr,negative,high
+2025-03-29_001,video,it,1,3,3,3,1,1,5,1,2,1,riarmo;Partito delle Armi;sanità;povertà;Meloni;Movimento 5 Stelle;Roma,negative,high
+2025-03-29_002,image,it,1,1,1,3,3,1,2,1,4,1,Calabria;regole elettorali;Movimento 5 Stelle;Forza Italia;diritti;Europa di pace;sanità;scuola,negative,high
+2025-03-29_003,image,it,1,3,1,3,1,1,4,1,3,1,M5S;riarmo;difesa;Meloni;Crosetto;Calenda;piazza,negative,high
+2025-03-31_001,image,it,1,3,3,3,1,1,4,1,2,1,riarmo;salari;sanità;protesta;governo;partecipazione,negative,medium
+2025-03-31_002,image,it,1,1,1,1,1,1,1,1,1,1,Rete 4;Quarta Repubblica;MOVIMENTO RARA,neutral,none
+2025-04-01_001,image,it,1,1,1,1,1,1,1,1,1,1,DiMartedì;trasmissione;programma,neutral,none
+2025-04-01_002,video,it,1,3,1,1,1,1,1,1,1,4,Superbonus;buchi di bilancio;spesa;economia;estensioni;Porro,negative,high
+2025-04-02_001,video,it,1,1,1,3,2,1,4,1,5,1,sondaggio;Movimento 5 Stelle;libertà di stampa;contributi pubblici;riarmo;spesa sociale;piazza,negative,high
+2025-04-02_002,image,it,1,2,4,3,1,1,5,1,2,1,riarmo;armamenti;risorse;sanità;bollette;piano;parlamento europeo,negative,high
+2025-04-02_003,video,it,1,4,3,3,3,1,5,1,2,1,riarmo;sicurezza;Europa;economia;sanità;scuola;piazza,negative,high
+2025-04-03_001,image,it,1,1,1,1,1,1,1,1,1,1,Rete 4;diretta;giovedì;ore,neutral,none
+2025-04-04_001,image,it,1,1,1,1,1,1,4,1,4,1,Piano di Riarmo;manifestazione;piazza;cultura democratica;Movimento 5 Stelle;Repubblica,negative,high
+2025-04-04_002,image,it,1,1,1,4,1,1,3,1,1,1,Servizio sanitario nazionale;tempi di attesa;cure;privato;risorse sanitarie;Piano di Riarmo,negative,medium
+2025-04-04_003,image,it,1,4,3,1,1,1,1,1,1,1,dazi;Spagna;posti di lavoro;salario minimo;stipendi;Consiglio europeo,negative,high
+2025-04-05_001,video,it,1,1,1,1,1,1,1,1,4,1,alternativa;democrazia;dissenso politico;reprimere;governo;piazza,negative,high
+2025-04-05_002,image,it,1,2,1,4,4,1,1,1,1,1,riarmo;tagli;sanità;scuola;imprese,negative,high
+2025-04-05_003,image,it,1,1,1,1,1,1,1,1,1,1,Fori Imperiali;marea;interverrò;palco,neutral,none
+2025-04-05_004,image,it,1,4,3,4,4,1,1,1,2,1,scuole;ospedali;lavoro;piazza;Roma;manifestazione,negative,high
+2025-04-06_001,image,it,1,1,1,1,1,1,1,1,4,1,manifestazione;partecipazione;Movimento 5 Stelle;spinta popolare;cambiare il Paese;orgoglio;impegno,positive,medium
+2025-04-07_001,video,it,1,1,1,1,1,1,1,1,3,1,Gaza;Netanyahu;sterminio;amico dell'Italia;governo;politica,negative,high
+2025-04-07_002,image,it,1,2,2,5,3,1,3,1,2,1,sanità;operazione chirurgica;referti tumori;investimenti sanità;personale sanitario;servizio sanitario nazionale,negative,high
+2025-04-09_001,image,it,1,4,3,1,1,1,1,1,2,1,design;manifatturiera;costi energia;produzione industriale;sostegno;economia;governo,negative,medium
+2025-04-10_001,video,it,1,1,1,1,1,1,1,1,3,1,doppio standard;Ucraina;Gaza;Palestina;retorica;onorare,negative,high
+2025-04-10_002,video,it,1,4,3,1,3,1,5,1,3,3,Erasmus militare;Piano di Riarmo;giovani;manifestazione;borse di studio;salario minimo;alloggi universitari,negative,high
+2025-04-16_001,video,it,1,4,5,4,3,1,1,1,1,1,costo della vita;salute;pensioni;giovani;salario minimo;burocrazia;potere d'acquisto,negative,high
+2025-04-16_002,image,it,1,4,1,2,1,1,1,1,1,1,Ponte sullo Stretto;stipendi;investimenti;infrastrutture;prevenzione del tumore;Sicilia;Calabria,negative,high
+2025-04-17_001,image,it,1,3,4,3,3,1,4,1,1,1,spese militari;gas dagli Stati Uniti;tasche degli italiani;sanità;scuola;lavoratori,negative,medium
+2025-04-17_002,image,it,1,4,3,5,3,1,5,1,2,1,spese militari;liste di attesa;tumore al seno;personale scuola;cassa integrazione;2% del Pil,negative,medium
+2025-04-18_001,image,it,1,3,4,3,3,1,4,1,2,1,Washington;bollette;spese militari;sanità;scuola;dazi;interesse nazionale,negative,high
+2025-04-19_001,image,it,3,3,1,5,1,1,4,1,3,1,sanità;Ponte sullo Stretto;14 miliardi;Von der Leyen;Ponte del Riarmo;criticità ambientali;chemio,negative,high
+2025-04-20_001,image,it,1,1,1,1,1,1,1,1,1,1,,neutral,none
+2025-04-21_001,image,it,1,1,1,1,1,1,1,1,1,1,Papa Francesco;pace;dialogo;solidarietà,negative,none
+2025-04-23_001,video,it,4,3,2,1,1,2,4,3,3,1,Papa Francesco;povertà;pace;ambiente;ingiustizie;conflitti;dialogo;globalizzazione,positive,low
+2025-04-23_002,image,it,1,3,1,1,1,1,4,1,5,1,Piano di Riarmo;Strasburgo;democrazia;Commissione europea;Parlamento europeo;scavalcare;governi,negative,high
+2025-04-23_003,image,it,1,1,1,1,1,1,1,1,1,1,Camera dei deputati;Papa Francesco;commemorazione;intervento,neutral,none
+2025-04-24_001,image,it,1,4,5,1,1,1,3,1,2,1,decreto bollette;inflazione;produzione;potere d'acquisto;spese militari;imprese,negative,high
+2025-04-25_001,image,it,1,1,1,1,1,1,1,1,5,1,Resistenza;Liberazione;antifascismo;democrazia;memoria collettiva;Repubblica,positive,low
+2025-04-28_001,image,it,1,3,2,3,3,1,5,1,3,1,riarmo;vincoli europei;Meloni;Germania;mercato unico;diritti dei cittadini;spese militari,negative,high
+2025-04-29_001,image,it,1,4,2,1,1,1,1,1,3,3,PIL;debito/PIL;superbonus edilizi;Transizione 4.0;investimenti;crescita record;buco di bilancio,negative,high
+2025-04-29_002,video,it,1,5,4,1,1,2,3,1,2,1,stipendi;salario minimo;lavoratori;ministri;piano di riarmo;risparmi privati;trasparenza,negative,high
+2025-04-29_003,image,it,1,1,1,1,1,1,1,1,2,1,sede;identificati;antifascismo;pane,neutral,low
+2025-04-30_001,image,it,1,5,4,1,1,1,2,1,3,1,stipendi;povertà;salario minimo;manovra;diritto al lavoro;redditi più bassi,negative,high
+2025-05-01_001,video,it,1,5,4,3,3,3,4,1,3,1,precarietà;salario minimo;licenziamenti illegittimi;sicurezza sul lavoro;Jobs Act;diritti dei lavoratori;contratti a termine,negative,high
+2025-05-04_001,video,it,1,1,4,5,1,1,3,1,3,1,Gaza;malnutrizione;assedio;aiuti umanitari;crisi alimentare;sanzioni;Meloni;Netanyahu,negative,high
+2025-05-05_001,image,it,1,4,5,1,1,1,1,1,1,1,consumi;stipendio;inflazione;carovita;potere d'acquisto;governo,negative,medium
+2025-05-05_002,image,it,1,1,1,2,1,1,3,1,3,1,Gaza;Netanyahu;sanzioni;embargo sulle armi;Palestina;diritto internazionale,negative,high
+2025-05-06_002,image,it,1,1,1,1,1,1,1,1,1,1,tv;programma;martedì;ore,neutral,none
+2025-05-07_001,image,it,1,1,1,1,1,1,2,1,3,1,Gaza;Netanyahu;sanzioni;embargo sulle armi;Palestinesi;Governo italiano;vergogna nazionale,negative,high
+2025-05-07_002,video,it,1,4,4,3,3,1,3,1,4,1,Meloni;calo consumi;spread;sanità;Europarlamento;piano von der Leyen;miliardi mancanti,negative,high
+2025-05-07_003,image,it,1,1,1,1,1,1,5,1,4,1,Piano di Riarmo;Parlamento europeo;emendamento;Commissione Von der Leyen;Corte di Giustizia Europea;corsa alle armi,positive,medium
+2025-05-07_004,video,it,1,4,3,1,1,1,1,1,2,2,posti di lavoro;cassa integrazione;giovani;produzione industriale;stipendi;pensioni minime;disastro,negative,high
+2025-05-08_001,image,it,1,3,4,3,1,1,1,1,1,4,carovita;diritto alla casa;tagli misure povertà;infrastrutture;pendolari;edilizia,negative,high
+2025-05-08_002,image,it,1,1,1,1,1,1,2,1,1,1,pace;guerra;Papa Leone XIV;armi;morte;disarmata,positive,none
+2025-05-08_003,image,it,1,1,1,1,1,1,3,1,5,1,malaffare;legalità;amministrazioni;soldi pubblici;cambiamento;trasparenza,positive,high
+2025-05-09_001,image,it,1,4,1,1,1,1,3,1,3,1,referendum;sicurezza sul lavoro;precariato;licenziamenti illegittimi;Netanyahu;Palestinesi;esternazioni,negative,medium
+2025-05-09_002,video,it,1,3,4,1,1,1,1,1,1,1,infrastrutture;pendolari;costi;Ponte di Bressana;PNRR;mobilità;amministrazioni locali,negative,high
+2025-05-09_003,image,it,1,1,1,1,1,1,2,1,5,1,violenza;illegalità;mafia;impegno morale;senso dello Stato;resistenza;diritto,negative,medium
+2025-05-10_001,image,it,1,4,1,1,1,1,1,1,3,1,referendum;voto;licenziamenti illegittimi;lavoratori;precario;sicurezza sul lavoro;astensionismo,negative,high
+2025-05-10_002,image,it,1,4,3,1,1,1,1,1,2,1,decreto bollette;costo energia;imprese;aumenti;burocrazia;produzione industriale,negative,high
+2025-05-11_001,image,it,1,1,2,1,2,1,4,1,1,2,Gaza;guerra;bambini;sopravvivenza;bombe;diritti,negative,high
+2025-05-13_001,image,it,1,2,1,1,1,1,1,1,1,1,sobrietà;tempo;dignità;libertà;José Mujica;consumo,positive,low
+2025-05-13_002,image,it,3,1,1,3,1,1,4,1,3,1,Europa;ambiente;welfare;diritti;legalità;pace;riarmo;mobilitazione,negative,medium
+2025-05-13_003,image,it,1,1,1,1,2,1,5,1,2,1,Parlamento Europeo;NoAlRiarmo;Europarlamentari;Network Giovani;difesa,negative,medium
+2025-05-14_001,video,it,1,1,1,1,1,1,2,1,5,1,Parlamento;Gaza;Netanyahu;democrazia;condanna;vittime civili;mandato,negative,high
+2025-05-14_002,image,it,1,1,1,1,1,1,1,1,2,1,Camera dei deputati;Presidente Meloni;domande;questioni importanti,neutral,none
+2025-05-14_003,image,it,1,1,1,1,1,1,1,1,4,1,astensione;voto;referendum;votare;campagna,positive,medium
+2025-05-15_001,image,it,3,4,1,1,1,2,3,1,4,3,Romagna;alluvioni;ricostruzione;lavoratori;Versalis;legalità;amministrazione comunale,positive,medium
+2025-05-15_002,image,it,1,1,1,1,1,1,2,1,5,1,mafie;antimafia;Commissione Antimafia;centrodestra;Scarpinato;legalità;ritorsioni,negative,high
+2025-05-15_003,image,it,1,4,4,3,1,1,5,1,2,1,difesa;armi;bollette;carovita;sanità;stipendi;manovra,negative,high
+2025-05-15_004,video,it,1,4,2,4,3,1,3,1,1,1,Meloni;tagli;sanità;scuola;lavoro;Europa,negative,high
+2025-05-16_001,video,it,3,2,1,1,1,1,1,1,3,1,alluvione;Faenza;ricostruzione;aiuti;Movimento 5 Stelle;mezzi;calamità naturali,positive,high
+2025-05-16_002,image,it,1,1,1,1,1,1,4,1,2,1,Ucraina;Trump;Meloni;vertici internazionali;guerra;esclusione,negative,high
+2025-05-17_001,image,it,1,1,1,1,1,1,1,1,1,1,Jasmine Paolini;campionessa;tennis;Italia,positive,none
+2025-05-19_001,image,it,1,1,1,1,1,1,2,1,3,1,Gaza;distruzione;aiuti umanitari;Netanyahu;sanzioni;complicità,negative,high
+2025-05-19_002,video,it,3,5,4,2,1,1,1,1,1,1,riduzione orario lavoro;stipendio;carovita;contrattazione collettiva;diritto alla disconnessione;lavoro meno vivere meglio,negative,medium
+2025-05-20_001,video,it,1,1,1,1,1,1,3,1,4,1,Netanyahu;Palestina;genocidio;ostaggi;7 ottobre;diritto internazionale;sterminio,negative,high
+2025-05-21_001,video,it,1,1,1,1,1,1,1,1,3,1,Gaza;bambini uccisi;crimini di guerra;genocidio;giustizia;responsabili,negative,high
+2025-05-22_001,image,it,1,1,1,1,1,1,1,1,1,1,Lamezia Terme;Rende;Matera;pomeriggio;saluti,neutral,none
+2025-05-22_002,image,it,1,1,1,1,1,1,1,1,5,1,corruzione;sindaci;mazzette;etica pubblica;illegalità;scambio politico-clientelare,negative,high
+2025-05-22_003,image,it,1,5,2,1,1,3,1,1,2,1,lavoratori;cinema;proposte concrete;fondo opere prime;meritocrazia;equilibrio di genere;tax credit,negative,medium
+2025-05-23_001,video,it,1,3,4,3,1,1,1,1,3,4,Movimento 5 Stelle;sportello del cittadino;categorie fragili;affitto;bolletta;voto;assistenza,positive,medium
+2025-05-23_002,image,it,1,1,1,1,1,1,4,1,5,1,Rocco Dicillo;Giovanni Falcone;mafia;stragi;divisa;lotta;legalità,negative,high
+2025-05-27_001,image,it,1,5,1,1,1,1,1,1,1,1,lavoratrici;diritti;lavoro;salvataggio;vigilare,positive,low
+2025-05-27_002,image,it,1,1,1,1,1,1,1,1,1,1,tv;programma;cartabianca;martedì;ore,neutral,none
+2025-05-28_001,video,it,1,1,1,1,1,1,1,1,3,1,Gaza;diritto internazionale umanitario;massacro;Netanyahu;protesta;umanità,negative,high
+2025-05-28_002,video,it,1,1,1,1,1,1,1,1,3,1,Gaza;Netanyahu;genocidio;Nazioni Unite;sanzioni;governo;umanità,negative,high
+2025-05-29_001,video,it,1,1,1,1,1,1,1,1,3,1,RAI;bandiera Palestina;Scala Milano;Giorgio Meloni;licenziamento;fiducia,negative,medium
+2025-05-29_002,image,it,1,3,4,2,2,1,1,1,3,3,tagli governativi;infrastrutture;servizi alle famiglie;terzo settore;comuni;Nuoro;competenza,negative,medium
+2025-05-29_003,image,it,1,1,1,3,1,1,2,1,2,1,Gaza;bambino;pediatra;curare;Italia,negative,high
+2025-05-31_001,video,it,1,3,4,4,1,1,3,4,3,1,immigrazione;accise;trivellare;oppressione fiscale;pensioni minime;regionalismo;gioco d'azzardo;spread,negative,high
+2025-06-02_001,image,it,1,2,1,1,1,1,4,1,1,1,infrastrutture;sicurezza;crolli;investimenti;manutenzioni;Ponte sullo Stretto,negative,medium
+2025-06-02_002,image,it,1,5,1,2,1,3,1,1,4,1,lavoratori;precarietà;licenziamenti;diritti;referendum;Costituzione,negative,medium
+2025-06-05_001,image,it,1,5,3,2,1,1,2,1,3,5,Superbonus;edilizia;lavoro;economia;investimenti;debiti;entrate fiscali,negative,medium
+2025-06-05_002,image,it,1,1,1,5,1,1,1,1,2,1,sanità;liste d'attesa;decreto;investimenti;cure;M5S;Sicilia,negative,high
+2025-06-05_003,video,it,5,1,2,4,1,1,1,1,3,1,bonifica;inquinamento;smog;biodiversità;rifiuti;salute;transizione ecologica;sostenibilità,negative,high
+2025-06-06_001,image,it,1,1,1,1,1,1,4,1,3,1,Gaza;embargo armi;Netanyahu;export armi;massacro;protesta;diritti umani,negative,high
+2025-06-07_001,image,it,1,1,1,1,1,1,1,1,3,1,Palestinesi;Netanyahu;genocidio;governo criminale;protesta;silenzio,negative,high
+2025-06-07_002,image,it,1,1,1,1,1,1,1,1,1,1,Gaza;genocidio;massacro;fermiamo,negative,high
+2025-06-07_003,video,it,1,1,1,1,1,1,3,1,2,1,infrastrutture stradali;sicurezza viabilità;gestori concessionari;tragedia ponte;potenziamento Anas;responsabilizzazione,negative,medium
+2025-06-08_001,image,it,1,1,1,1,1,1,1,1,1,1,orgoglio;te,positive,none
+2025-06-08_002,image,it,1,1,1,1,1,1,1,1,5,1,democrazia;partecipazione;diritti politici;votare,positive,low
+2025-06-09_001,image,it,1,3,3,1,1,1,1,1,2,1,Emiliano Fenu;sindaco;M5S;tagli del Governo;tassa sugli extraprofitti,positive,medium
+2025-06-09_002,image,it,1,1,1,1,1,1,3,1,4,1,Netanyahu;Gaza;aiuti;diritto internazionale;crimini di guerra;sanzioni,negative,high
+2025-06-10_001,image,it,1,1,1,1,1,1,1,1,3,1,Netanyahu;Gaza;diritto internazionale;popolo palestinese;Unione Europea;violenze;solidarietà,negative,medium
+2025-06-10_002,image,it,1,4,4,4,3,1,5,1,2,1,riarmo;spese record;stipendi;carovita;sanità;precarietà;Nato;Europa,negative,high
+2025-06-10_003,image,it,4,3,1,1,1,1,1,1,3,1,referendum;diritti lavoratori;lobby petrolio;Presidente del Consiglio;astensionismo;elezioni amministrative,negative,high
+2025-06-11_001,image,it,1,4,4,4,1,1,2,2,3,1,pressione fiscale;crollo produzione;giovani in fuga;liste d'attesa;povertà;disuguaglianze;stipendi;pensioni minime,negative,high
+2025-06-11_002,image,it,1,1,3,5,1,1,1,1,2,1,sanità pubblica;liste d'attesa;rinuncia alle cure;tagli;decreto liste d'attesa;Fondazione Gimbe,negative,medium
+2025-06-12_001,image,it,1,2,2,3,3,1,5,1,2,1,spese militari;Stato sociale;Stato militare;sanità;scuola;riarmo;Nato,negative,high
+2025-06-12_002,image,it,1,4,3,5,1,1,2,1,4,1,sanità pubblica;tagli;liste d'attesa;busta paga;tasse;referendum;quorum,negative,high
+2025-06-13_001,image,it,1,1,1,5,1,1,1,1,3,1,sanità;liste di attesa;mazzette;tagli;corruzione;disastro,negative,high
+2025-06-14_001,image,it,1,1,1,1,1,1,1,1,1,1,Palermo;corteo;Piazza Parlai;Piazza Bologni;domani,neutral,none
+2025-06-14_002,image,it,1,2,1,1,1,1,4,1,3,1,Riarmo;sicurezza;Medioriente;Netanyahu;Gaza;strategia;governo,negative,high
+2025-06-15_001,image,it,1,1,1,5,1,1,3,1,2,1,sanità pubblica;liste d'attesa;tagli;spese in armi;lobby delle armi;scempio;Palermo,negative,high
+2025-06-16_001,video,it,1,2,1,3,1,1,1,1,5,1,giustizia;riforma;anticorruzione;magistrati;stato di diritto;costituzione;sistema di welfare,negative,high
+2025-06-17_001,video,it,1,3,4,5,1,1,1,1,2,1,sanità;liste d'attesa;prevenzione;assistenza sanitaria;difficoltà economiche;diritti dei cittadini,negative,medium
+2025-06-19_001,image,it,1,2,1,1,1,1,5,1,3,1,Vertice NATO;riarmo;spesa per la difesa;Aia;Europa;dialogo;sicurezza,negative,high
+2025-06-19_002,video,it,1,4,2,2,4,1,5,1,2,1,spese militari;NATO;PIL;risorse;scuola;lavoro;infrastrutture,negative,high
+2025-06-20_001,image,it,1,1,1,1,1,1,2,1,1,1,pace;dialogo;strumenti diplomatici;uso delle armi;soluzioni;innocenti,positive,low
+2025-06-21_001,video,it,1,1,1,1,1,1,4,1,4,1,riarmo;manifestazione;AIA;Summit Nato;statuto;democrazia partecipativa;forze politiche europee,negative,medium
+2025-06-21_002,image,it,1,1,1,1,1,1,4,1,3,1,Netanyahu;missilistici;matrimonio;Palestinesi;Governo;valori,negative,high
+2025-06-22_001,video,it,1,1,1,1,1,1,5,1,1,1,sicurezza del paese;basi militari;escalation;soldato;istruzioni dall'alto,negative,high
+2025-06-23_001,video,it,1,4,3,3,1,1,5,1,2,1,escalation militare;sicurezza economica;sanità;riservisti;Nato;guerre,negative,high
+2025-06-24_001,image,it,1,3,1,3,1,1,5,1,2,1,riarmo;NATO;guerra;Europa;pace;diritti;M5S,negative,medium
+2025-06-24_002,image,it,1,1,1,1,1,1,3,1,1,1,L'Aia;NoRearm;NoWar;cittadini,negative,medium
+2025-06-24_003,image,it,,,,,,,,,,,,,
+2025-06-25_001,video,it,1,1,1,5,1,1,3,1,2,1,sanità;operatori sanitari;liste d'attesa;finanziamento;cure;difesa,negative,high
+2025-06-26_001,video,it,1,3,3,1,1,1,4,1,2,1,spesa militare;debito pubblico;tagli;irresponsabilità;governi futuri;tasse,negative,high
+2025-06-27_001,image,it,4,4,1,1,1,1,1,1,3,1,Ferriera di Servola;bonifiche ambientali;transizione ecologica;posti di lavoro;giustizia sociale;partecipazione,positive,medium
+2025-06-30_001,image,it,1,5,5,4,1,1,4,1,2,1,spese militari;costo della vita;inflazione;salari;poveri assoluti;potere d'acquisto;pressione fiscale,negative,medium
+2025-06-30_002,image,it,1,4,4,2,1,1,5,1,3,1,corsa al riarmo;difesa europea;spesa militare;NATO;povertà assoluta;salari;interesse nazionale,negative,high
+2025-07-01_001,video,it,1,2,1,3,1,1,1,1,4,1,PNRR;fondi europei;appalti;inchieste;tangenti;sindaco;Frosinone,negative,high
+2025-07-01_002,video,it,1,3,4,1,1,1,3,1,2,1,spesa militare;pressione fiscale;situazione disastrosa;impegno di spesa;italiani,negative,medium
+2025-07-01_003,video,it,1,4,4,1,3,1,3,1,3,1,stipendi ministri;pensionati minimi;stipendi da fame;decreto sicurezza;malcontento sociale;trasmissioni mediatiche,negative,high
+2025-07-02_001,image,it,1,1,1,1,1,1,3,1,2,1,Gaza;Cisgiordania;Netanyahu;genocidio;occupazione;Israele,negative,high
+2025-07-03_001,video,it,1,1,1,1,1,1,3,5,2,1,migranti;sbarchi;Ministero dell'Interno;Fratelli d'Italia;sicurezza;modello Albania,negative,high
+2025-07-04_001,image,it,1,4,4,3,1,1,3,1,2,1,Meloni;sovranismo;dazi;posti di lavoro;bollette;sanità;riarmo,negative,high
+2025-07-04_002,image,it,1,3,4,1,1,1,1,1,2,1,pedaggi;autostrada;carovita;tasse;colossi miliardari;battaglia,negative,medium
+2025-07-04_003,video,it,1,3,4,1,1,1,1,1,2,1,web tax;tasse;multinazionali;pressione fiscale;colossi del web;tassazione,negative,high
+2025-07-08_001,video,it,1,1,1,1,1,1,1,1,4,1,diritto internazionale;Corte Penale Internazionale;Libia;ministro degli esteri;fatto gravissimo;rispondere,negative,high
+2025-07-08_002,video,it,1,4,5,2,1,1,3,1,2,1,bollette;precari;reddito;poveri assoluti;difficoltà economiche;costo della vita,negative,high
+2025-07-09_001,video,it,1,4,4,4,3,1,2,1,2,1,salari;reddito di cittadinanza;spesa sociale;sanità;pannolini;pedaggi;assegno unico;liste di attesa,negative,high
+2025-07-09_002,video,it,1,4,3,1,1,1,1,1,2,1,bugiardi;salari reali;salario minimo;tasse;Masri;Nordeo,negative,high
+2025-07-10_001,image,it,1,1,1,1,1,1,1,1,4,1,Gaza;Netanyahu;diritto internazionale;sanzioni;Albanese;governo criminale;Meloni;Tajani,negative,high
+2025-07-11_001,image,it,1,5,4,1,1,1,2,1,2,1,stipendi;pil;crollo industriale;tasse;costo bollette;salario minimo;transizione 4.0,negative,high
+2025-07-12_001,image,it,1,4,3,1,1,1,3,1,2,1,dazi;posti di lavoro;spese militari;interesse nazionale;trattativa;Washington,negative,high
+2025-07-13_001,image,it,1,1,1,1,1,1,1,1,1,1,Jannik Sinner;tennis;Italia;sport,positive,none
+2025-07-13_002,image,it,1,4,3,1,1,1,3,1,3,1,dazi;Trump;lavoratori;stipendi;bollette;negoziato;economia;Italia,negative,high
+2025-07-14_001,image,it,1,3,3,1,1,1,1,1,2,1,Alta Velocità;disagi;biglietto;risarcimento;servizio;trasporti;cittadini,negative,medium
+2025-07-14_002,image,it,1,2,1,5,1,1,1,1,1,1,ospedali;carenze personale;Anaao;servizi sanitari;Pnrr;tetto spesa;lista d'attesa,negative,medium
+2025-07-15_001,image,it,1,3,4,4,1,1,1,1,3,1,pensionati;carovita;vitalizi;liste d'attesa;Caritas;privilegi;stipendi,negative,high
+2025-07-15_002,image,it,1,1,1,1,1,1,5,1,4,1,impunità;borseggiatori;legalità;decreto sicurezza;procedere d'ufficio;forze dell'ordine,negative,high
+2025-07-16_001,video,it,1,3,3,1,1,1,1,1,4,1,vitalizi;Camera dei deputati;privilegi;Movimento 5 Stelle;stipendi;cittadini comuni,negative,high
+2025-07-16_002,image,it,1,4,5,1,1,1,1,1,2,1,potere d'acquisto;retribuzioni contrattuali;carovita;salario minimo;tasse;spesa alimentare,negative,high
+2025-07-17_001,video,it,1,1,1,1,1,1,1,1,3,1,Francesca Albanese;Nobel per la pace;Costituzione;sanzioni Israele;Gaza;dignità;onore,negative,high
+2025-07-17_002,image,it,1,1,1,1,1,1,3,1,2,1,raid israeliani;Gaza;diritti umani;memorandum di cooperazione;Israele;Palestinesi,negative,high
+2025-07-18_001,video,it,1,1,1,1,1,1,5,1,3,3,decreto sicurezza;sicurezza dei cittadini;borseggi;procedere d'ufficio;forze dell'ordine;magistratura;proposta,negative,high
+2025-07-22_001,image,it,1,1,1,1,1,1,2,1,5,1,pubblici ministeri;giustizia;potere;impunità;separazione carriere;processo telematico,negative,high
+2025-07-24_001,image,it,1,3,1,5,1,1,1,1,1,1,pensioni;Fornero;Quota 41;Opzione donna;Ape sociale;tappo generazionale,negative,high
+2025-07-24_002,image,it,1,1,1,1,1,1,1,1,3,1,Gaza;genocidio;sanzioni;Israele;Netanyahu;responsabilità politica,negative,high
+2025-07-24_003,image,it,1,3,4,1,1,1,1,1,3,2,privilegi;vitalizi;denuncia;lavoratori;mutuo;spesa,negative,medium
+2025-07-25_001,image,it,1,1,1,1,1,1,4,1,3,1,Palestina;Israele;genocidio;memorandum d'intesa;cooperazione militare;Netanyahu;vergogna nazionale,negative,high
+2025-07-26_001,image,it,1,1,1,3,1,1,1,1,2,1,Gaza;denutrizione;genocidio;umanità;bambini;curative;Netanyahu,negative,high
+2025-07-26_002,image,it,1,1,1,1,1,1,1,1,3,1,Palestina;Israele;genocidio;Netanyahu;due popoli due Stati;imperativo morale;coerenza,negative,high
+2025-07-31_001,video,it,1,4,3,2,2,1,3,1,4,3,legalità;economia italiana;produzione industriale;fondo SAFE;vincolo del 5%;difesa e armi;principi fondamentali,negative,high
+2025-08-02_001,image,it,1,4,3,1,1,1,1,1,2,3,tassa sui profitti bancari;extraprofitti bancari;IVA prodotti per bambini;tagli agevolazioni giovani;dazi;interessi bancari,negative,high
+2025-08-02_002,image,it,1,1,1,1,1,1,1,1,5,1,strage di Bologna;verità storica;giustizia;neofascisti;apparati dello Stato;memoria,negative,high
+2025-08-03_001,image,it,1,1,1,1,1,1,5,1,4,1,borseggiatori;sicurezza;giustizia fai da te;querela;forze di polizia;decreto sicurezza;legalità,negative,high
+2025-08-04_001,image,it,1,1,1,1,1,1,3,1,3,1,Palestina;Gaza;Netanyahu;sanzioni;embargo sulle armi;Israele;occupazione,negative,high
+2025-08-04_002,video,it,1,4,4,1,3,1,1,1,1,1,banche;utili;credito;caro scuola;salario minimo;bollette;famiglie;giovani,negative,high
+2025-08-04_003,image,it,1,1,1,1,1,1,1,1,4,1,Ministra Santanchè;truffa Covid;Parlamento;denunce;giustizia;accusa,negative,high
+2025-08-05_001,image,it,1,1,1,1,1,1,1,1,1,1,diretta;canali;martedì;17.30,neutral,none
+2025-08-06_001,video,it,1,3,1,2,1,1,3,1,1,1,Ponte sullo Stretto;finanziamenti;infrastrutture;risorse;Alta Velocità;ospedale;stratagemma,negative,high
+2025-08-06_002,image,it,1,1,1,1,1,1,1,1,3,1,Palestina;genocidio;sanzioni;diritto di esistere;governo criminale;schierarsi,negative,high
+2025-08-06_003,image,it,1,4,1,1,1,1,2,1,2,1,dazi;Trump;industria;posti di lavoro;accordo;produzione;tasse,negative,high
+2025-08-06_004,video,it,1,1,1,1,1,1,1,1,3,1,Almasri;crimini contro l'umanità;Gaza;diritto internazionale umanitario;silenzio complice;dignità,negative,high
+2025-08-07_001,video,it,1,4,2,1,1,1,1,1,1,1,dazi;Stati Uniti;imprenditori;agricoltori;posti di lavoro;economia;Trump;Meloni,negative,high
+2025-08-07_002,image,it,1,4,3,4,1,1,2,3,5,1,sbarchi;tasse;stipendi;pensioni minime;sanità;Corte Penale Internazionale;responsabilità,negative,high
+2025-08-08_001,image,it,1,1,1,1,1,1,1,1,2,1,M5S;privilegi;deputata;Paludi;Movimento 5 Stelle,negative,high
+2025-08-08_002,image,it,1,1,1,1,1,1,4,2,3,1,Gaza City;genocidio;Netanyahu;Smotrich;sfollati;sanzione;governo,negative,high
+2025-08-10_001,image,it,1,4,5,1,1,1,1,1,3,1,rincari;potere d'acquisto;utili banche;carovita;economia reale;turismo;stipendi,negative,high
+2025-08-11_001,image,it,1,5,4,1,1,1,1,1,2,2,salario minimo;carovita;lavoro povero;stipendi;cuneo fiscale;potere d'acquisto;rate casa,negative,high
+2025-08-11_002,image,it,1,1,1,1,1,1,3,1,3,1,Crosetto;Netanyahu;genocidio;Israele;sanzioni;embargo;dramma umanitario,negative,high
+2025-08-12_001,image,it,1,4,5,1,1,1,3,1,2,1,rincari;pressione fiscale;reddito reale;lobby delle armi;salario minimo;carovita,negative,high
+2025-08-12_002,image,it,1,5,4,1,1,1,1,1,2,1,carovita;salari da fame;cassa integrazione;lavoratori;stipendio;industria;salario minimo,negative,high
+2025-08-14_001,image,it,1,2,1,1,1,1,4,1,4,1,Ponte Morandi;legalità;sicurezza;interesse pubblico;crollo;giustizia,negative,medium
+2025-08-16_001,image,it,1,1,1,1,1,1,1,1,1,1,Pippo Baudo;televisione;storia;partenza,negative,none
+2025-08-16_002,image,it,1,3,4,3,3,1,4,1,2,1,guerra ucraina;costi energia;riarmo;strategia fallimentare;negoziati pace;carovita;sanità;scuola,negative,high
+2025-08-24_001,image,it,1,2,1,3,1,1,1,1,3,1,Regione Calabria;candidatura;cambiamento;sanità;giustizia sociale;Mezzogiorno;trasparenza,positive,medium
+2025-08-26_001,image,it,,,,,,,,,,,,,
+2025-08-27_001,image,it,,,,,,,,,,,,,
+2025-08-29_001,video,it,1,2,1,1,1,1,3,1,4,1,Gaza;aiuti umanitari;stipendi parlamentari;diritto internazionale;genocidio;Movimento 5 Stelle,negative,high
+2025-08-30_001,image,it,1,1,1,1,1,1,1,1,4,1,Giorgio Perlasca;coraggio;orrore;Gaza;genocidio;sanzioni,negative,high
+2025-09-10_001,image,it,,,,,,,,,,,,,
+2025-09-25_001,image,it,1,3,2,3,1,1,2,1,2,1,Toscana;imprenditori;artigiani;lavoratori;benessere;sfide;pace,positive,low
+2025-09-26_002,image,it,,,,,,,,,,,,,
+2025-10-10_002,video,it,1,5,4,1,1,1,1,1,1,2,caro-bollette;dazi;Pnrr;Transizione 4.0;potere d'acquisto;taglio delle tasse;burocrazia,negative,medium
+2025-10-12_002,image,it,,,,,,,,,,,,,
+2025-11-09_001,image,it,1,5,5,4,1,1,3,1,3,1,potere d'acquisto;pressione fiscale;ceto medio;assistenzialismo;colossi;sostegno agli ultimi;crisi del cibo,negative,medium
+2025-11-25_001,image,it,,,,,,,,,,,,,
+2025-11-28_001,image,it,1,4,2,1,1,1,3,1,5,1,riforma giustizia;inchieste;proposte economiche;famiglie;imprese;sicurezza;primarie,negative,medium
+2025-12-04_001,image,it,,,,,,,,,,,,,
+2025-12-15_001,image,it,1,2,2,4,1,1,1,1,5,1,corruzione;scandali;fondi Covid;appalti truccati;abuso di ufficio;malaffare;legalità,negative,high
+2025-12-19_001,image,it,1,4,2,3,2,1,4,1,2,1,pensioni;riarmo;produzione industriale;incentivi Transizione 4.0;piano industriale;calo della produzione;Manovra,negative,high
+2026-01-14_001,video,it,,,,,,,,,,,,,
+2026-01-28_001,video,it,4,4,2,2,1,1,2,1,2,4,Sicilia;Calabria;Sardegna;frana;mareggiate;abitazione;imprenditori;fondi,positive,medium
+2026-02-11_001,image,it,1,4,2,4,3,1,4,1,2,1,declino;austerità;welfare;difesa comune;vincoli europei;debito comune;industria,negative,high
+2026-02-16_002,image,it,1,4,3,1,1,1,3,1,4,1,sovranità monetaria;euro digitale;circuiti di pagamento;dipendenza americana;Banca centrale europea;Europa,mixed,low

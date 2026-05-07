@@ -19,26 +19,16 @@ Giorgia Meloni,Costo della vita,330,18,0.0545,0.0348,0.0846,0.0498
 Giorgia Meloni,Istruzione e formazione,330,17,0.0515,0.0324,0.0809,0.0485
 Giorgia Meloni,Abitazione,330,8,0.0242,0.0123,0.0471,0.0348
 Giorgia Meloni,Uguaglianza di genere,330,4,0.0121,0.0047,0.0307,0.026
-Giuseppe Conte,Democrazia e legalità,231,117,0.5065,0.4424,0.5703,0.1279
-Giuseppe Conte,Lavoro e economia,231,98,0.4242,0.3623,0.4887,0.1264
-Giuseppe Conte,Difesa e sicurezza,231,80,0.3463,0.2879,0.4097,0.1218
-Giuseppe Conte,Costo della vita,231,74,0.3203,0.2635,0.383,0.1195
-Giuseppe Conte,Salute e welfare,231,69,0.2987,0.2434,0.3606,0.1173
-Giuseppe Conte,Istruzione e formazione,231,36,0.1558,0.1147,0.2082,0.0935
-Giuseppe Conte,Abitazione,231,16,0.0693,0.0431,0.1095,0.0665
-Giuseppe Conte,Ambiente e clima,231,15,0.0649,0.0397,0.1044,0.0646
-Giuseppe Conte,Immigrazione,231,10,0.0433,0.0237,0.0778,0.0542
-Giuseppe Conte,Uguaglianza di genere,231,4,0.0173,0.0068,0.0437,0.0369
-antoniotajani,Lavoro e economia,76,19,0.25,0.1663,0.3578,0.1915
-antoniotajani,Difesa e sicurezza,76,19,0.25,0.1663,0.3578,0.1915
-antoniotajani,Democrazia e legalità,76,19,0.25,0.1663,0.3578,0.1915
-antoniotajani,Salute e welfare,76,11,0.1447,0.0828,0.2409,0.1581
-antoniotajani,Istruzione e formazione,76,9,0.1184,0.0636,0.21,0.1464
-antoniotajani,Immigrazione,76,6,0.0789,0.0367,0.1617,0.125
-antoniotajani,Costo della vita,76,3,0.0395,0.0135,0.1097,0.0962
-antoniotajani,Ambiente e clima,76,2,0.0263,0.0072,0.091,0.0837
-antoniotajani,Uguaglianza di genere,76,1,0.0132,0.0023,0.0708,0.0685
-antoniotajani,Abitazione,76,1,0.0132,0.0023,0.0708,0.0685
+Giuseppe Conte,Democrazia e legalità,472,232,0.4915,0.4467,0.5365,0.0898
+Giuseppe Conte,Lavoro e economia,472,213,0.4513,0.407,0.4964,0.0894
+Giuseppe Conte,Difesa e sicurezza,472,194,0.411,0.3675,0.4559,0.0884
+Giuseppe Conte,Costo della vita,472,159,0.3369,0.2957,0.3807,0.085
+Giuseppe Conte,Salute e welfare,472,144,0.3051,0.2653,0.3481,0.0828
+Giuseppe Conte,Istruzione e formazione,472,72,0.1525,0.1229,0.1878,0.0649
+Giuseppe Conte,Abitazione,472,30,0.0636,0.0449,0.0893,0.0444
+Giuseppe Conte,Ambiente e clima,472,27,0.0572,0.0396,0.0819,0.0423
+Giuseppe Conte,Immigrazione,472,15,0.0318,0.0194,0.0518,0.0324
+Giuseppe Conte,Uguaglianza di genere,472,7,0.0148,0.0072,0.0303,0.0231
 carlocalenda,Democrazia e legalità,588,393,0.6684,0.6293,0.7052,0.0759
 carlocalenda,Difesa e sicurezza,588,219,0.3724,0.3343,0.4122,0.0779
 carlocalenda,Lavoro e economia,588,150,0.2551,0.2215,0.2918,0.0703
@@ -69,13 +59,13 @@ nicolafratoianni,Abitazione,219,21,0.0959,0.0636,0.1421,0.0786
 nicolafratoianni,Ambiente e clima,219,18,0.0822,0.0526,0.1262,0.0735
 nicolafratoianni,Uguaglianza di genere,219,9,0.0411,0.0218,0.0762,0.0545
 nicolafratoianni,Immigrazione,219,4,0.0183,0.0071,0.046,0.0389
-silviasalis,Lavoro e economia,124,44,0.3548,0.2761,0.4423,0.1661
-silviasalis,Democrazia e legalità,124,42,0.3387,0.2614,0.4257,0.1644
-silviasalis,Istruzione e formazione,124,29,0.2339,0.1681,0.3157,0.1476
-silviasalis,Ambiente e clima,124,23,0.1855,0.1269,0.263,0.1361
-silviasalis,Salute e welfare,124,23,0.1855,0.1269,0.263,0.1361
-silviasalis,Difesa e sicurezza,124,22,0.1774,0.1202,0.254,0.1339
-silviasalis,Costo della vita,124,18,0.1452,0.0938,0.2178,0.124
-silviasalis,Abitazione,124,15,0.121,0.0747,0.19,0.1153
-silviasalis,Uguaglianza di genere,124,14,0.1129,0.0685,0.1806,0.1122
-silviasalis,Immigrazione,124,3,0.0242,0.0083,0.0687,0.0605
+silviasalis,Democrazia e legalità,336,126,0.375,0.3249,0.4279,0.103
+silviasalis,Lavoro e economia,336,125,0.372,0.3221,0.4249,0.1028
+silviasalis,Salute e welfare,336,70,0.2083,0.1683,0.2549,0.0866
+silviasalis,Istruzione e formazione,336,55,0.1637,0.128,0.207,0.079
+silviasalis,Costo della vita,336,52,0.1548,0.12,0.1973,0.0773
+silviasalis,Abitazione,336,48,0.1429,0.1095,0.1843,0.0748
+silviasalis,Difesa e sicurezza,336,46,0.1369,0.1042,0.1778,0.0736
+silviasalis,Ambiente e clima,336,43,0.128,0.0964,0.1679,0.0715
+silviasalis,Uguaglianza di genere,336,39,0.1161,0.0861,0.1547,0.0687
+silviasalis,Immigrazione,336,7,0.0208,0.0101,0.0424,0.0322

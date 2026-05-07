@@ -31,7 +31,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from shared import CONTENT_DIR, SCORES_DIR, TOPIC_KEYS, TOPIC_LABELS  # noqa: E402
 from shared.prompts import select_one  # noqa: E402
 
-DEFAULT_MODEL    = "gemma4:e4b"
+DEFAULT_MODEL    = "gemma4:latest"
 DEFAULT_BASE_URL = "http://localhost:11434/v1"
 
 # ── Prompt ────────────────────────────────────────────────────────────────────
