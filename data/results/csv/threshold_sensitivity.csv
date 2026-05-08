@@ -89,36 +89,96 @@ Giuseppe Conte,4,Abitazione,10.0,0.0275,7.0
 Giuseppe Conte,4,Immigrazione,8.5,0.0191,8.0
 Giuseppe Conte,4,Ambiente e clima,1.0,0.0148,9.0
 Giuseppe Conte,4,Uguaglianza di genere,6.0,0.0021,10.0
-carlocalenda,2,Democrazia e legalità,8.5,0.7959,1.0
-carlocalenda,2,Difesa e sicurezza,7.0,0.4762,2.0
-carlocalenda,2,Lavoro e economia,2.0,0.3656,3.0
-carlocalenda,2,Costo della vita,3.5,0.1395,4.0
-carlocalenda,2,Salute e welfare,3.5,0.1224,5.0
-carlocalenda,2,Istruzione e formazione,5.0,0.1037,6.0
-carlocalenda,2,Ambiente e clima,1.0,0.0697,7.0
-carlocalenda,2,Immigrazione,8.5,0.0527,8.0
-carlocalenda,2,Abitazione,10.0,0.034,9.0
-carlocalenda,2,Uguaglianza di genere,6.0,0.0204,10.0
-carlocalenda,3,Democrazia e legalità,8.5,0.6684,1.0
-carlocalenda,3,Difesa e sicurezza,7.0,0.3724,2.0
-carlocalenda,3,Lavoro e economia,2.0,0.2551,3.0
-carlocalenda,3,Costo della vita,3.5,0.0952,4.0
-carlocalenda,3,Salute e welfare,3.5,0.0935,5.0
-carlocalenda,3,Istruzione e formazione,5.0,0.0799,6.0
-carlocalenda,3,Ambiente e clima,1.0,0.0408,7.0
-carlocalenda,3,Immigrazione,8.5,0.0221,8.0
-carlocalenda,3,Abitazione,10.0,0.0153,9.0
-carlocalenda,3,Uguaglianza di genere,6.0,0.0136,10.0
-carlocalenda,4,Democrazia e legalità,8.5,0.3588,1.0
-carlocalenda,4,Difesa e sicurezza,7.0,0.2245,2.0
-carlocalenda,4,Lavoro e economia,2.0,0.1276,3.0
-carlocalenda,4,Costo della vita,3.5,0.0442,4.0
-carlocalenda,4,Salute e welfare,3.5,0.034,5.5
-carlocalenda,4,Istruzione e formazione,5.0,0.034,5.5
-carlocalenda,4,Immigrazione,8.5,0.0136,7.0
-carlocalenda,4,Ambiente e clima,1.0,0.0119,8.0
-carlocalenda,4,Abitazione,10.0,0.0068,9.0
-carlocalenda,4,Uguaglianza di genere,6.0,0.0051,10.0
+antoniotajani,2,Democrazia e legalità,8.5,0.4718,1.0
+antoniotajani,2,Lavoro e economia,2.0,0.3501,2.0
+antoniotajani,2,Difesa e sicurezza,7.0,0.3412,3.0
+antoniotajani,2,Salute e welfare,3.5,0.1306,4.0
+antoniotajani,2,Immigrazione,8.5,0.1068,5.0
+antoniotajani,2,Istruzione e formazione,5.0,0.1039,6.0
+antoniotajani,2,Costo della vita,3.5,0.0593,7.0
+antoniotajani,2,Ambiente e clima,1.0,0.0504,8.0
+antoniotajani,2,Abitazione,10.0,0.0148,9.0
+antoniotajani,2,Uguaglianza di genere,6.0,0.0119,10.0
+antoniotajani,3,Difesa e sicurezza,7.0,0.2849,1.5
+antoniotajani,3,Democrazia e legalità,8.5,0.2849,1.5
+antoniotajani,3,Lavoro e economia,2.0,0.2789,3.0
+antoniotajani,3,Salute e welfare,3.5,0.1039,4.0
+antoniotajani,3,Immigrazione,8.5,0.0772,5.0
+antoniotajani,3,Istruzione e formazione,5.0,0.0682,6.0
+antoniotajani,3,Ambiente e clima,1.0,0.0356,7.0
+antoniotajani,3,Costo della vita,3.5,0.0267,8.0
+antoniotajani,3,Uguaglianza di genere,6.0,0.0119,9.0
+antoniotajani,3,Abitazione,10.0,0.0089,10.0
+antoniotajani,4,Difesa e sicurezza,7.0,0.1662,1.0
+antoniotajani,4,Lavoro e economia,2.0,0.1543,2.0
+antoniotajani,4,Democrazia e legalità,8.5,0.1217,3.0
+antoniotajani,4,Salute e welfare,3.5,0.0386,4.0
+antoniotajani,4,Ambiente e clima,1.0,0.0208,5.5
+antoniotajani,4,Istruzione e formazione,5.0,0.0208,5.5
+antoniotajani,4,Immigrazione,8.5,0.0148,7.0
+antoniotajani,4,Costo della vita,3.5,0.0119,8.5
+antoniotajani,4,Uguaglianza di genere,6.0,0.0119,8.5
+antoniotajani,4,Abitazione,10.0,0.0059,10.0
+carlocalenda,2,Democrazia e legalità,8.5,0.7732,1.0
+carlocalenda,2,Difesa e sicurezza,7.0,0.4631,2.0
+carlocalenda,2,Lavoro e economia,2.0,0.3849,3.0
+carlocalenda,2,Costo della vita,3.5,0.1426,4.0
+carlocalenda,2,Salute e welfare,3.5,0.1117,5.0
+carlocalenda,2,Istruzione e formazione,5.0,0.0979,6.0
+carlocalenda,2,Ambiente e clima,1.0,0.0679,7.0
+carlocalenda,2,Immigrazione,8.5,0.0481,8.0
+carlocalenda,2,Abitazione,10.0,0.0326,9.0
+carlocalenda,2,Uguaglianza di genere,6.0,0.0189,10.0
+carlocalenda,3,Democrazia e legalità,8.5,0.6194,1.0
+carlocalenda,3,Difesa e sicurezza,7.0,0.378,2.0
+carlocalenda,3,Lavoro e economia,2.0,0.2732,3.0
+carlocalenda,3,Costo della vita,3.5,0.0911,4.0
+carlocalenda,3,Salute e welfare,3.5,0.0842,5.0
+carlocalenda,3,Istruzione e formazione,5.0,0.0765,6.0
+carlocalenda,3,Ambiente e clima,1.0,0.0387,7.0
+carlocalenda,3,Immigrazione,8.5,0.0223,8.0
+carlocalenda,3,Abitazione,10.0,0.0189,9.0
+carlocalenda,3,Uguaglianza di genere,6.0,0.0129,10.0
+carlocalenda,4,Democrazia e legalità,8.5,0.2973,1.0
+carlocalenda,4,Difesa e sicurezza,7.0,0.2277,2.0
+carlocalenda,4,Lavoro e economia,2.0,0.1383,3.0
+carlocalenda,4,Costo della vita,3.5,0.0378,4.0
+carlocalenda,4,Salute e welfare,3.5,0.0309,5.0
+carlocalenda,4,Istruzione e formazione,5.0,0.0275,6.0
+carlocalenda,4,Ambiente e clima,1.0,0.0129,7.0
+carlocalenda,4,Immigrazione,8.5,0.012,8.0
+carlocalenda,4,Abitazione,10.0,0.006,9.0
+carlocalenda,4,Uguaglianza di genere,6.0,0.0052,10.0
+matteorenzi,2,Democrazia e legalità,8.5,0.6847,1.0
+matteorenzi,2,Lavoro e economia,2.0,0.5015,2.0
+matteorenzi,2,Costo della vita,3.5,0.3273,3.0
+matteorenzi,2,Difesa e sicurezza,7.0,0.3003,4.0
+matteorenzi,2,Istruzione e formazione,5.0,0.1802,5.0
+matteorenzi,2,Salute e welfare,3.5,0.1231,6.0
+matteorenzi,2,Immigrazione,8.5,0.0961,7.0
+matteorenzi,2,Abitazione,10.0,0.0511,8.0
+matteorenzi,2,Uguaglianza di genere,6.0,0.039,9.0
+matteorenzi,2,Ambiente e clima,1.0,0.015,10.0
+matteorenzi,3,Democrazia e legalità,8.5,0.4384,1.0
+matteorenzi,3,Lavoro e economia,2.0,0.4114,2.0
+matteorenzi,3,Costo della vita,3.5,0.2853,3.0
+matteorenzi,3,Difesa e sicurezza,7.0,0.2462,4.0
+matteorenzi,3,Istruzione e formazione,5.0,0.1441,5.0
+matteorenzi,3,Salute e welfare,3.5,0.0901,6.0
+matteorenzi,3,Immigrazione,8.5,0.0631,7.0
+matteorenzi,3,Abitazione,10.0,0.0511,8.0
+matteorenzi,3,Uguaglianza di genere,6.0,0.033,9.0
+matteorenzi,3,Ambiente e clima,1.0,0.006,10.0
+matteorenzi,4,Lavoro e economia,2.0,0.2222,1.0
+matteorenzi,4,Democrazia e legalità,8.5,0.2132,2.0
+matteorenzi,4,Costo della vita,3.5,0.1862,3.0
+matteorenzi,4,Difesa e sicurezza,7.0,0.1021,4.0
+matteorenzi,4,Istruzione e formazione,5.0,0.0631,5.0
+matteorenzi,4,Immigrazione,8.5,0.033,6.0
+matteorenzi,4,Salute e welfare,3.5,0.024,7.5
+matteorenzi,4,Abitazione,10.0,0.024,7.5
+matteorenzi,4,Uguaglianza di genere,6.0,0.009,9.0
+matteorenzi,4,Ambiente e clima,1.0,0.0,10.0
 matteosalviniofficial,2,Democrazia e legalità,8.5,0.541,1.0
 matteosalviniofficial,2,Difesa e sicurezza,7.0,0.4213,2.0
 matteosalviniofficial,2,Lavoro e economia,2.0,0.2148,3.0

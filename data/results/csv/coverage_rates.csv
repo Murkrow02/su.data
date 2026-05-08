@@ -29,16 +29,36 @@ Giuseppe Conte,Abitazione,472,30,0.0636,0.0449,0.0893,0.0444
 Giuseppe Conte,Ambiente e clima,472,27,0.0572,0.0396,0.0819,0.0423
 Giuseppe Conte,Immigrazione,472,15,0.0318,0.0194,0.0518,0.0324
 Giuseppe Conte,Uguaglianza di genere,472,7,0.0148,0.0072,0.0303,0.0231
-carlocalenda,Democrazia e legalità,588,393,0.6684,0.6293,0.7052,0.0759
-carlocalenda,Difesa e sicurezza,588,219,0.3724,0.3343,0.4122,0.0779
-carlocalenda,Lavoro e economia,588,150,0.2551,0.2215,0.2918,0.0703
-carlocalenda,Costo della vita,588,56,0.0952,0.0741,0.1217,0.0476
-carlocalenda,Salute e welfare,588,55,0.0935,0.0726,0.1198,0.0472
-carlocalenda,Istruzione e formazione,588,47,0.0799,0.0606,0.1047,0.044
-carlocalenda,Ambiente e clima,588,24,0.0408,0.0276,0.06,0.0324
-carlocalenda,Immigrazione,588,13,0.0221,0.013,0.0375,0.0245
-carlocalenda,Abitazione,588,9,0.0153,0.0081,0.0288,0.0208
-carlocalenda,Uguaglianza di genere,588,8,0.0136,0.0069,0.0266,0.0197
+antoniotajani,Difesa e sicurezza,337,96,0.2849,0.2393,0.3353,0.096
+antoniotajani,Democrazia e legalità,337,96,0.2849,0.2393,0.3353,0.096
+antoniotajani,Lavoro e economia,337,94,0.2789,0.2337,0.3291,0.0954
+antoniotajani,Salute e welfare,337,35,0.1039,0.0756,0.141,0.0654
+antoniotajani,Immigrazione,337,26,0.0772,0.0532,0.1106,0.0575
+antoniotajani,Istruzione e formazione,337,23,0.0682,0.0459,0.1003,0.0544
+antoniotajani,Ambiente e clima,337,12,0.0356,0.0205,0.0612,0.0407
+antoniotajani,Costo della vita,337,9,0.0267,0.0141,0.05,0.0359
+antoniotajani,Uguaglianza di genere,337,4,0.0119,0.0046,0.0301,0.0255
+antoniotajani,Abitazione,337,3,0.0089,0.003,0.0258,0.0228
+carlocalenda,Democrazia e legalità,1164,721,0.6194,0.5912,0.6469,0.0557
+carlocalenda,Difesa e sicurezza,1164,440,0.378,0.3506,0.4062,0.0556
+carlocalenda,Lavoro e economia,1164,318,0.2732,0.2484,0.2995,0.0511
+carlocalenda,Costo della vita,1164,106,0.0911,0.0759,0.109,0.0331
+carlocalenda,Salute e welfare,1164,98,0.0842,0.0696,0.1015,0.032
+carlocalenda,Istruzione e formazione,1164,89,0.0765,0.0625,0.0932,0.0306
+carlocalenda,Ambiente e clima,1164,45,0.0387,0.029,0.0513,0.0223
+carlocalenda,Immigrazione,1164,26,0.0223,0.0153,0.0325,0.0172
+carlocalenda,Abitazione,1164,22,0.0189,0.0125,0.0285,0.0159
+carlocalenda,Uguaglianza di genere,1164,15,0.0129,0.0078,0.0212,0.0133
+matteorenzi,Democrazia e legalità,333,146,0.4384,0.3861,0.4921,0.106
+matteorenzi,Lavoro e economia,333,137,0.4114,0.3599,0.465,0.1051
+matteorenzi,Costo della vita,333,95,0.2853,0.2395,0.336,0.0966
+matteorenzi,Difesa e sicurezza,333,82,0.2462,0.203,0.2952,0.0922
+matteorenzi,Istruzione e formazione,333,48,0.1441,0.1105,0.1859,0.0755
+matteorenzi,Salute e welfare,333,30,0.0901,0.0638,0.1257,0.0619
+matteorenzi,Immigrazione,333,21,0.0631,0.0416,0.0945,0.0529
+matteorenzi,Abitazione,333,17,0.0511,0.0321,0.0802,0.0481
+matteorenzi,Uguaglianza di genere,333,11,0.033,0.0185,0.0582,0.0396
+matteorenzi,Ambiente e clima,333,2,0.006,0.0016,0.0216,0.02
 matteosalviniofficial,Democrazia e legalità,610,229,0.3754,0.3379,0.4145,0.0766
 matteosalviniofficial,Difesa e sicurezza,610,224,0.3672,0.3299,0.4062,0.0763
 matteosalviniofficial,Immigrazione,610,96,0.1574,0.1306,0.1884,0.0578

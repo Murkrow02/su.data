@@ -1,8 +1,10 @@
 politician,spearman_orig,spearman_corrected,kendall_orig,kendall_corrected,rank_shift_mean_abs,rank_shift_max_abs
 nicolafratoianni,0.280493,0.269114,0.250065,0.2299,0.8,2.0
 Giuseppe Conte,0.085367,0.091465,0.068199,0.113666,1.0,3.0
+antoniotajani,0.027523,0.064417,0.04598,0.069767,0.7,1.5
 Elly Schlein,0.30887,-0.009174,0.27588,0.04598,1.0,3.0
-carlocalenda,0.152442,-0.058104,0.113666,0.0,0.5,2.0
+carlocalenda,0.152442,-0.048781,0.113666,0.022733,0.4,2.0
 silviasalis,0.170735,-0.085627,0.159132,-0.04598,1.6,4.0
+matteorenzi,-0.024391,-0.107034,0.022733,-0.04598,0.7,2.0
 Giorgia Meloni,-0.024391,-0.220185,0.022733,-0.09196,1.1,4.0
 matteosalviniofficial,-0.302475,-0.532113,-0.23531,-0.34485,1.1,3.0
