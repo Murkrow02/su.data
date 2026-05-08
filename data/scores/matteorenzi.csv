@@ -8,7 +8,6 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2025-03-06_001,video,it,1,5,3,1,4,1,1,1,2,1,tirocinio;sfruttamento;giovani;stipendio;IRPEF;lavoro;formazione,negative,medium
 2025-03-07_001,image,it,1,4,2,2,1,1,1,1,1,1,Terzo settore;economia sociale;sfide;riduzioni di fondi;misure strutturali,neutral,none
 2025-03-08_001,image,it,1,1,1,1,1,5,1,1,1,1,Festa delle Donne;diritti delle donne;Occidente;Kabul;Siria,negative,medium
-2025-03-10_001,image,it,,,,,,,,,,,,,
 2025-03-11_001,image,it,2,2,1,1,3,1,4,1,2,1,difesa comune;investimenti;Green Deal;NATO;PIL;cultura;populismo,negative,medium
 2025-03-11_002,image,it,1,1,1,1,1,1,2,1,3,1,politica estera;guerra ucraina;Europa;slogan;proposte;Casa Bianca;Palazzo Chigi,negative,high
 2025-03-13_001,video,it,1,1,1,1,1,1,1,1,3,1,Giorgia Meloni;libro;influencer;Presidente del Consiglio;Repubblica italiana,negative,high
@@ -76,20 +75,16 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2025-05-16_002,video,it,1,4,1,1,1,1,1,1,2,1,Question Time;economia;spread;titoli di Stato;incompetente;governare,negative,high
 2025-05-17_001,image,it,1,1,1,1,1,1,1,1,1,1,Jasmine Paolini;Roma;tennis italiano;festa;Italia,positive,none
 2025-05-17_002,video,it,1,1,1,1,1,1,1,4,2,1,centro migranti;Albania;Meloni;propaganda;contribuente;rapporti umani,mixed,medium
-2025-05-19_001,video,it,,,,,,,,,,,,,
-2025-05-21_001,video,it,,,,,,,,,,,,,
 2025-05-22_001,video,it,1,3,4,1,1,1,1,1,3,1,tasse agricoltori;spese staff;contratti filiera;PNRR;voli di Stato;Ministero dell'Agricoltura;pressione fiscale,negative,high
 2025-05-22_002,video,it,1,1,1,1,1,1,3,1,2,1,politica internazionale;Giorgia Meloni;Ucraina;truppe;bugia;giornalisti,negative,high
 2025-05-23_001,image,it,1,4,3,1,1,1,2,1,3,1,tariffe;sovranismo;globalizzazione;economia;risparmi;pressione fiscale;Trump;Europa,negative,medium
 2025-05-23_002,image,it,1,1,1,1,1,1,1,1,4,1,Corte di Cassazione;Davigo;giustizialismo;giustizia;pregiudicato;cittadino innocente,negative,high
 2025-05-23_003,image,it,1,1,1,1,1,1,1,1,5,1,23 maggio;Giovanni Falcone;sacrificio;cittadini;libertà;generazioni,positive,low
 2025-05-26_001,image,it,1,1,1,1,1,1,1,1,1,1,Genova;Sindaca;vittoria;Silvia,positive,low
-2025-05-28_001,video,it,,,,,,,,,,,,,
 2025-05-30_001,image,it,1,2,1,1,1,1,5,1,5,1,scorta;AISI;tutela;Istituzioni;critiche politiche;Viminale;responsabilità,negative,high
 2025-05-31_001,image,it,1,1,1,1,1,1,1,1,5,1,opposizione;provvedimenti ad personam;Parlamento;democrazia;Governo Meloni;legalità,negative,high
 2025-06-01_001,image,it,1,1,1,1,1,1,1,1,3,1,Quirinale;Festa della Repubblica;Istituzioni;Sergio Mattarella;galantuomo,positive,low
 2025-06-01_002,image,it,1,1,1,1,4,1,1,1,1,1,professore;Meloni;licenziamento;scuola pubblica;educatore;istruzione,negative,medium
-2025-06-02_001,video,it,,,,,,,,,,,,,
 2025-06-03_001,video,it,1,5,4,1,3,1,1,1,2,4,stage gratuito;salario da fame;posto letto 700 euro;Jobs Act;precariato;mutuo;famiglie,negative,medium
 2025-06-04_001,video,it,1,1,1,1,1,2,5,1,5,1,sicurezza;servizi segreti;decreto legge;forze dell'ordine;stato di diritto;intercettazioni,negative,high
 2025-06-05_001,video,it,1,5,4,3,4,1,1,1,2,4,salario;stage sottopagati;welfare aziendale;costo abitazione;formazione;precariato;lavoro,negative,medium
@@ -133,7 +128,6 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2025-07-16_001,video,it,1,1,1,1,1,1,1,1,3,1,Pantani;Renzi;La Russa;politica;gioco;ordine,negative,high
 2025-07-16_002,video,it,1,4,5,3,3,1,1,1,1,1,pressione fiscale;debito pubblico;costo della vita;supermercati;ceto medio;IVA;pannolini,negative,high
 2025-07-16_003,image,it,1,1,1,2,1,1,1,1,1,1,Nazionale Cantanti;solidarietà;Caritas;Papa Leone;politica,neutral,none
-2025-07-17_001,image,it,,,,,,,,,,,,,
 2025-07-18_001,image,it,1,1,1,1,1,1,1,1,4,1,assoluzione;processo;giustizialisti;garantisti;sentenze;campagna mediatica,negative,high
 2025-07-18_002,image,it,1,1,1,1,1,1,1,1,3,1,Festa dell'Unità;dialogo politico;opinioni diverse;slogan;cultura;speranza politica,positive,low
 2025-07-19_001,image,it,1,1,1,1,5,1,1,1,1,1,voti;studenti;maturità;valutazioni;merito;sistema scolastico;pagella,negative,medium
@@ -277,7 +271,6 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2025-12-05_002,image,it,1,1,1,3,5,1,1,1,2,1,Medicina;numero chiuso;semestre filtro;riforma;incompetenti;università,negative,medium
 2025-12-06_001,video,it,1,1,1,1,4,1,1,1,3,1,censura;libertà di pensiero;cultura;educazione;università;diritti;Dante;Shakespeare,negative,low
 2025-12-06_002,video,it,1,4,3,1,2,1,4,2,2,1,pressione fiscale;sicurezza;reati;Start Tax;agenti bloccati;tasse;giovani,negative,high
-2025-12-10_001,image,it,,,,,,,,,,,,,
 2025-12-10_002,image,it,1,3,1,1,1,1,1,1,1,1,cucina italiana;patrimonio mondiale;agroalimentare;dazi;crisi geopolitiche;lavoratori,positive,low
 2025-12-11_001,video,it,1,1,1,1,1,1,1,1,1,1,Italia Viva;boomer;biliardino;incontro,positive,none
 2025-12-12_001,image,it,1,1,1,1,1,1,3,1,4,1,Santo Padre;Servizi Segreti;informazioni riservate;manipolare;ricattare;società civile,positive,low
@@ -303,7 +296,6 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2026-01-03_001,image,it,1,2,2,1,1,1,4,1,5,1,Istituzioni multilaterali;teatri di guerra;libertà;Venezuela;Maduro;politica estera,mixed,medium
 2026-01-06_001,video,it,1,2,2,1,1,1,3,1,3,1,Trump;Maduro;Venezuela;politica estera;diritto internazionale;elezioni;dittatori,negative,medium
 2026-01-08_001,video,it,1,2,1,1,1,1,5,3,4,1,certezza della pena;sicurezza;capotreno;stupro;immigrazione;Stato;reati,negative,high
-2026-01-08_002,video,it,,,,,,,,,,,,,
 2026-01-09_001,video,it,1,5,5,3,1,1,3,1,2,1,tasse;stipendi;pensioni;pressione fiscale;costo della vita;sicurezza;crescita,negative,high
 2026-01-09_002,video,it,1,3,5,1,1,1,1,1,2,1,gasolio;tasse;costo della vita;accise;pacchi;aumenti,negative,high
 2026-01-11_001,image,it,1,1,1,1,1,1,1,1,1,1,compleanno;51 anni;auguri;curiosità;passione,positive,none
