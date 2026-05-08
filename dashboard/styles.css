@@ -5534,7 +5534,7 @@ main:has(.research-deck) {
 
 .research-formula-block .katex-display {
   margin: 0;
-  overflow-x: auto;
+  overflow-x: visible;
 }
 
 /* Pipeline strip */
@@ -5861,7 +5861,7 @@ main:has(.research-deck) {
 
 .metric-formula-popup .katex-display {
   margin: 0;
-  overflow-x: auto;
+  overflow-x: visible;
 }
 
 /* Per-metric colour classes — Spearman blue, Kendall green, Jaccard red */
@@ -6040,25 +6040,106 @@ main:has(.research-deck) {
     var(--paper);
 }
 
-.research-slide--int4-slope .research-slide-inner,
 .research-slide--int4-heat .research-slide-inner,
 .research-slide--int4-heat-notes .research-slide-inner {
   grid-template-columns: minmax(300px, 0.46fr) minmax(0, 1.28fr);
 }
 
+.research-slide--int4-slope .research-slide-inner {
+  grid-template-columns: minmax(220px, 0.34fr) minmax(0, 1.44fr);
+}
+
 .research-slide--int4-close .research-slide-inner {
+  grid-template-columns: 1fr;
+  place-items: center;
+  align-content: center;
+  text-align: center;
   background:
-    linear-gradient(135deg, rgba(24, 23, 19, 0.92), rgba(24, 23, 19, 0.86)),
+    radial-gradient(circle at 50% 40%, rgba(189, 67, 44, 0.12), transparent 60%),
+    linear-gradient(135deg, rgba(24, 23, 19, 0.96), rgba(24, 23, 19, 0.9)),
     var(--ink);
 }
 
-.research-slide--int4-close .kicker,
-.research-slide--int4-close .research-slide-copy h1 {
-  color: var(--paper);
+.research-slide--int4-close .research-slide-aside {
+  display: none;
 }
 
-.research-slide--int4-close .research-slide-text p {
-  color: rgba(255, 252, 246, 0.68);
+.research-slide--int4-close .research-slide-copy {
+  width: 100%;
+  max-width: 920px;
+  display: grid;
+  gap: clamp(18px, 2.4vw, 32px);
+  justify-items: center;
+}
+
+.research-slide--int4-close .kicker {
+  color: rgba(255, 252, 246, 0.55);
+  letter-spacing: 0.32em;
+}
+
+.research-slide--int4-close .research-slide-copy h1 {
+  margin: 0;
+  font-family: "Instrument Serif", Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(48px, 6.4vw, 96px);
+  line-height: 1.02;
+  color: var(--paper);
+  max-width: none;
+}
+
+.research-slide--int4-close .research-slide-copy::after {
+  display: none;
+}
+
+.research-slide--int4-close .research-slide-text {
+  display: grid;
+  gap: clamp(16px, 2vw, 28px);
+  justify-items: center;
+  max-width: 760px;
+}
+
+.research-slide--int4-close .int4-close-question {
+  margin: 0;
+  font-family: "Instrument Serif", Georgia, serif;
+  font-style: italic;
+  font-size: clamp(17px, 1.4vw, 22px);
+  line-height: 1.4;
+  color: rgba(255, 252, 246, 0.55);
+  position: relative;
+  padding-top: 18px;
+}
+
+.research-slide--int4-close .int4-close-question::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: clamp(40px, 5vw, 64px);
+  height: 1px;
+  background: rgba(255, 252, 246, 0.3);
+}
+
+.research-slide--int4-close .int4-close-answer {
+  margin: 0;
+  font-family: "Instrument Serif", Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(96px, 14vw, 220px);
+  line-height: 0.9;
+  color: var(--red);
+  letter-spacing: -0.02em;
+}
+
+.research-slide--int4-close .int4-close-detail {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: clamp(13px, 1.05vw, 16px);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 850;
+  color: rgba(255, 252, 246, 0.78);
 }
 
 .research-slide--int4-table .research-slide-copy h1,
@@ -6067,8 +6148,7 @@ main:has(.research-deck) {
 .research-slide--int4-heat .research-slide-copy h1,
 .research-slide--int4-case .research-slide-copy h1,
 .research-slide--int4-heat-notes .research-slide-copy h1,
-.research-slide--int4-limits .research-slide-copy h1,
-.research-slide--int4-close .research-slide-copy h1 {
+.research-slide--int4-limits .research-slide-copy h1 {
   font-size: clamp(27px, 2.45vw, 40px);
 }
 
@@ -6078,8 +6158,7 @@ main:has(.research-deck) {
 .research-slide--int4-heat .research-slide-text p,
 .research-slide--int4-case .research-slide-text p,
 .research-slide--int4-heat-notes .research-slide-text p,
-.research-slide--int4-limits .research-slide-text p,
-.research-slide--int4-close .research-slide-text p {
+.research-slide--int4-limits .research-slide-text p {
   font-size: clamp(14px, 1.05vw, 17px);
   line-height: 1.6;
 }
@@ -6299,12 +6378,12 @@ main:has(.research-deck) {
 .int4-slope-panel text {
   font-family: "Inter", system-ui, sans-serif;
   fill: var(--muted);
-  font-size: 9.8px;
+  font-size: 10.5px;
 }
 
 .int4-slope-panel .axis-label {
   fill: var(--ink);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 850;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -6419,114 +6498,155 @@ main:has(.research-deck) {
 .int4-case-card {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 220px;
-  gap: 22px;
-  padding: clamp(20px, 2.4vw, 34px);
-  overflow: hidden;
-}
-
-.int4-case-bars {
-  display: grid;
   gap: 16px;
-  align-content: center;
+  padding: clamp(20px, 2.4vw, 30px);
 }
 
-.int4-case-row {
+.int4-case-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: flex-end;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 12px;
+}
+
+.int4-case-heading {
   display: grid;
-  grid-template-columns: 82px minmax(0, 1fr) 64px 104px;
-  gap: 12px;
-  align-items: center;
+  gap: 4px;
+}
+
+.int4-case-eyebrow {
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.int4-case-topic {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(18px, 1.6vw, 26px);
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1.1;
+}
+
+.int4-case-youth {
+  display: grid;
+  gap: 2px;
+  text-align: right;
+}
+
+.int4-case-youth em {
+  font-style: normal;
+  font-size: 10.5px;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.int4-case-youth b {
+  font-weight: 900;
+  color: var(--ink);
+  font-size: 13px;
   font-variant-numeric: tabular-nums;
 }
 
-.int4-case-row strong {
-  color: var(--ink);
+.int4-case-chart svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.int4-case-chart .case-axis {
+  stroke: var(--ink);
+  stroke-width: 1.2;
+  fill: none;
+}
+
+.int4-case-chart .case-grid {
+  stroke: var(--line);
+  stroke-width: 1;
+  stroke-dasharray: 3 4;
+  fill: none;
+  opacity: 0.7;
+}
+
+.int4-case-chart text {
+  font-family: "Inter", system-ui, sans-serif;
+  fill: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.int4-case-chart .case-ytick {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.int4-case-chart .case-bar {
+  opacity: 0.94;
+}
+
+.int4-case-chart .case-whisker,
+.int4-case-chart .case-whisker-cap {
+  stroke: var(--ink);
+  stroke-width: 2.6;
+  fill: none;
+}
+
+.int4-case-chart .case-bar-value {
+  fill: var(--ink);
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.int4-case-chart .case-bar-ci {
+  font-size: 13px;
+  fill: var(--muted);
+  font-weight: 600;
+}
+
+.int4-case-chart .case-bar-name {
+  fill: var(--ink);
   font-family: "Instrument Serif", Georgia, serif;
-  font-size: 21px;
+  font-size: 28px;
   font-weight: 400;
 }
 
-.int4-case-track {
-  position: relative;
-  height: 34px;
-  border: 1px solid var(--line);
-  background:
-    linear-gradient(90deg, rgba(24, 23, 19, 0.08) 1px, transparent 1px) 0 0 / 25% 100%,
-    rgba(255, 255, 255, 0.72);
-}
-
-.int4-case-track i {
-  position: absolute;
-  inset: 5px auto 5px 0;
-  width: var(--w);
-  min-width: 3px;
-  background: var(--profile);
-}
-
-.int4-case-track span {
-  position: absolute;
-  left: var(--lo);
-  width: calc(var(--hi) - var(--lo));
-  top: 3px;
-  bottom: 3px;
-  border-left: 2px solid var(--ink);
-  border-right: 2px solid var(--ink);
-  background: linear-gradient(90deg, transparent 0 48%, rgba(24, 23, 19, 0.42) 48% 52%, transparent 52%);
-}
-
-.int4-case-row b {
-  text-align: right;
-  color: var(--ink);
-  font-weight: 900;
-}
-
-.int4-case-row em {
-  color: var(--muted);
-  font-size: 12px;
-  font-style: normal;
-}
-
-.int4-case-axis {
-  position: relative;
-  height: 20px;
-  margin-left: 94px;
-  margin-right: 180px;
-  border-top: 1px solid var(--line);
-}
-
-.int4-case-axis span {
-  position: absolute;
-  top: 6px;
-  transform: translateX(-50%);
-  color: var(--muted);
-  font-size: 11px;
-  font-weight: 800;
-  font-variant-numeric: tabular-nums;
-}
-
-.int4-case-ranks {
-  display: grid;
-  gap: 8px;
-  align-content: center;
-  border-left: 1px solid var(--line);
-  padding-left: 18px;
-}
-
-.int4-case-ranks b,
-.int4-case-ranks span {
-  color: var(--muted);
+.int4-case-chart .case-bar-meta {
   font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
 }
 
-.int4-case-ranks b {
+.int4-case-chart .case-axis {
+  stroke-width: 2;
+}
+
+.int4-case-chart .case-grid {
+  stroke-width: 1.4;
+}
+
+.int4-case-warning {
+  margin: 0;
+  padding: 10px 14px;
+  border: 1px solid rgba(189, 67, 44, 0.25);
+  border-left: 3px solid var(--red);
+  background: rgba(189, 67, 44, 0.05);
+  font-size: 12.5px;
+  line-height: 1.5;
   color: var(--ink);
 }
 
-.int4-case-ranks strong {
+.int4-case-warning strong {
   color: var(--red);
   font-weight: 900;
+  margin-right: 4px;
 }
 
+/* Legacy decorations no longer used by phase4CaseBars (preserved for any other consumer) */
 .int4-case-marker {
   position: absolute;
   left: 28px;
@@ -7364,6 +7484,90 @@ main:has(.research-deck) {
   letter-spacing: 0.04em;
 }
 
+.int2-prompt-sketch {
+  margin-top: clamp(28px, 3vw, 44px);
+  padding: clamp(18px, 2vw, 28px);
+  border: 1px solid var(--line);
+  background: rgba(255, 252, 246, 0.78);
+  display: grid;
+  gap: 16px;
+  box-shadow: var(--shadow);
+}
+
+.int2-prompt-sketch header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 10px;
+}
+
+.int2-prompt-sketch header span {
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.int2-prompt-sketch header em {
+  font-style: normal;
+  font-size: 11.5px;
+  font-family: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+  color: var(--muted);
+}
+
+.int2-prompt-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(12px, 1.4vw, 20px);
+}
+
+.int2-prompt-grid article {
+  display: grid;
+  gap: 6px;
+  padding: 10px 0 0;
+  border-top: 2px solid var(--ink);
+}
+
+.int2-prompt-grid small {
+  font-size: 10.5px;
+  font-weight: 850;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.int2-prompt-grid p {
+  margin: 0;
+  font-size: clamp(13px, 1vw, 15px);
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.int2-prompt-grid strong {
+  color: var(--red);
+  font-weight: 850;
+}
+
+.int2-prompt-out {
+  display: block;
+  font-family: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+  font-size: clamp(11.5px, 0.92vw, 13.5px);
+  line-height: 1.5;
+  padding: 12px 16px;
+  background: rgba(24, 23, 19, 0.06);
+  border-left: 3px solid var(--red);
+  color: var(--ink);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 1000px) {
+  .int2-prompt-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
 /* ----- 06 Validation setup: humans ↔ posts grid ↔ models ----- */
 .int2-valid-grid {
   display: grid;
@@ -7512,6 +7716,20 @@ main:has(.research-deck) {
   font-size: clamp(14px, 1.05vw, 16px);
   color: var(--muted);
   line-height: 1.55;
+}
+.int2-metric-row article small {
+  margin-top: 6px;
+  padding-top: 10px;
+  border-top: 1px dashed rgba(189, 67, 44, 0.35);
+  font-size: clamp(12.5px, 0.92vw, 14px);
+  line-height: 1.45;
+  color: var(--ink);
+  font-weight: 600;
+}
+.int2-metric-row article small::before {
+  content: "→ ";
+  color: var(--red);
+  font-weight: 900;
 }
 
 /* ----- 08 + 09 Bars chart ----- */

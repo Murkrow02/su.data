@@ -93,21 +93,12 @@ export const politicians = [
     photo: "Dashboard/dati/Elly_Schlein.jpg",
   },
   {
-    id: "silviasalis",
-    name: "Silvia Salis",
-    handle: "@silviasalis",
-    party: "Partito Democratico",
-    role: "Vicesindaca di Genova",
-    palette: ["#e8f4e8", "#1a5c1a", "#2e8b2e"],
-    photo: "Dashboard/dati/Silvia_Salis.jpg",
-  },
-  {
     id: "nicolafratoianni",
     name: "Nicola Fratoianni",
     handle: "@nicolafratoianni",
     party: "Alleanza Verdi Sinistra",
     role: "Segretario di Sinistra Italiana",
-    palette: ["#fde9c7", "#a8431a", "#e07a1f"],
+    palette: ["#e8f4e8", "#1a5c1a", "#2e8b2e"],
     photo: "Dashboard/dati/Nicola_Fratoianni.jpg",
   },
   {

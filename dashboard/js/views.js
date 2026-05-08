@@ -243,42 +243,32 @@ export function renderAbout() {
       <header><span>Bootstrap CI 95%</span><strong>resampling sui post · B=2000</strong></header>
       <div class="int4-forest-panels">
         ${[
-          ["Spearman ρ", phase4Forest.spearman],
-          ["Kendall τ_b", phase4Forest.kendall],
+          ["Spearman ρ", phase4Forest.spearman, phase4X, [-0.5, 0, 0.5]],
+          ["Kendall τ_b", phase4Forest.kendall, (v) => 60 + ((v + 0.25) / 0.8) * 300, [-0.2, 0, 0.2, 0.4]],
         ]
           .map(
-            ([title, rows]) => {
+            ([title, rows, xFn, ticks]) => {
               const isKendall = title.includes("Kendall");
               return `
               <section class="int4-forest-panel ${isKendall ? "int4-forest-panel--kendall" : ""}">
                 <h3>${title}</h3>
                 <svg viewBox="0 0 430 220" role="img" aria-label="${title} con intervalli bootstrap">
-                  <line class="zero" x1="${phase4X(0)}" y1="22" x2="${phase4X(0)}" y2="164"></line>
-                  <line class="axis" x1="${phase4X(-0.5)}" y1="164" x2="${phase4X(0.5)}" y2="164"></line>
-                  ${[-0.5, 0, 0.5].map((tick) => `<text class="tick" x="${phase4X(tick)}" y="190" text-anchor="middle">${formatDecimal(tick)}</text>`).join("")}
+                  <line class="zero" x1="${xFn(0)}" y1="22" x2="${xFn(0)}" y2="164"></line>
+                  <line class="axis" x1="${xFn(ticks[0])}" y1="164" x2="${xFn(ticks[ticks.length - 1])}" y2="164"></line>
+                  ${ticks.map((tick) => `<text class="tick" x="${xFn(tick)}" y="190" text-anchor="middle">${formatDecimal(tick)}</text>`).join("")}
                   ${rows
                     .map((row, index) => {
                       const profile = phase4Profile(row.profile);
                       const y = 42 + index * 52;
                       return `
                         <text class="name" x="4" y="${y + 4}">${profile.short}</text>
-                        <line x1="${phase4X(row.low)}" y1="${y}" x2="${phase4X(row.high)}" y2="${y}" stroke="${profile.color}" stroke-width="5" stroke-linecap="round"></line>
-                        <circle cx="${phase4X(row.value)}" cy="${y}" r="7" fill="${profile.color}"></circle>
-                        ${isKendall ? "" : `<text class="value" x="${phase4X(row.high) + 14}" y="${y + 4}">${formatDecimal(row.value)} [${formatDecimal(row.low)}; ${formatDecimal(row.high)}]</text>`}
+                        <line x1="${xFn(row.low)}" y1="${y}" x2="${xFn(row.high)}" y2="${y}" stroke="${profile.color}" stroke-width="5" stroke-linecap="round"></line>
+                        <circle cx="${xFn(row.value)}" cy="${y}" r="7" fill="${profile.color}"></circle>
+                        <text class="value" x="${xFn(row.high) + 14}" y="${y + 4}">${formatDecimal(row.value)} [${formatDecimal(row.low)}; ${formatDecimal(row.high)}]</text>
                       `;
                     })
                     .join("")}
                 </svg>
-                ${
-                  isKendall
-                    ? `<div class="int4-forest-values">${rows
-                        .map((row) => {
-                          const profile = phase4Profile(row.profile);
-                          return `<span style="--profile:${profile.color}"><b>${profile.short}</b> ${formatDecimal(row.value)} <em>[${formatDecimal(row.low)}; ${formatDecimal(row.high)}]</em></span>`;
-                        })
-                        .join("")}</div>`
-                    : ""
-                }
               </section>
             `;
             },
@@ -353,45 +343,71 @@ export function renderAbout() {
     </div>
   `;
 
-  const phase4CaseBars = ({ topicId, max, marker = null, warning = "" }) => {
+  const phase4CaseBars = ({ topicId, max, ticks, warning = "" }) => {
+    const topic = phase4Topics.find((t) => t.id === topicId);
     const rows = {
       ambiente: [
-        { profile: "schlein", value: 6.9, low: 4.3, high: 10.9, rank: "#9" },
-        { profile: "conte", value: 6.5, low: 4.0, high: 10.4, rank: "#8" },
-        { profile: "meloni", value: 7.6, low: 5.0, high: 11.3, rank: "#6" },
+        { profile: "schlein", n: 498, value: 6.83, low: 4.93, high: 9.39, rank: "#8" },
+        { profile: "conte", n: 472, value: 5.72, low: 3.96, high: 8.19, rank: "#8" },
+        { profile: "meloni", n: 330, value: 6.97, low: 4.69, high: 10.24, rank: "#6" },
       ],
       democrazia: [
-        { profile: "schlein", value: 53.6, low: 47.2, high: 59.9, rank: "#1" },
-        { profile: "conte", value: 50.6, low: 44.2, high: 57.0, rank: "#1" },
-        { profile: "meloni", value: 36.7, low: 31.2, high: 42.5, rank: "#1 pari" },
+        { profile: "schlein", n: 498, value: 56.63, low: 52.24, high: 60.91, rank: "#1" },
+        { profile: "conte", n: 472, value: 49.15, low: 44.67, high: 53.65, rank: "#1" },
+        { profile: "meloni", n: 330, value: 36.67, low: 31.65, high: 41.99, rank: "#1" },
       ],
     }[topicId];
+    const youthInfo = topicId === "ambiente" ? "#1 Posto" : "#8,5 Posto";
+    const yTop = 70;
+    const yBaseline = 460;
+    const xStart = 130;
+    const xEnd = 760;
+    const chartH = yBaseline - yTop;
+    const yFor = (v) => yBaseline - (v / max) * chartH;
+    const colW = (xEnd - xStart) / rows.length;
+    const fmt = (v) => v.toFixed(1).replace(".", ",");
     return `
       <div class="int4-case-card">
-        <div class="int4-case-bars">
-          ${rows
-            .map((row) => {
-              const profile = phase4Profile(row.profile);
-              return `
-                <div class="int4-case-row" style="--profile:${profile.color};--w:${(row.value / max) * 100}%;--lo:${(row.low / max) * 100}%;--hi:${(row.high / max) * 100}%">
-                  <strong>${profile.short}</strong>
-                  <div class="int4-case-track"><i></i><span></span></div>
-                  <b>${row.value.toFixed(1).replace(".", ",")}%</b>
-                  <em>[${row.low.toFixed(1).replace(".", ",")}–${row.high.toFixed(1).replace(".", ",")}%]</em>
-                </div>
-              `;
-            })
-            .join("")}
-          <div class="int4-case-axis">
-            ${[0, max / 2, max].map((tick) => `<span style="left:${(tick / max) * 100}%">${Math.round(tick)}%</span>`).join("")}
+        <header class="int4-case-header">
+          <div class="int4-case-heading">
+            <span class="int4-case-eyebrow">Coverage Rate · CI 95% Wilson · soglia τ ≥ 3</span>
+            <strong class="int4-case-topic">${topic.full}</strong>
           </div>
+          <div class="int4-case-youth"><em>Rank giovani</em><b>${youthInfo}</b></div>
+        </header>
+        <div class="int4-case-chart">
+          <svg viewBox="0 0 800 580" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Coverage Rate ${topic.full}">
+            ${ticks
+              .map((pct) => `
+                <line class="case-grid" x1="${xStart}" y1="${yFor(pct)}" x2="${xEnd}" y2="${yFor(pct)}" />
+                <text class="case-ytick" x="${xStart - 14}" y="${yFor(pct) + 6}" text-anchor="end">${pct}%</text>
+              `)
+              .join("")}
+            <line class="case-axis" x1="${xStart}" y1="${yTop}" x2="${xStart}" y2="${yBaseline}" />
+            <line class="case-axis" x1="${xStart}" y1="${yBaseline}" x2="${xEnd}" y2="${yBaseline}" />
+            ${rows
+              .map((row, i) => {
+                const cx = xStart + colW / 2 + i * colW;
+                const yVal = yFor(row.value);
+                const yLow = yFor(row.low);
+                const yHigh = yFor(row.high);
+                const profile = phase4Profile(row.profile);
+                const barW = Math.min(116, colW * 0.55);
+                return `
+                  <rect class="case-bar" x="${cx - barW / 2}" y="${yVal}" width="${barW}" height="${yBaseline - yVal}" fill="${profile.color}" />
+                  <line class="case-whisker" x1="${cx}" y1="${yLow}" x2="${cx}" y2="${yHigh}" />
+                  <line class="case-whisker-cap" x1="${cx - 18}" y1="${yLow}" x2="${cx + 18}" y2="${yLow}" />
+                  <line class="case-whisker-cap" x1="${cx - 18}" y1="${yHigh}" x2="${cx + 18}" y2="${yHigh}" />
+                  <text class="case-bar-value" x="${cx}" y="${yHigh - 18}" text-anchor="middle">${fmt(row.value)}%</text>
+                  <text class="case-bar-ci" x="${cx}" y="${yHigh - 40}" text-anchor="middle">[${fmt(row.low)}–${fmt(row.high)}]</text>
+                  <text class="case-bar-name" x="${cx}" y="${yBaseline + 42}" text-anchor="middle">${profile.short}</text>
+                  <text class="case-bar-meta" x="${cx}" y="${yBaseline + 76}" text-anchor="middle">Rank ${row.rank} · n=${row.n}</text>
+                `;
+              })
+              .join("")}
+          </svg>
         </div>
-        ${marker ? `<div class="int4-case-marker"><span>${marker}</span></div>` : ""}
-        <aside class="int4-case-ranks">
-          <b>Rank giovani: ${topicId === "ambiente" ? "#1 (46%)" : "#8,5"}</b>
-          ${rows.map((row) => `<span>Rank ${phase4Profile(row.profile).short}: <strong>${row.rank}</strong></span>`).join("")}
-        </aside>
-        ${warning ? `<p class="int4-warning">${warning}</p>` : ""}
+        ${warning ? `<p class="int4-case-warning"><strong>!</strong> ${warning}</p>` : ""}
       </div>
     `;
   };
@@ -488,30 +504,7 @@ export function renderAbout() {
       `,
     },
     {
-      eyebrow: "05 / Scelte non utilizzate",
-      title: "Avevamo considerato un approccio basato su topic emersi automaticamente.<br><span class=\"title-break\">Non funzionava.</span>",
-      tone: "decision",
-      copy: `
-        <p>L'idea iniziale era far emergere i topic dai post tramite BERT e poi confrontarli con i temi della survey via similarità coseno.</p>
-        <p>Ma BERT raggruppa parole e topic in modo troppo rigido: la similarità coseno tra i topic emersi e quelli dell'Eurobarometro restituiva valori instabili e poco interpretabili. Per questo abbiamo abbandonato la strada del calcolo metrico via embedding.</p>
-      `,
-      aside: `
-        <div class="research-decision-grid">
-          <article>
-            <span>Provato</span>
-            <strong>BERT + similarità coseno</strong>
-            <p>Topic raggruppati rigidamente; il confronto semantico con i temi Eurobarometro non funziona in modo affidabile.</p>
-          </article>
-          <article class="is-chosen">
-            <span>Adottato</span>
-            <strong>Scoring LLM su griglia fissa</strong>
-            <p>Punteggio Likert 1–5 sui dieci temi Eurobarometro per ogni post: stesso vocabolario su entrambi i lati.</p>
-          </article>
-        </div>
-      `,
-    },
-    {
-      eyebrow: "06 / Ranking, non percentuali",
+      eyebrow: "05 / Ranking, non percentuali",
       title: "Stessa griglia di dieci temi su entrambi i lati. E confrontiamo i ranking, non le percentuali.",
       tone: "topics",
       copy: `
@@ -525,7 +518,7 @@ export function renderAbout() {
       `,
     },
     {
-      eyebrow: "07 / Il campo di osservazione",
+      eyebrow: "06 / Il campo di osservazione",
       title: "Instagram è il primo canale digitale per l'informazione politica tra i giovani italiani di 16-30 anni.",
       tone: "roster",
       copy: `
@@ -552,7 +545,7 @@ export function renderAbout() {
       `,
     },
     {
-      eyebrow: "08 / Lo scraping",
+      eyebrow: "07 / Lo scraping",
       title: "Abbiamo raccolto tutto quello che è disponibile pubblicamente. Tranne l'engagement.",
       tone: "scrape",
       copy: `
@@ -573,7 +566,7 @@ export function renderAbout() {
       `,
     },
     {
-      eyebrow: "09 / Estrazione del messaggio",
+      eyebrow: "08 / Estrazione del messaggio",
       title: "Da quei file abbiamo estratto il messaggio: testo dalle immagini, parlato dai video.",
       tone: "extract",
       copy: `
@@ -592,6 +585,29 @@ export function renderAbout() {
             <b>Testo unificato del post</b>
             <em>→ pronto per lo scoring tematico</em>
           </div>
+        </div>
+      `,
+    },
+    {
+      eyebrow: "09 / Scelte non utilizzate",
+      title: "Avevamo considerato un approccio basato su topic emersi automaticamente.<br><span class=\"title-break\">Non funzionava.</span>",
+      tone: "decision",
+      copy: `
+        <p>L'idea iniziale era far emergere i topic dai post tramite BERT e poi confrontarli con i temi della survey via similarità coseno.</p>
+        <p>Ma BERT raggruppa parole e topic in modo troppo rigido: la similarità coseno tra i topic emersi e quelli dell'Eurobarometro restituiva valori instabili e poco interpretabili. Per questo abbiamo abbandonato la strada del calcolo metrico via embedding.</p>
+      `,
+      aside: `
+        <div class="research-decision-grid">
+          <article>
+            <span>Provato</span>
+            <strong>BERT + similarità coseno</strong>
+            <p>Topic raggruppati rigidamente; il confronto semantico con i temi Eurobarometro non funziona in modo affidabile.</p>
+          </article>
+          <article class="is-chosen">
+            <span>Adottato</span>
+            <strong>Scoring LLM su griglia fissa</strong>
+            <p>Punteggio Likert 1–5 sui dieci temi Eurobarometro per ogni post: stesso vocabolario su entrambi i lati.</p>
+          </article>
         </div>
       `,
     },
@@ -835,6 +851,32 @@ export function renderAbout() {
           </div>
         </div>
         <p class="int2-likert-caption">Stessa rubrica per LLM e annotatori umani · temperature = 0 → output deterministico</p>
+
+        <div class="int2-prompt-sketch">
+          <header>
+            <span>Idea del prompt</span>
+            <em>scorer.py · system message</em>
+          </header>
+          <div class="int2-prompt-grid">
+            <article>
+              <small>Ruolo</small>
+              <p>«Sei un motore di analisi di contenuti politici italiani.»</p>
+            </article>
+            <article>
+              <small>Compito</small>
+              <p>Per ciascuno dei 10 temi Eurobarometro, assegna uno score 1–5 <strong>indipendente</strong>.</p>
+            </article>
+            <article>
+              <small>Rubrica</small>
+              <p>Stessa scala fornita agli umani: <strong>1</strong> assente → <strong>5</strong> oggetto principale.</p>
+            </article>
+            <article>
+              <small>Vincoli</small>
+              <p>Solo il testo del post. Nessuna conoscenza esterna. Output <strong>solo JSON valido</strong>.</p>
+            </article>
+          </div>
+          <code class="int2-prompt-out">{ "scores": { "ambiente_clima": 1, "lavoro_economia": 4, … }, "keywords": [ … ], "sentiment": "…", "propaganda": "…" }</code>
+        </div>
       `,
     },
     {
@@ -884,10 +926,12 @@ export function renderAbout() {
               <article>
                 <b>MAE</b>
                 <em>scarto medio assoluto in punti scala</em>
+                <small>Misura di quanto il modello si discosta in media dal giudizio umano — il criterio principale per scegliere il modello migliore.</small>
               </article>
               <article>
                 <b>Bias medio</b>
                 <em>segno dell'errore sistematico (over/under-stima)</em>
+                <small>Rivela se il modello tende strutturalmente ad alzare o abbassare gli score rispetto agli umani, indipendentemente dall'entità dell'errore.</small>
               </article>
             </div>
           </div>
@@ -897,10 +941,12 @@ export function renderAbout() {
               <article>
                 <b>κ pesato</b>
                 <em>accordo · penalizza errori grandi</em>
+                <small>Verifica che modello e umani concordino oltre il caso, dando più peso agli errori di più punti su scala ordinale.</small>
               </article>
               <article>
                 <b>α Krippendorff</b>
                 <em>reliability ordinale robusta su distribuzioni asimmetriche</em>
+                <small>Conferma l'affidabilità ordinale anche quando i punteggi si addensano su 1–2, dove κ perde sensibilità.</small>
               </article>
             </div>
           </div>
@@ -910,6 +956,7 @@ export function renderAbout() {
               <article>
                 <b>Spearman ρ</b>
                 <em>accordo sull'ordinamento dei valori</em>
+                <small>Controlla che il modello preservi la gerarchia dei temi — fondamentale perché il ranking è poi usato nell'analisi comparativa.</small>
               </article>
             </div>
           </div>
@@ -1064,6 +1111,13 @@ export function renderAbout() {
           <p>Validazione vs media di 4 annotatori umani — non ground truth assoluto. I risultati sono misure costruite, verificabili e utili. Non sentenze automatiche.</p>
         </div>
       `,
+    },
+    {
+      eyebrow: "",
+      title: "Come confrontiamo le due agende.",
+      tone: "intermission",
+      copy: `<p>Fase 3 — Le metriche di allineamento.</p>`,
+      aside: ``,
     },
     {
       eyebrow: "Fase 3 / Metriche · 01",
@@ -1312,6 +1366,13 @@ export function renderAbout() {
       `,
     },
     {
+      eyebrow: "",
+      title: "Cosa dicono i dati.",
+      tone: "intermission",
+      copy: `<p>Fase 4 — I risultati dell'analisi.</p>`,
+      aside: ``,
+    },
+    {
       eyebrow: "Fase 4 / Risultati · 01",
       title: "Allineamento globale: nessun profilo riproduce davvero l'ordine delle priorità giovanili.",
       tone: "int4-table",
@@ -1356,20 +1417,20 @@ export function renderAbout() {
       title: "Ambiente e clima: il tema più sotto-rappresentato.",
       tone: "int4-case",
       copy: `
-        <p>Ambiente e clima è il primo tema per i giovani italiani, con il 46% delle selezioni. Nei ranking politici scivola al rank 9 per Schlein, 8 per Conte, 6 per Meloni.</p>
+        <p>Ambiente e clima è il primo tema per i giovani italiani, con il 46% delle selezioni. Nei ranking politici scivola al rank 8 per Schlein, 8 per Conte, 6 per Meloni.</p>
         <p>I Coverage Rate confermano: meno di un post su dieci tratta il tema che i giovani mettono in cima. La sensitivity analysis indica che non sale mai sopra il rank 6 con τ = 2, 3 o 4.</p>
       `,
-      aside: phase4CaseBars({ topicId: "ambiente", max: 20 }),
+      aside: phase4CaseBars({ topicId: "ambiente", max: 12, ticks: [0, 3, 6, 9, 12] }),
     },
     {
       eyebrow: "Fase 4 / Risultati · 06",
       title: "Democrazia e legalità: il tema più sovra-rappresentato.",
       tone: "int4-case",
       copy: `
-        <p>Tra i giovani è nella parte bassa, al rank 8,5. Nei tre profili politici è invece in testa o al vertice: 54% per Schlein, 51% per Conte, 37% per Meloni.</p>
+        <p>Tra i giovani è nella parte bassa, al rank 8,5. Nei tre profili politici è invece in testa o al vertice: 56,6% per Schlein, 49,2% per Conte, 36,7% per Meloni.</p>
         <p>Il contesto politico aiuta a leggerlo, ma va mantenuta una riserva: in validazione questo è uno dei temi su cui il modello mostra overshooting.</p>
       `,
-      aside: phase4CaseBars({ topicId: "democrazia", max: 70, warning: "Overshooting: il modello tende a sovrastimare questo tema nella validazione (MAE 0,58)." }),
+      aside: phase4CaseBars({ topicId: "democrazia", max: 65, ticks: [0, 15, 30, 45, 60], warning: "Overshooting: il modello tende a sovrastimare questo tema nella validazione (MAE 0,58)." }),
     },
     {
       eyebrow: "Fase 4 / Risultati · 07",
@@ -1406,30 +1467,15 @@ export function renderAbout() {
       `,
     },
     {
-      eyebrow: "Fase 4 / Conclusione",
-      title: "Il gap non è solo una sensazione: è misurabile.",
+      eyebrow: "Conclusione",
+      title: "La nostra tesi è confermata.",
       tone: "int4-close",
       copy: `
-        <p>La domanda iniziale era circoscritta: l'ordine dei temi nei post Instagram intercetta l'ordine delle priorità dichiarate dai giovani italiani?</p>
-        <p>La risposta è no, almeno nel periodo osservato. Il contributo del lavoro è rendere quel no controllabile: non una lettura impressionistica, ma una distanza ordinata, stimata e verificata.</p>
+        <p class="int4-close-question">La comunicazione social dei politici italiani è allineata alle priorità giovanili?</p>
+        <p class="int4-close-answer">No.</p>
+        <p class="int4-close-detail">Il gap c'è. E ora è misurato.</p>
       `,
-      aside: `
-        <div class="int4-close-card">
-          <section>
-            <h3>Risposta alla RQ</h3>
-            <p>L'allineamento globale resta debole.</p>
-            <p>Il gap attraversa i tre profili osservati.</p>
-            <p>La forma del disallineamento è leggibile nei ranking.</p>
-          </section>
-          <section>
-            <h3>Perché è controllabile</h3>
-            <p>Survey e social vengono confrontati sullo stesso livello: l'ordine.</p>
-            <p>L'incertezza viene mostrata, non nascosta.</p>
-            <p>I limiti del modello entrano nella lettura finale.</p>
-          </section>
-          <strong>Il gap non è solo una sensazione — è misurabile.</strong>
-        </div>
-      `,
+      aside: ``,
     },
     {
       eyebrow: "Il gruppo di ricerca",
@@ -1453,7 +1499,7 @@ export function renderAbout() {
             <div class="team-info">
               <h3>Davide De Rosa</h3>
               <blockquote>"Non acconsento alla profilazione dei miei dati."</blockquote>
-              <small>(Vota Futuro Nazione)</small>
+              <small>(Vota Fratelli D'Italia)</small>
             </div>
           </article>
           <article class="team-member">
