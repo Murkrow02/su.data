@@ -118,6 +118,15 @@ export const politicians = [
     role: "Segretario di Lega",
     palette: ["#27ae60", "#000000", "#cccccc"],
     photo: "Dashboard/dati/Matteo_Salvini.jpg",
+  },
+  {
+    id: "silviasalis",
+    name: "Silvia Salis",
+    handle: "@silviasalis",
+    party: "Partito Democratico",
+    role: "Segretaria",
+    palette: ["#f5dde0", "#8b1a1a", "#d63030"],
+    photo: "Dashboard/dati/Silvia_Salis.jpg",
   }
 ];
 
