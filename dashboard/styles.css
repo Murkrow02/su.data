@@ -6066,9 +6066,9 @@ main:has(.research-deck) {
 
 .research-slide--int4-close .research-slide-copy {
   width: 100%;
-  max-width: 920px;
+  max-width: min(1120px, 92vw);
   display: grid;
-  gap: clamp(18px, 2.4vw, 32px);
+  gap: clamp(16px, 2vw, 26px);
   justify-items: center;
 }
 
@@ -6082,10 +6082,10 @@ main:has(.research-deck) {
   font-family: "Instrument Serif", Georgia, serif;
   font-style: italic;
   font-weight: 400;
-  font-size: clamp(48px, 6.4vw, 96px);
-  line-height: 1.02;
+  font-size: clamp(34px, 4.4vw, 72px);
+  line-height: 1.08;
   color: var(--paper);
-  max-width: none;
+  max-width: 1040px;
 }
 
 .research-slide--int4-close .research-slide-copy::after {
@@ -6094,7 +6094,7 @@ main:has(.research-deck) {
 
 .research-slide--int4-close .research-slide-text {
   display: grid;
-  gap: clamp(16px, 2vw, 28px);
+  gap: clamp(14px, 1.8vw, 24px);
   justify-items: center;
   max-width: 760px;
 }
@@ -6126,7 +6126,7 @@ main:has(.research-deck) {
   font-family: "Instrument Serif", Georgia, serif;
   font-style: italic;
   font-weight: 400;
-  font-size: clamp(96px, 14vw, 220px);
+  font-size: clamp(88px, 11vw, 170px);
   line-height: 0.9;
   color: var(--red);
   letter-spacing: -0.02em;
