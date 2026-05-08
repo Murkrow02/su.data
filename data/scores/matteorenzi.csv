@@ -1,0 +1,342 @@
+folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
+2025-03-01_001,image,it,1,1,1,1,1,1,1,1,4,1,Casa Bianca;dibattito parlamentare;Giorgia Meloni;Aula;Parlamento;Occidente,negative,high
+2025-03-02_001,image,it,1,3,3,1,1,1,1,1,1,1,sprechi;CNEL;ceto medio;denaro pubblico;stipendi;Governo,negative,high
+2025-03-03_001,image,it,1,4,3,1,1,1,1,1,1,1,Istat;pressione fiscale;debito pubblico;PIL;aumenta le tasse;Governo;sovranisti,negative,high
+2025-03-04_001,image,it,1,1,1,1,1,1,1,1,1,1,riletture;influencer;discutere;pensare,neutral,none
+2025-03-05_001,image,it,1,4,1,1,1,1,1,1,2,1,stage sottopagati;giovani;proposta;politica seria;slogan,positive,medium
+2025-03-05_002,image,it,1,1,1,1,1,1,1,1,1,1,Giorgia Meloni;raccontare pubblicamente;link Amazon;libro,negative,high
+2025-03-06_001,video,it,1,5,3,1,4,1,1,1,2,1,tirocinio;sfruttamento;giovani;stipendio;IRPEF;lavoro;formazione,negative,medium
+2025-03-07_001,image,it,1,4,2,2,1,1,1,1,1,1,Terzo settore;economia sociale;sfide;riduzioni di fondi;misure strutturali,neutral,none
+2025-03-08_001,image,it,1,1,1,1,1,5,1,1,1,1,Festa delle Donne;diritti delle donne;Occidente;Kabul;Siria,negative,medium
+2025-03-10_001,image,it,,,,,,,,,,,,,
+2025-03-11_001,image,it,2,2,1,1,3,1,4,1,2,1,difesa comune;investimenti;Green Deal;NATO;PIL;cultura;populismo,negative,medium
+2025-03-11_002,image,it,1,1,1,1,1,1,2,1,3,1,politica estera;guerra ucraina;Europa;slogan;proposte;Casa Bianca;Palazzo Chigi,negative,high
+2025-03-13_001,video,it,1,1,1,1,1,1,1,1,3,1,Giorgia Meloni;libro;influencer;Presidente del Consiglio;Repubblica italiana,negative,high
+2025-03-14_001,image,it,1,1,1,1,1,1,3,1,1,1,Sesto Fiorentino;Toscana;soccorritori;volontari;Regione;Italia Sicura,negative,medium
+2025-03-16_001,image,it,1,2,1,1,1,1,1,1,3,1,Giorgia Meloni;Influencer;Governo serio;Istituzioni;ceto medio;verità,negative,high
+2025-03-17_001,image,it,1,1,1,1,1,1,1,1,3,1,Teatro Parenti;politica;populismo;statisti;influencer,positive,low
+2025-03-17_002,image,it,1,1,1,1,1,1,3,1,5,1,intercettazioni;servizi segreti;investigazione privata;chiarezza;rapporti;legalità,negative,high
+2025-03-18_001,video,it,1,4,4,1,1,1,3,4,5,1,manovra correttiva;bollette;dazi;intercettazioni preventive;intelligenza artificiale;sovranismo;Senato,negative,high
+2025-03-19_001,image,it,1,1,1,1,3,1,1,1,4,1,Stati Uniti d'Europa;Ventotene;progetto federale;libertà;dibattiti parlamentari;sovranisti,negative,high
+2025-03-19_002,image,it,1,1,4,1,1,1,1,3,4,1,Meloni;intelligenza artificiale;bollette;immigrazione;Senato;opposizioni;libro,negative,high
+2025-03-20_001,video,it,1,1,1,1,1,1,1,1,4,1,rispetto istituzionale;democrazia parlamentare;attacchi politici;Vicepresidente del Senato;parlamento;insulti,negative,high
+2025-03-21_001,image,it,1,1,1,1,1,1,1,1,3,1,Sottosegretario;Istituzioni;politica;Biella;sadico;memoria,negative,medium
+2025-03-22_001,image,it,1,5,4,3,4,1,1,1,2,1,giovani;lavoro;formazione;stipendi;infermiere;Jobs Act;aumenti,negative,medium
+2025-03-22_002,image,it,1,1,1,1,1,1,1,1,1,1,Silvia Salis;candidata sindaca;Genova;centrosinistra;candidatura civica;tappe;Influencer,positive,low
+2025-03-23_001,image,it,1,4,4,1,1,1,2,1,3,1,dazi;economia italiana;recessione;bollette;sovranisti;scelte internazionali,negative,medium
+2025-03-25_001,video,it,2,5,5,3,1,1,3,4,3,1,bollette;stipendi;gas;petrolio;migranti;Meloni;Trump;economia,negative,high
+2025-03-26_001,video,it,1,2,2,1,3,1,3,5,2,1,centro migranti;Albania;sprecare soldi;diritto allo studio;poliziotti;carabinieri;immigrazione,negative,high
+2025-03-28_001,image,it,1,1,1,5,1,1,1,1,3,1,malasanità;ospedale di Mazara;esame istologico;metastasi;sanità siciliana;scandalo,negative,medium
+2025-03-29_001,image,it,1,1,1,1,1,1,1,1,1,1,influencer;saggistica;libro;primo posto,positive,none
+2025-03-31_001,video,it,1,1,1,5,1,1,1,1,2,1,liste d'attesa;esame istologico;ritardo diagnostico;tumore;sistema sanitario;scandalo,negative,high
+2025-04-03_001,image,it,1,4,3,1,1,1,1,1,3,1,guerra commerciale;dazi;lavoratori;imprese;sovranismo;Europa;Meloni;globalizzazione,negative,high
+2025-04-04_001,image,it,1,3,1,1,1,1,1,1,1,1,dazi;Made in Italy;sovranisti;patria;cibo;auto;moda,negative,high
+2025-04-05_001,video,it,1,4,2,1,1,1,1,1,1,1,dazi;borsa;guerra commerciale;agroalimentare;imprese;riorganizzazione,negative,medium
+2025-04-05_002,image,it,1,4,1,1,1,1,1,1,2,1,commercio internazionale;export italiano;TTIP;populismo;politica;Casa Bianca,negative,high
+2025-04-06_001,video,it,1,1,1,1,1,1,1,1,2,1,Giorgia Meloni;raccomandata;Fini;Berlusconi;Fratelli d'Italia;bonifico,negative,high
+2025-04-08_001,image,it,1,3,1,1,1,1,1,1,1,1,Vinitaly;imprenditori;lavoratori;dazi;energia;pressione fiscale,mixed,medium
+2025-04-09_001,image,it,1,1,1,1,1,1,1,1,3,1,Meloni;Salvini;sovranista;Trump;sudditi;patrioti,negative,high
+2025-04-10_001,video,it,1,4,2,1,1,1,1,1,1,1,dazi;volatilità;borsa;speculatori;risparmiatori;mercati,negative,medium
+2025-04-10_002,image,it,1,4,2,1,1,1,1,1,3,1,dazi;economia bloccata;Transizione 5.0;Industria 4.0;Mercosur;sovranismo;investimenti,negative,high
+2025-04-11_001,image,it,1,2,2,1,1,1,1,1,2,1,populisti;consumatori;globalizzazione;sovranismo;Trump,negative,medium
+2025-04-11_002,video,it,1,4,3,1,3,1,1,1,2,1,pressione fiscale;debito pubblico;industria 4.0;Transizione 5.0;rientro cervelli;governo;capacità,negative,high
+2025-04-12_001,image,it,1,2,1,1,1,1,1,1,3,1,Unione Europea;Trump;inviato speciale;Mario Draghi;trattativa,negative,medium
+2025-04-14_001,video,it,1,1,1,1,1,1,1,1,3,1,diritti d'autore;Maggio Musicale Fiorentino;Fondi Governo;Fratelli d'Italia;patto;Sottosegretario,negative,medium
+2025-04-15_001,image,it,1,1,1,1,1,1,1,1,1,1,Presidente;forza;sostegno,positive,high
+2025-04-15_002,image,it,1,1,1,1,1,1,1,1,1,1,Ministro dello Sport;Nazionale;giustizialismo;scommesse;convocazioni;sport,negative,high
+2025-04-15_003,image,it,1,5,1,1,1,1,2,1,2,1,JobsAct;posti di lavoro;abrogazione;campagna elettorale;voto;politica,negative,high
+2025-04-20_001,image,it,1,1,1,1,1,1,1,1,1,1,Buona Pasqua;auguri;famiglia;nonna,positive,none
+2025-04-21_001,image,it,1,1,1,1,1,1,1,1,1,1,Papa Francesco;Piazza San Pietro;Conclave;Pontificato;umanità;Passaggio,neutral,none
+2025-04-22_001,image,it,1,1,1,1,3,3,1,3,3,1,Papa Francesco;incontri;Firenze;temi internazionali;migranti;Europa;unioni civili;politica,positive,low
+2025-04-23_001,video,it,1,1,1,1,3,3,1,4,4,1,Papa Francesco;laicità;immigrazione;diritto;Parlamento;Vangelo;diritto di testimonianza,mixed,low
+2025-04-24_001,video,it,1,4,4,1,1,1,2,1,3,1,DEF;crescita economica;pressione fiscale;Golden Power;PNRR;Made in Italy;debito pubblico;recessione,negative,high
+2025-04-25_001,image,it,1,1,1,1,1,1,1,1,3,1,Italia Viva;Firenze;Resistenza;25 aprile;festadellaliberazione,neutral,none
+2025-04-26_001,image,it,1,1,2,1,1,1,1,1,1,1,treni;ritardo;trasporti;pendolari;Ministro dei Trasporti,negative,medium
+2025-04-26_002,image,it,1,1,1,1,1,1,1,1,1,1,San Pietro;Papa Francesco;Vangelo;operatori di Pace,neutral,none
+2025-04-27_001,image,it,1,1,1,1,1,1,1,1,1,1,Liliana Segre;insultare;coraggiosa;orgoglio,positive,high
+2025-04-29_001,image,it,1,1,1,1,1,1,1,1,1,1,arcobaleno;tempesta;dazi;sovranisti;sereno,positive,low
+2025-04-29_002,image,it,1,3,1,1,1,1,1,1,2,1,populismo;sovranismo;destra;sinistra;riformista;Canada;Trump,positive,medium
+2025-04-30_001,video,it,1,4,4,1,1,1,1,1,2,1,stipendi;occupazione;Jobs Act;giovani;produzione industriale;tasse;emigrazione,negative,medium
+2025-04-30_002,video,it,1,4,4,1,1,1,3,1,2,3,emigrazione;stipendi;bollette;sicurezza;produzione industriale;ceto medio;famiglie,negative,high
+2025-05-01_001,image,it,1,3,1,1,1,1,1,1,1,1,Expo Milano;sfida;dinamismo;resilienza;successo,positive,low
+2025-05-01_002,image,it,1,5,4,1,1,1,1,1,1,1,lavoratori;stipendio;Jobs Act;cuneo fiscale;costo della vita;migrazione;talenti,mixed,medium
+2025-05-03_001,image,it,1,1,1,1,1,1,1,1,2,1,Trump;Albanese;sondaggi;sovranisti;Meloni;Canada;Australia,positive,high
+2025-05-03_002,image,it,1,3,1,1,1,1,1,1,3,1,immagine offensiva;istituzioni;economia americana;recessione;dollaro;sovranisti,negative,medium
+2025-05-04_001,image,it,1,1,1,1,3,3,1,3,1,1,studenti;molestatori;espulsione;Concertone;sicurezza;migrazione,negative,medium
+2025-05-07_001,image,it,1,4,4,3,2,1,3,1,3,1,Premier;cambi di linea;privatizzazioni;stipendi;bollette;economia;patriottismo,negative,high
+2025-05-07_002,video,it,1,3,1,1,1,1,1,1,4,1,coerenza;riforme;nazionalizzazioni;privatizzazioni;legge elettorale;giustizia;contraddizioni;question time,negative,high
+2025-05-07_003,image,it,1,1,1,1,1,3,5,1,1,1,molestie;sicurezza;forze dell'ordine;periferie;criminalità;Censis,negative,high
+2025-05-08_001,image,it,1,1,1,1,1,1,1,1,1,1,Papa Leone XIV;missione pastorale;pace;giustizia;buon lavoro,positive,none
+2025-05-09_001,image,it,1,3,1,1,1,1,1,1,3,1,Europa;politica;libertà;opportunità;cultura;lavoro,positive,low
+2025-05-10_001,image,it,1,2,1,1,1,1,1,1,3,1,Meloni;Europa;sovranisti;guida;Italia;gruppo di testa,negative,high
+2025-05-11_001,image,it,1,1,1,1,1,1,1,1,1,1,Mamma;nonna;moglie;figlia;auguri;festa,positive,none
+2025-05-14_001,image,it,1,1,1,1,1,1,1,1,3,1,Magi;Meloni;Parlamento;contenuti;propaganda;sfidata,negative,medium
+2025-05-15_001,image,it,1,3,1,1,1,1,4,1,3,1,Londra;Parigi;futuro dell'Europa;DAX;Ucraina;guerra;negoziations,neutral,none
+2025-05-16_001,image,it,1,1,1,1,1,1,4,1,4,1,Meloni;Tirana;accordo di pace;FakeNews;Europa;Premier;credibile,negative,high
+2025-05-16_002,video,it,1,4,1,1,1,1,1,1,2,1,Question Time;economia;spread;titoli di Stato;incompetente;governare,negative,high
+2025-05-17_001,image,it,1,1,1,1,1,1,1,1,1,1,Jasmine Paolini;Roma;tennis italiano;festa;Italia,positive,none
+2025-05-17_002,video,it,1,1,1,1,1,1,1,4,2,1,centro migranti;Albania;Meloni;propaganda;contribuente;rapporti umani,mixed,medium
+2025-05-19_001,video,it,,,,,,,,,,,,,
+2025-05-21_001,video,it,,,,,,,,,,,,,
+2025-05-22_001,video,it,1,3,4,1,1,1,1,1,3,1,tasse agricoltori;spese staff;contratti filiera;PNRR;voli di Stato;Ministero dell'Agricoltura;pressione fiscale,negative,high
+2025-05-22_002,video,it,1,1,1,1,1,1,3,1,2,1,politica internazionale;Giorgia Meloni;Ucraina;truppe;bugia;giornalisti,negative,high
+2025-05-23_001,image,it,1,4,3,1,1,1,2,1,3,1,tariffe;sovranismo;globalizzazione;economia;risparmi;pressione fiscale;Trump;Europa,negative,medium
+2025-05-23_002,image,it,1,1,1,1,1,1,1,1,4,1,Corte di Cassazione;Davigo;giustizialismo;giustizia;pregiudicato;cittadino innocente,negative,high
+2025-05-23_003,image,it,1,1,1,1,1,1,1,1,5,1,23 maggio;Giovanni Falcone;sacrificio;cittadini;libertà;generazioni,positive,low
+2025-05-26_001,image,it,1,1,1,1,1,1,1,1,1,1,Genova;Sindaca;vittoria;Silvia,positive,low
+2025-05-28_001,video,it,,,,,,,,,,,,,
+2025-05-30_001,image,it,1,2,1,1,1,1,5,1,5,1,scorta;AISI;tutela;Istituzioni;critiche politiche;Viminale;responsabilità,negative,high
+2025-05-31_001,image,it,1,1,1,1,1,1,1,1,5,1,opposizione;provvedimenti ad personam;Parlamento;democrazia;Governo Meloni;legalità,negative,high
+2025-06-01_001,image,it,1,1,1,1,1,1,1,1,3,1,Quirinale;Festa della Repubblica;Istituzioni;Sergio Mattarella;galantuomo,positive,low
+2025-06-01_002,image,it,1,1,1,1,4,1,1,1,1,1,professore;Meloni;licenziamento;scuola pubblica;educatore;istruzione,negative,medium
+2025-06-02_001,video,it,,,,,,,,,,,,,
+2025-06-03_001,video,it,1,5,4,1,3,1,1,1,2,4,stage gratuito;salario da fame;posto letto 700 euro;Jobs Act;precariato;mutuo;famiglie,negative,medium
+2025-06-04_001,video,it,1,1,1,1,1,2,5,1,5,1,sicurezza;servizi segreti;decreto legge;forze dell'ordine;stato di diritto;intercettazioni,negative,high
+2025-06-05_001,video,it,1,5,4,3,4,1,1,1,2,4,salario;stage sottopagati;welfare aziendale;costo abitazione;formazione;precariato;lavoro,negative,medium
+2025-06-05_002,video,it,1,5,1,1,1,1,1,1,2,1,Jobs Act;assunzioni;creare lavoro;imprese;incentivi;stipendi;sindacato,positive,high
+2025-06-06_001,video,it,1,5,1,1,1,1,1,1,3,1,Jobs Act;diritti;reintegra;dipendenti sindacato;proposta di legge;licenziamento,negative,high
+2025-06-07_001,video,it,1,2,1,1,3,1,4,1,4,1,politica estera;due popoli due stati;dialogo;fanatismo;diritto umanitario;Gaza;ascolto,mixed,low
+2025-06-08_001,image,it,1,1,1,1,1,1,1,1,1,1,Alcaraz;Sinner;Wimbledon;tennis;campioni;sport,positive,none
+2025-06-09_001,image,it,1,4,3,3,2,1,3,1,2,1,centrosinistra;alternativa;stipendi;tasse;sicurezza;sanità,neutral,medium
+2025-06-10_001,image,it,1,3,1,1,2,1,1,1,1,1,giovani;futuro;Palazzo Giustiniani;scelta;Paese,positive,low
+2025-06-11_001,video,it,1,4,3,4,1,1,3,1,2,1,tasse;stipendi;liste d'attesa;pressione fiscale;sicurezza;debito pubblico;ceto medio,negative,high
+2025-06-12_001,video,it,1,1,1,1,1,1,3,1,5,1,Trump;senatori;opposizione;democrazia;servizi segreti;pericolo,negative,high
+2025-06-12_002,image,it,1,1,1,1,1,1,3,1,5,1,giornalisti;software Graphite;Copasir;Parlamento;spionaggio;libertà di stampa;tenuta istituzionale,negative,high
+2025-06-13_001,video,it,1,1,1,1,1,1,4,1,5,1,giornalisti;Watergate;privacy;servizi;democrazia;controspionaggio,negative,high
+2025-06-14_001,image,it,1,2,1,1,1,3,5,1,4,1,politica estera;guerra;Iran;Israele;diritto internazionale;terrorismo;nucleare;diritto di esistere,negative,medium
+2025-06-15_001,video,it,1,4,3,1,1,1,3,4,2,1,produzione industriale;debito pubblico;pressione fiscale;immigrazione;carabinieri;risultati negativi,negative,high
+2025-06-16_001,image,it,1,4,5,3,1,1,2,3,2,4,Caritas;povertà;stipendio da fame;giovani;emigrazione;pressione fiscale;famiglie italiane,negative,high
+2025-06-18_001,image,it,1,1,1,1,5,1,1,1,1,1,maturità;esame;studenti;intelligenza;professori;sfida,positive,none
+2025-06-19_001,image,it,1,1,1,1,1,1,1,1,5,1,intercettazioni illegittime;dagospia;giornalisti;democrazia;spiati;governo,negative,medium
+2025-06-22_001,image,it,1,1,1,1,1,1,3,1,2,1,disordine globale;politica estera;Iran;Unione Europea;strategia diplomatica;potenze mondiali,negative,medium
+2025-06-24_001,video,it,1,1,1,1,1,1,3,1,4,1,Giorgia Meloni;politica estera;Tajani;Iran;ambasciata;verità;domande,negative,high
+2025-06-26_001,video,it,1,1,1,1,1,1,5,1,4,1,Tajani;diplomazia;attacco militare;Iran;Israele;escalation;ambasciata,negative,high
+2025-06-30_001,video,it,1,4,4,1,1,1,1,1,2,1,metal meccanico;reddito di cittadinanza;tasse;costo della vita;stipendio;mossa elettorale,negative,medium
+2025-06-30_002,image,it,1,3,5,1,1,1,1,1,1,1,pressione fiscale;inflazione;beni alimentari;carrello della spesa;famiglie italiane;operai;giovani,negative,medium
+2025-07-01_001,video,it,1,1,1,1,2,4,5,1,2,1,insicurezza;sicurezza;gender gap;stazioni;reati;governo;cultura,negative,high
+2025-07-02_001,video,it,1,1,1,1,1,1,3,1,4,1,Paragon;intercettazioni;giornalisti;contratto;servizi segreti;democrazia;Renzi,negative,medium
+2025-07-02_002,video,it,1,3,1,1,1,1,1,1,1,1,Bocchino;dati economici;debito pubblico;pressione fiscale;Nobel per l'Economia;Fratelli d'Italia,negative,high
+2025-07-03_001,video,it,1,3,1,1,4,1,1,1,3,1,Ius Scholae;Nobel per l'Economia;debito pubblico;pressione fiscale;proposta di legge;dibattito parlamentare,negative,high
+2025-07-04_001,image,it,1,1,1,1,5,1,1,1,1,1,Liceo Classico;esame di maturità;Montale;Eliot;Dante;successo;orgoglio,positive,none
+2025-07-04_002,video,it,1,1,1,1,1,1,4,3,3,1,decreto sicurezza;populismo;Meloni;stazione;carcere;legge,negative,high
+2025-07-05_001,video,it,1,5,4,1,4,1,1,1,1,3,laurearsi;stipendio da fame;costo della vita;esodo;salario minimo;precariato;giovani,negative,medium
+2025-07-05_002,image,it,1,1,1,1,1,1,1,1,2,1,Genova;Italia Viva;Assemblea Nazionale;fare politica;Sindaca,positive,low
+2025-07-08_001,video,it,1,3,4,1,1,1,1,1,2,1,natalità;povertà;detrazioni IRPE;tasse;centro-sinistra;declino;economia,negative,high
+2025-07-09_001,image,it,1,1,1,1,1,1,1,1,4,1,Berlusconi;Meloni;Governo;Istituzioni;libertà;collaborazione;abusi del potere,negative,high
+2025-07-09_002,image,it,1,3,4,1,1,1,1,1,2,1,tributi locali;riscossione tributi;evasione;debito pubblico;pressione fiscale;carrozzoni pubblici,negative,high
+2025-07-10_001,image,it,1,1,1,1,1,1,1,1,4,1,malagiustizia;populismo;processo;Carletti;responsabilità;dignità;scuse,negative,high
+2025-07-10_002,image,it,1,1,1,1,1,1,3,2,5,1,Almasri;indagine;Tribunale dei ministri;favoreggiamento;peculato;Nordio;Bartolozzi,negative,medium
+2025-07-12_001,image,it,1,3,1,1,1,1,1,1,2,1,dazi;Trump;sovranismo;accordi commerciali;economia;governo,negative,high
+2025-07-12_002,image,it,1,4,5,1,1,1,1,1,2,1,costo della vita;tasse aumentate;famiglie povere;Governo Meloni;alternativa seria;impoverendo il Paese,negative,high
+2025-07-13_001,image,it,1,1,1,1,1,1,1,1,1,1,Wimbledon;Sinner;Alcaraz;trionfo;spettacolo,positive,none
+2025-07-15_001,video,it,1,1,1,1,1,1,1,1,1,1,politica;palleggi;incisti;scherzare,negative,high
+2025-07-16_001,video,it,1,1,1,1,1,1,1,1,3,1,Pantani;Renzi;La Russa;politica;gioco;ordine,negative,high
+2025-07-16_002,video,it,1,4,5,3,3,1,1,1,1,1,pressione fiscale;debito pubblico;costo della vita;supermercati;ceto medio;IVA;pannolini,negative,high
+2025-07-16_003,image,it,1,1,1,2,1,1,1,1,1,1,Nazionale Cantanti;solidarietà;Caritas;Papa Leone;politica,neutral,none
+2025-07-17_001,image,it,,,,,,,,,,,,,
+2025-07-18_001,image,it,1,1,1,1,1,1,1,1,4,1,assoluzione;processo;giustizialisti;garantisti;sentenze;campagna mediatica,negative,high
+2025-07-18_002,image,it,1,1,1,1,1,1,1,1,3,1,Festa dell'Unità;dialogo politico;opinioni diverse;slogan;cultura;speranza politica,positive,low
+2025-07-19_001,image,it,1,1,1,1,5,1,1,1,1,1,voti;studenti;maturità;valutazioni;merito;sistema scolastico;pagella,negative,medium
+2025-07-19_002,image,it,1,1,1,1,1,1,3,1,5,1,mafia;Borsellino;strage;verità;giustizia;istituzioni,negative,medium
+2025-07-21_001,video,it,1,3,1,1,1,1,1,1,4,1,Donald Trump;intelligenza artificiale;Casa Bianca;sovranista;dazi;fake news,negative,high
+2025-07-22_001,video,it,1,1,1,1,1,1,1,1,4,1,separazione carriere;magistratura;giustizia;politica;garantismo;Parlamento,negative,high
+2025-07-23_001,video,it,1,3,1,1,1,1,1,1,5,1,garantismo;indagati;sentenze;magistratura;politica;diritto di lavorare,negative,high
+2025-07-24_001,video,it,1,2,1,1,1,1,1,1,2,1,dazi;agricoltura;sovranismo;protezionismo;globalizzazione;PAC;Meloni;Trump,negative,high
+2025-07-28_001,image,it,1,4,3,1,1,1,3,1,3,1,dazi;sovranismo;economia italiana;alleanza strategica;colonialismo;Green Deal;leadership burocratica,negative,high
+2025-07-29_001,video,it,1,2,1,1,3,1,2,1,2,1,Ministero della Cultura;tagli;cultura;sovranisti;bonus 18 anni;giovani;storia,negative,high
+2025-07-30_001,video,it,1,1,1,1,1,1,1,1,1,1,San Giuliano;comunisti;lobby del cinema;dimissioni;corazzata Potionkin;cinema italiano,negative,high
+2025-07-30_002,image,it,1,1,1,1,1,1,3,1,4,1,Russia;Presidente della Repubblica;unità nazionale;forze armate;garante,positive,low
+2025-07-31_001,video,it,1,3,1,1,1,1,1,1,2,1,dazi;Trump;Obama;Meloni;economia italiana;Palazzo Chigi;Premier,negative,high
+2025-07-31_002,image,it,1,3,2,1,1,1,1,1,3,1,dazi;America;sovranità;sudditanza;Istituzioni;Patria;economia,negative,high
+2025-08-01_001,video,it,1,3,1,1,3,4,4,1,1,1,insicurezza;stazione;gender gap;ragazze;formazione professionale,negative,medium
+2025-08-02_001,image,it,1,1,1,1,1,1,1,1,1,1,Tor Vergata;Gioventù;Giubileo;esperienza;speranza;pellegrini,positive,none
+2025-08-04_001,image,it,1,3,1,1,1,1,1,1,4,1,Marche;Zona Economica Speciale;elezioni;campagna elettorale;poteri del Governo;interessi di parte,negative,high
+2025-08-04_002,video,it,1,5,3,1,3,1,1,1,1,1,esodo;giovani;stage;salario minimo;nascite;precariato;lavoro,negative,medium
+2025-08-05_001,video,it,1,3,1,1,1,1,2,1,3,1,Trump;trattativa;gas;accordi;Meloni;Europa;suddita,negative,high
+2025-08-05_002,image,it,1,1,1,1,1,1,5,1,3,1,sicurezza nazionale;Almasri;Servizi Segreti;governo;garantisti;poteri,negative,high
+2025-08-08_001,image,it,1,1,1,1,1,1,1,1,1,1,elezioni regionali;vacanze;Italia Viva;Leopolda;tesoriere,neutral,none
+2025-08-08_002,video,it,1,5,4,1,1,1,2,1,2,1,tassazione;busta paga;straordinario;imprenditore;lavoratore;utile;defiscalizzato,negative,high
+2025-08-09_001,video,it,1,3,1,1,1,1,1,1,1,1,Giorgia Meloni;ministero dello sviluppo economico;gigafactory;fattoria;Adolfo Urso;bloccare fondi,negative,high
+2025-08-12_001,image,it,1,3,2,2,1,1,1,1,1,1,riforme;JobsAct;Irap;IMU;bonus 18 anni;riforme governo;opposizione,negative,medium
+2025-08-12_002,image,it,1,1,1,1,1,1,1,1,3,1,Papadopoulos;diffamazione;Obama;scandali;alleati;bugie,negative,high
+2025-08-13_001,image,it,1,1,1,1,1,1,3,5,3,1,Giorgia Meloni;trafficanti di uomini;strage del mare;sciacallaggio;Lampedusa;migranti,negative,high
+2025-08-13_002,image,it,1,1,1,1,1,1,3,1,3,1,Putin;Ucraina;teatro politico;sovranità;politica estera;trattative,negative,medium
+2025-08-15_001,video,it,1,3,1,3,1,1,3,1,1,1,Ferragosto;politica internazionale;Putin;Trump;servizi pubblici;riposo;lavoratori,mixed,none
+2025-08-16_001,image,it,1,1,1,1,1,1,1,1,1,1,PippoBaudo;storia popolare;addio,neutral,none
+2025-08-22_001,image,it,1,1,1,1,1,1,1,1,4,1,arresti;giustizia;garantista;giustizialismo;indagine;sentenze,negative,medium
+2025-08-23_001,video,it,1,4,4,4,1,1,3,2,4,1,carovita;sanità;Salvini;Lollobrigida;economia;delinquenza;democrazia,negative,high
+2025-08-27_001,video,it,1,3,5,1,4,1,1,3,2,4,piano casa;costo della vita;scuola;affitti;emigrazione;giovani coppie;testo di legge,negative,high
+2025-08-28_001,video,it,1,5,3,1,4,1,1,1,2,1,salario minimo;giovani;merito;fuga di cervelli;sistema universitario;lavoro,negative,medium
+2025-08-30_001,image,it,1,4,3,1,1,1,1,1,1,1,PIL;crescita;costo della spesa;Governo Meloni;decrescita;Palazzo Chigi,negative,medium
+2025-09-01_001,video,it,1,4,5,1,3,1,1,1,1,4,stipendi;mutuo;affitto;giovani;salario minimo;costo della vita;Bologna;Milano,negative,medium
+2025-09-01_002,image,it,1,3,1,1,1,1,1,1,2,1,dumping;capitali;talenti;leggi;erario;opposizione,positive,high
+2025-09-04_001,image,it,1,1,1,1,1,1,1,1,1,1,Giorgio Armani;moda;Made in Italy;eleganza;icona globale;condoglianze,neutral,none
+2025-09-06_001,video,it,1,2,1,1,1,1,1,1,2,1,dazi;disordine mondiale;Occidente;Green Deal;Stati Uniti;India;Cina,negative,high
+2025-09-07_001,image,it,1,1,1,1,1,1,1,1,1,1,Volley;azzurre;atlete;Julio Velasco,positive,none
+2025-09-07_002,video,it,1,4,3,1,1,1,1,1,3,1,pressione fiscale;tasso tasse;debito pubblico;imprenditori;crescita;Costituzione,negative,high
+2025-09-08_001,image,it,1,1,1,1,1,1,1,1,1,1,Giorgio Armani;Matteo Renzi;aneddoti;Made in Italy;politica;moda,neutral,none
+2025-09-08_002,video,it,1,4,4,3,4,1,1,2,1,3,emigrazione;cervelli;giovani;mutuo;stipendi;burocrazia;formazione,negative,high
+2025-09-12_001,video,it,1,4,5,1,4,1,1,1,1,4,stipendio insegnante;costo vita Milano;burocrazia;affitto;vocazione;docenti,negative,medium
+2025-09-12_002,image,it,1,1,1,1,1,1,1,1,3,1,squallore;vergogna;Governo Meloni;Italia Viva;Brigate Rosse,negative,high
+2025-09-12_003,video,it,1,5,4,1,1,1,1,1,3,1,produzione industriale;PIL;inflazione;PNRR;pressione fiscale;dati Istat;economia italiana,negative,high
+2025-09-14_001,video,it,1,3,3,1,1,1,1,1,4,1,DC;Brigate Rosse;interrogazione parlamentare;odio politico;unità;proposte concrete;istituzioni,negative,high
+2025-09-15_001,image,it,1,3,4,1,1,1,3,1,2,1,stipendi;vita quotidiana;sicurezza;famiglie;crimine;mediatico,negative,high
+2025-09-15_002,video,it,1,3,1,1,5,1,1,1,1,1,educazione;fuga dei cervelli;investimento;laurea;centrosinistra;giovani,negative,medium
+2025-09-17_001,video,it,1,3,5,1,2,1,1,1,3,1,stipendi;pensioni;tasse;carrello della spesa;costo della vita;reati dei minorenni;pressione fiscale,negative,high
+2025-09-17_002,image,it,1,3,3,4,4,1,4,1,3,1,proposte;alternativa;sicurezza;sanità;scuola;tasse;incertezza economica;dibattito politico,mixed,medium
+2025-09-19_001,video,it,1,2,3,1,1,1,1,1,3,1,giovani;politica;coraggio;passione;compromesso;leader;paese,mixed,medium
+2025-09-22_001,image,it,1,2,1,1,1,1,4,1,2,1,stazione di Milano;teppista;violenze;forze dell'ordine;proposte politiche;pendolari;lavoratori,negative,high
+2025-09-22_002,image,it,1,1,1,1,1,1,1,1,1,1,NYC;Assemblea Generale ONU;Central Park;autunno,neutral,none
+2025-09-24_001,video,it,1,4,4,2,1,1,1,1,3,1,Giorgetti;debito;pressione fiscale;reddito di cittadinanza;superbonus;Lega;bilancio,negative,high
+2025-09-25_001,video,it,1,4,1,1,1,1,1,1,2,1,Industria 4.0;manifattura;fatturato;produzione industriale;burocrazia;competitività,negative,high
+2025-09-26_001,image,it,1,1,1,1,1,1,1,1,1,1,Spotify;Luca Casadei;intervista;comunicazione;personale;audio;video,positive,none
+2025-09-26_002,video,it,1,4,5,1,1,1,3,1,2,1,pressione fiscale;carrello della spesa;debito pubblico;salari;criminalità;governo,negative,high
+2025-09-26_003,image,it,1,3,3,1,1,1,1,1,3,1,minacce di morte;vittimismo;correttezza istituzionale;tasse;debito pubblico;dialogo,negative,high
+2025-09-28_001,image,it,1,1,1,1,1,3,1,1,1,1,volley;campioni del mondo;parità di genere;complimenti;squadra,positive,none
+2025-09-28_002,image,it,1,1,1,1,1,1,1,1,1,1,Corri la Vita;Firenze;solidarietà;corsa;omaggio,positive,none
+2025-09-30_001,video,it,1,1,1,1,1,1,1,1,1,1,umanità;compassione;giudicare;algoritmi;Dostoevsky;relazioni umane,positive,none
+2025-10-01_001,video,it,1,2,1,2,2,1,1,1,1,1,Palazzo Chigi;giorni di governo;attività fisica;sonno;stile di vita,negative,none
+2025-10-02_001,video,it,1,4,5,1,2,1,3,1,3,1,Gaza;sciopero;tasse;costo della vita;debito pubblico;proposte di legge;politica estera;campo largo,negative,medium
+2025-10-02_002,video,it,1,3,3,1,1,1,4,1,4,1,pace;Gaza;soluzione politica;due popoli due stati;compromesso;Stato di Palestina;ostaggi,mixed,medium
+2025-10-02_003,image,it,1,1,1,1,1,1,1,1,3,1,politica estera;Gaza;Stato di Israele;Stato di Palestina;piano di pace;diritti costituzionali,negative,medium
+2025-10-03_001,image,it,1,1,1,1,3,1,1,1,2,1,Leopolda;giovani;scuola Meritare l’Europa;politica;incontri,positive,low
+2025-10-03_002,video,it,1,1,1,1,1,1,1,1,5,1,accuse;processo;difesa;ricorso costituzionale;legalità;famiglia;giustizia,positive,medium
+2025-10-04_001,image,it,1,3,1,1,1,1,1,1,3,1,Leopolda;sindaci;ministri;proposte;legge di bilancio,positive,low
+2025-10-04_002,image,it,1,1,1,1,3,1,1,1,2,1,dialogo;confrontarsi;imparare;politica;esperienza;giovani,positive,low
+2025-10-05_001,video,it,1,1,1,1,1,1,1,1,4,1,intercettazioni;sacerdote;governo;strumenti informatici;verità;Mantovano,negative,high
+2025-10-05_002,image,it,1,1,1,1,1,1,1,1,1,1,Leopolda;idee;speranze;riprendo,positive,none
+2025-10-06_001,video,it,1,5,4,1,3,1,1,1,1,1,IRPEF;fuga dei cervelli;giovani;start tax;reddito;economia,negative,medium
+2025-10-06_002,video,it,1,1,1,1,1,1,1,1,5,1,magistrati;politici;carriere;esecutivo;eleggibilità;norma,negative,high
+2025-10-07_001,video,it,1,1,1,1,1,1,2,1,2,1,Francesca Albanese;Liliana Segre;ostaggi;pace;estremista;ministri,negative,high
+2025-10-08_001,image,it,1,4,3,1,1,1,3,1,1,1,pressione fiscale;tasse;stipendi;centro-sinistra;governo;Banca d'Italia,negative,medium
+2025-10-09_001,video,it,1,3,1,1,1,1,1,1,3,1,Ministero delle Imprese;dazi;25 miliardi;Made in Italy;commercio estero;competenza;imprese,negative,high
+2025-10-09_002,video,it,1,4,3,3,1,1,1,1,2,3,pressione fiscale;salari fermi;sfratto esecutivo;concretezza;lavoro;sanità,negative,medium
+2025-10-09_003,video,it,1,1,1,2,1,1,5,1,4,1,Gaza;ostaggi;accordo di pace;politica estera;Hamas;prigionieri;Israele;Palestina,positive,high
+2025-10-09_004,image,it,1,1,1,1,1,1,3,1,1,1,accordo di pace;Gerusalemme;Ostaggi liberi;fine della guerra;Stati;speranza,positive,low
+2025-10-10_001,video,it,1,2,2,3,3,1,1,1,1,1,terzo settore;povertà educativa;fondi;5 per mille;volontariato;associazionismo,negative,high
+2025-10-10_002,image,it,1,1,1,1,1,1,1,1,1,1,Piazza Strozzi;Casa Riformista;Toscana;centrosinistra;Eugenio Giani;elezioni regionali,positive,medium
+2025-10-13_001,video,it,1,1,1,1,1,1,1,1,1,1,Vannacci;centrosinistra;Viareggio;Casa Riformista;elezioni,negative,medium
+2025-10-13_002,image,it,1,1,1,1,1,1,1,1,2,1,Casa Riformista;Toscana;liste;voti;sondaggi,neutral,low
+2025-10-13_003,image,it,1,1,1,1,1,1,1,1,1,1,Eugenio Giani;centrosinistra;Casa Riformista;Elezioni;Toscana,positive,low
+2025-10-13_004,video,it,1,1,1,1,1,1,1,1,1,1,inizio;storia;nuova;grazie,positive,low
+2025-10-14_001,video,it,1,3,4,1,1,1,1,1,1,3,elezioni regionali;riformisti;pressione fiscale;stipendi;affitto;problemi quotidiani,negative,high
+2025-10-15_001,image,it,1,1,1,1,1,1,1,1,1,1,Festival del Cinema di Roma;Agnese;ventesima edizione,neutral,none
+2025-10-15_002,video,it,1,1,1,1,1,1,4,1,4,1,politica estera;pace di Abramo;Gaza;Israele;accordi di Oslo;geopolitica;diritti umani,mixed,medium
+2025-10-16_001,image,it,1,1,1,1,1,1,1,1,1,1,compleanno;nonna;vita;memoria;seconda guerra mondiale,positive,none
+2025-10-16_002,video,it,1,4,1,1,1,1,1,1,1,3,promesse;dazi;Piano Casa;Legge di Bilancio;25 miliardi;18 miliardi,negative,high
+2025-10-17_001,video,it,1,4,4,3,1,1,3,1,1,3,pressione fiscale;caro vita;pensioni;lavoratori;sprechi;emergenza abitativa,negative,medium
+2025-10-18_001,image,it,1,4,1,1,1,1,1,1,1,1,Giorgia Meloni;Transizione 5.0;Industria 4.0;misura;Governo,negative,high
+2025-10-20_001,video,it,1,5,1,1,1,1,1,1,1,1,Industria 4.0;Transizione 5.0;produzione industriale;imprenditori;riforma;governo;economia,negative,high
+2025-10-24_001,image,it,1,3,4,2,1,1,1,1,2,1,Tajani;Salvini;fondi metropolitane;accise;debito pubblico;pressione fiscale;costo della vita,negative,high
+2025-10-28_001,image,it,1,1,1,1,1,1,1,1,4,1,Garlasco;Nordio;Giustizia;indagini;colpevolezza;Istituzioni;diritto,negative,high
+2025-10-28_002,image,it,1,1,1,1,3,1,1,1,4,1,libertà di parola;università;Emanuele Fiano;Auschwitz;Hamas;ProPal,negative,medium
+2025-10-30_001,video,it,1,1,1,1,1,1,1,1,4,1,separazione carriere;giustizia;indagine sbagliata;Corte dei Conti;magistrati;bandierina ideologica,negative,high
+2025-10-30_002,video,it,1,3,3,1,1,1,1,2,5,1,separazione carriere;giustizialismo;riforma costituzionale;magistrati;garantismo;dibattito parlamentare,negative,high
+2025-10-31_001,video,it,1,3,4,1,1,1,1,1,1,1,fondi;pressione fiscale;debito pubblico;gasolio;fungo porcino;Lollobrigida;cervelli,negative,high
+2025-10-31_002,video,it,1,1,1,1,1,1,1,1,5,1,caso Garlasco;Giustizia;Nordio;processi;ingiustizia;magistrati,negative,high
+2025-11-02_001,image,it,1,1,1,1,1,1,3,1,1,1,Museo Egizio;cultura;emozioni;pace;sicurezza;futuro,positive,low
+2025-11-03_001,video,it,1,4,5,1,1,1,1,1,1,1,alimentari;costo della vita;bollette;pressione fiscale;debito pubblico;carrello della spesa,negative,high
+2025-11-04_001,video,it,1,3,4,3,1,1,1,1,2,1,pensioni minime;legge di bilancio;pensionati;stipendio;malati oncologici;spesa pubblica,negative,high
+2025-11-05_001,video,it,1,3,4,2,1,1,1,1,3,1,tasse;accise;pensionati;costo della vita;manovra;giustizia,negative,high
+2025-11-05_002,image,it,1,1,1,1,1,1,1,1,4,1,giustizia;tortura;Almasri;onori;Istituzioni;ingiustizia,negative,high
+2025-11-05_003,video,it,1,2,3,1,1,1,5,4,2,1,sicurezza;tasse;Albania;carabinieri;poliziotti;centro migranti;migranti,negative,high
+2025-11-06_001,video,it,1,2,4,5,1,1,1,1,2,1,Istat;curarsi;soldi;Legge di Bilancio;drammatica;appello,negative,medium
+2025-11-07_001,image,it,1,2,1,1,1,1,1,1,3,1,CNEL;tasse;ceto medio;Brunetta;abolire;spendere,negative,high
+2025-11-08_001,image,it,1,3,3,1,1,1,1,1,1,1,pressione fiscale;patrimoniale;tasse;centro-sinistra;autogol;Governo,negative,high
+2025-11-08_002,video,it,1,4,3,1,1,1,1,1,3,1,stipendi;pensioni minime;giovani;Brunetta;CNEL;Meloni;ceto medio,negative,high
+2025-11-08_003,image,it,1,1,1,1,3,1,1,1,3,1,Maratona di Atene;Liceo Classico;Europa;Consiglio Europeo;democrazia;sfida personale,positive,none
+2025-11-09_001,image,it,1,2,1,1,1,1,1,1,3,1,Maratona;Atene;cultura;storia;Europa;politica;identità,positive,low
+2025-11-09_002,image,it,1,1,1,1,1,1,1,1,1,1,maratona;gara;obiettivo;emozioni,positive,none
+2025-11-10_001,image,it,1,1,1,1,4,1,1,1,3,1,università;diritto costituzionale;studenti universitari;professori;confronto;politica,positive,none
+2025-11-12_001,image,it,1,4,5,2,1,1,4,2,3,3,pressione fiscale;costo degli alimentari;sicurezza;tasse;economia italiana;CNEL;piano casa,negative,high
+2025-11-13_001,video,it,1,1,1,1,1,1,5,3,2,1,Albania;carabinieri;poliziotti;sicurezza;spesa pubblica;detenuti;stazioni,negative,high
+2025-11-16_001,image,it,1,3,4,3,1,1,3,1,2,1,sanità;debito pubblico;pressione fiscale;costo alimentari;bollette;pensioni;Casa Riformista;elezioni,negative,high
+2025-11-17_001,image,it,1,1,1,1,1,1,1,1,3,1,ATPFinals;Torino;organizzazione evento;Binaghi;Gaudenzi;Governo Meloni;forzature,mixed,medium
+2025-11-18_001,image,it,1,1,1,1,3,1,5,1,2,1,accoltellamento;sicurezza;studenti universitari;forze dell'ordine;Milano;dibattito politico,negative,high
+2025-11-18_002,image,it,1,3,1,3,3,1,3,1,2,1,intelligenza artificiale;competitività;agenda politica;pubblica amministrazione;sanità;istruzione;difesa,positive,low
+2025-11-19_001,image,it,1,2,3,1,1,1,3,1,4,1,Quirinale;Mattarella;pressione fiscale;sicurezza;potere;complotto,negative,high
+2025-11-19_002,image,it,1,4,1,1,1,1,1,1,1,1,politica industriale;Industria 5.0;Industria 4.0;Jobs Act;economia;Confindustria,negative,high
+2025-11-20_001,video,it,1,1,1,1,1,1,5,1,3,1,accoltellamento;sicurezza;forze dell'ordine;Milano;Carabinieri;propaganda,negative,high
+2025-11-20_002,image,it,1,1,1,1,1,1,1,1,1,1,Antonio Decaro;amministratore;Presidente Regione Puglia;Casa Riformista,positive,high
+2025-11-21_001,image,it,1,1,1,1,1,1,1,1,1,1,Ornella;senza fine,neutral,none
+2025-11-21_002,image,it,1,4,3,1,1,1,1,1,1,1,pressione fiscale;PNRR;PIL;tassazione;Industria 4.0;Transizione 5.0,negative,medium
+2025-11-21_003,image,it,1,4,5,3,1,1,2,1,4,3,pressione fiscale;debito pubblico;costo della vita;fuga di cervelli;Mattarella;PNRR;riforma costituzionale;crisi economica,negative,medium
+2025-11-21_004,image,it,1,1,1,4,4,1,1,1,2,1,semestre filtro;medicina;fallimento governativo;interrogazione in Senato;incapacità amministrativa,negative,medium
+2025-11-21_005,video,it,1,3,5,1,2,1,1,2,2,4,pressione fiscale;costo della vita;legge di bilancio;giovani;piano casa;carrello della spesa;Istat,negative,high
+2025-11-22_001,image,it,1,1,1,1,4,1,1,1,1,1,laurea;Bocconi;test d'ingresso;Magistrale;successo;felicità,positive,none
+2025-11-24_001,image,it,1,1,1,1,1,1,1,1,3,1,Giorgia Meloni;legge elettorale;alternativa;Campania;Puglia;Palazzo Chigi,negative,high
+2025-11-25_001,video,it,1,1,1,1,3,1,3,1,2,1,Nigeria;Boko Haram;cristiani;persecuzione;genocidio;Senato;estremismo,negative,medium
+2025-11-26_001,image,it,1,1,1,1,1,1,1,1,3,1,centrosinistra;riformisti;risultati regionali;voto;partito democratico;fratelli d'italia,neutral,low
+2025-11-26_002,video,it,1,5,4,1,3,1,1,2,1,4,giovani;casa;mutuo;stipendio;Start Tax;emigrazione;salario di ingresso,negative,medium
+2025-11-27_001,video,it,1,4,3,1,1,1,2,1,2,1,tasse;stipendi;carrozzoni;pensioni;sprechi;produzione;finanziamento,negative,high
+2025-11-29_001,image,it,1,1,1,1,1,1,1,1,4,1,aggressione;redazione;democrazia;libertà;barbarie ideologica;solidarietà,negative,medium
+2025-12-02_001,image,it,1,4,4,2,1,1,3,1,2,1,Legge di Bilancio;pensioni minime;pressione fiscale;debito pubblico;povertà;alimentari;allarme sicurezza,negative,medium
+2025-12-04_001,image,it,1,3,1,1,3,1,1,1,4,1,referendum costituzionale;riforme sociali;merito;status quo;cambiamento;libertà;giovani,positive,medium
+2025-12-04_002,video,it,1,4,5,1,1,1,1,1,2,1,costo della vita;stipendi;spread;supermercato;giovani;politica industriale;pressione fiscale,negative,medium
+2025-12-05_001,image,it,1,3,4,4,1,1,4,4,1,1,Rapporto Censis;sanità;sicurezza;inflazione;immigrazione;centrosinistra;Meloni,negative,medium
+2025-12-05_002,image,it,1,1,1,3,5,1,1,1,2,1,Medicina;numero chiuso;semestre filtro;riforma;incompetenti;università,negative,medium
+2025-12-06_001,video,it,1,1,1,1,4,1,1,1,3,1,censura;libertà di pensiero;cultura;educazione;università;diritti;Dante;Shakespeare,negative,low
+2025-12-06_002,video,it,1,4,3,1,2,1,4,2,2,1,pressione fiscale;sicurezza;reati;Start Tax;agenti bloccati;tasse;giovani,negative,high
+2025-12-10_001,image,it,,,,,,,,,,,,,
+2025-12-10_002,image,it,1,3,1,1,1,1,1,1,1,1,cucina italiana;patrimonio mondiale;agroalimentare;dazi;crisi geopolitiche;lavoratori,positive,low
+2025-12-11_001,video,it,1,1,1,1,1,1,1,1,1,1,Italia Viva;boomer;biliardino;incontro,positive,none
+2025-12-12_001,image,it,1,1,1,1,1,1,3,1,4,1,Santo Padre;Servizi Segreti;informazioni riservate;manipolare;ricattare;società civile,positive,low
+2025-12-13_001,video,it,1,3,4,2,2,1,1,1,4,1,debito pubblico;pressione fiscale;giovani;riforme costituzionali;confronto;Atreju;sistema politico,negative,medium
+2025-12-13_002,image,it,1,1,1,1,1,1,1,1,1,1,Roma;Atreju;Legge di bilancio;maratona;weekend,neutral,none
+2025-12-14_001,image,it,1,3,2,1,1,1,2,1,2,1,pressione fiscale;debito pubblico;fuga dei cervelli;criminalità;comizio;realtà politica,negative,medium
+2025-12-14_002,image,it,1,1,1,1,1,1,3,1,4,1,Hanukkah;antisemitismo;Sydney;violenza;lutto;sinagoga,negative,medium
+2025-12-15_001,video,it,1,1,1,1,1,1,1,1,3,1,autonomia differenziata;riforma del titolo quinto;regionalismo;Corte Costituzionale;Parlamento;conformismo,negative,high
+2025-12-16_001,video,it,1,1,1,1,1,1,1,1,4,1,elezione diretta del Premier;riforma Casellati;Presidente del Consiglio;nomina e revoca dei ministri;emendamento;Costituzione,negative,high
+2025-12-17_001,video,it,1,2,3,1,4,1,1,1,3,1,coerenza;opposizione;legge Fornero;accise;pressione fiscale;numero chiuso;studenti;Parlamento,negative,high
+2025-12-17_002,image,it,1,1,3,1,1,1,1,1,3,1,Senato;Giorgia Meloni;opposizioni;Presidente del Consiglio;fare la spesa;costo,negative,medium
+2025-12-18_001,video,it,1,4,2,1,1,1,1,1,2,1,produzione industriale;crollo;economia;Urso;Meloni;numeri fallimentari,negative,high
+2025-12-19_001,video,it,1,3,1,1,1,1,1,1,2,1,Legge Fornero;abolizione;sistema discriminatorio;elezioni;promesse politiche;Salvini;Meloni,negative,high
+2025-12-22_001,video,it,1,2,3,1,1,1,1,1,5,1,democrazia parlamentare;legge di bilancio;tasse;dibattito democratico;Parlamento,negative,high
+2025-12-23_001,video,it,1,3,1,1,1,1,1,1,2,1,intelligenza artificiale;quantum computing;emendamento;oro;Lega;Banca d'Italia,negative,high
+2025-12-23_002,video,it,1,4,4,1,2,1,3,1,2,1,legge di bilancio;pressione fiscale;tasse;PIL;giovani;sicurezza;IRAP,negative,high
+2025-12-24_001,video,it,1,2,1,1,1,1,1,1,1,1,Natale;vigilia;felicità;compagnia;auguri;riposo,positive,none
+2025-12-25_001,image,it,1,1,1,1,1,1,1,1,1,1,Natale;auguri;Agnese,positive,none
+2025-12-26_001,video,it,1,1,1,1,1,1,1,1,1,1,auguri;Natale;internazionali;amore;saluti,positive,none
+2025-12-27_001,video,it,1,3,4,1,3,1,3,1,3,1,populismo;merito;tasse;sicurezza;carrello della spesa;giovani,negative,medium
+2025-12-30_001,image,it,1,4,4,1,1,1,3,1,1,1,Legge di Bilancio;pressione fiscale;debito;giovani;Start Tax;tasse;economia,negative,high
+2026-01-02_001,image,it,1,1,1,1,1,1,1,1,2,1,Paolo Sorrentino;La Grazia;cinema;politica;diritto;Istituzioni,positive,none
+2026-01-03_001,image,it,1,2,2,1,1,1,4,1,5,1,Istituzioni multilaterali;teatri di guerra;libertà;Venezuela;Maduro;politica estera,mixed,medium
+2026-01-06_001,video,it,1,2,2,1,1,1,3,1,3,1,Trump;Maduro;Venezuela;politica estera;diritto internazionale;elezioni;dittatori,negative,medium
+2026-01-08_001,video,it,1,2,1,1,1,1,5,3,4,1,certezza della pena;sicurezza;capotreno;stupro;immigrazione;Stato;reati,negative,high
+2026-01-08_002,video,it,,,,,,,,,,,,,
+2026-01-09_001,video,it,1,5,5,3,1,1,3,1,2,1,tasse;stipendi;pensioni;pressione fiscale;costo della vita;sicurezza;crescita,negative,high
+2026-01-09_002,video,it,1,3,5,1,1,1,1,1,2,1,gasolio;tasse;costo della vita;accise;pacchi;aumenti,negative,high
+2026-01-11_001,image,it,1,1,1,1,1,1,1,1,1,1,compleanno;51 anni;auguri;curiosità;passione,positive,none
+2026-01-14_001,image,it,1,1,1,1,1,1,1,1,1,1,Eugenio Scalfari;La Repubblica;cinquantesimo compleanno;redazione;augurio,positive,none
+2026-01-16_001,video,it,1,3,4,1,1,1,2,1,3,1,spese rappresentanza;Palazzo Chigi;stipendi;servizi segreti;pressione fiscale;opposizione;consenso,negative,high
+2026-01-16_002,video,it,1,1,1,1,1,1,5,2,4,1,sicurezza;certezza della pena;criminalità;governo Meloni;cultura giuridica;forze dell'ordine,negative,high
+2026-01-17_001,video,it,1,1,1,1,1,1,5,3,4,1,sicurezza;pena;reati;salvataggio;Stato;populismo;centrosinistra,negative,high
+2026-01-18_001,image,it,3,4,1,3,3,3,1,1,3,1,diritti civili;Industria 4.0;Dopo di noi;riforme;futuro,positive,low
+2026-01-19_001,image,it,1,3,1,1,1,1,1,1,3,1,dazi;guerra commerciale;UE;credibilità europea;interesse italiano;Consiglio Europeo,negative,medium
+2026-01-20_001,video,it,1,1,1,1,1,3,1,1,4,1,Iran;diritti umani;libertà;donna;implicazione politica;attenzione mediatica,negative,high
+2026-01-21_001,video,it,1,3,4,1,1,1,1,1,2,1,dazi;costo della vita;guerra commerciale;politica europea;interessi europei;Trump,negative,high
+2026-01-22_001,image,it,1,1,1,1,1,1,2,5,3,1,ICE;arresto;bambino;centri di detenzione;sogno americano;immigrazione,negative,high
+2026-01-22_002,video,it,1,4,4,3,1,2,3,3,3,1,Renzi;Jobs Act;pressione fiscale;costo della vita;centro-sinistra;burocrazia;riforme,mixed,medium
+2026-01-24_001,image,it,1,1,1,1,1,1,5,1,3,1,militari italiani;Afghanistan;NATO;Trump;sacrario;difesa;sudditanza,negative,high
+2026-01-27_001,image,it,1,1,1,1,1,1,2,2,5,1,Sesto Fiorentino;Giornata della Memoria;console di Israele;criminale di guerra;odio ideologico;istituzioni locali,negative,medium
+2026-01-27_002,image,it,1,1,1,1,1,1,1,1,4,1,antisemitismo;memoria;odio;opinione pubblica;lottare;GiornodellaMemoria,negative,medium
+2026-01-27_003,image,it,3,1,1,1,1,1,1,1,2,1,Sicilia;maltempo;Governo nazionale;sceneggiate;Premier;Regione,negative,high
+2026-01-28_001,image,it,2,3,4,3,1,1,3,1,2,1,dazi;stipendi;costo della vita;sanità;sovranisti;Casa Bianca,negative,high
+2026-01-31_001,image,it,1,1,1,1,2,1,1,1,4,1,FakeNews;teoria del complotto;stampa libera;elezioni 2020;senso critico;Giorgia Meloni,negative,high
+2026-02-01_001,image,it,1,1,1,1,1,1,4,1,3,1,sicurezza;polizia;violenti;terroristi;Torino;Meloni;decreto,negative,high
+2026-02-01_002,video,it,1,1,1,1,1,1,4,1,2,1,poliziotto;violenza;Polizia di Stato;patrie galere;solidarietà,negative,medium
+2026-02-03_001,image,it,1,1,1,1,1,1,1,1,1,1,Olimpiadi invernali;Milano Cortina 2026;sport;atleti;Giochi;Italia,positive,none
+2026-02-06_001,image,it,1,1,1,1,1,1,1,1,3,1,Trump;Casa Bianca;Solidarietà;Obama;vergogna,negative,high
+2026-02-06_002,image,it,1,1,1,1,1,1,1,1,1,1,Milano;Olimpiadi;Expo;Italia;evento,positive,none
+2026-02-07_001,video,it,1,1,1,1,1,1,4,2,4,1,reati in stazione;poliziotti;carabinieri;certezza del diritto;fallimento;decreti,negative,high
+2026-02-08_001,image,it,1,3,4,1,1,1,3,1,2,1,pressione fiscale;sicurezza;povertà;produzione industriale;Sanremo;Governo,negative,high
+2026-02-10_001,image,it,1,1,1,1,1,1,2,1,4,1,Giorno del Ricordo;foibe;esodo forzato;violenza;totalitarismo;storia,negative,high
+2026-02-11_001,video,it,1,3,3,1,1,1,3,1,3,1,tasse;pensioni;sicurezza;deriva illiberale;stipendi;Parlamento;Rai;sinistra,negative,high
+2026-02-12_001,image,it,1,1,1,1,1,1,1,1,1,1,Olimpiadi;Arianna Fontana;Federica Brignone;SuperG;vittoria;sport,positive,none
+2026-02-20_001,image,it,1,2,1,1,1,1,1,1,4,1,dazi;Corte Suprema;Trump;MAGA;interesse della Nazione;Giorgia Meloni,negative,high
+2026-02-21_001,image,it,1,2,1,1,1,1,1,1,4,1,ENI;Petrolgate;assolti;Stato di diritto;indagine;giustizia,negative,high
+2026-02-22_001,image,it,1,2,1,1,1,1,1,1,2,1,Forza Italia;Board of Peace;Trump;dazi illegali;governo;patriota,negative,high
+2026-02-23_001,image,it,1,1,1,1,1,1,1,4,2,1,rimpatri;Viminale;Governo;risultati;Meloni;interrogazioni,positive,high
+2026-02-27_001,video,it,1,1,1,1,1,1,1,1,5,1,legge elettorale;preferenze;cittadini;rappresentanti;Italicum;scelta,negative,high
+2026-02-27_002,video,it,1,4,5,3,1,1,3,1,2,1,legge elettorale;sicurezza;stipendi;pensioni;bollette;ceto medio,negative,medium
+2026-02-28_001,image,it,1,1,1,1,1,1,2,1,4,1,Teheran;Iran;libertà;pace;geopolitico;Europa,positive,medium
