@@ -1490,7 +1490,7 @@ export function renderAbout() {
             <div class="team-photo" style="--photo:url('Dashboard/dati/Marco_Coppola.jpg')"></div>
             <div class="team-info">
               <h3>Marco Coppola</h3>
-              <blockquote>"Se nel mondo esistesse un po' di bene…"</blockquote>
+              <blockquote>"Come fossero i politici senza denti?"</blockquote>
               <small>(Vota Verdi)</small>
             </div>
           </article>
