@@ -144,7 +144,7 @@ export const politicians = [
     "party": "Forza Italia",
     "role": "Deputato",
     "palette": ["#e0e7f3", "#003366", "#3366cc"],
-    "photo": "Dashboard/dati/Roberto_Vannacci.webp",
+    "photo": "Dashboard/dati/Roberto_Vannacci.jpg",
   }
 ];
 
