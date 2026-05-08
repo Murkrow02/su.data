@@ -621,7 +621,6 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2025-03-09_002,video,it,1,2,1,1,1,1,4,1,4,1,dittatori;storia;Nato;Putin;Cecoslovacchia;difesa;sovranità,negative,high
 2025-03-09_003,image,it,1,1,1,1,3,1,1,1,1,1,scuola;figlio;vigliacco;corso Vittorio Emanuele II;ufficio,negative,medium
 2025-03-09_004,video,it,1,2,1,4,3,1,4,1,3,4,difesa europea;prestito sanitario;bonus edilizi;sanità;investimenti;disastro democratico,negative,high
-2025-03-09_005,image,it,,,,,,,,,,,,,
 2025-03-10_001,image,it,1,1,1,1,1,1,5,1,2,1,riarmo;difesa comune;europeismo;Europa debole;bandiere ucraine;bandiere georgiane,negative,high
 2025-03-10_002,video,it,1,1,3,1,1,1,5,1,2,1,difesa UE;crisi ucraina;forze di interposizione;spesa militare;Nato;esercito europeo,neutral,low
 2025-03-10_003,image,it,1,1,1,1,1,1,5,1,1,1,riarmo;difesa comune;Stati;D'Alema;armi,negative,high
@@ -833,7 +832,6 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2025-05-14_003,video,it,1,1,1,1,1,1,3,1,5,1,Istanbul;giornalismo;menzogne;rischio democratico;foreign affairs;contraddittorio;dibattito pubblico,negative,high
 2025-05-15_001,video,it,1,1,1,1,1,1,1,1,3,1,Question Time;referendum;spettacolo;politica;interrogazione;cazzeggio,negative,high
 2025-05-15_002,video,it,1,5,3,1,1,1,1,1,2,1,politica industriale;industria;Stellantis;investimenti;costo dell'energia;crescita,negative,medium
-2025-05-15_003,video,it,,,,,,,,,,,,,
 2025-05-16_001,video,it,1,1,1,1,1,1,3,1,3,1,Ucraina;formati;disponibilità truppe;coerenza;UE;ONU,negative,medium
 2025-05-16_002,video,it,1,1,1,1,1,1,5,1,3,1,spese difesa;bilancio;Crosetto;capacità operativa;grande nazione;trucco contabile,negative,high
 2025-05-16_003,video,it,1,1,1,1,1,1,1,5,1,1,centro migranti;Giara;migranti;mondo impazzito,negative,high
@@ -881,7 +879,6 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2025-05-28_001,video,it,1,3,2,3,1,1,2,3,4,1,pensioni;dazi interni;accise benzina;sanità;euro;immigrati;politica;opinione,negative,high
 2025-05-28_002,video,it,1,1,1,1,1,1,4,1,3,1,Gaza;Netanyahu;azioni concrete;Stato palestinese;sanzioni;Hamas;opposizione,negative,medium
 2025-05-28_003,video,it,2,5,3,1,1,1,1,1,3,1,industria;lavoro;incentivi;nucleare;Stellantis;economia;elezioni,negative,high
-2025-05-28_004,image,it,,,,,,,,,,,,,
 2025-05-29_001,image,it,3,5,1,1,1,1,1,1,3,1,canapa;decreto;posti di lavoro;filiera industriale;fatturato;agroalimentare;certificati verdi,negative,high
 2025-05-29_002,image,it,1,1,1,1,1,1,4,1,3,1,Olmert;Netanyahu;Gaza;guerra privata;crimini di guerra;conflitto,negative,medium
 2025-05-30_001,image,it,1,1,1,1,1,1,3,1,4,1,Gaza;Israele;Palestinesi;pace;antisemitismo;due Stati;riconoscimento,mixed,medium
@@ -894,7 +891,6 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2025-06-03_001,video,it,1,1,1,1,1,1,3,1,4,1,Gaza;Netanyahu;Hamas;Stato Palestinese;elettorali;manifestazioni;Schlein;AVS,negative,medium
 2025-06-04_001,image,it,1,1,1,1,1,1,3,1,2,1,Putin;guerra;Trump;Ucraina;messaggi contraddittori;attacco;Russia,negative,high
 2025-06-04_002,video,it,1,4,1,2,3,1,5,1,3,3,sicurezza;prevenzione;decreto;occupazioni abusive;cannabis light;lavoro;diritto di protestare,negative,medium
-2025-06-05_001,video,it,,,,,,,,,,,,,
 2025-06-05_002,image,it,1,1,1,1,1,1,1,1,3,1,Senato;sinistra;FdI;insulti;fascio;politica,negative,high
 2025-06-05_003,video,it,1,1,1,1,1,1,3,1,2,1,Putin;Papa;tregua;negoziati;Ucraina;Trump;ortodossi,negative,high
 2025-06-06_001,video,it,1,1,1,1,1,1,5,1,5,1,Israele;Palestina;due stati;Hamas;Netanyahu;diritto di esistere;antisionismo;democrazia,negative,high
@@ -1034,7 +1030,6 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2025-07-19_003,image,it,1,1,1,1,1,1,1,1,4,1,Senato;equilibrio istituzionale;polemica giustizialista;indagati;La Russa;Sala,negative,high
 2025-07-19_004,image,it,1,1,1,2,1,1,1,1,1,1,cavallo;montare;operazioni chirurgiche;soddisfazione,positive,none
 2025-07-21_001,image,it,1,1,1,1,1,1,1,1,5,1,democrazia;fascisti;Matteotti;atto vandalico;convincimenti;lungotevere,negative,medium
-2025-07-21_002,video,it,,,,,,,,,,,,,
 2025-07-21_003,video,it,1,1,1,1,1,1,3,1,5,1,propaganda putiniana;guerra di disinformazione;democrazia liberale;retorica russa;connivenza politica;linea di demarcazione,negative,high
 2025-07-21_004,image,it,1,1,1,1,1,1,1,1,5,1,Matteotti;democrazia;fascismo;storia nazionale;problema culturale,negative,high
 2025-07-21_005,image,it,1,1,1,1,1,1,1,1,1,1,concerto;Gergiev;Caserta;annullato,neutral,none
@@ -1075,7 +1070,6 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2025-08-01_001,image,it,1,1,1,1,1,1,1,1,1,1,Calenda;generazioni;Trivial Pursuit;migliore,neutral,none
 2025-08-01_002,video,it,1,3,1,1,2,1,1,1,2,1,Valle d'Aosta;elezioni regionali;potenzialità;giovani;sviluppo territoriale;volontà politica,positive,medium
 2025-08-01_003,image,it,1,2,1,1,1,1,1,1,4,3,Milano;magistratura;politica;Conte;urbanistica;declino;PD,negative,high
-2025-08-01_004,video,it,,,,,,,,,,,,,
 2025-08-02_001,image,it,1,1,1,1,2,1,4,1,2,1,Adriano;guerra;pace;soldati;conflitto;Pax;lettura,positive,none
 2025-08-02_002,image,it,1,1,1,1,1,1,1,1,1,1,Irlanda;due settimane;traccia,neutral,none
 2025-08-03_001,image,it,1,1,1,1,1,1,2,1,4,1,Ben-Gvir;sanzionato;razzista;violento;deestrema destra;giorgiameloni,negative,high
@@ -1107,7 +1101,6 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2025-08-10_005,image,it,1,1,1,1,1,1,1,1,1,1,cattedrale;Burgos;UNESCO;viaggio;spettacolo,positive,none
 2025-08-11_001,image,it,1,1,1,1,1,1,1,1,1,1,Porto;Douro;barocco;gotico;romanico;architettura,neutral,none
 2025-08-11_002,image,it,1,1,1,1,1,1,5,1,3,1,Trump;Putin;Donbass;Crimea;pace;Europa;disgrazia,negative,high
-2025-08-11_003,video,it,,,,,,,,,,,,,
 2025-08-12_001,image,it,1,3,4,1,1,1,1,2,2,1,turismo;potere d'acquisto;sceneggiata;polarizzare;opposizione;sinistra,negative,high
 2025-08-12_002,video,it,1,3,1,2,3,1,2,5,4,3,campi rom;illegalità;sgomberi;diritti;immigrazione;legalità,negative,medium
 2025-08-12_003,image,it,1,1,1,1,1,1,1,3,3,1,sgombero;campi Rom;Sindaco Sala;propaganda politica;Ministro degli Interni;AZIONE,negative,high
@@ -1170,15 +1163,3 @@ folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare
 2025-08-31_002,image,it,1,1,1,1,1,1,1,1,2,1,Putin;Trump;Orban;Papa;valori;Giorgia;punizione,negative,high
 2025-08-31_003,image,it,1,2,1,1,1,1,1,1,4,1,riforme;cambiamento radicale;società;rivoluzione;Burke;diritti;conservazione,neutral,none
 2025-08-31_004,image,it,4,5,4,1,3,1,1,1,2,1,crescita;energia;costi;impresa 4.0;investimenti;bolletta;ETS,positive,medium
-2025-09-24_003,video,it,,,,,,,,,,,,,
-2025-09-26_003,image,it,,,,,,,,,,,,,
-2025-10-01_002,image,it,,,,,,,,,,,,,
-2025-10-11_003,image,it,,,,,,,,,,,,,
-2025-11-03_005,image,it,,,,,,,,,,,,,
-2025-11-07_001,image,it,,,,,,,,,,,,,
-2025-11-22_001,video,it,,,,,,,,,,,,,
-2025-12-03_003,video,it,,,,,,,,,,,,,
-2025-12-30_001,video,it,,,,,,,,,,,,,
-2026-01-27_001,video,it,,,,,,,,,,,,,
-2026-02-08_005,image,it,,,,,,,,,,,,,
-2026-02-27_003,image,it,,,,,,,,,,,,,
