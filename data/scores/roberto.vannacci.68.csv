@@ -1,0 +1,528 @@
+folder_id,type,language,ambiente_clima,lavoro_economia,costo_vita,salute_welfare,istruzione_formazione,uguaglianza_genere,difesa_sicurezza,immigrazione,democrazia_legalita,abitazione,keywords,sentiment,propaganda
+2025-03-01_001,image,it,1,1,4,1,1,3,1,3,3,1,Green Deal;certificato antifascista;turismo LGBTQ+;patente LGBT;cittadini;accoglienza,negative,high
+2025-03-02_001,image,it,1,1,1,1,1,1,4,1,2,1,guerra;Ucraina;Russia;pace;diplomazia;dialogo;ostilità,negative,medium
+2025-03-03_001,video,it,3,4,3,1,1,1,1,1,1,1,energia nucleare;sicurezza energetica;costo energia;industria pesante;dipendenza estera;tecnologia nucleare,positive,medium
+2025-03-03_002,image,it,1,1,1,1,1,1,1,1,1,1,stato delle cose;vannacchi,negative,high
+2025-03-04_001,image,it,1,1,1,1,1,1,5,1,2,1,aiuti militari;Ucraina;guerra;Trump;pace;NATO;Donbass,negative,high
+2025-03-04_002,video,it,1,1,1,1,1,1,4,1,1,1,guerra;pace;Nato;patriottismo;distruzione termonucleare;Occidente,negative,medium
+2025-03-05_001,image,it,1,3,4,1,1,1,3,3,4,1,Von der Leyen;tecnoburocrazia;emergenza;criminalità;immigrati;bollette;CommissioneEuropea,negative,high
+2025-03-05_002,image,it,1,1,1,1,1,1,1,1,1,1,VanNacei;Fuori dal coro,neutral,none
+2025-03-05_003,image,it,1,1,1,1,1,1,1,1,1,1,Bruno Pizzul;giornalista;sport;Nazionale;memoria,positive,none
+2025-03-05_004,image,it,1,3,4,4,3,1,5,1,1,1,riarmo;ospedali;scuole;debito;cittadini;spese militari;bollette,negative,high
+2025-03-06_001,image,it,1,1,1,1,1,1,4,1,3,1,Macron;Ucraina;forze europee;ONU;sicurezza;bellicismo;sovranità,negative,high
+2025-03-06_002,image,it,1,1,1,1,1,1,4,1,2,1,guerra;armamenti;Ucraina;Sinistra;Donbass;manifestazione,negative,high
+2025-03-07_001,video,it,1,1,1,1,1,1,5,4,3,1,sicurezza;forze dell'ordine;criminalità;immigrato illegale;posti di blocco;buonsenso,negative,high
+2025-03-07_002,image,it,1,1,1,1,1,1,4,1,2,1,Ucraina;guerra;armi;Von der Leyen;Macron;strage;incidente industriale,negative,high
+2025-03-08_001,image,it,1,3,1,1,1,4,3,1,2,1,donne;sacrifici;famiglia;patria;violenze;tutela;identità,positive,low
+2025-03-08_002,video,it,1,4,5,1,1,1,3,1,2,1,pace fiscale;debito;bollette;costo della vita;guerra;Europa;cittadini italiani,negative,high
+2025-03-09_001,video,it,1,1,1,1,1,1,1,1,5,1,tirannia;elezioni politiche;corte costituzionale;democrazia;Bruxelles;candidati,negative,high
+2025-03-10_001,video,it,1,1,1,1,1,1,5,1,3,1,riarmo;esercito europeo;sicurezza;Nato;Prodi;Macron,negative,high
+2025-03-11_001,video,it,1,1,1,1,1,1,1,1,1,1,Parenzo;cuffie;Dottor Parenzo;Piccolo Dave;general,negative,high
+2025-03-11_002,image,it,1,1,1,1,1,1,5,1,2,1,Esercito Italiano;Forze Armate;Luciana Littizzetto;eroismo;difesa della Patria;storia militare,negative,high
+2025-03-12_001,image,it,1,1,1,1,1,2,1,1,4,1,Bergamo;manifestazione;odio;intolleranza;democrazia;rispetto;politica,negative,high
+2025-03-12_002,video,it,1,2,2,1,1,1,4,1,3,1,sovranità;Bruxelles;tecnocrati;difesa comune;scenari strategici;Unione Europea,negative,high
+2025-03-13_001,video,it,1,1,1,1,1,1,5,1,4,1,Forze dell'Ordine;Carabinieri;sicurezza;legalità;sindaci;critica,negative,high
+2025-03-13_002,video,it,1,4,3,4,1,1,4,4,2,1,debito;sanità;lavoro;pensioni;sicurezza interna;immigrati illegali;riarmo,negative,medium
+2025-03-14_001,image,it,1,1,1,1,1,1,4,1,3,1,riarmo europeo;Europa Verde;voto;parlamento;Lega;consapevolezza,negative,high
+2025-03-18_001,video,it,1,1,1,1,1,1,5,1,3,1,riarmo;Russia;Ucraina;stato di emergenza;articolo 122;difesa europea,negative,high
+2025-03-19_001,image,it,1,3,4,1,1,1,5,1,2,1,difesa;sicurezza;Ucraina;fondi;bollette;stabilità;pace,positive,medium
+2025-03-20_001,video,it,5,1,1,1,1,1,1,1,3,1,foreste europee;regolamento;sussidiarietà;monitoraggio;competenze nazionali;onere burocratico,negative,medium
+2025-03-21_001,image,it,1,1,1,1,1,1,5,1,5,1,criminalità organizzata;legalità;sicurezza;mafia;istituzioni;giovani;denuncia,negative,medium
+2025-03-21_002,video,it,1,3,1,1,1,1,5,1,2,1,Russia;sanzioni;difesa;industria;semiconduttori;Nato;investimenti,negative,high
+2025-03-23_001,image,it,1,1,1,1,3,5,1,1,2,1,sessi sono due;Ministero Valditara;genere fluido;documenti scolastici;identità collettiva;biologicamente inoppugnabile,negative,high
+2025-03-23_002,video,it,1,3,1,1,1,1,5,1,4,1,criminalità;borseggiatori;sicurezza;impunità;provvedimenti;risarcimento;metropolitana,negative,medium
+2025-03-25_001,video,it,1,2,1,1,1,1,1,1,3,1,confronto;dibattito;scontro dialettico;discorso sociale;politico;legittimo,mixed,medium
+2025-03-26_001,video,it,1,3,3,1,1,1,1,3,1,1,realtà;percezione;immigrazione;lavoro;diritti;economico;famiglia,negative,high
+2025-03-27_001,image,it,1,1,1,1,1,1,3,5,2,1,UE;immigrazione clandestina;frontiere esterne;scenari peggiori;invasione;sicurezza,negative,high
+2025-03-28_001,video,it,1,1,1,1,1,4,3,2,4,1,carta d'identità;genere;sesso;biologico;percezione;emendamenti;Unione Europea,negative,high
+2025-03-28_002,image,it,4,2,3,3,1,1,3,1,2,1,burocrati;green deal;carburante sostenibile;obiettivi green;sicurezza interna;Lega;Bruxelles,negative,high
+2025-03-31_001,image,it,1,1,1,1,1,1,5,5,3,1,arrestati;straniero;violenze sessuali;rapine;immigrazione irregolare;tolleranza zero;espulsioni,negative,high
+2025-04-01_001,video,it,1,3,4,1,1,1,4,3,3,1,strategia_preparazione;militarizzazione;bollette;insicurezza;immigrati_clandestini;crisi_energia,negative,high
+2025-04-02_001,video,it,1,1,1,1,1,1,1,1,5,1,sovranità popolare;istituzioni;democrazia;establishment;autocrazia;giustizia;elezioni,negative,high
+2025-04-02_002,image,it,1,3,3,1,1,3,1,1,1,1,soldi pubblici;turismo;Emilia-Romagna;bollino;operatori turistici;caro bollette,negative,high
+2025-04-03_001,image,it,1,3,1,1,1,1,4,2,3,1,Readiness 2030;difesa europea;dipendenza militare;disparità tra Paesi;Nato;autonomia strategica,negative,medium
+2025-04-04_001,video,it,1,1,1,1,1,4,1,2,2,1,ideologia woke;sport;equità biologica;atleta transgender;squalifica;World Athletics,negative,high
+2025-04-04_002,video,it,1,1,1,1,1,1,5,3,3,1,criminalità;Polizia di Stato;Milano;cittadinanza;sicurezza;baby gang;rapine;controlli,negative,high
+2025-04-04_003,video,it,1,1,1,1,1,4,3,1,4,1,carta d'identità;sesso biologico;ideologia di genere;Parlamento Europeo;emendamenti;sicurezza;diritto dei cittadini,negative,high
+2025-04-07_001,image,it,1,1,1,1,1,1,1,1,3,1,Europa;Rai 3;Vannacci;patriotsforeurope;Stato delle cose,neutral,low
+2025-04-08_001,video,it,1,2,1,1,1,1,3,1,3,1,Lega;sovranista;Parlamento europeo;decreti sicurezza;autonomista;elezioni europee;missione,positive,high
+2025-04-09_001,video,it,1,3,3,3,1,1,5,1,4,1,ReArm Europe;debito comune;sovranità;Patto di Stabilità;difesa europea;spesa militare,negative,medium
+2025-04-09_002,image,it,1,1,1,1,4,3,1,1,3,1,liceo;educazione;ideologia woke;famiglie;indottrinamento;diritto di sapere,negative,high
+2025-04-09_003,video,it,1,1,1,1,1,1,1,1,3,1,Georgia;Unione Europea;adesione;sovranità;approccio pragmatico;geopolitica,negative,medium
+2025-04-10_001,image,it,1,1,1,1,1,1,5,1,3,1,Polizia di Stato;anniversario;sicurezza;eroi in uniforme;sacrificio;difesa,positive,low
+2025-04-10_002,video,it,1,1,1,1,1,1,1,1,3,1,campagna elettorale;spesa elettorale;giornalismo;circoscrizione;europarlamentare,negative,high
+2025-04-11_001,image,it,1,1,1,1,1,1,1,1,3,1,cittadinanza italiana;valori;referendum;automatismo burocratico;senso di appartenenza;comunità nazionale,negative,medium
+2025-04-13_001,image,it,1,1,1,1,1,1,3,1,1,1,Vannacci;Lega;difesa;Europa;Firenze;patriotsforeurope,negative,high
+2025-04-13_002,image,it,1,1,1,1,1,1,1,1,1,1,Lignano Sabbiadoro;evento;mare;lungomare;PalaPineta,neutral,none
+2025-04-13_003,image,it,1,1,1,1,1,1,1,1,1,1,Napoli;Campania;16 Maggio;Hotel Parco Gragnano;incontro,neutral,none
+2025-04-13_004,image,it,1,1,1,1,1,1,3,1,4,1,Europa;nazioni sovrane;Italia forte;strategia indipendente;alleanze internazionali;patriotsforeurope,negative,medium
+2025-04-13_005,image,it,3,2,1,1,3,1,4,1,2,1,Europa;Italia;riarmo;difesa comune;patto di stabilità;scuola;giovani,neutral,medium
+2025-04-14_001,video,it,4,5,1,1,1,1,1,1,1,1,deforestazione;industria conciaria;Green Deal;posti di lavoro;Unione Europea;Toscana,negative,high
+2025-04-14_002,image,it,1,1,1,1,1,1,5,4,3,1,accoltellamento;sicurezza;espulsione;ordine pubblico;forze dell'ordine;immigrazione,negative,high
+2025-04-15_001,image,it,1,3,1,1,1,1,2,1,2,2,MadeinItaly;identità nazionale;eccellenza;artigiani;imprenditori;confini,positive,medium
+2025-04-16_001,video,it,1,3,1,1,3,4,1,1,2,1,identità di genere;identità di età;scuole;mutuo;percezione;logica,negative,medium
+2025-04-16_002,image,it,1,1,1,1,1,5,1,1,3,1,sesso biologico;Equality Act;identità legale;realtà dei corpi;inclusività;Unione Europea,negative,high
+2025-04-17_001,image,it,1,1,1,1,1,1,4,5,3,1,immigrazione incontrollata;pericolo reale;aggressione;ius scholae;cittadinanza automatica;espulsione immediata,negative,high
+2025-04-17_002,video,it,1,1,1,1,1,1,5,1,2,1,guerra;pace;Russia;Ucraina;negoziazione;condizioni;militare,negative,medium
+2025-04-18_001,image,it,1,1,1,1,1,1,1,1,3,1,Vannacci;accusa;falso ideologico;tribunale;indagini;legalità,positive,medium
+2025-04-19_001,video,it,1,1,1,1,1,1,3,4,4,1,delinquenti;Albania;sinistra;fascette;elezioni regionali;sicurezza,negative,high
+2025-04-19_002,image,it,1,1,1,1,1,1,5,4,3,1,terrorismo;ISIS;Cosenza;sicurezza;confini;espulsioni;forze dell'ordine,negative,high
+2025-04-22_001,image,it,1,1,1,1,1,1,1,1,1,1,AffariItaliani;Italia sovrana;interessi nazionali;Meloni;Trump,neutral,none
+2025-04-23_001,image,it,1,3,1,3,3,1,4,1,4,1,riarmo;Commissione Europea;articolo 122;illegalità;priorità;sicurezza;debiti,negative,high
+2025-04-23_002,image,it,1,1,1,1,1,1,1,1,2,1,urne;Europa;sinistra;Desio;Villa Sindaco,negative,high
+2025-04-24_001,image,it,1,1,1,1,1,1,1,1,1,1,Lega;Vannacci;politica;mondoalcontrario,neutral,low
+2025-04-25_001,image,it,1,1,1,1,1,1,1,1,1,1,sindaco;Treviso;istituzioni;cittadini;impegno;condoglianze,neutral,none
+2025-04-25_002,video,it,1,3,1,1,1,1,5,1,3,1,delinquenti;carcere;patto sociale;sicurezza territoriale;forze dell'ordine;sovranità nazionale,negative,medium
+2025-04-27_001,video,it,1,1,1,1,1,1,1,4,1,1,immigrazione;radici;identità;aiuto;poveri;deboli,negative,medium
+2025-04-28_001,image,it,1,2,1,1,1,1,5,1,4,1,Milano;violenza;sicurezza;forze dell'ordine;criminali;tolleranza zero;lavori utili,negative,high
+2025-04-29_001,image,it,1,2,1,1,1,1,3,4,2,1,genova;sindaco;immigrati;criminalità;degrado;elezioni,negative,high
+2025-04-29_002,video,it,2,4,4,4,1,3,1,2,2,1,ricchezza;diritti;sanità;costo economico;sviluppo industriale;pensioni;lavoro,negative,high
+2025-04-29_003,image,it,1,1,1,1,1,1,4,5,4,1,frontiere;respingimenti;espulsioni;cittadinanza;ius scholae;sicurezza;cittadini onesti,negative,high
+2025-04-30_001,video,it,4,5,3,1,1,1,1,1,3,1,Made in Italy;Green Deal;delocalizzazione;settore conciario;acciaio;pelli;produzione;Europa,negative,high
+2025-04-30_002,image,it,,,,,,,,,,,,,
+2025-04-30_003,image,it,3,4,2,1,1,1,1,1,2,1,ceramica italiana;aiuti europei;costi energetici;Made in Italy;cogenerazione;Commissione UE,negative,medium
+2025-04-30_004,image,it,1,1,1,1,1,1,1,1,3,1,sciacalli da tastiera;antifascisti;incitazione all'odio;Vannacci;commenti d'odio;minacce,negative,high
+2025-05-01_001,image,it,1,1,1,1,1,1,1,1,2,1,Papa Francesco;Santa Maria Maggiore;fascista;Sinistra;affronto,negative,high
+2025-05-02_001,video,it,1,1,1,1,1,1,2,1,5,1,sovranità popolare;Europa;von der Leyen;diritto di decidere;destino;sovranità,negative,high
+2025-05-02_002,image,it,1,1,1,1,4,2,1,1,3,1,consenso informato;scuola;sessualità;famiglia;educazione;diritti genitoriali,negative,high
+2025-05-04_001,image,it,1,1,1,1,1,1,5,1,2,1,Esercito Italiano;difendere la patria;sicurezza;emergenze;senso del dovere;4 maggio,positive,low
+2025-05-04_002,image,it,1,1,1,1,1,1,1,1,3,1,elezioni;Romania;colpo di stato;presidenziali;cambiare Europa,negative,medium
+2025-05-05_001,video,it,1,3,1,1,1,1,3,1,1,1,Lega;europarlamentare;sovranisti;sicurezza;famiglia;lavoro;ideali,positive,medium
+2025-05-05_002,image,it,1,1,1,1,1,1,1,3,4,1,cittadinanza facile;sinistra;referendum;elettori;cittadino;Ple VANNACCI,negative,high
+2025-05-06_001,image,it,1,1,1,1,1,1,3,1,5,1,sovranità;elezioni;Romania;popolo;autocrazia globalista;Simion;voto,positive,high
+2025-05-06_002,video,it,1,1,1,1,1,1,3,5,3,1,immigrazione;sinistra;Carabinieri;Bolognina;ripatrio;Genova;fuochi d'artificio,negative,high
+2025-05-07_001,video,it,1,1,1,1,1,1,2,1,5,1,sovranità popolare;democrazia;Europa;diritto;partito politico;autocrazia;elezioni,negative,high
+2025-05-07_002,video,it,1,1,1,1,1,1,4,1,3,1,Strasburgo;pace equa;Ucraina;guerra;dialogo;Unione Europea;sanzioni,negative,high
+2025-05-07_003,video,it,1,1,1,1,1,1,1,1,1,1,Roberto Vannacci;Il Tempo;eurodeputato;intervista;Stati Uniti;Amazon.com,neutral,none
+2025-05-07_004,image,it,1,1,1,1,2,1,2,5,4,1,ius soli;ius scholae;cittadinanza;identità;requisiti;integrazione,negative,high
+2025-05-08_001,video,it,1,1,1,1,1,1,1,1,1,1,vannacci;lega;robertovannacci;tesla;maschismo;parenzo;generale,negative,high
+2025-05-08_002,image,it,1,1,1,1,1,1,1,1,5,1,astensione;democrazia;referendum;sinistra;centrodestra;ipocrisia;voto,negative,high
+2025-05-11_001,image,it,1,1,1,1,1,1,1,1,1,1,mamma;auguri,positive,none
+2025-05-12_001,video,it,1,3,1,3,2,1,1,5,4,1,cittadinanza;immigrazione;requisiti;integrazione;diritti;referendum;sinistra,negative,high
+2025-05-13_001,image,it,1,1,1,1,1,1,3,1,1,1,Bologna;23 maggio 2025;ricostruire l'europa;Green Deal;rearm europe;patriots;Salvini,neutral,low
+2025-05-13_002,video,it,1,3,1,1,1,1,4,1,2,1,guerra;pace;Ucraina;Russia;Stati Uniti;diplomatico;sforzo bellico,negative,medium
+2025-05-13_003,image,it,,,,,,,,,,,,,
+2025-05-14_001,image,it,1,1,1,1,1,1,4,1,2,1,Macron;atomica francese;Unione Europea;sicurezza;provocazione;geopolitica,negative,high
+2025-05-14_002,image,it,1,1,1,1,1,1,1,5,4,1,cittadinanza;immigrati;referendum;identità;slogan;sinistra,negative,high
+2025-05-15_001,image,it,1,1,1,1,1,1,2,3,4,3,Ilaria Salis;resistenza a pubblico ufficiale;occupazione abusiva;cittadinanza;identità italiana;rispetto delle regole,negative,high
+2025-05-15_002,video,it,1,1,1,1,1,1,1,1,1,1,Fiano Romano;Riccardo Milozzi;sostegno;candidato;elezioni;lega,positive,medium
+2025-05-15_003,video,it,1,1,1,1,1,1,1,1,1,1,giovani;politica;rappresentanza;europeo;nazionale;centro,positive,low
+2025-05-15_004,video,it,1,1,1,1,1,1,1,1,2,1,Romania;identità nazionale;valori romani;voto;Europa potente,positive,high
+2025-05-16_001,image,it,1,2,1,1,1,1,3,1,3,1,nomina;vicesegretario;identità;sicurezza;sovranità;libertà,positive,medium
+2025-05-17_001,image,it,1,1,1,1,1,1,1,1,4,1,PD Svizzera;referendum;cittadinanza;astensione;identità,positive,medium
+2025-05-17_002,image,it,1,1,1,1,1,1,1,1,1,1,famiglia;unione stabile;uomo;donna,positive,high
+2025-05-17_003,video,it,1,3,1,1,1,1,4,5,4,1,remigrazione;immigrazione incontrollata;sovranità;sicurezza;ordine;diritto;legalità,negative,high
+2025-05-18_001,video,it,4,1,1,1,1,1,1,1,1,1,ostrica;sostenibilità;Spezia;prodotto italiano;anidride carbonica;ambiente,positive,medium
+2025-05-18_002,image,it,1,1,1,1,1,1,1,1,1,1,Internazionali d’Italia;orgoglio nazionale;determinazione;giovani italiani;Tricolore,positive,none
+2025-05-19_001,image,it,,,,,,,,,,,,,
+2025-05-19_002,image,it,3,4,3,1,1,1,1,1,2,1,settoreconciario;cuoioitaliano;regolamentoUE;deforestazione;madeinitaly;burocrazia,negative,medium
+2025-05-19_003,image,it,1,1,1,1,1,1,1,2,4,1,cittadinanza;lusso ostentato;fondi per richiedenti asilo;frode;identità italiana;diritto all'eleganza,negative,high
+2025-05-19_004,image,it,1,1,1,1,1,1,1,3,3,1,Remigration Summit;Nicola Fratoianni;Rai 3;patriotsforeurope;lostatodellecose,neutral,low
+2025-05-20_001,video,it,1,2,1,2,1,1,3,5,4,1,violenza;immigrati illegali;frontiere europee;stato sociale;invasione;sinistra;destra,negative,high
+2025-05-20_002,image,it,1,1,1,1,1,1,1,1,1,1,lettera;Matteo Pucciarelli;vicesegretario;Parlamento Europeo;vendite libro,negative,high
+2025-05-21_001,image,it,1,1,1,1,1,1,5,4,4,1,immigrato;polizia;legalità;criminalità;forze dell'ordine;impunità;scappare,negative,high
+2025-05-21_002,image,it,1,3,1,1,1,1,4,2,2,1,aggressioni;insicurezza;criminalità;giustificazioni;sicurezza;punizione,negative,high
+2025-05-22_001,video,it,1,1,1,1,1,1,3,1,3,1,sovranità;Italia;Bruxelles;patria;esercito europeo;interoperabilità,negative,high
+2025-05-22_002,image,it,1,1,1,1,1,1,1,4,3,1,cittadinanza italiana;immigrazione;truffe;accoglienza;soldi pubblici;europarlamento,negative,high
+2025-05-23_001,image,it,1,1,1,1,1,1,4,1,5,1,Falcone;legalità;giustizia;scorta;Patria;criminalità;divisa,negative,high
+2025-05-24_001,image,it,1,1,1,1,1,1,3,3,4,1,Prima Guerra Mondiale;sovranità;identità italiana;cittadinanza;referendum;Patria,negative,high
+2025-05-26_001,image,it,1,2,1,1,1,1,3,1,4,1,Modena;Lega;muri;minacce;sicurezza;democrazia;ricchezza,negative,high
+2025-05-26_002,image,it,1,3,1,1,1,1,1,3,3,1,referendum;CGIL;rimborsi pubblici;lavoratori;immigrati;cittadinanza;manovra politico-sindacale,negative,high
+2025-05-28_001,video,it,1,3,1,1,1,1,1,4,3,1,referendum;cittadinanza;immigrati;sinistra;lavoro;identità;elettorale,negative,high
+2025-05-29_001,image,it,1,4,2,1,1,1,4,1,3,1,amministrative;centrodestra;sinistra;lavoro;sicurezza;progetto politico;voto,negative,high
+2025-05-30_001,video,it,1,4,1,1,1,1,1,4,4,1,cittadinanza;sindacato;flusso economico;referendum;diritti;immigrazione;interesse economico,negative,high
+2025-05-30_002,image,it,1,1,1,1,1,1,3,5,4,1,migranti;ingresso irregolare;cittadinanza facile;Procura di Ragusa;identità italiana;soccorso in mare,negative,high
+2025-06-01_001,video,it,1,1,1,1,1,1,1,1,3,1,riservatezza;confidenzialità;onore;lealtà;correttezza;Bonaccini;European House,negative,high
+2025-06-02_001,image,it,1,1,1,1,4,5,2,1,3,1,Toscana Pride;uguaglianza di genere;famiglia naturale;educazione ideologica;autodeterminazione di genere;sovversione sociale,negative,high
+2025-06-03_001,video,it,1,1,1,1,1,1,1,1,3,1,Papa Bergoglio;Parlamento Europeo;Vannacci;Zanni;diavolo;acqua santa,negative,high
+2025-06-03_002,image,it,1,2,1,1,1,1,1,2,4,1,cittadinanza;identità;diritti;nazione;referendum;sinistra;radici,negative,high
+2025-06-04_001,image,it,1,1,1,1,4,1,5,2,4,1,Bersaglieri;scuola;educazione civica;Patria;dovere;militari;Valditara;identità,negative,high
+2025-06-05_001,image,it,1,1,1,1,1,1,5,1,3,1,Carabinieri;difendere il Popolo;sicurezza;Patria;onore;sovranità,positive,medium
+2025-06-05_002,image,it,1,2,2,1,1,1,5,4,5,4,Decreto Sicurezza;occupazioni abusive;forze dell'ordine;legalità;antimafia;Daspo urbano;impunità,negative,high
+2025-06-05_003,image,it,1,1,1,1,2,1,1,1,4,1,cittadinanza;referendum;identità;Patria;sinistra;diritti,negative,high
+2025-06-06_001,video,it,1,1,1,1,1,1,2,2,5,1,immunità parlamentare;stato di diritto;reati comuni;processo;giustizia;Parlamento Europeo;estradizione,negative,medium
+2025-06-06_002,image,it,1,1,1,1,4,4,1,1,5,1,libertà di pensiero;famiglia naturale;propaganda di genere;censura;diritti;Comune di Pistoia,negative,high
+2025-06-07_001,video,it,1,1,1,1,1,1,1,1,3,1,referendum;fallire;vannacci;lega;ilmondoalcontrario,negative,high
+2025-06-07_002,video,it,1,3,1,1,1,1,1,4,3,1,referendum;cittadinanza;cittadini stranieri;requisiti;voto;Landini,negative,high
+2025-06-08_001,image,it,1,1,1,1,1,1,1,1,4,1,moralisti;sinistra;referendum;dovere civico;quorum;scelte legittime,negative,high
+2025-06-08_002,video,it,1,1,1,1,1,1,1,1,3,1,mare;referendum;voto;scelta civica;vannacci;lega,negative,high
+2025-06-09_001,image,it,1,4,4,3,3,2,3,3,4,4,referendum;risorse;piccole imprese;sanità;scuola;lavoro;frontiere;cittadinanza,negative,high
+2025-06-10_001,image,it,1,1,1,1,1,1,1,1,3,1,eletto;Parlamento Europeo;elettori;nazioni sovrane;libertà di pensiero;interessi italiani,positive,medium
+2025-06-10_002,image,it,1,1,1,1,1,1,3,5,3,1,immigrazione;cittadinanza;confini;popolo;illegalità;voto;sinistra,negative,high
+2025-06-10_003,image,it,1,1,1,1,1,1,3,1,1,1,Marinai d'Italia;morte;trenta;Quarnaro;semenza;marinamilitare,neutral,none
+2025-06-10_004,image,it,3,1,1,1,1,1,4,1,3,1,referendum;sicurezza;Green Deal;geopolitica;difesa dell'italianità;governo;regionali,negative,high
+2025-06-11_001,video,it,1,2,1,1,1,1,1,5,2,1,migranti;globalizzazione;stile di vita;Vannacci;Lega,positive,medium
+2025-06-11_002,image,it,1,1,1,1,1,1,1,1,1,1,Rete4;Decima;lega;IlPiaveMormorò,neutral,none
+2025-06-12_001,image,it,1,1,1,1,1,1,1,1,5,1,TAR Lazio;Daspo;legalità;strumentalizzazione;giustizia;dissenso;CasaPound,negative,high
+2025-06-12_002,image,it,1,1,1,1,1,1,5,1,3,1,carabiniere;assassinato;sicurezza;forze dell'ordine;pene certe;militare,negative,medium
+2025-06-12_003,image,it,1,1,1,2,4,5,1,1,3,1,indottrinamento ideologico;bambini;gender fluid;Toscana Pride;Pontedera;sinistra toscana,negative,high
+2025-06-13_001,video,it,1,1,1,1,1,1,1,4,3,1,cassetto elettorale;sovranità nazionale;cittadinanza;immigrati;voto;elezioni,negative,high
+2025-06-13_002,image,it,,,,,,,,,,,,,
+2025-06-13_003,video,it,1,4,1,1,2,1,4,1,1,1,riarmo;economia tedesca;sicurezza;Volkswagen;Mercedes;professionisti;guerra;rilancio,negative,medium
+2025-06-15_001,video,it,1,1,1,1,1,1,1,1,1,1,Nazionale;CT;Spalletti;Ragneri;Lashlein;Landini,neutral,low
+2025-06-16_001,video,it,1,1,1,1,1,1,1,1,5,1,immunità parlamentare;giustizia;stato di diritto;processo;sinistra;violenza,negative,high
+2025-06-16_002,image,it,1,1,1,1,1,2,1,1,1,1,atlete;futuro;orgoglio;Elena,positive,none
+2025-06-16_003,video,it,1,3,2,2,1,1,1,5,3,1,immigrazione irregolare;sinistra;rimpatri;identità nazionale;stato sociale;elettorale,negative,high
+2025-06-17_001,image,it,1,1,1,1,1,1,1,1,4,1,aggressione;militante identitario;sinistra;dittatura;Remigration;pseudo-intellettuali;collettivi,negative,high
+2025-06-18_001,video,it,1,3,4,1,1,1,5,1,2,1,spesa militare;carri armati;prezzi;Europa;politiche scellerate;NATO,negative,high
+2025-06-18_002,image,it,1,2,1,1,4,1,1,1,3,1,maturità;merito;eccellenza;determinazione;pensiero unico;generazione decima,positive,medium
+2025-06-18_003,image,it,1,1,1,1,1,1,1,1,1,1,anniversario;auguri;donne;forza;vita,positive,none
+2025-06-19_001,video,it,1,1,2,1,1,1,4,1,3,1,NATO;spese difese;Unione Europea;Draghi;Russia;Strasburgo;controfrotto,negative,high
+2025-06-20_001,video,it,1,1,1,1,1,1,4,5,3,1,Mohamed Toujgani;sicurezza nazionale;Islam estremista;immigrazione;pericolo pubblico;difendere l'Italia,negative,high
+2025-06-23_001,image,it,1,2,4,1,1,1,4,1,1,1,NATO;spese militari;costo energia;materie prime;5 percento;Vannacci,negative,medium
+2025-06-24_001,video,it,1,1,1,1,1,1,4,1,3,1,conflitto;Israele;Iran;Europa;sovranità;politica internazionale;von der Leyen,negative,high
+2025-06-25_001,image,it,1,2,1,1,1,1,1,1,2,1,Puglia;sinistra;futuro;interessi;politici,negative,high
+2025-06-25_002,video,it,1,4,2,1,4,1,2,2,3,1,patria;giovani;appartenenza;lavoro;scuola;talento;radici,positive,medium
+2025-06-25_003,image,it,1,1,1,1,1,1,4,5,3,1,agenti penitenziari;aggressione;detenuto nordafricano;immigrazione illegale;sicurezza;espulsione;tolleranza zero,negative,high
+2025-06-26_001,image,it,1,1,1,1,1,1,1,1,1,1,Lega;Puglia;San Marco in Lamis;robertovannacci;mondoalcontrario,positive,high
+2025-06-26_002,video,it,1,4,1,1,1,1,1,1,2,1,lavoro;sacrificio;produzione;eccellenze;tradizione;patria,positive,medium
+2025-06-26_003,image,it,4,3,3,1,1,1,1,1,2,1,Green Claims;Green Deal;burocrazia verde;imprese;agricoltori;ambientalismo;costi;retromarcia,negative,high
+2025-06-27_001,video,it,1,1,1,1,1,1,1,5,2,1,immigrazione clandestina;sinistra;fondi;barriere fisiche;rimpatri;pugliesi;foggiani,negative,high
+2025-06-28_001,video,it,1,1,1,1,1,2,4,1,3,1,discorso;correlazione di valori;riarmo;difesa;sacrificio;onore,negative,high
+2025-06-29_001,video,it,1,4,2,1,1,1,5,1,1,1,Ponte sullo Stretto;infrastruttura strategica;mobilità militare;difesa del paese;sviluppo economico;Sicilia;Rearm Europe,positive,medium
+2025-06-30_001,image,it,1,1,1,1,1,1,1,1,2,1,Europarlamentari;Sicilia;autonomista;sovranista;territorio;politica,neutral,medium
+2025-06-30_002,image,it,1,1,1,1,1,3,3,1,2,1,omofobia;riarmo;verità;Vannacci;Feltri,positive,medium
+2025-06-30_003,video,it,1,1,1,1,1,3,4,1,2,1,riarmo;difesa;valori;sacrificio;guerra;bagaglio valoriale;polemiche,negative,medium
+2025-07-01_001,image,it,1,2,1,1,1,1,1,1,1,1,capitalismo immondo;Jeff Bezos;Amazon;Venezia;ipocrisia;super élite,negative,high
+2025-07-01_002,image,it,1,1,1,1,1,1,1,1,1,1,scorta;robertovannacci;mondoalcontrario,negative,high
+2025-07-02_001,image,it,5,4,3,1,1,1,1,1,3,1,emissioni;transizione ecologica;imprese;agricoltura;lavoro;dittatura climatica,negative,high
+2025-07-02_002,image,it,1,2,1,4,1,1,5,1,2,1,Lucca;Sicurezza Sociale;Sicurezza;guerra;combattentistiche;Lega;Vannacci,positive,high
+2025-07-02_003,image,it,1,1,1,1,1,1,1,1,1,1,Versiliana;Alessandro Sallusti;Marina di Pietrasanta;evento;Lega;Toscana,positive,low
+2025-07-03_001,video,it,1,1,1,1,1,1,1,1,1,1,Fusani;Versiliana;PD;vannacci;giornalista;spettacolo;critica,negative,high
+2025-07-03_002,image,it,1,1,1,1,1,3,1,1,5,1,Parlamento;democrazia;identità nazionale;bandiera;simboli ufficiali;ideologie marginali,negative,high
+2025-07-04_001,image,it,1,1,1,1,1,1,5,1,2,1,forze dell'ordine;vigili del fuoco;sicurezza dei cittadini;responsabilità;mezzi adeguati;solidarietà,positive,low
+2025-07-05_001,image,it,3,4,5,1,1,1,1,1,2,1,tassa energia;patrimoniale green;costo vita;economia;transizione ecologica;famiglie;imprese,negative,high
+2025-07-07_001,video,it,1,1,1,1,1,2,3,5,4,1,islamizzazione;identità culturale;multiculturalismo;diritti;accoglienza;valori fondamentali;relativismo,negative,high
+2025-07-08_001,video,it,1,1,1,1,1,1,1,2,2,1,mediterraneo;origini;fiero;algerino;siciliano;identità,positive,high
+2025-07-09_001,video,it,3,3,2,1,1,1,1,1,2,1,von der Leyen;fiducia;Green Deal;economia europea;instabilità;delegazione europea,negative,high
+2025-07-09_002,image,it,1,1,1,1,1,1,1,1,3,1,dimissioni;Parlamento Europeo;Linke;politica;opposizione,negative,high
+2025-07-09_003,video,it,1,1,1,1,1,1,1,1,2,1,politigram;Roberto Vannacci;intervista;podcast;politicaitaliana;politica,neutral,low
+2025-07-09_004,image,it,1,1,1,1,1,1,2,5,3,1,moschea;islamizzazione;Centocelle;immigrazione;radicalizzazione;fondi pubblici,negative,high
+2025-07-09_005,video,it,1,1,1,1,4,1,1,4,3,1,ius scholae;cittadinanza;scuola;identità;immigrazione;cultura,negative,high
+2025-07-10_001,image,it,1,1,1,1,4,4,1,2,5,1,censura;libertà di espressione;scuole;gender;giunta di sinistra;manifesti,negative,high
+2025-07-10_002,video,it,,,,,,,,,,,,,
+2025-07-11_001,video,it,1,1,1,1,1,1,2,1,3,1,Palazzo Chigi;responsabilità;elettorato;ruoli;comando;politica,neutral,low
+2025-07-12_001,image,it,1,3,1,1,1,2,3,1,4,1,AfD;settore pubblico;esclusione;diritti;deriva autoritaria;libertà di pensiero,negative,high
+2025-07-14_001,video,it,3,4,4,1,1,1,1,2,2,1,tasse;energia;Unione Europea;Danimarca;rinnovabili;costo dell'energia,negative,medium
+2025-07-14_002,image,it,1,1,1,1,1,1,1,1,1,1,Jannik Sinner;Wimbledon;orgoglio italiano;impegno;successo;lavoro duro,positive,low
+2025-07-15_001,video,it,1,1,1,1,1,1,3,1,4,1,accuse;inchiesta;giustizia;stampa;politica;Vannacci;difesa,negative,high
+2025-07-15_002,image,it,1,2,1,1,5,1,1,1,3,1,scuola pubblica;maturità;pensiero critico;merito;istituzioni;istruzione gratuita,negative,high
+2025-07-16_001,image,it,1,3,1,1,1,1,4,5,3,1,immigrazione;saldo naturale;flussi migratori;confini;sicurezza;identità nazionale;UE,negative,high
+2025-07-16_002,image,it,1,2,1,1,1,1,5,5,4,2,turista americano;Milano Bovisa;immigrazione;remigrazione;sicurezza;accoglienza;legalità;degrado,negative,high
+2025-07-17_001,image,it,1,1,3,1,1,1,1,1,1,1,prezzo;centotredici;San Benedetto del Tronto,negative,none
+2025-07-17_002,video,it,1,1,1,1,1,1,2,5,3,1,immigrazione clandestina;confini;Australia;flussi migratori;protezione;Europa,negative,high
+2025-07-18_001,video,it,4,2,1,1,1,1,1,1,3,1,idroelettrico;energia rinnovabile;sicurezza energetica;centrali idroelettriche;investimenti;Green Deal;voto,negative,high
+2025-07-18_002,image,it,1,1,1,1,1,1,3,1,3,1,Europa;sicurezza;sovranità nazionale;Pietrasanta;appuntamento;registrazione,neutral,low
+2025-07-19_001,image,it,1,1,1,1,1,1,3,1,5,1,Borsellino;mafia;legalità;giustizia;coraggio;servitori dello Stato,negative,high
+2025-07-19_002,image,it,1,1,1,1,1,1,5,4,3,1,confini;Patria;immigrati;reato;flussi immigratori;difendere l'Italia,negative,high
+2025-07-19_003,image,it,3,5,3,4,1,1,3,1,3,1,tasse;bilancio UE;imprese;welfare;burocratica;Europa;lavoro,negative,high
+2025-07-21_001,image,it,1,1,1,1,1,1,3,1,3,1,Versiliana Festival;dialogo;Italia;Europa;guerra;pace;futuro;identità,neutral,none
+2025-07-21_002,image,it,1,2,1,3,3,1,4,1,3,3,centri sociali;illegalità;occupazioni abusive;sicurezza;scuole;ospedali,negative,high
+2025-07-22_001,image,it,1,1,1,1,1,1,1,1,1,1,robertovannacci,neutral,none
+2025-07-22_002,image,it,4,5,4,1,1,1,3,4,3,4,bilancio UE;Green Deal;PMI;caro vita;sovranità;immigrazione;economia europea;Von der Leyen,negative,high
+2025-07-22_003,image,it,1,2,1,1,1,1,5,5,4,1,immigrazione clandestina;confini;traffico di esseri umani;sanzioni;sovranità;flussi migratori;UE,negative,high
+2025-07-23_001,image,it,1,1,1,1,1,1,5,5,3,1,violenza;rapine;sicurezza pubblica;remigrazione;criminalità;immigrazione;forze dell'ordine,negative,high
+2025-07-23_002,video,it,1,2,1,4,1,1,2,1,3,1,pensione;contributi;Inps;giustizia sociale;stampa;diritti,negative,high
+2025-07-24_001,image,it,3,3,1,3,1,1,1,2,4,1,Commissione von der Leyen;abuso di potere;Qatargate;nomine truccate;élite;Europa dei privilegiati;sovranità,negative,high
+2025-07-25_001,video,it,1,1,1,1,1,1,5,1,4,1,volante;Viminale;Polizia;odio;rancore sociale;Stato;azione criminale,negative,high
+2025-07-25_002,video,it,1,1,1,4,1,1,1,1,5,1,sovranità nazionale;OMS;sanità;dittatura sovranazionale;libertà di scelta;Lega,positive,high
+2025-07-27_001,image,it,1,2,1,1,1,1,1,1,2,1,Versiliana;patriottismo;prosperità;sviluppo;Lega toscana,positive,low
+2025-07-28_001,image,it,1,1,1,1,1,1,1,1,1,1,Rai3;Lega;Vannacci;Decima;Filorosso,neutral,low
+2025-07-29_001,video,it,2,1,1,1,1,2,1,1,3,1,cultura italiana;tradizioni;radici;figli;Italia;politica,mixed,low
+2025-07-29_002,image,it,3,2,1,1,3,1,4,4,3,1,Europa;crisi;sicurezza;immigrazione selvaggia;governatore;violazioni;futuro,negative,medium
+2025-07-29_003,image,it,3,3,2,1,1,1,1,1,2,1,dipendenza energetica;rinnovabili;gas liquefatto;fracking;GNL americano;Commissione Europea;Von der Leyen;Jørgensen,negative,high
+2025-07-31_001,video,it,1,2,1,1,1,1,4,1,2,1,riarmo europeo;minaccia esistenziale;capacità militari;investimenti armi;geopolitica;NATO;Europa,negative,medium
+2025-07-31_002,image,it,5,2,1,1,1,1,1,1,3,1,Europa verde;combustibili fossili;fracking;gas americano;Green Deal;sfiducia;UE,negative,high
+2025-08-01_001,video,it,4,3,1,1,1,1,2,4,3,1,Green Deal;accoglienza indiscriminata;von der Leyen;svolta europea;politica nefasta;cambiamento politico,negative,high
+2025-08-01_002,image,it,1,1,1,1,1,1,1,1,2,1,Costa Smeralda;Sardegna;Vannacci;popolarità;elettori;Sardo,positive,medium
+2025-08-02_001,video,it,1,2,2,1,1,1,3,1,3,1,gas;sanzioni;Russia;Ucraina;importazioni;Von der Leyen;idrocarburi,negative,high
+2025-08-02_002,video,it,2,3,1,1,3,1,4,1,2,1,mimetica;cameratismo;militari;attività politiche;lavoro;obiettivi;Parlamento;ricordi,neutral,low
+2025-08-04_001,image,it,2,3,1,3,1,1,1,1,3,1,Europa;Presidente del Consiglio;Bruxelles;vaccini;sistema;Ue;Draghi;Giordano,negative,high
+2025-08-06_001,image,it,1,4,1,1,1,1,3,1,1,1,Ponte sullo Stretto;infrastruttura strategica;occupazione;Mezzogiorno;sviluppo;potenziale,positive,medium
+2025-08-07_001,video,it,1,1,1,1,1,2,4,1,1,1,leva obbligatoria;servizio militare;forze armate;giovani;patria;arruolamento,neutral,low
+2025-08-07_002,image,it,1,1,1,1,1,1,3,1,4,1,Putin;Trump;diplomazia;realismo;Europa;sovranità;conflitti,negative,high
+2025-08-08_001,image,it,1,1,1,1,1,1,1,1,1,1,stellato;preferito,neutral,none
+2025-08-08_002,image,it,1,1,1,1,1,1,1,1,1,1,stellato;preferito,neutral,none
+2025-08-10_001,image,it,1,1,1,1,1,1,2,1,5,1,chat control;censura;privacy;libertà;democrazia;GrandeFratello,negative,high
+2025-08-11_001,image,it,1,1,1,1,1,2,1,1,3,1,Erika Saraceni;salto triplo;Europei Under 20;razzismo;sinistra;media,negative,high
+2025-08-12_001,image,it,1,1,1,1,1,1,4,4,4,1,Milano;campo rom;sicurezza;illegalità;responsabilità morale;tolleranza zero;legalità,negative,high
+2025-08-13_001,image,it,1,1,1,3,1,1,5,3,4,1,criminalità;minorenni;servizi sociali;sicurezza;responsabilità;leggi,negative,high
+2025-08-14_001,video,it,1,1,1,1,1,3,1,1,3,1,matrimoni gay;unioni omosessuali;procreazione;genitorialità;diritto dei figli;famiglia;Parlamento europeo,negative,high
+2025-08-15_001,video,it,1,1,1,1,1,1,1,1,1,1,Ferragosto;elezioni;sinistra;faccia,negative,high
+2025-08-15_002,image,it,1,2,1,2,1,1,5,5,4,4,campi rom abusivi;pene severe;violazione legge;nomadi;confini nazionali;delitto di Milano;reddito di cittadinanza,negative,high
+2025-08-17_001,image,it,2,1,1,1,1,2,1,2,1,1,Matteo Pucciarelli;editoria;politica;Europarlamentare;giornalista;gay;femministe,negative,high
+2025-08-17_002,image,it,1,1,1,1,1,1,1,1,2,1,Sardegna;Europa;Italia;incontro;22 agosto,neutral,low
+2025-08-18_001,image,it,1,1,1,1,1,1,1,1,1,1,sinistra;intervista;pesce;rimedio,negative,high
+2025-08-18_002,image,it,1,1,1,1,1,1,2,1,3,1,Vergarolla;strage;istriani;dolmati;corte militare;memoria,negative,high
+2025-08-18_003,image,it,1,1,1,1,1,1,1,1,1,1,giardinaggio;spirito;italico,neutral,none
+2025-08-18_004,image,it,5,4,3,1,1,1,1,1,2,1,green deal;crisi economica;combustibili fossili;emissioni di carbonio;pannelli solari;Von der Leyen;politiche dogmatiche,negative,high
+2025-08-19_001,image,it,1,1,1,1,1,1,3,1,3,1,Macron;Putin;retorica;pace;Unione Europea;soluzioni concrete;teatrino politico,negative,high
+2025-08-20_001,image,it,1,4,3,3,1,1,2,1,2,1,patto storico;reddito di cittadinanza;lavorare e pagare le tasse;assistenzialismo;cittadini onesti;lavoro vero;sanità;infrastrutture,negative,high
+2025-08-20_002,image,it,2,1,1,1,1,3,1,1,2,1,animalisti;esposto;cernia;maltrattamento;sessismo;pescatori,negative,high
+2025-08-21_001,video,it,1,2,1,1,2,2,4,1,3,1,Roberto Vannacci;offese;giustizia;figlie;soldati;patria;orgoglio,mixed,medium
+2025-08-23_001,image,it,3,1,1,1,1,1,2,3,2,1,Europa;guerra;pace;green deal;immigrazione;elezioni regionali;Toscana,neutral,low
+2025-08-24_001,image,it,1,1,1,1,1,1,4,4,2,1,sicurezza;immigrazione;taser;sinistra;criminalità,negative,high
+2025-08-24_002,image,it,1,1,1,1,1,1,1,1,1,1,Macron;famiglia;moglie;sparate,neutral,none
+2025-08-26_001,image,it,1,2,1,1,1,1,5,5,5,1,aggressione;sicurezza;immigrazione clandestina;tolleranza zero;legalità;espulsione;forze dell'ordine,negative,high
+2025-08-26_002,video,it,1,1,1,1,1,1,1,1,1,1,intimità;valori;coraggio;rispetto;famiglia;uomini,negative,high
+2025-08-27_001,image,it,1,2,1,1,1,1,1,1,3,1,Bologna;giunta Lepore;elettorale;denari pubblici;droga;elettori,negative,high
+2025-08-27_002,image,it,1,3,4,2,1,2,5,5,4,1,violenza;immigrazione;remigrazione;sicurezza;reati;tolleranza zero;cittadini onesti,negative,high
+2025-08-27_003,video,it,1,1,1,1,1,1,2,1,4,1,sgombero;Leoncavallo;illegalità;ordine costituito;proprietà privata;costi,negative,high
+2025-08-28_001,image,it,1,1,1,1,1,2,1,1,3,1,dignità;immagine;consenso;sessismo;diritti;satira;potere,negative,medium
+2025-08-28_002,image,it,1,1,1,1,1,1,4,3,5,1,leggi;disobbedienza;legalità;sovranità popolare;ordine;criminalità;istituzioni,negative,high
+2025-08-29_001,video,it,1,1,1,1,1,3,3,1,3,1,carabiniere;legalità;orientamento sessuale;condizionamento sociale;genitore;figlia,mixed,medium
+2025-08-30_001,image,it,1,1,1,1,1,1,1,1,2,1,traguardo;battaglia;raddrizzare;mondoalcontrario,positive,high
+2025-08-31_001,image,it,1,1,1,1,1,1,1,1,1,1,incontro;Sansepolcro;6 settembre;Salvini;Patriots;Consiglio Comunale,neutral,none
+2025-08-31_002,image,it,3,1,1,1,1,1,1,1,1,1,Oppeano;Lega;Green Deal;Europa;evento,neutral,low
+2025-09-02_001,video,it,5,4,4,1,1,1,1,1,3,1,energia idroelettrica;Marche;sicurezza energetica;investimenti;bollette;ricchezza;voto,negative,high
+2025-09-02_002,image,it,1,1,1,1,1,1,3,1,3,1,Von der Leyen;attacco russo;complottismo;tecnico;scetticismo;PD;FlightRadar24,negative,high
+2025-09-03_001,video,it,1,1,1,1,1,1,1,1,3,1,Von der Leyen;GPS;navigazione aeronautica;propaganda;critica politica;scredito,negative,high
+2025-09-04_001,video,it,1,1,1,1,1,1,2,1,3,1,Bannacci;Ryanair;aereo privato;GPS;Lega;politica,negative,high
+2025-09-05_001,video,it,1,1,1,1,1,1,5,1,2,1,guerra;negoziati;pace;Ucraina;Russia;condizioni;territori,negative,high
+2025-09-06_001,video,it,1,2,1,1,1,1,1,1,3,1,vannaccio;sigaro;Toscana;eccellenza;promuovere;destra,positive,high
+2025-09-07_001,image,it,1,1,1,1,1,1,1,1,1,1,pallavolo;campionesse;Italia;vittoria,positive,none
+2025-09-08_001,image,it,1,1,1,1,1,1,3,1,2,1,Macron;esercito europeo;Russia;governo francese;sfiducia,negative,high
+2025-09-09_001,video,it,2,3,2,1,1,1,4,3,3,1,sovranismo;Unione Europea;immigrazione;guerra;interessi nazionali;sanzioni;Strasburgo,negative,high
+2025-09-10_001,video,it,1,1,1,1,1,1,3,1,1,1,flottiglia;Gaza;rifornimenti;governo italiano;zona di conflitto;spedizione privata,neutral,low
+2025-09-10_002,video,it,1,4,3,1,1,1,1,1,2,1,Strasburgo;Unione Europea;economia europea;sanzioni;commercio estero;manifattura,negative,high
+2025-09-11_001,image,it,1,1,1,1,1,1,1,1,3,1,Parlamento Europeo;minuto di silenzio;democrazia;ideologia;George Floyd;MAGA,negative,high
+2025-09-11_002,video,it,4,3,4,1,1,1,4,3,4,1,Stato dell'Unione;Green Deal;debito militare;Mercosur;tecnocrazia;censura;immigrazione;Europa,negative,high
+2025-09-11_003,image,it,1,1,1,1,1,1,1,1,4,1,Charlie Kirk;odio politico;valori;libertà;sinistra europea;Parlamento Europeo;assassinio,negative,high
+2025-09-12_001,video,it,,,,,,,,,,,,,
+2025-09-14_001,image,it,1,1,1,1,1,1,1,1,3,1,Jesi;elettorale;antifascisti;violenza;sinistra;destra;Vannacci,negative,high
+2025-09-15_001,image,it,1,1,1,1,1,1,1,1,1,1,TV;QUARTA REPUBBLICA;Pluto;Vannacci,neutral,none
+2025-09-15_002,image,it,1,1,1,1,3,1,1,1,1,1,scuola;prima media;auguri;scuola,positive,none
+2025-09-16_001,image,it,1,2,1,1,1,1,3,3,4,1,Matteo Ricci;Marche;Elezioni;Parlamento europeo;Votazioni;Sicurezza;Immigrazione,negative,high
+2025-09-16_002,image,it,1,1,1,1,1,1,1,1,1,1,eventi;incontri;Toscana;Pistoia;Ancona;Marche;elezioni,neutral,low
+2025-09-16_003,image,it,1,1,1,1,3,1,1,1,2,1,Ancona;scuole;università;Charlie Kirk;Europa;evento,neutral,medium
+2025-09-17_001,video,it,1,3,2,1,1,1,4,4,2,1,Toscana;sicurezza;sviluppo;immigrazione;identità;Lega,negative,high
+2025-09-17_002,image,it,1,4,2,1,1,1,1,1,2,1,agricoltori;PAC;fondi;settore primario;tagli;Parlamento europeo;cibo,negative,medium
+2025-09-19_001,image,it,4,3,3,1,1,1,1,1,1,1,transizione energetica;auto elettriche;fallimento;infrastrutture;cittadini;pragmatismo,negative,high
+2025-09-22_001,image,it,1,1,1,1,1,1,1,1,2,1,diretta;attualità;lo stato delle cose;temi;ospite;televisivo,neutral,none
+2025-09-22_002,video,it,1,3,1,1,2,1,2,1,5,1,coazione politica;free speech;minacce di morte;manifestanti;democrazia;tolleranza,negative,high
+2025-09-23_001,video,it,5,1,1,1,1,1,1,1,3,1,foreste;sovranità;normativa;patrimonio silvestre;Commissione Ambiente;Lega,positive,high
+2025-09-23_002,image,it,5,1,2,1,1,1,1,1,3,1,foreste;sovranità;regolamento europeo;ENVI;sussidiarietà;burocrazia;monitoraggio,positive,high
+2025-09-23_003,image,it,1,1,1,1,1,1,1,1,4,1,Commissione Giuridica;Bruxelles;immunità;principio di giustizia;legalità;voto segreto,negative,high
+2025-09-24_001,video,it,1,1,1,1,1,1,1,1,5,1,immunità parlamentare;Ilaria Salis;PPE;giustizia;reato;Commissione Iuri,negative,high
+2025-09-24_002,image,it,3,4,1,1,1,1,1,1,1,1,CommissioneEuropea;regole anti-deforestazione;Toscana;Manifattura;MadeinItaly,positive,medium
+2025-09-24_003,image,it,1,1,1,1,1,1,1,1,1,1,Aosta;campagna elettorale;Piazza Roncas;Vannacci,neutral,low
+2025-09-25_001,image,it,1,1,1,1,1,1,1,1,1,1,Aosta;elezioni;Piazza Roncas;tour;robertovannacci,neutral,none
+2025-09-25_002,image,it,1,1,1,1,1,1,1,1,1,1,elezioni;Marche;Senaldi;Ricci;Vannacci;voto,negative,high
+2025-09-25_003,image,it,1,3,1,1,3,1,1,1,3,1,lingua italiana;attività commerciale;identità;tradizioni;norme amministrative;Ateneo Veneto,negative,medium
+2025-09-26_001,image,it,1,1,1,1,1,1,1,1,1,1,Aosta;presenti;evento,positive,none
+2025-09-26_002,image,it,1,1,1,1,1,1,1,1,1,1,ElezioniRegionaliToscana;Raddrizzare;Remigrazione;Quartieri Sicuri;eventi,neutral,low
+2025-09-26_003,image,it,1,1,1,1,1,1,1,1,1,1,commenti;vannacci;critica;polemica;social media,negative,high
+2025-09-28_001,video,it,1,1,1,1,1,1,1,1,2,1,Toscana;elezioni;sinistra;Italia;Europa;mondo,negative,high
+2025-09-29_001,image,it,1,1,1,1,1,1,1,1,1,1,Marche;centrodestra;Vittoria;acquaroli;vannacci,positive,low
+2025-09-29_002,video,it,1,1,1,1,1,1,1,1,1,1,sinistra;manifestazione;Palestina;geografica,negative,high
+2025-09-29_003,image,it,1,3,1,1,1,1,1,1,1,1,San Michele Arcangelo;lavoro;protettore;paracadutisti;lottare,positive,none
+2025-09-30_001,video,it,1,3,1,2,1,1,3,5,3,1,immigrazione di massa;sinistra;diritto dei lavoratori;Stato sociale;riapproparsi della patria;identità;remigrazione,negative,high
+2025-09-30_002,image,it,1,1,1,1,1,1,4,1,1,1,Virginio Fasan;costi;Flotilla;Forze Armate;contribuenti;sorveglianza,negative,high
+2025-10-01_001,image,it,1,1,1,1,1,1,1,1,1,1,calabresi;Palestine;Vannacci;elezione;riconoscimento,neutral,low
+2025-10-01_002,image,it,1,2,2,3,1,1,4,5,3,1,CAS;San Marcello Piteglio;cooperativa Desy;immigrazione;truffe;soldi pubblici;rimpatri,negative,high
+2025-10-02_001,video,it,1,3,2,1,1,1,1,1,3,1,manifestazione;Bruxelles;Parlamento;cittadini onesti;lavorare;danni,negative,high
+2025-10-02_002,image,it,1,3,3,4,1,1,4,3,3,2,sanità;agricoltura;sicurezza;addizionale IRPEF;impegni non rispettati;Centrosinistra,negative,high
+2025-10-03_001,video,it,1,3,1,3,1,1,3,1,1,1,Toscana;criminali;imprese;infrastrutture;sanità;cambiare direzione,negative,high
+2025-10-03_002,video,it,1,1,1,1,1,1,1,1,3,1,Remigration Summit;Antonio Mazzeo;autorizzazione;anticostituzionale;democrazia;confronto,negative,high
+2025-10-04_001,video,it,1,3,1,3,1,1,4,4,2,1,Lega;sicurezza;rilancio economico;infrastrutture;sanità;immigrazione;voto,negative,high
+2025-10-04_002,image,it,1,1,1,1,1,1,1,1,2,1,Livorno;programma;Lega;Roberto Vannacci;Gasperini;evento,neutral,none
+2025-10-05_001,video,it,3,2,1,1,1,1,1,4,3,1,opposizione;finanziamenti;viticoltori;olivicoltori;immigrazione clandestina;Calabria,negative,high
+2025-10-05_002,video,it,1,1,1,1,3,1,1,1,3,1,Toscana;Costituzione;assessore;sinistra;voto;Lega,negative,high
+2025-10-06_001,image,it,1,1,1,1,1,1,1,1,1,1,programma;Rete 4;ospite;Mercoledì;realpolitikofficial,neutral,none
+2025-10-06_002,image,it,1,2,1,1,1,1,1,1,2,1,Palestina;Calabria;Parlamento Europeo;coerenza;PD;5stelle;ElezioniCalabria,negative,high
+2025-10-06_003,video,it,1,1,1,1,1,1,1,1,4,1,Strasburgo;revoca;immunità;votare;elezione,negative,medium
+2025-10-07_001,video,it,1,1,1,1,1,1,1,1,2,1,Toscana;PD;sindaco;assessor;confini;politica,negative,high
+2025-10-07_002,video,it,3,3,4,3,1,1,2,4,2,1,Europa;fallimento;immigrati clandestini;stato sociale;Green Deal;energia;Medio Oriente,negative,high
+2025-10-07_003,image,it,1,1,1,1,1,1,4,1,5,1,immunità;giustizia;sinistra;delinquenti;voto;Toscana;lega,negative,high
+2025-10-08_001,video,it,1,1,1,1,1,1,1,1,3,1,sfiduciare;Ursula von der Leyen;Partito Democratico;buonsenso;proposte;risultati pratici,negative,high
+2025-10-08_002,video,it,3,3,1,1,1,1,1,1,3,1,Toscana;Lega;elezioni;sovranità;viticoltori;olivocultori;Europa,negative,high
+2025-10-08_003,image,it,3,4,2,2,1,1,1,1,1,1,Mercosur;agricoltori;multinazionali;sicurezza alimentare;Made in Italy;allevamento,negative,high
+2025-10-09_001,image,it,1,1,1,1,1,1,1,1,1,1,differenze,neutral,none
+2025-10-09_002,image,it,1,2,1,1,1,1,3,1,3,1,sciopero nazionale;blocco Italia;processo di pace;Trump;forze dell'ordine;Toscana;LEGA,negative,high
+2025-10-10_001,video,it,1,1,1,1,1,1,1,1,3,1,Bertini;Berlinguer;vannacci;contrapporre;politica,negative,high
+2025-10-10_002,video,it,1,1,1,1,1,1,1,1,3,1,elettori;Parlamento europeo;elezioni regionali;ingannano;politici;Marche;Calabria,negative,high
+2025-10-12_001,image,it,1,1,1,1,1,1,1,1,1,1,evento;stasera;rete 4;fuori dal coro;domenica,neutral,none
+2025-10-12_002,video,it,1,1,1,1,1,1,1,1,1,1,Toscana;Viareggio;raddrizzare;confine;domani,negative,high
+2025-10-12_003,image,it,1,1,1,1,1,1,1,1,2,1,dovere;diritti;famiglia;utopie;Toscana;Lombardia,neutral,low
+2025-10-14_001,video,it,1,1,1,1,2,1,1,5,3,1,remigrazione;immigrazione;specificità;sradicamento;cultura;civiltà;popoli ospitanti,negative,high
+2025-10-14_002,video,it,1,1,1,1,1,1,1,1,1,1,Toscana;Lega;patrioti;battaglia interna;sostegno;determinazione,positive,high
+2025-10-15_001,image,it,1,1,1,1,1,1,1,1,1,1,Rai 3;pierochiambretti;robertovannacci;programma;incontro,neutral,none
+2025-10-15_002,image,it,1,1,1,1,1,1,4,1,3,1,violenza;Forze dell'Ordine;Udine;ordine;sinistra;barbarie,negative,high
+2025-10-16_001,image,it,1,1,1,1,1,2,4,1,3,4,Castel d'Azzano;carabinieri;capitalismo;diritto alla casa;sinistra;delinquenti,negative,high
+2025-10-16_002,image,it,1,1,1,1,5,3,1,1,2,1,scuola;sessualità;infanzia;famiglia;laboratorio ideologico;diritto;educazione,negative,high
+2025-10-16_003,video,it,1,4,4,2,5,5,4,4,3,3,strategia europea;agenda genere;scuole;immigrati irregolari;bollette;sovranità;famiglia naturale,negative,high
+2025-10-17_001,image,it,1,1,1,1,1,5,1,1,2,1,violenza di genere;parole;violenza psicologica;autostima;donne;Emilia Romagna,negative,medium
+2025-10-19_001,video,it,1,1,1,1,1,1,1,1,1,1,articoli;post;interviste;aperitivo;scrivere;riunire,negative,medium
+2025-10-20_001,image,it,1,1,1,1,1,1,1,1,1,1,Rete4;QuartaRepubblica;20 ottobre;21.30,neutral,none
+2025-10-20_002,image,it,1,1,1,1,1,1,1,1,1,1,auguri;Strasburgo;anni;battaglie,positive,none
+2025-10-20_003,image,it,1,1,1,1,1,4,2,1,2,1,violenza;violenza psicologica;donne;manifestazione;autostima;sinistra,negative,high
+2025-10-21_001,image,it,1,1,1,1,1,1,1,1,1,1,Realpolitik;rete 4;programmazione;evento,neutral,none
+2025-10-21_002,video,it,3,3,4,4,1,1,2,4,4,1,Green Deal;Commissione Europea;immigrazione selvaggia;Stato sociale;sovranità nazionale;autoritarismo,negative,high
+2025-10-21_003,video,it,1,1,1,3,3,1,1,1,4,1,Schlein;democrazia;libertà di stampa;estrema destra;strumentalizza;crisi;Ranucci,negative,high
+2025-10-22_001,video,it,1,1,1,1,1,1,3,1,5,1,5 Stelle;difesa;giornalisti;libertà di stampa;PD;due pesi e due misure,negative,high
+2025-10-25_001,video,it,1,1,1,1,1,1,1,1,1,1,Elie Schlein;libro;logica;espressione scritta,negative,high
+2025-10-27_001,video,it,1,4,4,3,3,1,4,1,2,1,riarmi;precarietà;guerra;risorse;pensioni;sanità,negative,high
+2025-10-28_001,video,it,1,1,1,1,1,1,2,1,2,1,Europa;Ucraina;occupante straniero;Cipro;Unione Europea,negative,medium
+2025-10-29_001,video,it,1,4,3,1,1,1,2,1,1,1,gas;Russia;Europa;fornitori;economia;manifattura;importazioni,negative,medium
+2025-10-30_001,video,it,1,1,1,1,1,1,1,1,1,1,argomentare;condivido;serata;bilancio;grazie,neutral,none
+2025-10-31_001,video,it,1,1,1,1,1,1,3,1,2,1,vita militare;politica;generali;cambiare il mondo;giovani;figlie,mixed,low
+2025-11-02_001,image,it,1,2,3,2,1,1,5,4,2,3,sicurezza;immigrazione;criminalità;poveri;periferie;sistema previdenziale;affitti,negative,medium
+2025-11-03_001,video,it,1,1,1,1,1,1,1,1,2,1,identità europea;cristianità;Unione Europea;Costituzione europea;cittadino europeo,negative,medium
+2025-11-03_002,image,it,1,1,1,1,1,1,5,4,3,1,criminalità;arrestati;furti;rapine;immigrazione;sicurezza;confini,negative,high
+2025-11-04_001,image,it,3,1,1,1,1,1,2,1,4,1,ParlamentoEuropeo;Green Deal;conflitto russia-ucraina;giovani;Europa;Italia,positive,low
+2025-11-04_002,image,it,1,1,1,1,1,1,5,1,2,1,Giornata dell'Unità Nazionale;Forze Armate;Patria;sacrificio;mosaico;Piave,positive,medium
+2025-11-05_001,video,it,1,1,1,1,4,1,5,1,2,1,riarmiamento;fronte;valori;società combattiva;sacrificio;educazione,negative,medium
+2025-11-05_002,image,it,1,1,1,1,1,1,1,2,2,1,sindaco;New York;musulmano;resa culturale;progresso,negative,high
+2025-11-06_001,image,it,1,1,1,1,1,1,1,1,1,1,Rete4;DelDebbio;DrittoeRovescio;trasmissione;stasera,neutral,none
+2025-11-06_002,video,it,1,1,1,1,1,1,1,1,2,1,Islam;Sharia law;Caliphate;Allah;New York;Occidente,negative,high
+2025-11-07_001,video,it,1,1,1,1,3,1,4,1,2,1,baby gang;Maranza;giustificazionismo;permissivismo;sicurezza;minorenni;patto sociale,negative,medium
+2025-11-07_002,image,it,1,3,2,1,1,1,5,1,4,2,sicurezza;periferie;disagio sociale;poliziotto di quartiere;legalità;fondi europei;sistema sicurezza,mixed,medium
+2025-11-08_001,video,it,1,1,1,1,1,1,1,5,3,1,immigrazione;cultura;civiltà;diritto al voto;declino demografico;alvei culturali,negative,high
+2025-11-10_001,image,it,1,1,1,1,1,1,1,1,3,1,elezioni regionali;Campania;Napoli;Avellino;Benevento,neutral,low
+2025-11-10_002,image,it,1,1,1,1,1,1,1,1,1,1,Parma;Natale;auguri;libro;futuro;enogastronomia,neutral,none
+2025-11-11_001,image,it,1,1,1,1,1,1,1,1,1,1,Vannacci;citazione;politica;slogan,neutral,none
+2025-11-11_002,image,it,1,2,3,1,1,1,1,1,3,1,sobrietà;privilegi;povertà;candidato;campania;elezioni,negative,high
+2025-11-12_001,image,it,1,1,1,1,1,1,5,1,2,1,militari;Nassiriya;attentato;missione;difendere la Patria;sacrificio,negative,medium
+2025-11-13_001,video,it,1,1,1,1,1,1,1,1,2,1,Veneto;elezioni;viaggio;provincia;roberto vannacci;settimana prossima,neutral,medium
+2025-11-13_002,image,it,1,1,1,1,1,3,1,3,3,1,Beatrice Venezi;Mia Diop;nomina;Toscana;curriculum;PD;razzismo,negative,high
+2025-11-13_003,image,it,1,1,1,1,2,1,4,4,3,1,Bataclan;terrorismo islamista;immigrazione;sicurezza;assimilazione;scuole;civiltà,negative,high
+2025-11-13_004,image,it,1,1,1,1,1,1,5,2,3,1,sicurezza;degrado;violenza;ordine;pene severe;cittadini onesti;voto,negative,high
+2025-11-14_001,video,it,1,1,1,1,1,1,1,1,2,1,robertovannacci;fascismo;Lega;vice segretario;movimento;politica,negative,high
+2025-11-15_001,video,it,1,3,2,3,1,1,3,1,4,1,Ucraina;corruzione;fondi europei;sicurezza;pensioni;malversazione,negative,high
+2025-11-17_001,video,it,1,1,1,1,2,2,4,5,3,1,immigrazione clandestina;terrorismo islamista;Bataclan;assimilazione;sicurezza;identità culturale,negative,high
+2025-11-18_001,video,it,1,1,1,1,1,2,5,5,1,1,reati;furti;rapine;stranieri;sicurezza;popolazione;terzo mondo,negative,high
+2025-11-19_001,video,it,1,2,1,1,1,1,4,1,4,1,guerra cognitiva;disinformazione;propaganda;rearmeurope;sanzioni;Putin;fake news,negative,high
+2025-11-19_002,image,it,1,1,1,1,1,1,4,5,4,1,estremismo islamista;Sharia;integrazione;multiculturalismo;remigrazione;voto etnico;sicurezza,negative,high
+2025-11-20_001,video,it,1,1,1,1,1,1,4,1,3,1,minaccia ibrida;Europa;cosacchi russi;fronteggiare,negative,high
+2025-11-20_002,image,it,1,1,1,1,1,3,2,4,3,1,immigrazione incontrollata;fallimento del multiculturalismo;quartieri;regole culturali;protezione reale;Stato arretra,negative,high
+2025-11-21_001,video,it,1,1,1,1,1,1,5,1,3,1,esercito europeo;Nato;sovranità nazionali;difesa comune;interesse nazionali;fedeltà alla patria,negative,high
+2025-11-22_001,video,it,1,1,1,1,4,1,1,1,1,1,università;studio;general;eurodeputato;scritore;vannacci,negative,high
+2025-11-23_001,image,it,1,1,1,1,1,1,1,1,1,1,fuoridalcorotv;stasera;incontro,neutral,none
+2025-11-24_001,image,it,1,1,1,1,1,1,1,1,1,1,Lega;Veneto;Regional;governatore;risultati;amministratori;Stefani,positive,high
+2025-11-24_002,video,it,1,1,1,1,1,1,3,1,3,1,guerriglia urbana;Bologna;criminalità;centri sociali;giunta comunale;spaccio;sindaco,negative,high
+2025-11-25_001,video,it,1,1,1,1,1,5,1,3,1,1,violenza;donne;diritti;dignità;cultura;sottomesse,negative,medium
+2025-11-25_002,video,it,2,2,1,2,1,3,3,1,2,1,Vannacci;polemiche;Europa;libertà di pensiero;sicurezza;aborto;carceri;manifestanti,mixed,medium
+2025-11-26_001,video,it,1,3,1,1,2,1,1,1,2,1,giovani;futuro;Europa;socialdemocratica;lavoro;benpensanti,negative,high
+2025-11-26_002,video,it,1,2,1,1,1,1,5,1,3,1,Strasburgo;Ucraina;pace;oligarchi;sanzioni economiche;campo di battaglia,positive,high
+2025-11-27_001,image,it,3,4,3,1,1,1,1,1,2,1,deforestazione;regolamento europeo;comparti produttivi;imprenditori;lavoratori;cassa integrazione,positive,medium
+2025-11-27_002,video,it,1,1,1,1,1,1,2,1,3,1,genocidio;cristiani;Nigeria;MedioOriente;persecuzione;libertà di culto;finanziamenti,negative,medium
+2025-11-28_001,image,it,1,1,1,1,1,1,1,1,1,1,Stranger Things;personaggi;conoscere,neutral,none
+2025-11-28_002,image,it,1,1,1,1,1,1,1,1,2,1,Svizzera;attivisti;Israele;responsabilità personale;Stato;cittadini,negative,high
+2025-11-28_003,video,it,1,1,1,1,1,1,1,1,3,1,Report;Strasburgo;servizi;Agenzia delle Entrate;Massoni;candidatura;Parlamento,negative,high
+2025-11-28_004,image,it,1,1,1,1,1,1,1,1,3,1,libro;pensiero unico;verità occidentale;determinazione;combattere,positive,medium
+2025-11-30_001,video,it,1,1,1,1,1,1,1,1,3,1,presente;piazze;scuole;rozaari,negative,medium
+2025-12-01_001,video,it,1,1,1,1,1,1,4,1,2,1,guerra;conflitti;putinismo;militari;pragmatica;campi di battaglia,negative,high
+2025-12-02_001,image,it,1,2,3,1,1,1,1,1,4,1,scandalo;europeismo;corruzione;trasparenza;UE;sinistra;indagini,negative,high
+2025-12-02_002,video,it,1,1,1,1,1,1,1,1,1,1,Funzionerà?;tropical;samba;brasil;mondiale,neutral,none
+2025-12-03_001,video,it,1,1,1,1,1,1,2,1,1,1,Israele;Palestina;colonizzazione;stato;dibattito;pragmatismo,neutral,none
+2025-12-03_002,image,it,1,1,1,1,4,3,3,4,4,1,immigrazione;Patria;identità;confronto civile;censura;università;giovani,positive,medium
+2025-12-04_001,video,it,1,1,1,1,2,1,1,1,4,1,sinistra;libri;idee;censura;cultura;dittatorialmente,negative,high
+2025-12-04_002,image,it,1,2,1,1,1,1,5,1,1,1,Santa Barbara;artificieri;genieri;vigili del fuoco;esplosivi;coraggio;protezione,positive,medium
+2025-12-04_003,image,it,1,1,1,1,1,1,1,5,2,1,immigrazione;Commissione LIBE;Paesi terzi sicuri;richiedente asilo;liste nazionali,positive,medium
+2025-12-05_001,image,it,1,1,1,1,1,1,4,1,3,3,Sandro Mugnai;assolto;difesa famiglia;aggressione;giustizia;rapina;processo,negative,high
+2025-12-06_001,image,it,1,1,1,1,5,3,1,1,3,1,scuola;istruzione;laboratorio ideologico;famiglia;scelta educativa;diritto dei genitori;propaganda gender,positive,high
+2025-12-08_001,video,it,1,1,1,1,2,1,1,1,5,1,solidarietà;libertà di pensiero;censura;cultura;Editore Passaggio al Bosco;democrazia,positive,medium
+2025-12-08_002,video,it,1,3,1,1,1,1,1,1,1,1,differenze;progresso;società;immobilità;diritti;sviluppo,positive,low
+2025-12-09_001,video,it,1,1,1,1,3,1,4,3,2,1,Islam;attentato;terroristi;Nice;sicurezza;Francia;sinistra,negative,medium
+2025-12-09_002,video,it,1,1,1,1,1,1,2,5,1,1,accoglienza;persone;violenze;immigrazione,negative,medium
+2025-12-10_001,video,it,1,1,1,4,2,5,1,1,4,1,trattamenti ormonali;minori;diritti trans;libertà di pensiero;sinistra;scienza;conseguenze,negative,high
+2025-12-10_002,video,it,1,1,1,1,1,1,4,1,2,1,Patria;giovani;combattere;schemi;sogno;onore,positive,medium
+2025-12-11_001,image,it,1,1,1,1,1,1,1,1,1,1,tasto;scelta,neutral,none
+2025-12-12_001,image,it,1,1,1,1,1,1,3,1,2,1,Salvatore Todaro;Xª MAS;eroe;combattente;Patria;cimitero;onore,positive,low
+2025-12-14_001,image,it,1,1,1,1,1,1,5,1,2,1,Salvatore Todaro;eroe;Patria;combattente;sommergibilista;guerra,positive,high
+2025-12-15_001,image,it,1,4,4,1,1,1,2,1,3,1,gas russo;bollette;costi energetici;competitività;burocrazia;Unione europea,negative,high
+2025-12-16_001,image,it,1,1,1,1,1,1,2,1,5,1,sanzioni;dissenso;geopolitica;libertà di espressione;Unione europea;reato di pensiero,negative,high
+2025-12-17_001,video,it,1,1,1,1,1,3,3,1,4,1,Strasburgo;direttiva antidiscriminazione;case editrici;sanzioni;Jacques Bo;opinioni,negative,high
+2025-12-18_001,video,it,1,1,1,1,1,1,1,1,1,1,musica;noi,neutral,none
+2025-12-18_002,video,it,1,2,3,3,3,1,4,5,3,3,immigrazione;diritto d'asilo;sovranità;rimpatri;confini;stato sociale;Strasburgo,negative,high
+2025-12-18_003,video,it,1,3,1,1,1,1,3,1,3,1,asset russi;affidabilità finanziaria;sistema europeo;investitori stranieri;crisi economica;politica internazionale,negative,medium
+2025-12-19_001,video,it,1,2,1,1,1,1,4,1,3,1,Ucraina;tasse;asset russi;Cremlino;fondi comuni;avanzare,negative,high
+2025-12-19_002,video,it,1,3,2,1,1,1,4,1,3,1,prestito;Ucraina;guerra;debito comune;tasse;Commissione,negative,high
+2025-12-20_001,image,it,1,1,1,1,1,1,1,1,1,1,tuffo;2026;ritrovo;Piazza Mazzini;Croce Verde;iniziativa,positive,none
+2025-12-22_001,video,it,3,3,2,1,1,1,1,1,1,1,motore termico;motore elettrico;convenienza;direttiva europea;liberalizzare;consumatore,negative,medium
+2025-12-23_001,video,it,1,1,1,1,1,1,5,1,2,1,militari;missione;simboli;tradizione;Natale;Storia;radici,positive,low
+2025-12-24_001,image,it,1,1,1,1,1,1,1,1,1,1,Natale;auguri;famiglia;affetti,positive,none
+2025-12-25_001,video,it,1,1,1,1,1,1,1,1,3,1,inchiesta;Vannacci;Lega;massoneria;associazioni;giornalismo,negative,high
+2025-12-26_001,image,it,1,2,1,1,1,1,1,1,1,1,spiriti eroici;distributori;ambasciatore;eventi;marketing;italianità,positive,low
+2025-12-27_001,video,it,1,1,1,1,1,1,5,1,2,1,pace;guerra;condizioni;Donetsk;Zaporizia;forze multinazionale;Nato,negative,low
+2025-12-28_001,video,it,1,1,1,1,1,1,3,1,4,1,Hamas;terrorismo;associazioni di beneficenza;sinistra;Capodanno;Viareggio,negative,medium
+2025-12-28_002,image,it,1,1,1,1,1,1,4,4,3,1,aiuti umanitari;Hamas;terrorismo;islamizzazione;sinistra globalista;sicurezza nazionale;complicità politica,negative,high
+2025-12-29_001,image,it,1,1,1,1,1,2,1,3,4,1,Brigitte Bardot;identità;immigrazione;libertà di espressione;conformismo;lascito,positive,medium
+2025-12-30_001,video,it,1,1,1,1,1,1,1,1,2,1,urlatori;Viareggio;Capodanno;Montecitorio;voto,negative,high
+2025-12-30_002,image,it,1,3,2,3,3,1,4,1,2,1,decreto;aiuti militari;Ucraina;guerra;declino economico;sanità;sicurezza,negative,high
+2026-01-03_001,video,it,1,1,1,1,1,1,4,1,3,1,Venezuela;USA;Commissione Europea;assetti finanziari;truppe;diritto internazionale;geografia,negative,high
+2026-01-04_001,video,it,1,2,1,1,1,1,2,1,3,1,interessi italiani;politica saggia;elettorato;Stati Uniti;Maduro;beni;sanzioni,negative,high
+2026-01-06_001,video,it,1,2,1,2,3,1,1,2,3,1,Mattarella;Unione Europea;cittadinanza;sacrificio;meritocrazia;giovani;patria,mixed,medium
+2026-01-06_002,video,it,1,1,1,1,1,1,1,1,1,1,candidato;sinistra;politiche 2027;PD;5 stelle,neutral,none
+2026-01-06_003,image,it,1,1,1,1,1,1,3,1,1,1,Passo del Tonale;Stefano Ruaro;9° Reggimento Incursori;Alpi;Valcamonica,positive,none
+2026-01-07_001,video,it,1,1,1,1,1,1,1,1,5,1,referendum;riforma giustizia;magistratura;eletto dal popolo;sistema giudiziario,positive,medium
+2026-01-07_002,image,it,1,1,1,1,1,1,1,1,1,1,Epifania;regalo;donne,positive,none
+2026-01-08_001,video,it,1,3,1,1,1,1,3,1,1,1,Trump;Groenlandia;von der Leyen;dazi;spese militari;negoziazione;Europa,mixed,medium
+2026-01-08_002,image,it,1,1,1,2,1,1,4,5,2,1,CGIL;immigrazione;rimpatri;sicurezza;islamizzazione;stato sociale;arrivi,negative,high
+2026-01-09_001,image,it,1,3,1,1,1,1,1,1,1,1,Mercosur;accordo;agricoltori;concorrenza sleale;standard elevati;agroalimentare,negative,medium
+2026-01-09_002,image,it,1,2,1,1,1,1,4,2,3,1,Trump;Europa;teatri;pressioni politiche;confini;cultura;sicurezza,negative,high
+2026-01-12_001,image,it,2,1,2,1,2,1,1,1,4,1,Iran;dissenso;diritti umani;propaganda;regime;proteste;piazze,negative,high
+2026-01-13_001,image,it,,,,,,,,,,,,,
+2026-01-13_002,image,it,1,1,1,1,1,1,1,1,1,1,Remigrazione;Teatro Verdi;Montecatini;spettacolo;riflessioni;futuro,neutral,none
+2026-01-14_001,video,it,1,1,1,1,1,1,1,3,4,1,aeroporto;nordafricano;social;regole di ingaggio;Maometto;Gesù Cristo,negative,medium
+2026-01-15_001,video,it,1,1,1,1,1,1,4,1,3,1,sostegno militare;guerra Russia Ucraina;valori;principi;opposizione;politica,negative,high
+2026-01-15_002,image,it,1,1,1,1,1,2,4,5,5,1,censura ideologica;immigrazione incontrollata;libertà di opinione;Home Office;deriva inquietante;sistema ipocrita,negative,high
+2026-01-16_001,image,it,1,1,2,1,1,1,4,5,3,1,Open Arms;immigrazione;confini controllati;sicurezza;responsabilità;porti;risorse,negative,high
+2026-01-16_002,image,it,1,1,1,1,1,1,4,1,1,1,Distaccamento Operativo;Incursori;Somalia;soldati;tecniche non convenzionali;risultati strategici,neutral,none
+2026-01-17_001,video,it,1,1,1,1,1,1,1,1,2,1,report;Hamas;Sumut Flottiglia;centri sociali;finanziamenti;politici,negative,high
+2026-01-18_001,video,it,1,1,1,1,1,1,5,1,2,1,guerra;Ucraina;strategia;fronte;approccio bellicistico;Nato;Russia,negative,high
+2026-01-18_002,image,it,1,1,1,1,1,1,4,1,4,1,valori democratici;guerra;pace;diritti;campi di battaglia;Afghanistan,negative,medium
+2026-01-19_001,image,it,1,3,1,1,1,1,1,1,3,1,Mercosur;sfiducia;agricoltori;dumping;globalismo;Europa,negative,high
+2026-01-19_002,image,it,3,2,1,1,1,1,4,1,3,1,sicurezza;Green Deal;dogmi ideologici;narrazioni ufficiali;ordine;interessi dei popoli,negative,high
+2026-01-20_001,video,it,1,1,1,1,1,1,2,1,3,1,Putinista;Meloni;Macron;Merz;realtà;filo putinista,negative,high
+2026-01-20_002,video,it,1,1,1,1,1,1,3,1,3,1,sovranità;Europa-nazione;interessi nazionali;Groenlandia;dazi;esercito europeo,negative,high
+2026-01-20_003,video,it,1,3,1,1,1,1,2,1,1,1,Agroenlandia;interessi nazionali;prosperità;sviluppo;interesse dell'Italia,neutral,low
+2026-01-21_001,image,it,2,1,1,1,1,1,1,1,2,1,Groenlandia;slogan;politica,neutral,high
+2026-01-21_002,image,it,1,1,1,1,1,1,1,1,1,1,Strasburgo;diretta;programma;Tommaso Labate,neutral,none
+2026-01-21_003,image,it,1,3,2,1,1,1,1,1,3,3,accordo UE-MERCOSUR;agricoltori italiani;lavoro;prodotti;Corte di Giustizia;patrioti,positive,medium
+2026-01-21_004,video,it,1,3,1,1,1,1,5,1,2,1,Parlamento di Strasburgo;politica di sicurezza e difesa;Unione Europea;guerra;pace;industria;manifattura,negative,high
+2026-01-23_001,video,it,1,1,1,1,1,1,3,1,3,1,campane;memoria collettiva;identità;minacce;civiltà;proteste,negative,medium
+2026-01-26_001,video,it,1,1,1,1,1,1,1,1,1,1,avanti;💪🏻;a presto,positive,none
+2026-01-26_002,image,it,1,1,1,1,1,1,1,1,2,1,Parma;MAC;Caterina Galli;Giuseppe Cruciani;ANPI;CGIL;centri sociali,neutral,low
+2026-01-26_003,video,it,1,1,1,1,1,1,1,1,1,1,scoop;masconi;garanzia;socio online;pericolosi,negative,none
+2026-01-27_001,video,it,1,1,1,1,1,3,1,1,3,1,diritti civili;Carta Fondamentale;Commissione Diritti e Libertà;emendamento;diritti;votazione,negative,high
+2026-01-27_002,image,it,1,1,1,1,1,1,1,1,1,1,ricordare;dovere,neutral,none
+2026-01-28_001,video,it,1,1,1,1,1,1,1,1,2,1,giornalisti;stampa;Salvini;telefonate;privato,negative,high
+2026-01-29_001,video,it,1,1,1,1,1,1,1,1,3,1,deputato;Lega;indipendente;forza;Stato;dinamica,neutral,none
+2026-01-30_001,image,it,1,1,1,1,1,1,1,1,5,1,Camera dei Deputati;censura;ordine pubblico;democrazia;parlamentari;diritti;magistratura,negative,high
+2026-01-31_001,video,it,1,1,1,1,1,1,1,1,4,1,centri sociali;sinistra;conferenza;remigrazione;violenza;Montecitorio,negative,high
+2026-02-01_001,video,it,1,1,1,1,1,1,5,1,4,1,forze dell'ordine;manifestazioni;centri sociali;violenza;legalità;scovolta,negative,high
+2026-02-02_001,video,it,1,1,1,1,1,1,3,5,3,1,reemigrazione;diritti;soldati iracchei;combattere per il paese;ritorno;diritto sacrosanto,positive,medium
+2026-02-03_001,image,it,1,4,2,1,3,1,4,4,3,1,identità nazionale;tradizioni;immigrazione di massa;famiglia;merito;sovranità;diritto;eccellenza,negative,high
+2026-02-03_002,video,it,1,1,1,1,1,1,1,5,1,1,immigrazione di massa;remigrazione;flussi migratori;bloccare;rientro;titolo di permanenza,negative,high
+2026-02-04_001,image,it,1,1,1,1,1,1,1,1,3,1,macchina del fango;acquetta sporca;scivola addosso;politica,negative,high
+2026-02-05_001,video,it,1,1,1,1,1,1,1,1,4,1,Parlamento;Costituzione;mandato;elettori;preferenze;seggi,positive,medium
+2026-02-06_001,image,it,1,1,1,1,1,1,1,1,1,1,partito;sinistra;destra;Futuro Nazionale;identità;rotta,negative,high
+2026-02-06_002,video,it,1,1,1,1,1,1,1,1,2,1,Lega;taxi;contenitore;bussola;cartina;direzione,negative,high
+2026-02-09_001,video,it,1,2,2,3,3,1,3,4,4,1,dovere;solidarietà sociale;tasse;proventi;immigrazione;stato sociale;gruppo sociale,negative,high
+2026-02-10_001,video,it,1,1,1,1,1,1,1,5,3,1,remigrazione;immigrati non legali;asilo;Parlamento europeo;sinistra;Unione Europea,negative,high
+2026-02-10_002,image,it,1,1,1,1,1,1,2,1,3,1,giornodelricordo;foibe;memoria storica;abbandono istituzionale;sovranità;identità nazionale,negative,high
+2026-02-11_001,image,it,1,1,1,1,1,1,5,1,3,1,ordini del giorno;invio di armi;Ucraina;Futuro Nazionale;coerenza;DL 201/2025,negative,high
+2026-02-11_002,video,it,1,1,1,1,1,1,4,1,3,1,voto;fiducia;decreto ucraina;governo Meloni;regole parlamentari;scelta politica,negative,high
+2026-02-11_003,video,it,1,4,3,3,1,1,4,1,3,1,Europa;Cipro;guerra;fondi;sicurezza interna;diserzioni ucraine;lavoro;pensioni,negative,high
+2026-02-12_001,video,it,1,1,1,1,1,1,1,1,5,1,proposta legislativa;principi;democrazia;libertà;cittadini;dibattito,positive,low
+2026-02-14_001,image,it,1,1,1,1,1,1,1,1,1,1,futuristi;Pordenone;incontro;evento;il futuro,positive,none
+2026-02-15_001,image,it,1,1,1,1,1,1,2,1,3,1,assassinio;collettivo Nemesis;Giovane Guardia;Raphaël Arnault;violenza;sinistra,negative,high
+2026-02-16_001,video,it,1,1,1,1,1,1,5,1,3,1,forze armate;forze di polizia;sicurezza interna;minacce esterne;stato eccezionale;rilegittimare,negative,medium
+2026-02-17_001,image,it,1,1,1,1,1,2,2,1,4,1,Uomo Vitruviano;censura;simbolo;identità;arte;governo;dignità,negative,high
+2026-02-17_002,image,it,1,1,1,1,1,1,1,1,1,1,Sardegna;Futuro Nazionale;Oristano;evento;futuristi,positive,low
+2026-02-18_001,video,it,1,1,1,1,1,1,1,1,5,1,riforma giustizia;Consiglio Superiore della Magistratura;indipendenza giudice;carriera giudiziaria;sorteggio;giustizia equa,positive,medium
+2026-02-19_001,video,it,1,1,1,1,1,1,5,3,2,1,sicurezza;legittima difesa;criminale;forze dell'ordine;immigrazione;risarcimento del danno,negative,high
+2026-02-19_002,image,it,1,4,3,2,1,1,4,2,3,1,poltrone;confini;sicurezza;lavoro tutelato;famiglie sostenute;energia accessibile;imprese,mixed,medium
+2026-02-21_001,video,it,,,,,,,,,,,,,
+2026-02-23_001,video,it,1,1,1,1,1,1,5,1,3,1,guerra;Ucraina;Donbass;forze armate;Unione Europea;intervento militare;sovranità,negative,high
+2026-02-24_001,image,it,1,1,1,2,1,5,1,1,3,1,teoria gender;definizione donna;biologia;quote;identità;realtà,negative,high
+2026-02-24_002,video,it,1,1,1,1,1,1,4,1,3,1,ESN Group;Roberto Vannacci;Parlamento Europeo;sovranità;difesa;sicurezza,positive,low
+2026-02-24_003,image,it,3,3,1,1,1,4,5,5,3,1,Europa delle Nazioni Sovrane;sovranità nazionale;immigrazione di massa;sicurezza delle frontiere;Green Deal;identità europea;Stati liberi,negative,high
+2026-02-25_001,video,it,,,,,,,,,,,,,
+2026-02-25_002,image,it,1,1,1,1,1,1,4,1,2,1,Europarlamento;Lega;armamenti;Ucraina;Vannacci;votazione;Bruxelles,negative,high
+2026-02-26_001,image,it,1,1,1,1,1,1,1,1,5,1,Tribunale amministrativo di Colonia;Stato di diritto;democrazia;narrazione;AfD;voto,negative,medium
+2026-02-26_002,video,it,1,1,1,1,1,1,3,5,2,1,sicurezza;immigrazione irregolare;confini;frontiere;luogo comune;patrie,negative,medium
+2026-02-27_001,video,it,1,1,1,1,1,1,2,5,2,1,immigrazione di massa;flussi migratori;remigrazione;bloccare;migranti;sinistra radical chic,negative,high
+2026-02-28_001,video,it,1,2,1,1,1,1,4,1,3,1,USA;Iran;aggressore;sanzioni;diritto internazionale;ONU;aiuti;Teheran,negative,high
+2026-02-28_002,image,it,1,1,1,1,1,1,1,1,1,1,Sanremo;Ariston;storia;passione;fede,positive,none

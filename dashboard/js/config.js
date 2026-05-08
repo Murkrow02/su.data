@@ -127,6 +127,24 @@ export const politicians = [
     role: "Segretaria",
     palette: ["#f5dde0", "#8b1a1a", "#d63030"],
     photo: "Dashboard/dati/Silvia_Salis.jpg",
+  },
+  {
+    "id": "antoniotajani",
+    "name": "Antonio Tajani",
+    "handle": "@antoniotajani",
+    "party": "Forza Italia",
+    "role": "Vicepresidente di Forza Italia",
+    "palette": ["#e0e7f3", "#003366", "#3366cc"],
+    "photo": "Dashboard/dati/Antonio_Tajani.jpg",
+  },
+  {
+    "id": "roberto.vannacci.68",
+    "name": "Roberto Vannacci",
+    "handle": "@roberto.vannacci.68",
+    "party": "Forza Italia",
+    "role": "Deputato",
+    "palette": ["#e0e7f3", "#003366", "#3366cc"],
+    "photo": "Dashboard/dati/Roberto_Vannacci.webp",
   }
 ];
 
