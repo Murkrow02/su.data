@@ -1498,7 +1498,7 @@ export function renderAbout() {
             <div class="team-photo" style="--photo:url('Dashboard/dati/Davide_DeRosa.jpg')"></div>
             <div class="team-info">
               <h3>Davide De Rosa</h3>
-              <blockquote>"Non acconsento alla profilazione dei miei dati."</blockquote>
+              <blockquote>"Ora voto io!"</blockquote>
               <small>(Vota Fratelli D'Italia)</small>
             </div>
           </article>
