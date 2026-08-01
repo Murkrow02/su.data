@@ -1467,17 +1467,6 @@ export function renderAbout() {
       `,
     },
     {
-      eyebrow: "Conclusione",
-      title: "La comunicazione social dei politici italiani è allineata alle priorità giovanili?",
-      tone: "int4-close",
-      copy: `
-        <p class="int4-close-answer">No.</p>
-        <p class="int4-close-detail">Il gap c'è. E ora è misurato.</p>
-        <p class="int4-close-question">La nostra tesi è confermata.</p>
-      `,
-      aside: ``,
-    },
-    {
       eyebrow: "Il gruppo di ricerca",
       title: "Chi c'è dietro Su.Data.",
       tone: "team",
